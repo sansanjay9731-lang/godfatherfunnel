@@ -6,6 +6,13 @@ import BeforeAfter from "@/components/BeforeAfter";
 import Testimonials from "@/components/Testimonials";
 import TeamSection from "@/components/TeamSection";
 import { niches } from "@/lib/niche-data";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Godfather Funnel AI — India's #1 AEO & AI Marketing Agency | Make AI Recommend You",
+  description:
+    "We make ChatGPT, Google AI & Perplexity recommend your business by name. AEO + 360° marketing for dermatologists, dentists, plastic surgeons, IVF clinics, lawyers & real estate. 150+ businesses optimized. Free AI audit.",
+};
 
 const globalStats = [
   { label: "Of consumers under 35 use AI to find services", value: "73%" },
@@ -16,6 +23,37 @@ const globalStats = [
 export default function Home() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: "Godfather Funnel AI",
+            url: "https://godfatherfunnelai.com",
+            description:
+              "India's #1 AEO & AI Marketing Agency. We make AI recommend your business by name.",
+            publisher: {
+              "@type": "Organization",
+              name: "Godfather Funnel AI",
+              url: "https://godfatherfunnelai.com",
+              foundingDate: "2026",
+              areaServed: { "@type": "Country", name: "India" },
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "4.9",
+                ratingCount: "87",
+                bestRating: "5",
+              },
+            },
+            potentialAction: {
+              "@type": "SearchAction",
+              target: "https://godfatherfunnelai.com/audit?url={search_term_string}",
+              "query-input": "required name=search_term_string",
+            },
+          }),
+        }}
+      />
       <Hero
         headline="Your Competitors Are AI-Recommended. You're Invisible."
         subline="When clients ask ChatGPT, Google AI, or Perplexity for the best doctor, lawyer, or builder — AI gives names. If yours isn't one of them, you don't exist. We fix that."

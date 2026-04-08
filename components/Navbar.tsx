@@ -37,6 +37,15 @@ export default function Navbar() {
                 ))}
               </div>
             </div>
+            <Link href="/about" className="text-gray-300 hover:text-white text-sm transition">
+              About
+            </Link>
+            <Link href="/services" className="text-gray-300 hover:text-white text-sm transition">
+              Services
+            </Link>
+            <Link href="/case-studies" className="text-gray-300 hover:text-white text-sm transition">
+              Case Studies
+            </Link>
             <Link href="/blog" className="text-gray-300 hover:text-white text-sm transition">
               Blog
             </Link>
@@ -71,6 +80,10 @@ export default function Navbar() {
               {n.icon} {n.name}
             </Link>
           ))}
+          <Link href="/about" className="block py-2 text-gray-300 hover:text-white text-sm" onClick={() => setOpen(false)}>About</Link>
+          <Link href="/services" className="block py-2 text-gray-300 hover:text-white text-sm" onClick={() => setOpen(false)}>Services</Link>
+          <Link href="/case-studies" className="block py-2 text-gray-300 hover:text-white text-sm" onClick={() => setOpen(false)}>Case Studies</Link>
+          <Link href="/blog" className="block py-2 text-gray-300 hover:text-white text-sm" onClick={() => setOpen(false)}>Blog</Link>
           <Link
             href="/audit"
             className="block mt-4 text-center px-5 py-2 text-sm font-semibold bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full"

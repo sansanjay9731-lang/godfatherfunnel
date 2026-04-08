@@ -40,6 +40,38 @@ export default async function NichePage({
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            name: `AI Marketing & AEO for ${niche.name}`,
+            description: `Answer Engine Optimization and 360° AI marketing services for ${niche.name.toLowerCase()}. We make ChatGPT, Google AI, and Perplexity recommend your practice by name.`,
+            provider: {
+              "@type": "Organization",
+              name: "Godfather Funnel AI",
+              url: "https://godfatherfunnelai.com",
+            },
+            areaServed: { "@type": "Country", name: "India" },
+            serviceType: ["Answer Engine Optimization", "AI Marketing", "Digital Marketing"],
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: niche.faqItems.map((f) => ({
+              "@type": "Question",
+              name: f.question,
+              acceptedAnswer: { "@type": "Answer", text: f.answer },
+            })),
+          }),
+        }}
+      />
       <Hero
         headline={niche.heroHeadline}
         subline={niche.heroSubline}

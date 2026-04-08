@@ -35,15 +35,15 @@ export default function Footer() {
 
           <div>
             <h4 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
-              Services
+              Company
             </h4>
-            <div className="space-y-2 text-sm text-gray-400">
-              <p>AEO Optimization</p>
-              <p>AI Visibility Audits</p>
-              <p>Schema & Structured Data</p>
-              <p>Programmatic SEO</p>
-              <p>Google & Meta Ads</p>
-              <p>Reputation Management</p>
+            <div className="space-y-2">
+              <Link href="/about" className="block text-sm text-gray-400 hover:text-white transition">About Us</Link>
+              <Link href="/services" className="block text-sm text-gray-400 hover:text-white transition">Services</Link>
+              <Link href="/case-studies" className="block text-sm text-gray-400 hover:text-white transition">Case Studies</Link>
+              <Link href="/blog" className="block text-sm text-gray-400 hover:text-white transition">Blog</Link>
+              <Link href="/faq" className="block text-sm text-gray-400 hover:text-white transition">FAQ</Link>
+              <Link href="/contact" className="block text-sm text-gray-400 hover:text-white transition">Contact</Link>
             </div>
           </div>
 
