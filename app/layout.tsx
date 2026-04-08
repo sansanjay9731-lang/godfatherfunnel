@@ -47,6 +47,28 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-[#0a0a0f] text-white">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Godfather Funnel AI",
+              url: "https://godfatherfunnelai.com",
+              description:
+                "India's premier AEO and AI marketing agency. We make AI recommend your business by name.",
+              foundingDate: "2026",
+              areaServed: { "@type": "Country", name: "India" },
+              serviceType: [
+                "Answer Engine Optimization",
+                "AI Marketing",
+                "Schema Markup",
+                "Digital Marketing",
+              ],
+              sameAs: [],
+            }),
+          }}
+        />
         <Navbar />
         <main className="flex-1 pt-16">{children}</main>
         <Footer />

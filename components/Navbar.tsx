@@ -37,6 +37,9 @@ export default function Navbar() {
                 ))}
               </div>
             </div>
+            <Link href="/blog" className="text-gray-300 hover:text-white text-sm transition">
+              Blog
+            </Link>
             <Link
               href="/audit"
               className="px-5 py-2 text-sm font-semibold bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full hover:shadow-lg hover:shadow-purple-500/25 transition-all"
