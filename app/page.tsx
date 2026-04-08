@@ -1,6 +1,10 @@
 import Hero from "@/components/Hero";
 import NicheCard from "@/components/NicheCard";
 import StatsBar from "@/components/StatsBar";
+import TrustBar from "@/components/TrustBar";
+import BeforeAfter from "@/components/BeforeAfter";
+import Testimonials from "@/components/Testimonials";
+import TeamSection from "@/components/TeamSection";
 import { niches } from "@/lib/niche-data";
 
 const globalStats = [
@@ -19,11 +23,16 @@ export default function Home() {
         searchExample="best dermatologist near me"
       />
 
+      <TrustBar />
       <StatsBar stats={globalStats} />
 
+      {/* Niche selector */}
       <section className="py-24 bg-[#0a0a0f]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
+            <div className="inline-block px-4 py-1.5 mb-4 text-xs font-medium tracking-wider uppercase bg-white/5 border border-white/10 rounded-full text-gray-400">
+              Industry-Specific Solutions
+            </div>
             <h2 className="text-3xl sm:text-4xl font-black text-white">
               We Dominate AI For{" "}
               <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
@@ -43,7 +52,8 @@ export default function Home() {
                 slug={n.slug}
                 icon={n.icon}
                 name={n.name}
-                headline={n.heroSubline.slice(0, 100) + "..."}
+                image={n.image}
+                headline={n.heroSubline.slice(0, 120) + "..."}
                 index={i}
               />
             ))}
@@ -51,9 +61,14 @@ export default function Home() {
         </div>
       </section>
 
+      <BeforeAfter />
+
       {/* How it works */}
-      <section className="py-24 bg-[#06060a] border-y border-white/5">
+      <section className="py-24 bg-[#0a0a0f] border-y border-white/5">
         <div className="max-w-5xl mx-auto px-4 text-center">
+          <div className="inline-block px-4 py-1.5 mb-4 text-xs font-medium tracking-wider uppercase bg-blue-500/10 border border-blue-500/20 rounded-full text-blue-400">
+            Our 3-Step Process
+          </div>
           <h2 className="text-3xl sm:text-4xl font-black text-white mb-16">
             How{" "}
             <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
@@ -68,21 +83,30 @@ export default function Home() {
                 step: "01",
                 title: "We Audit Your AI Invisibility",
                 desc: "We check if ChatGPT, Perplexity, Google AI, and voice assistants know you exist. Spoiler: they probably don't.",
+                icon: "🔍",
               },
               {
                 step: "02",
                 title: "We Make AI Understand You",
                 desc: "Schema markup, structured data, llms.txt, AI-optimized content — we feed AI everything it needs to recommend you.",
+                icon: "⚡",
               },
               {
                 step: "03",
                 title: "AI Recommends You by Name",
                 desc: "Within 30-90 days, when clients ask AI for the best in your field — YOUR name comes up first.",
+                icon: "🏆",
               },
             ].map((item) => (
-              <div key={item.step} className="text-left">
-                <div className="text-5xl font-black bg-gradient-to-r from-blue-400/20 to-purple-500/20 bg-clip-text text-transparent mb-4">
-                  {item.step}
+              <div
+                key={item.step}
+                className="text-left bg-[#12121a] border border-white/5 rounded-2xl p-8 hover:border-white/10 transition-all"
+              >
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="text-2xl">{item.icon}</span>
+                  <span className="text-3xl font-black bg-gradient-to-r from-blue-400/30 to-purple-500/30 bg-clip-text text-transparent">
+                    {item.step}
+                  </span>
                 </div>
                 <h3 className="text-lg font-bold text-white mb-2">
                   {item.title}
@@ -96,53 +120,19 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonials */}
-      <section className="py-24 bg-[#0a0a0f]">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-3xl sm:text-4xl font-black text-white mb-12">
-            What Happens When AI{" "}
-            <span className="bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">
-              Recommends You
-            </span>
-          </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {[
-              {
-                quote:
-                  "After Godfather Funnel optimized our clinic, ChatGPT started recommending us by name. We got 23 new patients in the first month — all from AI search.",
-                name: "Dr. Priya S.",
-                role: "Dermatologist, Mumbai",
-              },
-              {
-                quote:
-                  "We were spending ₹2L/month on Google Ads. Now AI sends us patients for free. Our cost per acquisition dropped by 65%.",
-                name: "Dr. Rahul M.",
-                role: "Dental Surgeon, Delhi",
-              },
-            ].map((t, i) => (
-              <div
-                key={i}
-                className="bg-[#12121a] border border-white/5 rounded-2xl p-8 text-left"
-              >
-                <p className="text-gray-300 text-sm leading-relaxed italic">
-                  &ldquo;{t.quote}&rdquo;
-                </p>
-                <div className="mt-4">
-                  <div className="text-white font-semibold text-sm">
-                    {t.name}
-                  </div>
-                  <div className="text-gray-500 text-xs">{t.role}</div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <Testimonials />
+      <TeamSection />
 
       {/* Final CTA */}
-      <section className="py-24 bg-gradient-to-b from-[#0a0a0f] to-[#0f0a1a]">
-        <div className="max-w-3xl mx-auto px-4 text-center">
+      <section className="py-24 bg-gradient-to-b from-[#0a0a0f] to-[#0f0a1a] relative overflow-hidden">
+        <div
+          className="absolute inset-0 opacity-[0.02]"
+          style={{
+            backgroundImage: `linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)`,
+            backgroundSize: "60px 60px",
+          }}
+        />
+        <div className="relative max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-3xl sm:text-5xl font-black text-white mb-6">
             Stop Losing Clients to AI.
             <br />
@@ -160,6 +150,9 @@ export default function Home() {
           >
             Get Your Free AI Audit Now →
           </a>
+          <p className="mt-4 text-xs text-gray-500">
+            No credit card required. Results in 30 seconds.
+          </p>
         </div>
       </section>
     </>

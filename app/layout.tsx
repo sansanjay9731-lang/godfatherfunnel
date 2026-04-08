@@ -16,9 +16,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Godfather Funnel — AI Recommends Your Competitors. We Fix That.",
+  title: "Godfather Funnel AI — Make AI Recommend You by Name",
   description:
     "AEO + 360° marketing for dermatologists, dentists, plastic surgeons, IVF clinics, lawyers & real estate. Get AI to recommend YOU by name.",
+  metadataBase: new URL("https://godfatherfunnelai.com"),
+  openGraph: {
+    title: "Godfather Funnel AI — Make AI Recommend You by Name",
+    description:
+      "Your competitors are AI-recommended. You're invisible. We fix that in 30 days.",
+    url: "https://godfatherfunnelai.com",
+    siteName: "Godfather Funnel AI",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Godfather Funnel AI — Make AI Recommend You by Name",
+    description:
+      "Your competitors are AI-recommended. You're invisible. We fix that in 30 days.",
+  },
 };
 
 export default function RootLayout({

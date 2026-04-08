@@ -2,6 +2,7 @@ export interface NicheData {
   slug: string;
   name: string;
   icon: string;
+  image: string;
   heroHeadline: string;
   heroSubline: string;
   painPoints: { title: string; description: string }[];
@@ -14,11 +15,50 @@ export interface NicheData {
   competitorLine: string;
 }
 
+// Curated Unsplash images
+export const images = {
+  dermatologist:
+    "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&q=80",
+  dentist:
+    "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80",
+  plasticSurgeon:
+    "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&q=80",
+  ivf:
+    "https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?w=800&q=80",
+  lawyer:
+    "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80",
+  realEstate:
+    "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
+  // Testimonial headshots
+  doctorMale1:
+    "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=200&q=80",
+  doctorFemale1:
+    "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=200&q=80",
+  doctorMale2:
+    "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=200&q=80",
+  doctorFemale2:
+    "https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?w=200&q=80",
+  businessMan:
+    "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&q=80",
+  businessWoman:
+    "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&q=80",
+  // Team
+  teamMale1:
+    "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&q=80",
+  teamFemale1:
+    "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&q=80",
+  teamMale2:
+    "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&q=80",
+  teamFemale2:
+    "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&q=80",
+};
+
 export const niches: NicheData[] = [
   {
     slug: "dermatologists",
     name: "Dermatologists",
     icon: "🧬",
+    image: images.dermatologist,
     heroHeadline: "Your Patients Are Asking AI — Not Google",
     heroSubline:
       "When someone searches 'best dermatologist near me' on ChatGPT, 3 clinics get recommended. If you're not one of them, those patients walk into your competitor's door.",
@@ -120,6 +160,7 @@ export const niches: NicheData[] = [
     slug: "dentists",
     name: "Dentists",
     icon: "🦷",
+    image: images.dentist,
     heroHeadline: "Patients Are Asking AI for Dentists. Are You the Answer?",
     heroSubline:
       "'Dental implant cost in Mumbai' gets 12,000 searches/month. AI now answers this directly — recommending specific clinics by name. Is yours one of them?",
@@ -221,6 +262,7 @@ export const niches: NicheData[] = [
     slug: "plastic-surgeons",
     name: "Plastic Surgeons",
     icon: "✨",
+    image: images.plasticSurgeon,
     heroHeadline: "AI Is Recommending Surgeons by Name. Is It Recommending You?",
     heroSubline:
       "Patients researching rhinoplasty, liposuction, or facelifts are asking AI before even Googling. AI recommends 2-3 surgeons in your city. You need to be one of them.",
@@ -322,6 +364,7 @@ export const niches: NicheData[] = [
     slug: "ivf-clinics",
     name: "IVF Clinics",
     icon: "🍼",
+    image: images.ivf,
     heroHeadline: "Couples Are Asking AI Which IVF Clinic to Trust. What's AI Saying About You?",
     heroSubline:
       "'Best IVF clinic in Hyderabad' is now answered by AI with specific names, success rates, and costs. If your clinic's data isn't being picked up, those couples go elsewhere.",
@@ -423,6 +466,7 @@ export const niches: NicheData[] = [
     slug: "lawyers",
     name: "Lawyers",
     icon: "⚖️",
+    image: images.lawyer,
     heroHeadline: "When Clients Ask AI for a Lawyer, Does AI Say Your Name?",
     heroSubline:
       "Legal clients are now asking ChatGPT and Google AI for lawyer recommendations. 3 firms get mentioned. If you're not one of them, you're losing high-value cases every single day.",
@@ -524,6 +568,7 @@ export const niches: NicheData[] = [
     slug: "real-estate",
     name: "Real Estate",
     icon: "🏢",
+    image: images.realEstate,
     heroHeadline: "Buyers Ask AI Which Builder to Trust. What's AI Saying About You?",
     heroSubline:
       "When homebuyers ask ChatGPT 'best builders in Pune' or 'is XYZ Developers reliable', AI gives a direct answer. If you're not in that answer, crores in sales walk to your competitors.",

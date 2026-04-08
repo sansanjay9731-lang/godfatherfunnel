@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div>
             <h3 className="text-xl font-black bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-              GODFATHER FUNNEL
+              GODFATHER FUNNEL AI
             </h3>
             <p className="mt-3 text-sm text-gray-400 leading-relaxed">
               We make AI recommend you by name. AEO + 360° marketing for
@@ -58,7 +58,7 @@ export default function Footer() {
               Free AI Audit
             </Link>
             <p className="mt-4 text-sm text-gray-400">
-              contact@godfatherfunnel.com
+              contact@godfatherfunnelai.com
             </p>
             <p className="text-sm text-gray-400">+91 98765 43210</p>
           </div>

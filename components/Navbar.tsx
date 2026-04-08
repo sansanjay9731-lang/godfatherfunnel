@@ -15,7 +15,7 @@ export default function Navbar() {
               GODFATHER
             </span>
             <span className="text-xs text-gray-400 uppercase tracking-widest">
-              Funnel
+              Funnel AI
             </span>
           </Link>
 

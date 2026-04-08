@@ -23,6 +23,12 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Selection */
+::selection {
+  background: rgba(139, 92, 246, 0.3);
+  color: white;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 6px;

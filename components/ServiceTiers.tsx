@@ -45,7 +45,7 @@ export default function ServiceTiers({ services }: { services: Service[] }) {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.15 }}
-              className={`relative bg-gradient-to-b ${tierColors[i]} border rounded-2xl p-8 ${i === 2 ? "ring-2 ring-amber-500/30" : ""}`}
+              className={`relative bg-gradient-to-b ${tierColors[i]} border rounded-2xl p-8 ${i === 2 ? "ring-2 ring-amber-500/30 shadow-lg shadow-amber-500/10" : ""}`}
             >
               {i === 2 && (
                 <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 text-xs font-bold bg-amber-500 text-black rounded-full">

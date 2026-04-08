@@ -7,6 +7,9 @@ import ServiceTiers from "@/components/ServiceTiers";
 import ROICalculator from "@/components/ROICalculator";
 import StatsBar from "@/components/StatsBar";
 import FAQ from "@/components/FAQ";
+import BeforeAfter from "@/components/BeforeAfter";
+import TrustBar from "@/components/TrustBar";
+import Testimonials from "@/components/Testimonials";
 
 export function generateStaticParams() {
   return niches.map((n) => ({ niche: n.slug }));
@@ -21,7 +24,7 @@ export async function generateMetadata({
   const niche = getNicheBySlug(slug);
   if (!niche) return {};
   return {
-    title: `${niche.name} AI Marketing — Godfather Funnel`,
+    title: `${niche.name} AI Marketing — Godfather Funnel AI`,
     description: `AEO + 360° marketing for ${niche.name.toLowerCase()}. Get AI to recommend your practice by name. Free AI visibility audit.`,
   };
 }
@@ -44,15 +47,25 @@ export default async function NichePage({
         searchExample={niche.searchExample}
       />
 
+      <TrustBar />
       <StatsBar stats={niche.stats} />
       <PainPoints points={niche.painPoints} />
+      <BeforeAfter />
       <ServiceTiers services={niche.services} />
       <ROICalculator roi={niche.roiExample} />
+      <Testimonials />
       <FAQ items={niche.faqItems} />
 
       {/* Final CTA */}
-      <section className="py-24 bg-gradient-to-b from-[#06060a] to-[#0f0a1a]">
-        <div className="max-w-3xl mx-auto px-4 text-center">
+      <section className="py-24 bg-gradient-to-b from-[#06060a] to-[#0f0a1a] relative overflow-hidden">
+        <div
+          className="absolute inset-0 opacity-[0.02]"
+          style={{
+            backgroundImage: `linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)`,
+            backgroundSize: "60px 60px",
+          }}
+        />
+        <div className="relative max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-3xl sm:text-5xl font-black text-white mb-6">
             Ready to Be AI&apos;s #1
             <br />
@@ -70,6 +83,9 @@ export default async function NichePage({
           >
             {niche.ctaText} →
           </a>
+          <p className="mt-4 text-xs text-gray-500">
+            No credit card required. Results in 30 seconds.
+          </p>
         </div>
       </section>
     </>
