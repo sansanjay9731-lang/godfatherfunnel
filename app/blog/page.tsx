@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { blogPosts } from "@/lib/seo-data";
+import { getAllBlogPosts } from "@/lib/blog";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -9,6 +9,7 @@ export const metadata: Metadata = {
 };
 
 export default function BlogIndex() {
+  const blogPosts = getAllBlogPosts();
   const categories = [...new Set(blogPosts.map((p) => p.category))];
 
   return (

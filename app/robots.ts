@@ -17,6 +17,6 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: "Bytespider", allow: "/" },
       { userAgent: "CCBot", allow: "/" },
     ],
-    sitemap: "https://godfatherfunnelai.com/sitemap.xml",
+    sitemap: "https://www.godfatherfunnelai.com/sitemap.xml",
   };
 }

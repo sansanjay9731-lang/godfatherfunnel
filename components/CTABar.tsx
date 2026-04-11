@@ -1,14 +1,30 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 
 export default function CTABar() {
   const [visible, setVisible] = useState(false);
+  const sentinelRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const handleScroll = () => setVisible(window.scrollY > 600);
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    const sentinel = document.createElement("div");
+    sentinel.style.position = "absolute";
+    sentinel.style.top = "600px";
+    sentinel.style.height = "1px";
+    sentinel.style.width = "1px";
+    sentinel.style.pointerEvents = "none";
+    document.body.appendChild(sentinel);
+
+    const observer = new IntersectionObserver(
+      ([entry]) => setVisible(!entry.isIntersecting && entry.boundingClientRect.top < 0),
+      { threshold: 0 }
+    );
+    observer.observe(sentinel);
+
+    return () => {
+      observer.disconnect();
+      sentinel.remove();
+    };
   }, []);
 
   if (!visible) return null;

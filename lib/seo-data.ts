@@ -214,7 +214,7 @@ AEO isn't optional anymore. If your competitors are optimized for AI and you're 
     description: "73% of patients under 35 now use AI to find dermatologists. If ChatGPT doesn't recommend your clinic, those patients go to your competitors. Here's how to fix it.",
     category: "Industry Guide",
     niche: "dermatologists",
-    publishDate: "2026-04-10",
+    publishDate: "2026-04-02",
     readTime: "8 min",
     content: `## The Shift in How Patients Find Dermatologists
 
@@ -286,7 +286,7 @@ Your competitors might already be optimizing for AI. Every day you wait is anoth
     description: "Dental implant patients are worth ₹50K-2L each. Learn how to make AI recommend your dental practice for high-value implant queries.",
     category: "Industry Guide",
     niche: "dentists",
-    publishDate: "2026-04-15",
+    publishDate: "2026-04-03",
     readTime: "9 min",
     content: `## The ₹2L Question: Where Are Implant Patients Coming From?
 
@@ -370,7 +370,7 @@ The math is simple. You just need AI to send you ONE extra implant patient per m
     description: "Step-by-step guide to implementing MedicalBusiness, Physician, and FAQPage schema markup for clinics. Make AI systems understand your practice.",
     category: "Technical Guide",
     niche: "all",
-    publishDate: "2026-04-20",
+    publishDate: "2026-04-04",
     readTime: "15 min",
     content: `## Why Schema Markup Is the Foundation of AI Visibility
 
@@ -452,7 +452,7 @@ After implementation, test with:
     description: "IVF patients research for months before choosing a clinic. Learn how to make AI assistants recommend your fertility center.",
     category: "Industry Guide",
     niche: "ivf-clinics",
-    publishDate: "2026-04-25",
+    publishDate: "2026-04-05",
     readTime: "10 min",
     content: `## The IVF Patient Journey Starts with AI
 
@@ -538,7 +538,7 @@ If AI sends just **2 extra couples per month**, that's **₹3-6L in additional m
     description: "58% of legal clients now start their search online. AI is becoming the primary referral source for law firms. Here's how to optimize.",
     category: "Industry Guide",
     niche: "lawyers",
-    publishDate: "2026-05-01",
+    publishDate: "2026-04-06",
     readTime: "9 min",
     content: `## The New Referral Network: AI
 
@@ -598,7 +598,7 @@ Most law firms haven't even started thinking about AI visibility. This is a mass
     description: "Homebuyers spend 3-6 months researching on AI before buying. Learn how to make ChatGPT and Google AI recommend your projects by name.",
     category: "Industry Guide",
     niche: "real-estate",
-    publishDate: "2026-05-05",
+    publishDate: "2026-04-06",
     readTime: "10 min",
     content: `## AI Is the New Property Broker
 
@@ -672,7 +672,7 @@ There is no industry where the ROI of AI visibility is higher than real estate.
     description: "llms.txt is the new robots.txt for AI. Learn how to create and optimize this file so AI systems accurately represent your business.",
     category: "Technical Guide",
     niche: "all",
-    publishDate: "2026-05-10",
+    publishDate: "2026-04-07",
     readTime: "7 min",
     content: `## What Is llms.txt?
 
@@ -756,7 +756,7 @@ It takes 15 minutes to set up and can be the difference between being recommende
     description: "Google AI Overviews appear on 40%+ of searches. Learn how to get your business featured in these AI-generated answers at the top of Google.",
     category: "AEO Fundamentals",
     niche: "all",
-    publishDate: "2026-05-15",
+    publishDate: "2026-04-07",
     readTime: "11 min",
     content: `## What Are Google AI Overviews?
 
@@ -823,7 +823,7 @@ Track your AI Overview appearances by:
     description: "Cosmetic surgery patients research obsessively before choosing a surgeon. AI is now their primary research tool. Here's how to be the surgeon AI recommends.",
     category: "Industry Guide",
     niche: "plastic-surgeons",
-    publishDate: "2026-05-20",
+    publishDate: "2026-04-08",
     readTime: "10 min",
     content: `## Cosmetic Surgery Patients Trust AI More Than Google Ads
 
@@ -882,7 +882,7 @@ India is a major medical tourism destination for plastic surgery. International 
     description: "Local SEO gets you on Google Maps. AEO gets you recommended by ChatGPT. Here's how they work together and why you can't ignore either.",
     category: "AEO Fundamentals",
     niche: "all",
-    publishDate: "2026-05-25",
+    publishDate: "2026-04-08",
     readTime: "8 min",
     content: `## Two Different Games, One Goal
 
@@ -963,7 +963,7 @@ The businesses that win in 2026 are optimized for both Google AND AI. Local SEO 
     description: "A comprehensive checklist of everything your business needs to be visible in AI search. From schema markup to AI crawler access, this covers it all.",
     category: "AEO Fundamentals",
     niche: "all",
-    publishDate: "2026-06-01",
+    publishDate: "2026-04-09",
     readTime: "14 min",
     content: `## Your Complete AI Visibility Checklist
 

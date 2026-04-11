@@ -98,13 +98,11 @@ export default function ServicesPage() {
             "@context": "https://schema.org",
             "@type": "ProfessionalService",
             name: "Godfather Funnel AI",
-            url: "https://godfatherfunnelai.com/services",
+            url: "https://www.godfatherfunnelai.com/services",
             description:
               "India's premier AEO and AI marketing agency offering Answer Engine Optimization, schema markup, programmatic SEO, Google & Meta Ads, reputation management, and 360° digital marketing for premium businesses.",
             provider: {
-              "@type": "Organization",
-              name: "Godfather Funnel AI",
-              url: "https://godfatherfunnelai.com",
+              "@id": "https://www.godfatherfunnelai.com/#organization",
             },
             areaServed: { "@type": "Country", name: "India" },
             hasOfferCatalog: {

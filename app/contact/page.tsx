@@ -15,28 +15,11 @@ export default function ContactPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Organization",
-            name: "Godfather Funnel AI",
-            url: "https://godfatherfunnelai.com",
-            contactPoint: [
-              {
-                "@type": "ContactPoint",
-                telephone: "+91-98765-43210",
-                contactType: "sales",
-                areaServed: "IN",
-                availableLanguage: ["English", "Hindi"],
-              },
-              {
-                "@type": "ContactPoint",
-                email: "contact@godfatherfunnelai.com",
-                contactType: "customer service",
-                areaServed: "IN",
-              },
-            ],
-            address: {
-              "@type": "PostalAddress",
-              addressCountry: "IN",
-              addressLocality: "India",
+            "@type": "ContactPage",
+            name: "Contact Godfather Funnel AI",
+            url: "https://www.godfatherfunnelai.com/contact",
+            mainEntity: {
+              "@id": "https://www.godfatherfunnelai.com/#organization",
             },
           }),
         }}

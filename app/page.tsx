@@ -5,7 +5,7 @@ import TrustBar from "@/components/TrustBar";
 import BeforeAfter from "@/components/BeforeAfter";
 import Testimonials from "@/components/Testimonials";
 import TeamSection from "@/components/TeamSection";
-import { niches } from "@/lib/niche-data";
+import { niches } from "@/lib/niches";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -30,25 +30,15 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "WebSite",
             name: "Godfather Funnel AI",
-            url: "https://godfatherfunnelai.com",
+            url: "https://www.godfatherfunnelai.com",
             description:
               "India's #1 AEO & AI Marketing Agency. We make AI recommend your business by name.",
             publisher: {
-              "@type": "Organization",
-              name: "Godfather Funnel AI",
-              url: "https://godfatherfunnelai.com",
-              foundingDate: "2026",
-              areaServed: { "@type": "Country", name: "India" },
-              aggregateRating: {
-                "@type": "AggregateRating",
-                ratingValue: "4.9",
-                ratingCount: "87",
-                bestRating: "5",
-              },
+              "@id": "https://www.godfatherfunnelai.com/#organization",
             },
             potentialAction: {
               "@type": "SearchAction",
-              target: "https://godfatherfunnelai.com/audit?url={search_term_string}",
+              target: "https://www.godfatherfunnelai.com/audit?url={search_term_string}",
               "query-input": "required name=search_term_string",
             },
           }),

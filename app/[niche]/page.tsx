@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { niches, getNicheBySlug } from "@/lib/niche-data";
+import { niches, getNicheBySlug } from "@/lib/niches";
 import type { Metadata } from "next";
 import Hero from "@/components/Hero";
 import PainPoints from "@/components/PainPoints";
@@ -45,14 +45,26 @@ export default async function NichePage({
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://www.godfatherfunnelai.com" },
+              { "@type": "ListItem", position: 2, name: niche.name, item: `https://www.godfatherfunnelai.com/${niche.slug}` },
+            ],
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
             "@type": "Service",
             name: `AI Marketing & AEO for ${niche.name}`,
             description: `Answer Engine Optimization and 360° AI marketing services for ${niche.name.toLowerCase()}. We make ChatGPT, Google AI, and Perplexity recommend your practice by name.`,
             provider: {
-              "@type": "Organization",
-              name: "Godfather Funnel AI",
-              url: "https://godfatherfunnelai.com",
+              "@id": "https://www.godfatherfunnelai.com/#organization",
             },
+            url: `https://www.godfatherfunnelai.com/${niche.slug}`,
             areaServed: { "@type": "Country", name: "India" },
             serviceType: ["Answer Engine Optimization", "AI Marketing", "Digital Marketing"],
           }),

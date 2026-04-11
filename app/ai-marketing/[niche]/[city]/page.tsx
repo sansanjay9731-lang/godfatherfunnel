@@ -1,20 +1,21 @@
 import { notFound } from "next/navigation";
-import { niches, getNicheBySlug } from "@/lib/niche-data";
-import { targetCities } from "@/lib/seo-data";
+import { niches, getNicheBySlug } from "@/lib/niches";
+import { getAllCities } from "@/lib/cities";
 import Link from "next/link";
 import type { Metadata } from "next";
 
-const topCities = targetCities.slice(0, 8);
+const allCities = getAllCities();
+const topCities = allCities.filter((c) => c.tier === 1);
 
-function cityFromSlug(slug: string): string | undefined {
-  return topCities.find((c) => c.toLowerCase().replace(/\s+/g, "-") === slug);
+function cityFromSlug(slug: string): { name: string; slug: string } | undefined {
+  return allCities.find((c) => c.slug === slug);
 }
 
 export function generateStaticParams() {
   const params: { niche: string; city: string }[] = [];
   for (const n of niches) {
-    for (const c of topCities) {
-      params.push({ niche: n.slug, city: c.toLowerCase().replace(/\s+/g, "-") });
+    for (const c of allCities) {
+      params.push({ niche: n.slug, city: c.slug });
     }
   }
   return params;
@@ -30,8 +31,8 @@ export async function generateMetadata({
   const city = cityFromSlug(citySlug);
   if (!niche || !city) return {};
   return {
-    title: `AI Marketing for ${niche.name} in ${city} — Godfather Funnel AI`,
-    description: `Get AI to recommend your ${niche.name.toLowerCase().replace(/s$/, "")} practice in ${city}. AEO + 360° marketing. Free AI visibility audit.`,
+    title: `AI Marketing for ${niche.name} in ${city.name} — Godfather Funnel AI`,
+    description: `Get AI to recommend your ${niche.name.toLowerCase().replace(/s$/, "")} practice in ${city.name}. AEO + 360° marketing. Free AI visibility audit.`,
   };
 }
 
@@ -45,6 +46,7 @@ export default async function CityNichePage({
   const city = cityFromSlug(citySlug);
   if (!niche || !city) notFound();
 
+  const cityName = city.name;
   const nicheLabel = niche.name.toLowerCase().replace(/s$/, "");
 
   return (
@@ -56,8 +58,8 @@ export default async function CityNichePage({
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            name: `AI Marketing for ${niche.name} in ${city}`,
-            description: `AEO and AI visibility optimization for ${niche.name.toLowerCase()} in ${city}`,
+            name: `AI Marketing for ${niche.name} in ${cityName}`,
+            description: `AEO and AI visibility optimization for ${niche.name.toLowerCase()} in ${cityName}`,
             provider: {
               "@type": "Organization",
               name: "Godfather Funnel AI",
@@ -65,7 +67,7 @@ export default async function CityNichePage({
             },
             areaServed: {
               "@type": "City",
-              name: city,
+              name: cityName,
               containedInPlace: { "@type": "Country", name: "India" },
             },
           }),
@@ -79,18 +81,18 @@ export default async function CityNichePage({
           <span>/</span>
           <Link href={`/${niche.slug}`} className="hover:text-white transition">{niche.name}</Link>
           <span>/</span>
-          <span className="text-gray-400">{city}</span>
+          <span className="text-gray-400">{cityName}</span>
         </div>
 
         <div className="text-center mb-16">
           <h1 className="text-3xl sm:text-5xl font-black text-white leading-tight">
             AI Marketing for{" "}
             <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-              {niche.name} in {city}
+              {niche.name} in {cityName}
             </span>
           </h1>
           <p className="mt-6 text-lg text-gray-400 max-w-2xl mx-auto">
-            When patients in {city} ask ChatGPT &ldquo;best {nicheLabel} near me&rdquo;,
+            When patients in {cityName} ask ChatGPT &ldquo;best {nicheLabel} near me&rdquo;,
             AI recommends 2-3 names. We make sure yours is one of them.
           </p>
         </div>
@@ -98,10 +100,10 @@ export default async function CityNichePage({
         {/* The Problem */}
         <div className="bg-[#12121a] border border-red-500/10 rounded-2xl p-8 mb-8">
           <h2 className="text-xl font-bold text-white mb-4">
-            The Problem in {city}
+            The Problem in {cityName}
           </h2>
           <p className="text-gray-400 text-sm leading-relaxed mb-4">
-            Right now, when someone in {city} searches for a {nicheLabel} on
+            Right now, when someone in {cityName} searches for a {nicheLabel} on
             ChatGPT, Google AI, or Perplexity — your competitors get recommended
             and you don&apos;t. This means:
           </p>
@@ -118,18 +120,18 @@ export default async function CityNichePage({
         {/* What We Do */}
         <div className="bg-[#12121a] border border-white/5 rounded-2xl p-8 mb-8">
           <h2 className="text-xl font-bold text-white mb-4">
-            What We Do for {niche.name} in {city}
+            What We Do for {niche.name} in {cityName}
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
-              `AI Visibility Audit for your ${city} practice`,
+              `AI Visibility Audit for your ${cityName} practice`,
               `${niche.name.replace(/s$/, "")} schema markup implementation`,
               `llms.txt + AI crawler optimization`,
-              `Google Business Profile optimization for ${city}`,
-              `"Best ${nicheLabel} in ${city}" content creation`,
+              `Google Business Profile optimization for ${cityName}`,
+              `"Best ${nicheLabel} in ${cityName}" content creation`,
               `AI citation monitoring and monthly reports`,
               `Review generation and management`,
-              `Local directory listings (50+ ${city} directories)`,
+              `Local directory listings (50+ ${cityName} directories)`,
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-2 text-sm">
                 <span className="text-green-400 mt-0.5 shrink-0">✓</span>
@@ -142,7 +144,7 @@ export default async function CityNichePage({
         {/* ROI */}
         <div className="bg-gradient-to-br from-blue-500/10 to-purple-500/10 border border-purple-500/20 rounded-2xl p-8 mb-8 text-center">
           <h2 className="text-xl font-bold text-white mb-2">
-            The ROI for {niche.name} in {city}
+            The ROI for {niche.name} in {cityName}
           </h2>
           <div className="flex items-center justify-center gap-4 my-6">
             <div className="text-center">
@@ -161,7 +163,7 @@ export default async function CityNichePage({
         {/* FAQ */}
         <div className="bg-[#12121a] border border-white/5 rounded-2xl p-8 mb-8">
           <h2 className="text-xl font-bold text-white mb-6">
-            FAQs: AI Marketing for {niche.name} in {city}
+            FAQs: AI Marketing for {niche.name} in {cityName}
           </h2>
           <script
             type="application/ld+json"
@@ -172,15 +174,15 @@ export default async function CityNichePage({
                 mainEntity: [
                   {
                     "@type": "Question",
-                    name: `How long does it take for AI to recommend my ${nicheLabel} practice in ${city}?`,
+                    name: `How long does it take for AI to recommend my ${nicheLabel} practice in ${cityName}?`,
                     acceptedAnswer: {
                       "@type": "Answer",
-                      text: `Most ${niche.name.toLowerCase()} in ${city} see initial AI visibility within 30-60 days. Full optimization typically takes 90 days.`,
+                      text: `Most ${niche.name.toLowerCase()} in ${cityName} see initial AI visibility within 30-60 days. Full optimization typically takes 90 days.`,
                     },
                   },
                   {
                     "@type": "Question",
-                    name: `How much does AI marketing cost for ${niche.name.toLowerCase()} in ${city}?`,
+                    name: `How much does AI marketing cost for ${niche.name.toLowerCase()} in ${cityName}?`,
                     acceptedAnswer: {
                       "@type": "Answer",
                       text: `Our plans for ${niche.name.toLowerCase()} start at ${niche.services[0].price}. ${niche.roiExample.pitch}`,
@@ -188,10 +190,10 @@ export default async function CityNichePage({
                   },
                   {
                     "@type": "Question",
-                    name: `Do you work with ${niche.name.toLowerCase()} only in ${city}?`,
+                    name: `Do you work with ${niche.name.toLowerCase()} only in ${cityName}?`,
                     acceptedAnswer: {
                       "@type": "Answer",
-                      text: `We work with ${niche.name.toLowerCase()} across India, but have specific expertise in ${city}'s competitive landscape.`,
+                      text: `We work with ${niche.name.toLowerCase()} across India, but have specific expertise in ${cityName}'s competitive landscape.`,
                     },
                   },
                 ],
@@ -201,15 +203,15 @@ export default async function CityNichePage({
           <div className="space-y-4">
             <div>
               <h3 className="text-sm font-semibold text-white">
-                How long does it take for AI to recommend my practice in {city}?
+                How long does it take for AI to recommend my practice in {cityName}?
               </h3>
               <p className="text-xs text-gray-400 mt-1">
-                Most {niche.name.toLowerCase()} in {city} see initial AI visibility within 30-60 days. Full optimization typically takes 90 days.
+                Most {niche.name.toLowerCase()} in {cityName} see initial AI visibility within 30-60 days. Full optimization typically takes 90 days.
               </p>
             </div>
             <div>
               <h3 className="text-sm font-semibold text-white">
-                How much does AI marketing cost for {niche.name.toLowerCase()} in {city}?
+                How much does AI marketing cost for {niche.name.toLowerCase()} in {cityName}?
               </h3>
               <p className="text-xs text-gray-400 mt-1">
                 Our plans start at {niche.services[0].price}. {niche.roiExample.pitch}
@@ -217,10 +219,10 @@ export default async function CityNichePage({
             </div>
             <div>
               <h3 className="text-sm font-semibold text-white">
-                Do you work with {niche.name.toLowerCase()} only in {city}?
+                Do you work with {niche.name.toLowerCase()} only in {cityName}?
               </h3>
               <p className="text-xs text-gray-400 mt-1">
-                We work with {niche.name.toLowerCase()} across India, but have specific expertise in {city}&apos;s competitive landscape.
+                We work with {niche.name.toLowerCase()} across India, but have specific expertise in {cityName}&apos;s competitive landscape.
               </p>
             </div>
           </div>
@@ -229,7 +231,7 @@ export default async function CityNichePage({
         {/* CTA */}
         <div className="text-center py-12">
           <h2 className="text-2xl sm:text-3xl font-black text-white mb-4">
-            Ready to Dominate AI in {city}?
+            Ready to Dominate AI in {cityName}?
           </h2>
           <p className="text-gray-400 mb-6">
             Get your free AI visibility report in 30 seconds.
@@ -249,14 +251,14 @@ export default async function CityNichePage({
           </h3>
           <div className="flex flex-wrap gap-2">
             {topCities
-              .filter((c) => c !== city)
+              .filter((c) => c.slug !== city.slug)
               .map((c) => (
                 <Link
-                  key={c}
-                  href={`/ai-marketing/${niche.slug}/${c.toLowerCase().replace(/\s+/g, "-")}`}
+                  key={c.slug}
+                  href={`/ai-marketing/${niche.slug}/${c.slug}`}
                   className="text-xs px-3 py-1.5 bg-white/5 border border-white/10 rounded-full text-gray-400 hover:text-white hover:border-purple-500/30 transition"
                 >
-                  {c}
+                  {c.name}
                 </Link>
               ))}
           </div>

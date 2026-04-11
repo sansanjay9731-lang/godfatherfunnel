@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { images } from "@/lib/niche-data";
+import { images } from "@/lib/niches";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -40,44 +40,12 @@ export default function AboutPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Organization",
-            name: "Godfather Funnel AI",
-            alternateName: "GodfatherFunnelAI",
-            url: "https://godfatherfunnelai.com",
-            description:
-              "India's premier AEO (Answer Engine Optimization) and AI marketing agency. We make AI assistants like ChatGPT, Google AI, and Perplexity recommend businesses by name. Specializing in dermatologists, dentists, plastic surgeons, IVF clinics, lawyers, and real estate developers.",
-            foundingDate: "2026",
-            foundingLocation: { "@type": "Place", name: "India" },
-            areaServed: { "@type": "Country", name: "India" },
-            numberOfEmployees: { "@type": "QuantitativeValue", value: "10-25" },
-            knowsAbout: [
-              "Answer Engine Optimization",
-              "AI Marketing",
-              "Schema Markup",
-              "Structured Data",
-              "ChatGPT Optimization",
-              "Google AI Overviews",
-              "Perplexity Optimization",
-              "Healthcare Marketing",
-              "Legal Marketing",
-              "Real Estate Marketing",
-            ],
-            serviceType: [
-              "Answer Engine Optimization (AEO)",
-              "AI Visibility Audits",
-              "Schema Markup Implementation",
-              "Google Business Profile Optimization",
-              "Programmatic SEO",
-              "360 Degree Digital Marketing",
-            ],
-            slogan: "We make AI recommend you by name",
-            aggregateRating: {
-              "@type": "AggregateRating",
-              ratingValue: "4.9",
-              ratingCount: "87",
-              bestRating: "5",
+            "@type": "AboutPage",
+            name: "About Godfather Funnel AI",
+            url: "https://www.godfatherfunnelai.com/about",
+            mainEntity: {
+              "@id": "https://www.godfatherfunnelai.com/#organization",
             },
-            sameAs: [],
           }),
         }}
       />

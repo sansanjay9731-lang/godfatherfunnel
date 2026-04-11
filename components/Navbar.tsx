@@ -1,7 +1,22 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import { niches } from "@/lib/niche-data";
+import { niches } from "@/lib/niches";
+
+const nichesByCategory: Record<string, typeof niches> = {};
+for (const n of niches) {
+  const cat = n.metaCategory;
+  if (!nichesByCategory[cat]) nichesByCategory[cat] = [];
+  nichesByCategory[cat].push(n);
+}
+
+const categoryLabels: Record<string, string> = {
+  healthcare: "Healthcare",
+  legal: "Legal",
+  lifestyle: "Lifestyle",
+  education: "Education",
+  finance: "Finance",
+};
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -25,16 +40,26 @@ export default function Navbar() {
               <button className="text-gray-300 hover:text-white text-sm transition">
                 Industries ▾
               </button>
-              <div className="absolute top-full left-0 mt-2 w-56 bg-[#12121a] border border-white/10 rounded-xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-                {niches.map((n) => (
-                  <Link
-                    key={n.slug}
-                    href={`/${n.slug}`}
-                    className="block px-4 py-3 text-sm text-gray-300 hover:text-white hover:bg-white/5 first:rounded-t-xl last:rounded-b-xl transition"
-                  >
-                    {n.icon} {n.name}
-                  </Link>
-                ))}
+              {/* Mega menu */}
+              <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[600px] bg-[#12121a] border border-white/10 rounded-xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 p-6">
+                <div className="grid grid-cols-3 gap-6">
+                  {Object.entries(nichesByCategory).map(([cat, items]) => (
+                    <div key={cat}>
+                      <div className="text-[10px] uppercase tracking-wider text-gray-500 font-semibold mb-2">
+                        {categoryLabels[cat] || cat}
+                      </div>
+                      {items.map((n) => (
+                        <Link
+                          key={n.slug}
+                          href={`/${n.slug}`}
+                          className="block px-2 py-1.5 text-sm text-gray-300 hover:text-white hover:bg-white/5 rounded transition"
+                        >
+                          {n.icon} {n.name}
+                        </Link>
+                      ))}
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
             <Link href="/about" className="text-gray-300 hover:text-white text-sm transition">
@@ -43,11 +68,11 @@ export default function Navbar() {
             <Link href="/services" className="text-gray-300 hover:text-white text-sm transition">
               Services
             </Link>
-            <Link href="/case-studies" className="text-gray-300 hover:text-white text-sm transition">
-              Case Studies
-            </Link>
             <Link href="/blog" className="text-gray-300 hover:text-white text-sm transition">
               Blog
+            </Link>
+            <Link href="/resources" className="text-gray-300 hover:text-white text-sm transition">
+              Resources
             </Link>
             <Link
               href="/audit"
@@ -69,28 +94,37 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden bg-[#0a0a0f] border-t border-white/5 px-4 py-4 space-y-2">
-          {niches.map((n) => (
+        <div className="md:hidden bg-[#0a0a0f] border-t border-white/5 px-4 py-4 space-y-4 max-h-[80vh] overflow-y-auto">
+          {Object.entries(nichesByCategory).map(([cat, items]) => (
+            <div key={cat}>
+              <div className="text-[10px] uppercase tracking-wider text-gray-500 font-semibold mb-1">
+                {categoryLabels[cat] || cat}
+              </div>
+              {items.map((n) => (
+                <Link
+                  key={n.slug}
+                  href={`/${n.slug}`}
+                  className="block py-1.5 text-gray-300 hover:text-white text-sm"
+                  onClick={() => setOpen(false)}
+                >
+                  {n.icon} {n.name}
+                </Link>
+              ))}
+            </div>
+          ))}
+          <div className="pt-2 border-t border-white/5 space-y-2">
+            <Link href="/about" className="block py-2 text-gray-300 hover:text-white text-sm" onClick={() => setOpen(false)}>About</Link>
+            <Link href="/services" className="block py-2 text-gray-300 hover:text-white text-sm" onClick={() => setOpen(false)}>Services</Link>
+            <Link href="/blog" className="block py-2 text-gray-300 hover:text-white text-sm" onClick={() => setOpen(false)}>Blog</Link>
+            <Link href="/resources" className="block py-2 text-gray-300 hover:text-white text-sm" onClick={() => setOpen(false)}>Resources</Link>
             <Link
-              key={n.slug}
-              href={`/${n.slug}`}
-              className="block py-2 text-gray-300 hover:text-white text-sm"
+              href="/audit"
+              className="block mt-4 text-center px-5 py-2 text-sm font-semibold bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full"
               onClick={() => setOpen(false)}
             >
-              {n.icon} {n.name}
+              Free AI Audit
             </Link>
-          ))}
-          <Link href="/about" className="block py-2 text-gray-300 hover:text-white text-sm" onClick={() => setOpen(false)}>About</Link>
-          <Link href="/services" className="block py-2 text-gray-300 hover:text-white text-sm" onClick={() => setOpen(false)}>Services</Link>
-          <Link href="/case-studies" className="block py-2 text-gray-300 hover:text-white text-sm" onClick={() => setOpen(false)}>Case Studies</Link>
-          <Link href="/blog" className="block py-2 text-gray-300 hover:text-white text-sm" onClick={() => setOpen(false)}>Blog</Link>
-          <Link
-            href="/audit"
-            className="block mt-4 text-center px-5 py-2 text-sm font-semibold bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full"
-            onClick={() => setOpen(false)}
-          >
-            Free AI Audit
-          </Link>
+          </div>
         </div>
       )}
     </nav>

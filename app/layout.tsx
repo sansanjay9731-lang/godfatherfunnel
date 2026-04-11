@@ -19,20 +19,32 @@ export const metadata: Metadata = {
   title: "Godfather Funnel AI — Make AI Recommend You by Name",
   description:
     "AEO + 360° marketing for dermatologists, dentists, plastic surgeons, IVF clinics, lawyers & real estate. Get AI to recommend YOU by name.",
-  metadataBase: new URL("https://godfatherfunnelai.com"),
+  metadataBase: new URL("https://www.godfatherfunnelai.com"),
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "Godfather Funnel AI — Make AI Recommend You by Name",
     description:
       "Your competitors are AI-recommended. You're invisible. We fix that in 30 days.",
-    url: "https://godfatherfunnelai.com",
+    url: "https://www.godfatherfunnelai.com",
     siteName: "Godfather Funnel AI",
     type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Godfather Funnel AI — India's #1 AEO & AI Marketing Agency",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Godfather Funnel AI — Make AI Recommend You by Name",
     description:
       "Your competitors are AI-recommended. You're invisible. We fix that in 30 days.",
+    images: ["/og-image.png"],
   },
 };
 
@@ -52,18 +64,28 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "Organization",
+              "@type": "ProfessionalService",
+              "@id": "https://www.godfatherfunnelai.com/#organization",
               name: "Godfather Funnel AI",
-              url: "https://godfatherfunnelai.com",
+              url: "https://www.godfatherfunnelai.com",
+              logo: "https://www.godfatherfunnelai.com/logo.png",
               description:
                 "India's premier AEO and AI marketing agency. We make AI recommend your business by name.",
               foundingDate: "2026",
+              slogan: "Make AI Recommend You by Name",
               areaServed: { "@type": "Country", name: "India" },
-              serviceType: [
+              address: {
+                "@type": "PostalAddress",
+                addressCountry: "IN",
+              },
+              email: "contact@godfatherfunnelai.com",
+              knowsAbout: [
                 "Answer Engine Optimization",
                 "AI Marketing",
                 "Schema Markup",
-                "Digital Marketing",
+                "Structured Data",
+                "ChatGPT Optimization",
+                "Google AI Overviews",
               ],
               sameAs: [],
             }),

@@ -1,7 +1,9 @@
 import { notFound } from "next/navigation";
-import { blogPosts } from "@/lib/seo-data";
+import { getAllBlogPosts } from "@/lib/blog";
 import Link from "next/link";
 import type { Metadata } from "next";
+
+const blogPosts = getAllBlogPosts();
 
 export function generateStaticParams() {
   return blogPosts.map((p) => ({ slug: p.slug }));
@@ -78,6 +80,36 @@ export default async function BlogPost({
           </p>
         </div>
 
+        {/* BreadcrumbList Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              itemListElement: [
+                {
+                  "@type": "ListItem",
+                  position: 1,
+                  name: "Home",
+                  item: "https://www.godfatherfunnelai.com",
+                },
+                {
+                  "@type": "ListItem",
+                  position: 2,
+                  name: "Blog",
+                  item: "https://www.godfatherfunnelai.com/blog",
+                },
+                {
+                  "@type": "ListItem",
+                  position: 3,
+                  name: post.title,
+                  item: `https://www.godfatherfunnelai.com/blog/${post.slug}`,
+                },
+              ],
+            }),
+          }}
+        />
         {/* Article Schema */}
         <script
           type="application/ld+json"
@@ -88,15 +120,17 @@ export default async function BlogPost({
               headline: post.title,
               description: post.description,
               datePublished: post.publishDate,
+              dateModified: post.publishDate,
+              image: "https://www.godfatherfunnelai.com/og-image.png",
               author: {
-                "@type": "Organization",
-                name: "Godfather Funnel AI",
-                url: "https://godfatherfunnelai.com",
+                "@id": "https://www.godfatherfunnelai.com/#organization",
               },
               publisher: {
-                "@type": "Organization",
-                name: "Godfather Funnel AI",
-                url: "https://godfatherfunnelai.com",
+                "@id": "https://www.godfatherfunnelai.com/#organization",
+              },
+              mainEntityOfPage: {
+                "@type": "WebPage",
+                "@id": `https://www.godfatherfunnelai.com/blog/${post.slug}`,
               },
             }),
           }}

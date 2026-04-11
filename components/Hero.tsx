@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import { images } from "@/lib/niche-data";
+import { images } from "@/lib/niches";
 
 interface HeroProps {
   headline: string;
@@ -77,15 +77,17 @@ export default function Hero({
       ))}
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 text-center">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-        >
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 text-xs font-medium tracking-wider uppercase bg-white/5 border border-white/10 rounded-full text-blue-400">
-            <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-            247+ businesses AI-optimized
-          </div>
+        <div>
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 text-xs font-medium tracking-wider uppercase bg-white/5 border border-white/10 rounded-full text-blue-400">
+              <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
+              150+ businesses AI-optimized
+            </div>
+          </motion.div>
 
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-black leading-tight">
             <span className="bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
@@ -96,7 +98,7 @@ export default function Hero({
           <p className="mt-6 text-lg sm:text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
             {subline}
           </p>
-        </motion.div>
+        </div>
 
         {/* ChatGPT-style demo */}
         {searchExample && (
