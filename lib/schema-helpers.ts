@@ -97,7 +97,12 @@ export function generateArticleSchema(post: {
       name: post.author || "Godfather Funnel AI Team",
       url: `${BASE}/about`,
     },
-    publisher: { "@id": `${BASE}/#organization` },
+    publisher: {
+      "@type": "Organization",
+      name: "Godfather Funnel AI",
+      url: BASE,
+      logo: { "@type": "ImageObject", url: `${BASE}/logo.png` },
+    },
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": `${BASE}/blog/${post.slug}`,
@@ -183,6 +188,7 @@ export function generateComparisonSchema(opts: {
   title: string;
   description: string;
   slug: string;
+  datePublished?: string;
 }) {
   return {
     "@context": "https://schema.org",
@@ -190,8 +196,20 @@ export function generateComparisonSchema(opts: {
     headline: opts.title,
     description: opts.description,
     url: `${BASE}/compare/${opts.slug}`,
-    author: { "@id": `${BASE}/#organization` },
-    publisher: { "@id": `${BASE}/#organization` },
+    datePublished: opts.datePublished || "2026-04-01",
+    dateModified: opts.datePublished || "2026-04-01",
+    image: `${BASE}/og-image.png`,
+    author: {
+      "@type": "Organization",
+      name: "Godfather Funnel AI",
+      url: BASE,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Godfather Funnel AI",
+      url: BASE,
+      logo: { "@type": "ImageObject", url: `${BASE}/logo.png` },
+    },
   };
 }
 

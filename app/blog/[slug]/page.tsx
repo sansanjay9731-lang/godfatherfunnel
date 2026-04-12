@@ -123,10 +123,18 @@ export default async function BlogPost({
               dateModified: post.publishDate,
               image: "https://www.godfatherfunnelai.com/og-image.png",
               author: {
-                "@id": "https://www.godfatherfunnelai.com/#organization",
+                "@type": "Organization",
+                name: "Godfather Funnel AI",
+                url: "https://www.godfatherfunnelai.com",
               },
               publisher: {
-                "@id": "https://www.godfatherfunnelai.com/#organization",
+                "@type": "Organization",
+                name: "Godfather Funnel AI",
+                url: "https://www.godfatherfunnelai.com",
+                logo: {
+                  "@type": "ImageObject",
+                  url: "https://www.godfatherfunnelai.com/logo.png",
+                },
               },
               mainEntityOfPage: {
                 "@type": "WebPage",
