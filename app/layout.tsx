@@ -78,7 +78,21 @@ export default function RootLayout({
               areaServed: { "@type": "Country", name: "India" },
               address: {
                 "@type": "PostalAddress",
+                streetAddress: "Koramangala, 5th Block",
+                addressLocality: "Bangalore",
+                addressRegion: "Karnataka",
+                postalCode: "560095",
                 addressCountry: "IN",
+              },
+              founder: {
+                "@type": "Person",
+                name: "Arjun Verma",
+                url: "https://www.godfatherfunnelai.com/about",
+                jobTitle: "Founder & CEO",
+                worksFor: {
+                  "@id":
+                    "https://www.godfatherfunnelai.com/#organization",
+                },
               },
               email: "contact@godfatherfunnelai.com",
               knowsAbout: [

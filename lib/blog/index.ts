@@ -5,9 +5,14 @@ import { blogPosts as legacyPosts } from "@/lib/seo-data";
 
 export type { BlogPost } from "./types";
 
-// Combine all blog sources
+// Combine all blog sources, deduplicated by slug (later entries win)
 export function getAllBlogPosts(): BlogPost[] {
-  return [...legacyPosts, ...nicheGuidePosts];
+  const all = [...legacyPosts, ...nicheGuidePosts];
+  const seen = new Map<string, BlogPost>();
+  for (const post of all) {
+    seen.set(post.slug, post);
+  }
+  return Array.from(seen.values());
 }
 
 export function getBlogBySlug(slug: string): BlogPost | undefined {

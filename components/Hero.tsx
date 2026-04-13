@@ -70,6 +70,7 @@ export default function Hero({
               alt=""
               width={56}
               height={56}
+              priority
               className="object-cover w-full h-full"
             />
           </motion.div>
@@ -78,16 +79,10 @@ export default function Hero({
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 text-center">
         <div>
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-          >
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 text-xs font-medium tracking-wider uppercase bg-white/5 border border-white/10 rounded-full text-blue-400">
-              <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-              150+ businesses AI-optimized
-            </div>
-          </motion.div>
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 text-xs font-medium tracking-wider uppercase bg-white/5 border border-white/10 rounded-full text-blue-400">
+            <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
+            150+ businesses AI-optimized
+          </div>
 
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-black leading-tight">
             <span className="bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
@@ -159,12 +154,7 @@ export default function Hero({
           </motion.div>
         )}
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
-          className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4"
-        >
+        <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link
             href={ctaHref}
             className="group px-8 py-4 text-base font-bold bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full hover:shadow-xl hover:shadow-purple-500/25 hover:scale-105 transition-all duration-300"
@@ -180,7 +170,7 @@ export default function Hero({
           >
             See How It Works
           </Link>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

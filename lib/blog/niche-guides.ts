@@ -46,9 +46,12 @@ function getPublishDate(nicheIndex: number, templateIndex: number): string {
   const startDate = new Date(2026, 3, 1); // Apr 1
   const dayOffset = Math.floor((postNumber / 100) * 274);
   startDate.setDate(startDate.getDate() + dayOffset);
-  const yyyy = startDate.getFullYear();
-  const mm = String(startDate.getMonth() + 1).padStart(2, "0");
-  const dd = String(startDate.getDate()).padStart(2, "0");
+  // Clamp to today — never publish future-dated posts
+  const today = new Date();
+  const clamped = startDate > today ? today : startDate;
+  const yyyy = clamped.getFullYear();
+  const mm = String(clamped.getMonth() + 1).padStart(2, "0");
+  const dd = String(clamped.getDate()).padStart(2, "0");
   return `${yyyy}-${mm}-${dd}`;
 }
 
