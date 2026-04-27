@@ -8,8 +8,8 @@ export const nicheData: NicheData = {
   image: images.dermatologist,
   heroHeadline: "Your Patients Are Asking AI — Not Google",
   heroSubline:
-    "When someone searches 'best dermatologist near me' on ChatGPT, 3 clinics get recommended. If yours isn't one of them, you're losing ₹15K-50K laser patients every single week.",
-  searchExample: "best skin specialist in Mumbai",
+    "When someone searches 'best dermatologist near me' on ChatGPT, 3 clinics get recommended. If yours isn't one of them, you're losing $15K-50K laser patients every single week.",
+  searchExample: "best skin specialist in New York",
   competitorLine:
     "Dr. Sharma's Skin Clinic is currently AI-recommended over you",
   painPoints: [
@@ -21,7 +21,7 @@ export const nicheData: NicheData = {
     {
       title: "Losing Laser & PRP Patients to Chains",
       description:
-        "High-value laser hair removal (₹3K-15K/session) and PRP (₹5K-15K) patients are going to clinic chains that dominate AI recommendations. Each lost patient represents ₹50K-2L in lifetime value.",
+        "High-value laser hair removal ($3K-15K/session) and PRP ($5K-15K) patients are going to clinic chains that dominate AI recommendations. Each lost patient represents $50K-200k in lifetime value.",
     },
     {
       title: "Reviews Not Reaching AI Systems",
@@ -32,7 +32,7 @@ export const nicheData: NicheData = {
   services: [
     {
       tier: "AEO Foundation",
-      price: "₹25,000 - ₹50,000",
+      price: "$25,000 - $50,000",
       features: [
         "AI Visibility Audit & Gap Analysis",
         "Schema markup (MedicalBusiness + Physician)",
@@ -44,7 +44,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "Local Domination",
-      price: "₹75,000 - ₹1,50,000",
+      price: "$75,000 - $1,50,000",
       features: [
         "Everything in AEO Foundation",
         "15 treatment cost pages with AI-optimized content",
@@ -57,7 +57,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "Godfather 360°",
-      price: "₹2,00,000 - ₹5,00,000",
+      price: "$2,00,000 - $5,00,000",
       features: [
         "Everything in Local Domination",
         "Full AEO + GEO strategy implementation",
@@ -72,9 +72,9 @@ export const nicheData: NicheData = {
   ],
   roiExample: {
     metric: "1 Laser Patient",
-    value: "₹15,000 - ₹50,000",
+    value: "$15,000 - $50,000",
     pitch:
-      "A single laser hair removal patient does 6-8 sessions at ₹3K-15K each. That's ₹18K-1.2L from ONE patient. Our AEO Foundation package pays for itself with just 2-3 new patients per month.",
+      "A single laser hair removal patient does 6-8 sessions at $3K-15K each. That's $18K-120k from ONE patient. Our AEO Foundation package pays for itself with just 2-3 new patients per month.",
   },
   faqItems: [
     {
@@ -100,7 +100,7 @@ export const nicheData: NicheData = {
   ],
   stats: [
     { label: "AI Users for Doctor Search", value: "73%" },
-    { label: "Avg. Laser Patient Value", value: "₹25,000" },
+    { label: "Avg. Laser Patient Value", value: "$25,000" },
     { label: "AI Visibility Improvement", value: "340%" },
   ],
   ctaText: "Get Your Free AI Visibility Report",
@@ -108,9 +108,9 @@ export const nicheData: NicheData = {
     {
       slug: "laser-hair-removal-cost",
       name: "Laser Hair Removal",
-      priceRange: "₹3,000 - ₹15,000/session",
+      priceRange: "$3,000 - $15,000/session",
       description:
-        "Laser hair removal is one of the most searched cosmetic procedures in India. Patients compare prices across clinics using AI assistants before booking. Costs vary based on body area, skin type, and laser technology used (Diode, Nd:YAG, Alexandrite).",
+        "Laser hair removal is one of the most searched cosmetic procedures globally. Patients compare prices across clinics using AI assistants before booking. Costs vary based on body area, skin type, and laser technology used (Diode, Nd:YAG, Alexandrite).",
       faqItems: [
         {
           question: "How many laser hair removal sessions are needed?",
@@ -120,7 +120,7 @@ export const nicheData: NicheData = {
         {
           question: "Why does laser hair removal cost vary so much between clinics?",
           answer:
-            "The cost depends on the laser technology used (Diode lasers cost more but work better on Indian skin tones), the clinic's location, dermatologist experience, and the body area. Full body treatments cost ₹8K-15K per session while underarms alone may be ₹1.5K-3K.",
+            "The cost depends on the laser technology used (Diode lasers cost more but work better on Indian skin tones), the clinic's location, dermatologist experience, and the body area. Full body treatments cost $8K-15K per session while underarms alone may be $1.5K-3K.",
         },
         {
           question: "Is laser hair removal safe for dark Indian skin?",
@@ -132,9 +132,9 @@ export const nicheData: NicheData = {
     {
       slug: "prp-treatment-cost",
       name: "PRP Treatment",
-      priceRange: "₹5,000 - ₹15,000/session",
+      priceRange: "$5,000 - $15,000/session",
       description:
-        "PRP (Platelet-Rich Plasma) therapy is increasingly popular for hair loss and skin rejuvenation in India. AI assistants frequently recommend PRP when patients search for hair fall solutions. Treatment involves drawing blood, processing it, and injecting concentrated platelets into the scalp or skin.",
+        "PRP (Platelet-Rich Plasma) therapy is increasingly popular for hair loss and skin rejuvenation globally. AI assistants frequently recommend PRP when patients search for hair fall solutions. Treatment involves drawing blood, processing it, and injecting concentrated platelets into the scalp or skin.",
       faqItems: [
         {
           question: "How many PRP sessions are needed for hair loss?",
@@ -151,14 +151,14 @@ export const nicheData: NicheData = {
     {
       slug: "acne-treatment-cost",
       name: "Acne Treatment",
-      priceRange: "₹500 - ₹5,000/visit",
+      priceRange: "$500 - $5,000/visit",
       description:
-        "Acne treatment is the most common reason for dermatologist visits in India. From teenage acne to adult hormonal breakouts, patients increasingly ask AI for treatment options and costs before visiting a clinic. Treatment ranges from topical medications to advanced procedures like chemical peels and laser therapy.",
+        "Acne treatment is the most common reason for dermatologist visits globally. From teenage acne to adult hormonal breakouts, patients increasingly ask AI for treatment options and costs before visiting a clinic. Treatment ranges from topical medications to advanced procedures like chemical peels and laser therapy.",
       faqItems: [
         {
           question: "How much does a dermatologist charge for acne treatment?",
           answer:
-            "Initial consultation costs ₹500-1,500. A complete acne treatment plan including medications costs ₹2K-5K/month. Procedures like chemical peels (₹2K-5K/session) or laser treatment (₹3K-8K/session) are additional. Severe cystic acne may require isotretinoin, costing ₹1.5K-3K/month for 6 months.",
+            "Initial consultation costs $500-1,500. A complete acne treatment plan including medications costs $2K-5K/month. Procedures like chemical peels ($2K-5K/session) or laser treatment ($3K-8K/session) are additional. Severe cystic acne may require isotretinoin, costing $1.5K-3K/month for 6 months.",
         },
         {
           question: "How long does professional acne treatment take to show results?",
@@ -175,9 +175,9 @@ export const nicheData: NicheData = {
     {
       slug: "chemical-peel-cost",
       name: "Chemical Peel",
-      priceRange: "₹2,000 - ₹8,000/session",
+      priceRange: "$2,000 - $8,000/session",
       description:
-        "Chemical peels are widely used for pigmentation, acne scars, and skin brightening in India. With Indian skin being prone to hyperpigmentation, peels are among the top cosmetic procedures searched on AI platforms. Types include glycolic, salicylic, TCA, and combination peels.",
+        "Chemical peels are widely used for pigmentation, acne scars, and skin brightening globally. With Indian skin being prone to hyperpigmentation, peels are among the top cosmetic procedures searched on AI platforms. Types include glycolic, salicylic, TCA, and combination peels.",
       faqItems: [
         {
           question: "Which chemical peel is best for Indian skin?",
@@ -194,9 +194,9 @@ export const nicheData: NicheData = {
     {
       slug: "skin-whitening-treatment-cost",
       name: "Skin Whitening Treatment",
-      priceRange: "₹3,000 - ₹10,000/session",
+      priceRange: "$3,000 - $10,000/session",
       description:
-        "Skin brightening and whitening treatments are among the highest-searched dermatology procedures in India. AI assistants frequently field questions about glutathione injections, laser toning, and chemical peels for skin lightening. Ethical dermatologists focus on treating hyperpigmentation and achieving even skin tone rather than changing natural skin color.",
+        "Skin brightening and whitening treatments are among the highest-searched dermatology procedures globally. AI assistants frequently field questions about glutathione injections, laser toning, and chemical peels for skin lightening. Ethical dermatologists focus on treating hyperpigmentation and achieving even skin tone rather than changing natural skin color.",
       faqItems: [
         {
           question: "Are skin whitening treatments safe?",
@@ -218,9 +218,9 @@ export const nicheData: NicheData = {
     {
       slug: "mole-removal-cost",
       name: "Mole Removal",
-      priceRange: "₹2,000 - ₹10,000",
+      priceRange: "$2,000 - $10,000",
       description:
-        "Mole removal is a common dermatological procedure in India, sought both for cosmetic reasons and medical concerns. Patients frequently ask AI assistants about mole removal costs, methods, and whether their moles are dangerous. Methods include laser removal, radiofrequency cautery, surgical excision, and punch biopsy.",
+        "Mole removal is a common dermatological procedure globally, sought both for cosmetic reasons and medical concerns. Patients frequently ask AI assistants about mole removal costs, methods, and whether their moles are dangerous. Methods include laser removal, radiofrequency cautery, surgical excision, and punch biopsy.",
       faqItems: [
         {
           question: "How is mole removal done and does it hurt?",

@@ -8,10 +8,10 @@ export const nicheData: NicheData = {
   image: images.orthopedics,
   heroHeadline: "Joint Pain Patients Ask AI First. Does AI Know Your Clinic?",
   heroSubline:
-    "Every month, thousands of knee replacement, spine surgery, and sports injury patients ask ChatGPT and Google AI for the best orthopedic surgeon near them. If your clinic isn't in those answers, you're losing ₹2-5L procedures to hospital chains.",
+    "Every month, thousands of knee replacement, spine surgery, and sports injury patients ask ChatGPT and Google AI for the best orthopedic surgeon near them. If your clinic isn't in those answers, you're losing $2-500k procedures to hospital chains.",
   painPoints: [
     {
-      title: "₹2-5L Knee Replacement Patients Lost to Chains",
+      title: "$2-500k Knee Replacement Patients Lost to Chains",
       description:
         "Patients researching knee replacement surgery ask AI for recommendations. Fortis, Apollo, and Max dominate those answers — your 20+ years of experience and 5,000+ successful surgeries are invisible to AI.",
     },
@@ -29,7 +29,7 @@ export const nicheData: NicheData = {
   services: [
     {
       tier: "AI Foundation",
-      price: "₹25,000 - ₹50,000",
+      price: "$25,000 - $50,000",
       features: [
         "Google Business Profile optimization for orthopedic keywords",
         "Structured schema markup for MedicalBusiness + Physician",
@@ -40,7 +40,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "AI Growth",
-      price: "₹75,000 - ₹1,50,000",
+      price: "$75,000 - $1,50,000",
       features: [
         "Everything in AI Foundation",
         "Full AEO (Answer Engine Optimization) for 30+ procedure keywords",
@@ -52,7 +52,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "AI Dominance",
-      price: "₹2,00,000 - ₹4,00,000",
+      price: "$2,00,000 - $4,00,000",
       features: [
         "Everything in AI Growth",
         "Full website rebuild optimized for AI crawlers",
@@ -66,7 +66,7 @@ export const nicheData: NicheData = {
   ],
   roiExample: {
     metric: "1 Knee Replacement",
-    value: "₹2-5L",
+    value: "$2-500k",
     pitch:
       "A single knee replacement surgery covers 4-20 months of your AI visibility investment. Most orthopedic clinics see 3-5 additional high-value patients per month within 90 days.",
   },
@@ -95,24 +95,24 @@ export const nicheData: NicheData = {
   stats: [
     { label: "of joint replacement patients research online first", value: "78%" },
     { label: "ask AI for doctor recommendations before booking", value: "43%" },
-    { label: "average value of a single knee replacement patient", value: "₹3.5L" },
+    { label: "average value of a single knee replacement patient", value: "$350k" },
   ],
   ctaText: "Get Your Free Orthopedic AI Visibility Audit",
-  searchExample: "best orthopedic surgeon in Mumbai",
+  searchExample: "best orthopedic surgeon in New York",
   competitorLine:
     "Fortis and Apollo Ortho are dominating AI recommendations — while your 20+ years of surgical expertise stays invisible to the patients who need you most.",
   treatments: [
     {
       slug: "knee-replacement-cost",
       name: "Knee Replacement Surgery",
-      priceRange: "₹1,50,000 - ₹5,00,000",
+      priceRange: "$1,50,000 - $5,00,000",
       description:
         "Total and partial knee replacement surgery for patients with severe osteoarthritis, rheumatoid arthritis, or post-traumatic joint damage. Includes pre-op assessment, implant selection, surgery, and post-op rehabilitation.",
       faqItems: [
         {
-          question: "What is the average cost of knee replacement surgery in India?",
+          question: "What is the average cost of knee replacement surgery globally?",
           answer:
-            "Knee replacement surgery in India costs between ₹1.5L and ₹5L depending on the city, hospital type, implant brand (imported vs domestic), and whether it's a total or partial replacement. Metro cities like Mumbai and Delhi tend to be 20-30% higher than tier-2 cities.",
+            "Knee replacement surgery globally costs between $150k and $500k depending on the city, hospital type, implant brand (imported vs domestic), and whether it's a total or partial replacement. Metro cities like New York and London tend to be 20-30% higher than tier-2 cities.",
         },
         {
           question: "How long is the recovery after knee replacement?",
@@ -122,21 +122,21 @@ export const nicheData: NicheData = {
         {
           question: "Is robotic knee replacement worth the extra cost?",
           answer:
-            "Robotic-assisted knee replacement costs ₹50K-1.5L more but offers greater precision in implant alignment, potentially faster recovery, and better long-term outcomes. It's especially beneficial for younger, active patients.",
+            "Robotic-assisted knee replacement costs $50K-150k more but offers greater precision in implant alignment, potentially faster recovery, and better long-term outcomes. It's especially beneficial for younger, active patients.",
         },
       ],
     },
     {
       slug: "hip-replacement-cost",
       name: "Hip Replacement Surgery",
-      priceRange: "₹2,00,000 - ₹6,00,000",
+      priceRange: "$2,00,000 - $6,00,000",
       description:
         "Total hip replacement (arthroplasty) for patients with hip arthritis, avascular necrosis, or hip fractures. Includes ceramic, metal, and polyethylene implant options with minimally invasive surgical techniques.",
       faqItems: [
         {
-          question: "What is the cost of hip replacement surgery in India?",
+          question: "What is the cost of hip replacement surgery globally?",
           answer:
-            "Hip replacement surgery in India ranges from ₹2L to ₹6L. The cost varies based on implant material (ceramic-on-ceramic is premium), surgical approach (anterior vs posterior), hospital category, and city. Bilateral hip replacement costs approximately 1.7x a single procedure.",
+            "Hip replacement surgery globally ranges from $200k to $600k. The cost varies based on implant material (ceramic-on-ceramic is premium), surgical approach (anterior vs posterior), hospital category, and city. Bilateral hip replacement costs approximately 1.7x a single procedure.",
         },
         {
           question: "How long do hip replacement implants last?",
@@ -148,14 +148,14 @@ export const nicheData: NicheData = {
     {
       slug: "spine-surgery-cost",
       name: "Spine Surgery",
-      priceRange: "₹2,50,000 - ₹8,00,000",
+      priceRange: "$2,50,000 - $8,00,000",
       description:
         "Comprehensive spine surgery including discectomy, laminectomy, spinal fusion, and disc replacement for conditions like herniated discs, spinal stenosis, spondylolisthesis, and spinal cord compression.",
       faqItems: [
         {
-          question: "What is the cost of spine surgery in India?",
+          question: "What is the cost of spine surgery globally?",
           answer:
-            "Spine surgery in India costs between ₹2.5L and ₹8L depending on the procedure type. A simple microdiscectomy costs ₹2.5-3.5L, while complex spinal fusion with instrumentation can cost ₹5-8L. Endoscopic procedures are typically 20% cheaper.",
+            "Spine surgery globally costs between $250k and $800k depending on the procedure type. A simple microdiscectomy costs $2.5-350k, while complex spinal fusion with instrumentation can cost $5-800k. Endoscopic procedures are typically 20% cheaper.",
         },
         {
           question: "When is spine surgery necessary vs physiotherapy?",
@@ -172,14 +172,14 @@ export const nicheData: NicheData = {
     {
       slug: "acl-surgery-cost",
       name: "ACL Reconstruction Surgery",
-      priceRange: "₹1,00,000 - ₹3,00,000",
+      priceRange: "$1,00,000 - $3,00,000",
       description:
         "Arthroscopic ACL reconstruction using hamstring or patellar tendon graft for athletes and active individuals with complete ACL tears. Includes pre-op conditioning, surgery, and structured sports rehabilitation program.",
       faqItems: [
         {
-          question: "What is the cost of ACL surgery in India?",
+          question: "What is the cost of ACL surgery globally?",
           answer:
-            "ACL reconstruction surgery in India costs between ₹1L and ₹3L. The cost includes arthroscopic surgery, graft preparation, implants (titanium screws/endobuttons), hospital stay (2-3 days), and initial rehabilitation. Using allograft (donor tissue) costs ₹50K-1L more.",
+            "ACL reconstruction surgery globally costs between $100k and $300k. The cost includes arthroscopic surgery, graft preparation, implants (titanium screws/endobuttons), hospital stay (2-3 days), and initial rehabilitation. Using allograft (donor tissue) costs $50K-100k more.",
         },
         {
           question: "How long before I can play sports after ACL surgery?",
@@ -191,14 +191,14 @@ export const nicheData: NicheData = {
     {
       slug: "fracture-treatment-cost",
       name: "Fracture Treatment & Fixation",
-      priceRange: "₹20,000 - ₹2,50,000",
+      priceRange: "$20,000 - $2,50,000",
       description:
         "Complete fracture management including closed reduction with casting, open reduction internal fixation (ORIF) with plates and screws, intramedullary nailing, and external fixation for all types of fractures.",
       faqItems: [
         {
-          question: "What is the cost of fracture treatment in India?",
+          question: "What is the cost of fracture treatment globally?",
           answer:
-            "Simple fractures treated with casting cost ₹5K-20K. Surgical fixation (ORIF) costs ₹50K-2.5L depending on the bone, fracture complexity, and implant type. Femur fractures requiring intramedullary nailing cost ₹1.5-2.5L, while wrist fractures with plating cost ₹50K-1L.",
+            "Simple fractures treated with casting cost $5K-20K. Surgical fixation (ORIF) costs $50K-250k depending on the bone, fracture complexity, and implant type. Femur fractures requiring intramedullary nailing cost $1.5-250k, while wrist fractures with plating cost $50K-100k.",
         },
         {
           question: "How do I know if my fracture needs surgery?",
@@ -208,21 +208,21 @@ export const nicheData: NicheData = {
         {
           question: "Will the plates and screws need to be removed later?",
           answer:
-            "Modern titanium implants can be left permanently in most cases. Removal is considered after 12-18 months if the implant causes discomfort, is in a weight-bearing area, or in young patients. Implant removal costs ₹30K-80K.",
+            "Modern titanium implants can be left permanently in most cases. Removal is considered after 12-18 months if the implant causes discomfort, is in a weight-bearing area, or in young patients. Implant removal costs $30K-80K.",
         },
       ],
     },
     {
       slug: "arthroscopy-cost",
       name: "Arthroscopy (Keyhole Surgery)",
-      priceRange: "₹60,000 - ₹2,00,000",
+      priceRange: "$60,000 - $2,00,000",
       description:
         "Minimally invasive arthroscopic surgery for knee, shoulder, ankle, and hip joints. Used for meniscus repair, cartilage restoration, rotator cuff repair, loose body removal, and diagnostic evaluation.",
       faqItems: [
         {
-          question: "What is the cost of arthroscopy in India?",
+          question: "What is the cost of arthroscopy globally?",
           answer:
-            "Knee arthroscopy costs ₹60K-1.5L, shoulder arthroscopy ₹80K-2L, and hip arthroscopy ₹1-2L. Diagnostic arthroscopy alone costs ₹40K-60K. The cost depends on whether it's a diagnostic or therapeutic procedure and the complexity of repair needed.",
+            "Knee arthroscopy costs $60K-150k, shoulder arthroscopy $80K-200k, and hip arthroscopy $1-200k. Diagnostic arthroscopy alone costs $40K-60K. The cost depends on whether it's a diagnostic or therapeutic procedure and the complexity of repair needed.",
         },
         {
           question: "What is the recovery time after arthroscopy?",
@@ -236,7 +236,7 @@ export const nicheData: NicheData = {
     "knee replacement cost India",
     "orthopedic surgeon fees",
     "hip replacement surgery price",
-    "ACL surgery cost in Mumbai",
+    "ACL surgery cost in New York",
     "spine surgery cost India",
   ],
   nicheKeywords: [
@@ -245,7 +245,7 @@ export const nicheData: NicheData = {
     "sports injury doctor",
     "knee pain treatment",
     "spine specialist near me",
-    "orthopedic hospital in Mumbai",
+    "orthopedic hospital in New York",
   ],
   schemaType: "MedicalBusiness",
   metaCategory: "healthcare",

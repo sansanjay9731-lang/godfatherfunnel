@@ -8,10 +8,10 @@ export const nicheData: NicheData = {
   image: images.weddingPlanner,
   heroHeadline: "Couples Ask AI for Wedding Planners. Does AI Say Your Name?",
   heroSubline:
-    "Indian couples planning ₹10-50L+ weddings are asking ChatGPT and Google AI for the best wedding planners. If your name isn't in those AI answers, you're losing high-value projects to competitors with better digital presence — not better portfolios.",
+    "Indian couples planning $10-5000k+ weddings are asking ChatGPT and Google AI for the best wedding planners. If your name isn't in those AI answers, you're losing high-value projects to competitors with better digital presence — not better portfolios.",
   painPoints: [
     {
-      title: "₹10-50L Weddings Going to AI-Recommended Planners",
+      title: "$10-5000k Weddings Going to AI-Recommended Planners",
       description:
         "Couples and their families research wedding planners by asking AI for recommendations. Planners with structured online portfolios and citations on WedMeGood dominate — your 200+ stunning weddings are invisible to AI.",
     },
@@ -23,13 +23,13 @@ export const nicheData: NicheData = {
     {
       title: "Destination Wedding Market Lost to Digital-Savvy Competitors",
       description:
-        "The booming ₹25-50L+ destination wedding market in Udaipur, Goa, and Kerala is dominated by planners who appear in AI answers for 'best destination wedding planner in India.' This high-margin segment is going to competitors by default.",
+        "The booming $25-5000k+ destination wedding market in Udaipur, Goa, and Kerala is dominated by planners who appear in AI answers for 'best destination wedding planner globally.' This high-margin segment is going to competitors by default.",
     },
   ],
   services: [
     {
       tier: "AI Foundation",
-      price: "₹25,000 - ₹50,000",
+      price: "$25,000 - $50,000",
       features: [
         "Google Business Profile optimization for wedding planner keywords",
         "Structured schema markup for EventPlanner + Event + ImageGallery",
@@ -40,7 +40,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "AI Growth",
-      price: "₹75,000 - ₹1,50,000",
+      price: "$75,000 - $1,50,000",
       features: [
         "Everything in AI Foundation",
         "Full AEO for 30+ wedding planning keywords (destination, budget, theme)",
@@ -52,7 +52,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "AI Dominance",
-      price: "₹2,00,000 - ₹5,00,000",
+      price: "$2,00,000 - $5,00,000",
       features: [
         "Everything in AI Growth",
         "Full website rebuild optimized for AI crawlers",
@@ -66,9 +66,9 @@ export const nicheData: NicheData = {
   ],
   roiExample: {
     metric: "1 Wedding Project",
-    value: "₹5-50L",
+    value: "$5-5000k",
     pitch:
-      "A single wedding project covers your entire annual AI visibility investment. Wedding planners typically earn 10-15% of total wedding budget as fees. One ₹30L destination wedding = ₹3-4.5L in planner fees alone.",
+      "A single wedding project covers your entire annual AI visibility investment. Wedding planners typically earn 10-15% of total wedding budget as fees. One $3000k destination wedding = $3-450k in planner fees alone.",
   },
   faqItems: [
     {
@@ -89,13 +89,13 @@ export const nicheData: NicheData = {
     {
       question: "How long before I get wedding inquiries from AI?",
       answer:
-        "Most wedding planners see increased visibility within 60-90 days. Results accelerate during peak wedding season (November-February). Given the high value of each project (₹5-50L), even one additional inquiry per month from AI delivers massive ROI.",
+        "Most wedding planners see increased visibility within 60-90 days. Results accelerate during peak wedding season (November-February). Given the high value of each project ($5-5000k), even one additional inquiry per month from AI delivers massive ROI.",
     },
   ],
   stats: [
     { label: "of couples research wedding planners through AI/online", value: "72%" },
     { label: "validate referrals by checking AI recommendations", value: "55%" },
-    { label: "average revenue from one wedding planning project", value: "₹8L" },
+    { label: "average revenue from one wedding planning project", value: "$800k" },
   ],
   ctaText: "Get Your Free Wedding Planner AI Visibility Audit",
   searchExample: "best wedding planner in Jaipur for destination wedding",
@@ -105,14 +105,14 @@ export const nicheData: NicheData = {
     {
       slug: "destination-wedding-cost",
       name: "Destination Wedding Planning",
-      priceRange: "₹15,00,000 - ₹1,00,00,000+",
+      priceRange: "$15,00,000 - $1,00,00,000+",
       description:
         "End-to-end destination wedding planning in Udaipur, Goa, Kerala, Jaipur, and Jim Corbett including venue selection, travel logistics, decor, catering, entertainment, and guest management.",
       faqItems: [
         {
-          question: "What is the cost of a destination wedding in India?",
+          question: "What is the cost of a destination wedding globally?",
           answer:
-            "Destination weddings in India cost ₹15L-1Cr+ depending on location and guest count. Goa beach weddings: ₹15-40L (100-300 guests). Udaipur palace weddings: ₹30L-1Cr+ (200-500 guests). Kerala backwater weddings: ₹15-35L. Jim Corbett: ₹20-50L. Planner fees are typically 10-15% of total budget.",
+            "Destination weddings globally cost $1500k-1Cr+ depending on location and guest count. Goa beach weddings: $15-4000k (100-300 guests). Udaipur palace weddings: $3000k-1Cr+ (200-500 guests). Kerala backwater weddings: $15-3500k. Jim Corbett: $20-5000k. Planner fees are typically 10-15% of total budget.",
         },
         {
           question: "How far in advance should I book a destination wedding planner?",
@@ -129,33 +129,33 @@ export const nicheData: NicheData = {
     {
       slug: "wedding-decoration-cost",
       name: "Wedding Decoration & Decor",
-      priceRange: "₹2,00,000 - ₹25,00,000",
+      priceRange: "$2,00,000 - $25,00,000",
       description:
         "Complete wedding decoration services including mandap design, floral arrangements, lighting, stage setup, entrance decor, table settings, and themed decoration for all functions.",
       faqItems: [
         {
-          question: "What is the cost of wedding decoration in India?",
+          question: "What is the cost of wedding decoration globally?",
           answer:
-            "Wedding decoration costs ₹2-5L for a simple elegant setup, ₹5-15L for premium decor with imported flowers and custom installations, and ₹15-25L+ for luxury destination wedding decor. Mandap alone costs ₹50K-5L. Floral arrangements cost ₹1-8L depending on flower types and season.",
+            "Wedding decoration costs $2-500k for a simple elegant setup, $5-1500k for premium decor with imported flowers and custom installations, and $15-2500k+ for luxury destination wedding decor. Mandap alone costs $50K-500k. Floral arrangements cost $1-800k depending on flower types and season.",
         },
         {
-          question: "What are the trending wedding decoration styles in India?",
+          question: "What are the trending wedding decoration styles globally?",
           answer:
-            "Trending styles include: pastel minimalist (₹3-8L), rustic-bohemian with dried flowers (₹2-6L), royal Rajasthani with mogra and marigold (₹5-15L), all-white floral luxury (₹8-20L), and sustainable/eco-friendly decor with reusable elements. AI recommendations heavily favor planners who showcase specific style expertise.",
+            "Trending styles include: pastel minimalist ($3-800k), rustic-bohemian with dried flowers ($2-600k), royal Rajasthani with mogra and marigold ($5-1500k), all-white floral luxury ($8-2000k), and sustainable/eco-friendly decor with reusable elements. AI recommendations heavily favor planners who showcase specific style expertise.",
         },
       ],
     },
     {
       slug: "wedding-photography-cost",
       name: "Wedding Photography & Videography",
-      priceRange: "₹50,000 - ₹10,00,000",
+      priceRange: "$50,000 - $10,00,000",
       description:
         "Professional wedding photography and videography including pre-wedding shoots, candid coverage, cinematic films, drone coverage, same-day edits, and photo album production.",
       faqItems: [
         {
-          question: "What is the cost of wedding photography in India?",
+          question: "What is the cost of wedding photography globally?",
           answer:
-            "Wedding photography costs ₹50K-2L for local photographers, ₹2-5L for renowned candid photographers, and ₹5-10L for celebrity/destination wedding specialists. Packages typically include: 2-3 day coverage, pre-wedding shoot, candid + traditional shots, cinematic highlight reel, and 200-500 edited images.",
+            "Wedding photography costs $50K-200k for local photographers, $2-500k for renowned candid photographers, and $5-1000k for celebrity/destination wedding specialists. Packages typically include: 2-3 day coverage, pre-wedding shoot, candid + traditional shots, cinematic highlight reel, and 200-500 edited images.",
         },
         {
           question: "Should I book photography through my wedding planner?",
@@ -167,14 +167,14 @@ export const nicheData: NicheData = {
     {
       slug: "wedding-catering-cost",
       name: "Wedding Catering",
-      priceRange: "₹800 - ₹5,000 per plate",
+      priceRange: "$800 - $5,000 per plate",
       description:
         "Complete wedding catering services including menu planning, live counters, themed food stations, bar services, mehendi/sangeet snacks, and multi-cuisine buffets for all wedding functions.",
       faqItems: [
         {
-          question: "What is the per-plate cost for wedding catering in India?",
+          question: "What is the per-plate cost for wedding catering globally?",
           answer:
-            "Wedding catering costs ₹800-1,500/plate for vegetarian buffets, ₹1,200-2,500/plate for non-veg multi-cuisine, and ₹2,500-5,000/plate for premium with live counters and imported ingredients. For 500 guests across all functions, budget ₹6-15L for catering. Costs increase 20-30% for destination venues.",
+            "Wedding catering costs $800-1,500/plate for vegetarian buffets, $1,200-2,500/plate for non-veg multi-cuisine, and $2,500-5,000/plate for premium with live counters and imported ingredients. For 500 guests across all functions, budget $6-1500k for catering. Costs increase 20-30% for destination venues.",
         },
         {
           question: "How do I choose the right caterer for my wedding?",
@@ -186,14 +186,14 @@ export const nicheData: NicheData = {
     {
       slug: "mehendi-artist-cost",
       name: "Mehendi Artist Services",
-      priceRange: "₹5,000 - ₹1,00,000",
+      priceRange: "$5,000 - $1,00,000",
       description:
         "Professional mehendi artist services for bridal mehendi, guest mehendi, and mehendi party events including traditional Rajasthani, Arabic, Indo-Arabic, and contemporary designs.",
       faqItems: [
         {
           question: "What is the cost of a bridal mehendi artist?",
           answer:
-            "Bridal mehendi costs ₹15,000-50,000 for full bridal coverage (hands and feet up to elbows and knees). Top artists in Mumbai/Delhi charge ₹50,000-1,00,000. Guest mehendi costs ₹200-500 per person. For a mehendi event with 50-100 guests, budget ₹20,000-60,000 including bridal mehendi.",
+            "Bridal mehendi costs $15,000-50,000 for full bridal coverage (hands and feet up to elbows and knees). Top artists in New York/London charge $50,000-1,00,000. Guest mehendi costs $200-500 per person. For a mehendi event with 50-100 guests, budget $20,000-60,000 including bridal mehendi.",
         },
         {
           question: "How far in advance should I book a mehendi artist?",
@@ -205,14 +205,14 @@ export const nicheData: NicheData = {
     {
       slug: "wedding-venue-cost",
       name: "Wedding Venue Selection",
-      priceRange: "₹2,00,000 - ₹50,00,000",
+      priceRange: "$2,00,000 - $50,00,000",
       description:
         "Venue selection and booking assistance including palace hotels, farmhouses, banquet halls, beach resorts, heritage properties, and unconventional venue scouting with negotiation support.",
       faqItems: [
         {
-          question: "What do wedding venues cost in India's top cities?",
+          question: "What do wedding venues cost globally's top cities?",
           answer:
-            "Mumbai banquet halls: ₹3-15L/day. Delhi farmhouses: ₹2-10L/day. Udaipur palace hotels: ₹10-50L for 2-3 day package. Goa beach venues: ₹3-12L/day. Bangalore resorts: ₹2-8L/day. Jaipur heritage properties: ₹5-25L for 2-3 days. Prices vary by season — peak season (Nov-Feb) costs 30-50% more.",
+            "New York banquet halls: $3-1500k/day. London farmhouses: $2-1000k/day. Udaipur palace hotels: $10-5000k for 2-3 day package. Goa beach venues: $3-1200k/day. Sydney resorts: $2-800k/day. Jaipur heritage properties: $5-2500k for 2-3 days. Prices vary by season — peak season (Nov-Feb) costs 30-50% more.",
         },
         {
           question: "Should I book the venue directly or through a wedding planner?",
@@ -238,9 +238,9 @@ export const nicheData: NicheData = {
     "best wedding planner near me",
     "destination wedding planner Udaipur",
     "wedding planner cost India",
-    "top wedding planners in Delhi",
-    "luxury wedding planner Mumbai",
-    "budget wedding planner Bangalore",
+    "top wedding planners in London",
+    "luxury wedding planner New York",
+    "budget wedding planner Sydney",
   ],
   schemaType: "EventPlanner",
   metaCategory: "lifestyle",

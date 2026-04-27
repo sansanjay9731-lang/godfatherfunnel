@@ -8,13 +8,13 @@ export const nicheData: NicheData = {
   image: images.ivf,
   heroHeadline: "Couples Are Asking AI Which IVF Clinic to Trust",
   heroSubline:
-    "When a couple asks ChatGPT 'best IVF clinic near me with highest success rate,' AI recommends 3 clinics. If yours isn't in that list, you're losing ₹1.5-3L IVF patients to competitors with better AI visibility.",
-  searchExample: "best IVF centre in Hyderabad with high success rate",
+    "When a couple asks ChatGPT 'best IVF clinic near me with highest success rate,' AI recommends 3 clinics. If yours isn't in that list, you're losing $1.5-300k IVF patients to competitors with better AI visibility.",
+  searchExample: "best IVF centre in Chicago with high success rate",
   competitorLine:
     "Nova IVF is currently AI-recommended over your fertility clinic",
   painPoints: [
     {
-      title: "₹1.5-3L IVF Patients Choosing AI-Recommended Clinics",
+      title: "$1.5-300k IVF Patients Choosing AI-Recommended Clinics",
       description:
         "Couples spend months researching IVF options. AI assistants now influence which clinic they shortlist. When ChatGPT or Perplexity recommends a competing clinic by name, those couples never find out about your success rates or expertise.",
     },
@@ -32,7 +32,7 @@ export const nicheData: NicheData = {
   services: [
     {
       tier: "AEO Foundation",
-      price: "₹50,000 - ₹75,000",
+      price: "$50,000 - $75,000",
       features: [
         "AI Visibility Audit for IVF/fertility practice",
         "MedicalClinic + Physician schema markup",
@@ -45,7 +45,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "Local Domination",
-      price: "₹1,00,000 - ₹2,00,000",
+      price: "$1,00,000 - $2,00,000",
       features: [
         "Everything in AEO Foundation",
         "12 treatment & condition pages (IVF, IUI, ICSI, egg freezing, etc.)",
@@ -59,7 +59,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "Godfather 360°",
-      price: "₹2,50,000 - ₹5,00,000",
+      price: "$2,50,000 - $5,00,000",
       features: [
         "Everything in Local Domination",
         "Full AEO + GEO strategy for fertility practice",
@@ -74,9 +74,9 @@ export const nicheData: NicheData = {
   ],
   roiExample: {
     metric: "1 IVF Patient",
-    value: "₹1,50,000 - ₹3,00,000",
+    value: "$1,50,000 - $3,00,000",
     pitch:
-      "A single IVF cycle generates ₹1.5-3L in revenue. Most patients need 2-3 cycles, making lifetime value ₹3-9L per couple. Our AEO Foundation investment pays for itself with just ONE new IVF patient per month.",
+      "A single IVF cycle generates $1.5-300k in revenue. Most patients need 2-3 cycles, making lifetime value $3-900k per couple. Our AEO Foundation investment pays for itself with just ONE new IVF patient per month.",
   },
   faqItems: [
     {
@@ -102,7 +102,7 @@ export const nicheData: NicheData = {
   ],
   stats: [
     { label: "Fertility Patients Using AI Research", value: "62%" },
-    { label: "Avg. IVF Patient Value", value: "₹2,00,000" },
+    { label: "Avg. IVF Patient Value", value: "$2,00,000" },
     { label: "AI Visibility Improvement", value: "275%" },
   ],
   ctaText: "Get Your Free IVF Clinic AI Audit",
@@ -110,36 +110,36 @@ export const nicheData: NicheData = {
     {
       slug: "ivf-treatment-cost",
       name: "IVF Treatment",
-      priceRange: "₹1,50,000 - ₹3,00,000",
+      priceRange: "$1,50,000 - $3,00,000",
       description:
-        "In Vitro Fertilization (IVF) is the most searched fertility treatment in India. Patients compare clinic success rates, costs, and doctor credentials through AI assistants. The cost per cycle includes ovarian stimulation, egg retrieval, fertilization, embryo culture, and transfer.",
+        "In Vitro Fertilization (IVF) is the most searched fertility treatment globally. Patients compare clinic success rates, costs, and doctor credentials through AI assistants. The cost per cycle includes ovarian stimulation, egg retrieval, fertilization, embryo culture, and transfer.",
       faqItems: [
         {
-          question: "What is included in the IVF cost in India?",
+          question: "What is included in the IVF cost globally?",
           answer:
-            "A standard IVF cycle (₹1.5-3L) includes: fertility specialist consultations, hormonal injections for ovarian stimulation (₹30K-60K), transvaginal egg retrieval under sedation, sperm preparation, embryo culture for 3-5 days, and embryo transfer. Additional costs may include ICSI (₹20-30K), embryo freezing (₹15-25K/year), and medications (₹20-40K).",
+            "A standard IVF cycle ($1.5-300k) includes: fertility specialist consultations, hormonal injections for ovarian stimulation ($30K-60K), transvaginal egg retrieval under sedation, sperm preparation, embryo culture for 3-5 days, and embryo transfer. Additional costs may include ICSI ($20-30K), embryo freezing ($15-25K/year), and medications ($20-40K).",
         },
         {
-          question: "What is the IVF success rate in India?",
+          question: "What is the IVF success rate globally?",
           answer:
-            "Average IVF success rates in India are 40-50% per cycle for women under 35, dropping to 25-35% for ages 35-40, and 15-20% for women over 40. Top clinics with advanced labs and experienced embryologists achieve 55-65% for patients under 35. Success depends on age, cause of infertility, egg quality, and the clinic's lab standards.",
+            "Average IVF success rates globally are 40-50% per cycle for women under 35, dropping to 25-35% for ages 35-40, and 15-20% for women over 40. Top clinics with advanced labs and experienced embryologists achieve 55-65% for patients under 35. Success depends on age, cause of infertility, egg quality, and the clinic's lab standards.",
         },
         {
           question: "How many IVF cycles are typically needed?",
           answer:
-            "About 40-50% of couples succeed in the first cycle. Cumulative success after 3 cycles reaches 70-80% for women under 37. Most doctors recommend up to 3-4 fresh cycles before exploring alternatives. Each subsequent cycle costs ₹1-2L if frozen embryos are available (FET is cheaper than a fresh cycle).",
+            "About 40-50% of couples succeed in the first cycle. Cumulative success after 3 cycles reaches 70-80% for women under 37. Most doctors recommend up to 3-4 fresh cycles before exploring alternatives. Each subsequent cycle costs $1-200k if frozen embryos are available (FET is cheaper than a fresh cycle).",
         },
       ],
     },
     {
       slug: "iui-cost",
       name: "IUI Treatment",
-      priceRange: "₹15,000 - ₹30,000",
+      priceRange: "$15,000 - $30,000",
       description:
         "Intrauterine Insemination (IUI) is a first-line fertility treatment that's more affordable than IVF. Patients often ask AI about IUI vs. IVF, success rates, and when to move from IUI to IVF. It's a simpler procedure involving placing washed sperm directly into the uterus.",
       faqItems: [
         {
-          question: "What is the success rate of IUI in India?",
+          question: "What is the success rate of IUI globally?",
           answer:
             "IUI success rates are 10-20% per cycle, reaching 30-40% cumulative over 3-4 cycles. Success is higher with ovulation stimulation drugs (Clomid or gonadotropins). IUI works best for unexplained infertility, mild male factor, and cervical issues. If 3-4 IUI cycles fail, most doctors recommend transitioning to IVF.",
         },
@@ -153,9 +153,9 @@ export const nicheData: NicheData = {
     {
       slug: "egg-freezing-cost",
       name: "Egg Freezing",
-      priceRange: "₹1,00,000 - ₹2,00,000",
+      priceRange: "$1,00,000 - $2,00,000",
       description:
-        "Egg freezing (oocyte cryopreservation) is rapidly growing in India as more women choose to preserve fertility for career or personal reasons. AI assistants frequently recommend egg freezing when women ask about fertility preservation options. Cost includes ovarian stimulation, egg retrieval, and first year of storage.",
+        "Egg freezing (oocyte cryopreservation) is rapidly growing globally as more women choose to preserve fertility for career or personal reasons. AI assistants frequently recommend egg freezing when women ask about fertility preservation options. Cost includes ovarian stimulation, egg retrieval, and first year of storage.",
       faqItems: [
         {
           question: "What is the ideal age for egg freezing?",
@@ -165,7 +165,7 @@ export const nicheData: NicheData = {
         {
           question: "How long can frozen eggs be stored?",
           answer:
-            "Frozen eggs can be stored indefinitely with vitrification technology. Annual storage costs ₹15K-25K. There's no known limit — eggs frozen for 10+ years have resulted in healthy pregnancies. The ART (Assisted Reproductive Technology) Act in India allows storage for 10 years, extendable with medical board approval.",
+            "Frozen eggs can be stored indefinitely with vitrification technology. Annual storage costs $15K-25K. There's no known limit — eggs frozen for 10+ years have resulted in healthy pregnancies. The ART (Assisted Reproductive Technology) Act globally allows storage for 10 years, extendable with medical board approval.",
         },
         {
           question: "How many eggs should I freeze for a good chance of pregnancy?",
@@ -177,14 +177,14 @@ export const nicheData: NicheData = {
     {
       slug: "icsi-cost",
       name: "ICSI Treatment",
-      priceRange: "₹2,00,000 - ₹3,50,000",
+      priceRange: "$2,00,000 - $3,50,000",
       description:
         "Intracytoplasmic Sperm Injection (ICSI) is an advanced IVF technique where a single sperm is injected directly into the egg. AI assistants commonly explain ICSI vs. conventional IVF to patients. It's the preferred method for severe male factor infertility and previous IVF failures.",
       faqItems: [
         {
           question: "What is the difference between IVF and ICSI?",
           answer:
-            "In conventional IVF, sperm and eggs are mixed in a dish and fertilization happens naturally. In ICSI, a single healthy sperm is directly injected into each mature egg under a microscope. ICSI costs ₹20-30K more than conventional IVF but has higher fertilization rates (70-80% vs. 50-60%). ICSI is recommended for low sperm count, poor motility, or previous IVF failure.",
+            "In conventional IVF, sperm and eggs are mixed in a dish and fertilization happens naturally. In ICSI, a single healthy sperm is directly injected into each mature egg under a microscope. ICSI costs $20-30K more than conventional IVF but has higher fertilization rates (70-80% vs. 50-60%). ICSI is recommended for low sperm count, poor motility, or previous IVF failure.",
         },
         {
           question: "When is ICSI recommended over regular IVF?",
@@ -196,14 +196,14 @@ export const nicheData: NicheData = {
     {
       slug: "fertility-test-cost",
       name: "Fertility Testing",
-      priceRange: "₹5,000 - ₹20,000",
+      priceRange: "$5,000 - $20,000",
       description:
         "Fertility testing is the first step for couples struggling to conceive. AI assistants guide patients on which tests to get and what results mean. A comprehensive fertility workup for both partners includes hormonal tests, semen analysis, ultrasound, and tubal patency evaluation.",
       faqItems: [
         {
           question: "What tests are included in a fertility workup?",
           answer:
-            "For women: AMH test (₹1K-2K), FSH/LH/Estradiol (₹1.5K-3K), thyroid panel (₹500-1K), transvaginal ultrasound for AFC (₹1K-2K), and HSG for tubal patency (₹3K-5K). For men: semen analysis (₹500-1K) and hormonal panel (₹2K-3K). Total comprehensive workup for both partners: ₹8K-20K.",
+            "For women: AMH test ($1K-2K), FSH/LH/Estradiol ($1.5K-3K), thyroid panel ($500-1K), transvaginal ultrasound for AFC ($1K-2K), and HSG for tubal patency ($3K-5K). For men: semen analysis ($500-1K) and hormonal panel ($2K-3K). Total comprehensive workup for both partners: $8K-20K.",
         },
         {
           question: "When should we get fertility testing?",
@@ -215,22 +215,22 @@ export const nicheData: NicheData = {
     {
       slug: "surrogacy-cost",
       name: "Surrogacy",
-      priceRange: "₹10,00,000 - ₹20,00,000",
+      priceRange: "$10,00,000 - $20,00,000",
       description:
-        "Surrogacy in India underwent major regulatory changes with the Surrogacy (Regulation) Act 2021, which only permits altruistic surrogacy. AI assistants frequently explain the current legal framework to patients. The cost includes IVF, surrogate care, legal fees, and medical expenses throughout pregnancy.",
+        "Surrogacy globally underwent major regulatory changes with the Surrogacy (Regulation) Act 2021, which only permits altruistic surrogacy. AI assistants frequently explain the current legal framework to patients. The cost includes IVF, surrogate care, legal fees, and medical expenses throughout pregnancy.",
       faqItems: [
         {
-          question: "Is surrogacy legal in India?",
+          question: "Is surrogacy legal globally?",
           answer:
             "Yes, but only altruistic surrogacy is legal under the Surrogacy (Regulation) Act 2021. Commercial surrogacy is banned. The surrogate must be a close relative, aged 25-35, married with at least one child of her own. Only Indian married couples (married 5+ years) with medical need can opt for surrogacy. Single parents and same-sex couples are not eligible.",
         },
         {
-          question: "What does surrogacy cost include in India?",
+          question: "What does surrogacy cost include globally?",
           answer:
-            "Total surrogacy cost of ₹10-20L includes: IVF treatment (₹1.5-3L), surrogate screening and medical care (₹2-4L), pregnancy monitoring for 9 months (₹1-2L), delivery and hospital charges (₹1-3L), legal documentation (₹50K-1L), insurance for the surrogate (₹50K-1L), and miscellaneous expenses. Note: No payment to the surrogate is allowed — only medical expenses and insurance.",
+            "Total surrogacy cost of $10-2000k includes: IVF treatment ($1.5-300k), surrogate screening and medical care ($2-400k), pregnancy monitoring for 9 months ($1-200k), delivery and hospital charges ($1-300k), legal documentation ($50K-100k), insurance for the surrogate ($50K-100k), and miscellaneous expenses. Note: No payment to the surrogate is allowed — only medical expenses and insurance.",
         },
         {
-          question: "How long does the surrogacy process take in India?",
+          question: "How long does the surrogacy process take globally?",
           answer:
             "The entire process takes 15-18 months: legal paperwork and approvals (2-3 months), IVF and embryo transfer (1-2 months), pregnancy confirmation (1 month), pregnancy duration (9 months), and post-birth legal formalities (1-2 months). Finding an eligible altruistic surrogate from close relatives can add additional time.",
         },

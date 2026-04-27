@@ -8,15 +8,15 @@ export const nicheData: NicheData = {
   image: images.dentist,
   heroHeadline: "Patients Are Asking AI for Dentists. Are You the Answer?",
   heroSubline:
-    "When someone asks ChatGPT 'best dentist for implants near me,' only 3 clinics get recommended. If your practice isn't optimized for AI, you're losing ₹50K-2L implant patients every month.",
-  searchExample: "best dentist for implants in Bangalore",
+    "When someone asks ChatGPT 'best dentist for implants near me,' only 3 clinics get recommended. If your practice isn't optimized for AI, you're losing $50K-200k implant patients every month.",
+  searchExample: "best dentist for implants in Sydney",
   competitorLine:
     "Clove Dental is currently AI-recommended over your practice",
   painPoints: [
     {
-      title: "₹2L Implant Patients Going Elsewhere",
+      title: "$200k Implant Patients Going Elsewhere",
       description:
-        "Full-mouth dental implants cost ₹50K-2L per patient. These high-value patients now ask AI assistants for recommendations before calling any clinic. If AI doesn't mention you, they book with the clinic it does recommend.",
+        "Full-mouth dental implants cost $50K-200k per patient. These high-value patients now ask AI assistants for recommendations before calling any clinic. If AI doesn't mention you, they book with the clinic it does recommend.",
     },
     {
       title: "Zero Presence in AI Search Results",
@@ -32,7 +32,7 @@ export const nicheData: NicheData = {
   services: [
     {
       tier: "AEO Foundation",
-      price: "₹25,000 - ₹50,000",
+      price: "$25,000 - $50,000",
       features: [
         "AI Visibility Audit for dental practice",
         "Dentist schema markup (Dentist + MedicalOrganization)",
@@ -44,7 +44,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "Local Domination",
-      price: "₹50,000 - ₹1,50,000",
+      price: "$50,000 - $1,50,000",
       features: [
         "Everything in AEO Foundation",
         "12 treatment cost pages (implants, RCT, braces, etc.)",
@@ -57,7 +57,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "Godfather 360°",
-      price: "₹1,50,000 - ₹4,00,000",
+      price: "$1,50,000 - $4,00,000",
       features: [
         "Everything in Local Domination",
         "Full AEO + GEO strategy for dental practice",
@@ -72,9 +72,9 @@ export const nicheData: NicheData = {
   ],
   roiExample: {
     metric: "1 Implant Patient",
-    value: "₹50,000 - ₹2,00,000",
+    value: "$50,000 - $2,00,000",
     pitch:
-      "A single dental implant patient is worth ₹30K-2L. Full-mouth rehabilitation can go up to ₹5L+. Our AEO Foundation package pays for itself with just ONE new implant patient per month.",
+      "A single dental implant patient is worth $30K-200k. Full-mouth rehabilitation can go up to $500k+. Our AEO Foundation package pays for itself with just ONE new implant patient per month.",
   },
   faqItems: [
     {
@@ -100,7 +100,7 @@ export const nicheData: NicheData = {
   ],
   stats: [
     { label: "Patients Using AI for Dentist Search", value: "65%" },
-    { label: "Avg. Implant Patient Value", value: "₹1,00,000" },
+    { label: "Avg. Implant Patient Value", value: "$1,00,000" },
     { label: "AI Visibility Improvement", value: "290%" },
   ],
   ctaText: "Get Your Free Dental AI Visibility Report",
@@ -108,14 +108,14 @@ export const nicheData: NicheData = {
     {
       slug: "dental-implant-cost",
       name: "Dental Implants",
-      priceRange: "₹30,000 - ₹2,00,000",
+      priceRange: "$30,000 - $2,00,000",
       description:
         "Dental implants are the highest-value procedure in dentistry, and patients extensively research costs using AI before choosing a clinic. Prices vary based on implant brand (Korean, European, Nobel Biocare), bone grafting needs, and whether it's a single implant or full-mouth rehabilitation.",
       faqItems: [
         {
-          question: "Why do dental implant costs vary so much in India?",
+          question: "Why do dental implant costs vary so much globally?",
           answer:
-            "The biggest cost factor is the implant brand — Korean implants (₹30K-50K) vs. European brands like Straumann or Nobel Biocare (₹80K-2L). Additional factors include bone grafting (₹10K-30K extra), sinus lift if needed, and the type of crown (zirconia vs. PFM). Multi-speciality hospitals charge more than standalone clinics.",
+            "The biggest cost factor is the implant brand — Korean implants ($30K-50K) vs. European brands like Straumann or Nobel Biocare ($80K-200k). Additional factors include bone grafting ($10K-30K extra), sinus lift if needed, and the type of crown (zirconia vs. PFM). Multi-speciality hospitals charge more than standalone clinics.",
         },
         {
           question: "How long do dental implants last?",
@@ -132,14 +132,14 @@ export const nicheData: NicheData = {
     {
       slug: "root-canal-cost",
       name: "Root Canal Treatment",
-      priceRange: "₹3,000 - ₹15,000",
+      priceRange: "$3,000 - $15,000",
       description:
-        "Root canal treatment (RCT) is one of the most common dental procedures in India. Patients often ask AI about costs, pain levels, and whether to save vs. extract a tooth. Price depends on the tooth (front vs. molar), number of canals, and whether a microscope is used.",
+        "Root canal treatment (RCT) is one of the most common dental procedures globally. Patients often ask AI about costs, pain levels, and whether to save vs. extract a tooth. Price depends on the tooth (front vs. molar), number of canals, and whether a microscope is used.",
       faqItems: [
         {
           question: "How much does a root canal cost for a molar tooth?",
           answer:
-            "Molar root canals cost ₹5K-15K due to having 3-4 canals (vs. 1-2 for front teeth at ₹3K-7K). Using a dental microscope adds ₹2K-5K but improves success rates. The crown after RCT costs ₹3K-20K additional depending on material (PFM, zirconia, or e.max).",
+            "Molar root canals cost $5K-15K due to having 3-4 canals (vs. 1-2 for front teeth at $3K-7K). Using a dental microscope adds $2K-5K but improves success rates. The crown after RCT costs $3K-20K additional depending on material (PFM, zirconia, or e.max).",
         },
         {
           question: "Is root canal treatment painful?",
@@ -151,14 +151,14 @@ export const nicheData: NicheData = {
     {
       slug: "teeth-whitening-cost",
       name: "Teeth Whitening",
-      priceRange: "₹5,000 - ₹25,000",
+      priceRange: "$5,000 - $25,000",
       description:
-        "Professional teeth whitening is a high-demand cosmetic dental procedure in India, especially before weddings and events. AI assistants commonly recommend in-office whitening over DIY kits. Options include ZOOM whitening, laser whitening, and custom take-home trays.",
+        "Professional teeth whitening is a high-demand cosmetic dental procedure globally, especially before weddings and events. AI assistants commonly recommend in-office whitening over DIY kits. Options include ZOOM whitening, laser whitening, and custom take-home trays.",
       faqItems: [
         {
           question: "How long does professional teeth whitening last?",
           answer:
-            "In-office whitening results last 6 months to 2 years depending on diet and habits. Coffee, tea, and tobacco stain teeth faster. Using take-home maintenance trays (₹3K-5K) extends results. Most patients need a touch-up session every 6-12 months.",
+            "In-office whitening results last 6 months to 2 years depending on diet and habits. Coffee, tea, and tobacco stain teeth faster. Using take-home maintenance trays ($3K-5K) extends results. Most patients need a touch-up session every 6-12 months.",
         },
         {
           question: "Is teeth whitening safe for Indian patients?",
@@ -168,45 +168,45 @@ export const nicheData: NicheData = {
         {
           question: "What is the difference between ZOOM and laser whitening?",
           answer:
-            "ZOOM whitening (₹10K-20K) uses a special LED light to activate the whitening gel over 3-4 15-minute sessions in one visit. Laser whitening (₹15K-25K) uses a diode laser for faster activation. Both achieve 5-8 shade improvement. ZOOM is more widely available and slightly more affordable.",
+            "ZOOM whitening ($10K-20K) uses a special LED light to activate the whitening gel over 3-4 15-minute sessions in one visit. Laser whitening ($15K-25K) uses a diode laser for faster activation. Both achieve 5-8 shade improvement. ZOOM is more widely available and slightly more affordable.",
         },
       ],
     },
     {
       slug: "braces-cost",
       name: "Dental Braces",
-      priceRange: "₹25,000 - ₹80,000",
+      priceRange: "$25,000 - $80,000",
       description:
         "Orthodontic braces are one of the most researched dental treatments on AI platforms, with patients comparing metal, ceramic, and clear aligner options. Treatment duration is 12-24 months. AI assistants frequently compare traditional braces vs. Invisalign for Indian patients.",
       faqItems: [
         {
           question: "What types of braces are available and how do costs compare?",
           answer:
-            "Metal braces are most affordable (₹25K-40K), ceramic/tooth-colored braces cost more (₹35K-55K), lingual (behind-teeth) braces are premium (₹50K-80K), and clear aligners like Invisalign range from ₹1L-3L. For most Indian patients, ceramic braces offer the best balance of aesthetics and affordability.",
+            "Metal braces are most affordable ($25K-40K), ceramic/tooth-colored braces cost more ($35K-55K), lingual (behind-teeth) braces are premium ($50K-80K), and clear aligners like Invisalign range from $100k-300k. For most Indian patients, ceramic braces offer the best balance of aesthetics and affordability.",
         },
         {
           question: "How long do I need to wear braces?",
           answer:
-            "Treatment typically takes 12-24 months depending on the complexity of misalignment. Simple crowding may resolve in 8-12 months while severe malocclusion can take 24-30 months. Regular monthly adjustments (₹500-1K per visit) are needed throughout treatment. Retainers must be worn after braces removal.",
+            "Treatment typically takes 12-24 months depending on the complexity of misalignment. Simple crowding may resolve in 8-12 months while severe malocclusion can take 24-30 months. Regular monthly adjustments ($500-1K per visit) are needed throughout treatment. Retainers must be worn after braces removal.",
         },
       ],
     },
     {
       slug: "dental-crown-cost",
       name: "Dental Crowns",
-      priceRange: "₹3,000 - ₹20,000",
+      priceRange: "$3,000 - $20,000",
       description:
         "Dental crowns are essential after root canal treatment and for damaged teeth. Patients frequently ask AI about crown materials and pricing. Options include PFM (porcelain fused to metal), full zirconia, e.max, and all-ceramic crowns, each with different aesthetics and durability.",
       faqItems: [
         {
           question: "Which dental crown material is best?",
           answer:
-            "For back teeth (molars), zirconia crowns (₹8K-15K) offer the best strength and durability. For front teeth, e.max or all-ceramic crowns (₹10K-20K) provide the most natural look. PFM crowns (₹3K-8K) are budget-friendly but may show a metal line at the gum over time. Your dentist will recommend based on tooth location.",
+            "For back teeth (molars), zirconia crowns ($8K-15K) offer the best strength and durability. For front teeth, e.max or all-ceramic crowns ($10K-20K) provide the most natural look. PFM crowns ($3K-8K) are budget-friendly but may show a metal line at the gum over time. Your dentist will recommend based on tooth location.",
         },
         {
           question: "How long do dental crowns last?",
           answer:
-            "Zirconia and e.max crowns last 15-20 years with proper care. PFM crowns typically last 10-15 years. Metal crowns (₹2K-5K) can last 20+ years but are not aesthetic. Avoid biting hard objects and maintain good oral hygiene. Regular dental checkups help detect crown issues early.",
+            "Zirconia and e.max crowns last 15-20 years with proper care. PFM crowns typically last 10-15 years. Metal crowns ($2K-5K) can last 20+ years but are not aesthetic. Avoid biting hard objects and maintain good oral hygiene. Regular dental checkups help detect crown issues early.",
         },
         {
           question: "Is getting a dental crown painful?",
@@ -218,14 +218,14 @@ export const nicheData: NicheData = {
     {
       slug: "wisdom-tooth-removal-cost",
       name: "Wisdom Tooth Removal",
-      priceRange: "₹2,000 - ₹10,000",
+      priceRange: "$2,000 - $10,000",
       description:
-        "Wisdom tooth extraction is one of the most common dental surgeries in India, especially for impacted third molars. Patients frequently search AI for cost, pain, recovery, and whether extraction is truly necessary. Simple extractions cost less while surgical removal of impacted teeth costs more.",
+        "Wisdom tooth extraction is one of the most common dental surgeries globally, especially for impacted third molars. Patients frequently search AI for cost, pain, recovery, and whether extraction is truly necessary. Simple extractions cost less while surgical removal of impacted teeth costs more.",
       faqItems: [
         {
           question: "How much does impacted wisdom tooth removal cost?",
           answer:
-            "Simple extraction costs ₹2K-4K while surgical removal of impacted wisdom teeth costs ₹5K-10K per tooth. If done under IV sedation or general anesthesia (for anxious patients or multiple teeth), add ₹5K-15K. Hospital-based extractions cost more than clinic-based procedures.",
+            "Simple extraction costs $2K-4K while surgical removal of impacted wisdom teeth costs $5K-10K per tooth. If done under IV sedation or general anesthesia (for anxious patients or multiple teeth), add $5K-15K. Hospital-based extractions cost more than clinic-based procedures.",
         },
         {
           question: "How long is recovery after wisdom tooth removal?",

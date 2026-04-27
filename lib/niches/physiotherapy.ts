@@ -30,7 +30,7 @@ export const nicheData: NicheData = {
   services: [
     {
       tier: "AI Foundation",
-      price: "₹15,000 - ₹30,000",
+      price: "$15,000 - $30,000",
       features: [
         "Google Business Profile optimization for physiotherapy keywords",
         "Structured schema markup for MedicalBusiness + PhysicalTherapy",
@@ -41,7 +41,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "AI Growth",
-      price: "₹40,000 - ₹80,000",
+      price: "$40,000 - $80,000",
       features: [
         "Everything in AI Foundation",
         "Full AEO for 25+ physiotherapy keywords (rehab, sports, chronic pain)",
@@ -53,7 +53,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "AI Dominance",
-      price: "₹1,00,000 - ₹2,00,000",
+      price: "$1,00,000 - $2,00,000",
       features: [
         "Everything in AI Growth",
         "Full website rebuild optimized for AI crawlers",
@@ -67,9 +67,9 @@ export const nicheData: NicheData = {
   ],
   roiExample: {
     metric: "10 Regular Patients/Month",
-    value: "₹50K-1L",
+    value: "$50K-100k",
     pitch:
-      "Just 10 new regular patients per month at ₹500-1,000 per session, attending 8-12 sessions each, generates ₹50K-1L in monthly revenue. Post-surgical rehab patients alone generate ₹15-25K each over their treatment course.",
+      "Just 10 new regular patients per month at $500-1,000 per session, attending 8-12 sessions each, generates $50K-100k in monthly revenue. Post-surgical rehab patients alone generate $15-25K each over their treatment course.",
   },
   faqItems: [
     {
@@ -85,7 +85,7 @@ export const nicheData: NicheData = {
     {
       question: "Can a solo physiotherapy clinic compete with chains like PhysioFirst?",
       answer:
-        "Yes. Chain clinics have generic protocols while your clinic offers personalized, condition-specific treatment. For queries like 'best physiotherapist for ACL rehab in Pune' or 'stroke rehabilitation at home,' specialized clinics with proper AEO consistently outperform chains that offer one-size-fits-all programs.",
+        "Yes. Chain clinics have generic protocols while your clinic offers personalized, condition-specific treatment. For queries like 'best physiotherapist for ACL rehab in Austin' or 'stroke rehabilitation at home,' specialized clinics with proper AEO consistently outperform chains that offer one-size-fits-all programs.",
     },
     {
       question: "How quickly will I see more patient inquiries?",
@@ -96,7 +96,7 @@ export const nicheData: NicheData = {
   stats: [
     { label: "of patients research physiotherapists online before visiting", value: "65%" },
     { label: "ask AI or voice assistants for physio recommendations", value: "41%" },
-    { label: "average revenue per rehab patient (full course)", value: "₹18K" },
+    { label: "average revenue per rehab patient (full course)", value: "$18K" },
   ],
   ctaText: "Get Your Free Physiotherapy AI Visibility Audit",
   searchExample: "best physiotherapist near me for knee pain",
@@ -106,14 +106,14 @@ export const nicheData: NicheData = {
     {
       slug: "physiotherapy-session-cost",
       name: "Physiotherapy Sessions",
-      priceRange: "₹500 - ₹2,000/session",
+      priceRange: "$500 - $2,000/session",
       description:
         "Standard physiotherapy sessions including assessment, manual therapy, electrotherapy modalities, therapeutic exercises, and home exercise program design for various musculoskeletal and neurological conditions.",
       faqItems: [
         {
-          question: "What is the cost of physiotherapy sessions in India?",
+          question: "What is the cost of physiotherapy sessions globally?",
           answer:
-            "Physiotherapy sessions cost ₹500-1,000 at independent clinics, ₹1,000-2,000 at hospital-based centers, and ₹800-1,500 for home visits. Most conditions require 10-15 sessions over 4-6 weeks. Many clinics offer package deals: 10 sessions for ₹4,000-12,000 (saving 15-20% over individual rates).",
+            "Physiotherapy sessions cost $500-1,000 at independent clinics, $1,000-2,000 at hospital-based centers, and $800-1,500 for home visits. Most conditions require 10-15 sessions over 4-6 weeks. Many clinics offer package deals: 10 sessions for $4,000-12,000 (saving 15-20% over individual rates).",
         },
         {
           question: "How many physiotherapy sessions will I need?",
@@ -125,14 +125,14 @@ export const nicheData: NicheData = {
     {
       slug: "sports-rehab-cost",
       name: "Sports Rehabilitation",
-      priceRange: "₹1,000 - ₹3,000/session",
+      priceRange: "$1,000 - $3,000/session",
       description:
         "Specialized sports rehabilitation programs including ACL/MCL rehab, rotator cuff recovery, hamstring injury rehab, sports-specific conditioning, and return-to-sport assessment protocols.",
       faqItems: [
         {
-          question: "What does sports rehabilitation cost in India?",
+          question: "What does sports rehabilitation cost globally?",
           answer:
-            "Sports rehab costs ₹1,000-3,000 per session due to specialized equipment and expertise required. A full ACL rehab program (6-9 months, 40-60 sessions) costs ₹40,000-1,20,000. Many sports physio clinics offer athlete packages at ₹15,000-30,000/month for unlimited sessions during recovery.",
+            "Sports rehab costs $1,000-3,000 per session due to specialized equipment and expertise required. A full ACL rehab program (6-9 months, 40-60 sessions) costs $40,000-1,20,000. Many sports physio clinics offer athlete packages at $15,000-30,000/month for unlimited sessions during recovery.",
         },
         {
           question: "How is sports physiotherapy different from regular physiotherapy?",
@@ -149,14 +149,14 @@ export const nicheData: NicheData = {
     {
       slug: "back-pain-treatment-cost",
       name: "Back Pain Treatment",
-      priceRange: "₹500 - ₹1,500/session",
+      priceRange: "$500 - $1,500/session",
       description:
         "Comprehensive back pain management including spinal mobilization, core strengthening, ergonomic assessment, posture correction, McKenzie method, and prevention programs for office workers.",
       faqItems: [
         {
           question: "What does physiotherapy for back pain cost?",
           answer:
-            "Back pain physiotherapy costs ₹500-1,500 per session. A typical course of 10-15 sessions costs ₹5,000-15,000. Chronic back pain may require 15-20 sessions. Many clinics offer corporate packages for office workers at ₹3,000-5,000/person for ergonomic assessment + 6-session treatment program.",
+            "Back pain physiotherapy costs $500-1,500 per session. A typical course of 10-15 sessions costs $5,000-15,000. Chronic back pain may require 15-20 sessions. Many clinics offer corporate packages for office workers at $3,000-5,000/person for ergonomic assessment + 6-session treatment program.",
         },
         {
           question: "Is physiotherapy effective for disc problems?",
@@ -168,14 +168,14 @@ export const nicheData: NicheData = {
     {
       slug: "neck-pain-treatment-cost",
       name: "Neck Pain Treatment",
-      priceRange: "₹500 - ₹1,500/session",
+      priceRange: "$500 - $1,500/session",
       description:
         "Specialized neck pain treatment including cervical mobilization, dry needling, postural correction, ergonomic workplace assessment, and prevention programs for tech neck and cervical spondylosis.",
       faqItems: [
         {
           question: "What does neck pain physiotherapy cost?",
           answer:
-            "Neck pain physiotherapy costs ₹500-1,500 per session. Most cases require 8-12 sessions over 3-4 weeks. Cervical spondylosis may need 15-20 sessions. Many clinics include a free ergonomic assessment with neck pain treatment packages to prevent recurrence.",
+            "Neck pain physiotherapy costs $500-1,500 per session. Most cases require 8-12 sessions over 3-4 weeks. Cervical spondylosis may need 15-20 sessions. Many clinics include a free ergonomic assessment with neck pain treatment packages to prevent recurrence.",
         },
         {
           question: "Can physiotherapy cure cervical spondylosis permanently?",
@@ -187,14 +187,14 @@ export const nicheData: NicheData = {
     {
       slug: "knee-physio-cost",
       name: "Knee Physiotherapy",
-      priceRange: "₹500 - ₹2,000/session",
+      priceRange: "$500 - $2,000/session",
       description:
         "Comprehensive knee rehabilitation including post-surgical rehab (TKR, ACL, meniscus), osteoarthritis management, patellar tracking correction, and pre-surgery conditioning programs.",
       faqItems: [
         {
-          question: "What is the cost of knee physiotherapy in India?",
+          question: "What is the cost of knee physiotherapy globally?",
           answer:
-            "Knee physiotherapy costs ₹500-2,000 per session. Post-knee replacement rehab (20-30 sessions over 3 months) costs ₹10,000-40,000. ACL rehab (40-60 sessions over 6-9 months) costs ₹20,000-80,000. Osteoarthritis management programs cost ₹5,000-15,000 for initial 10-session course.",
+            "Knee physiotherapy costs $500-2,000 per session. Post-knee replacement rehab (20-30 sessions over 3 months) costs $10,000-40,000. ACL rehab (40-60 sessions over 6-9 months) costs $20,000-80,000. Osteoarthritis management programs cost $5,000-15,000 for initial 10-session course.",
         },
         {
           question: "How long is physiotherapy needed after knee replacement?",
@@ -211,14 +211,14 @@ export const nicheData: NicheData = {
     {
       slug: "stroke-rehab-cost",
       name: "Stroke Rehabilitation",
-      priceRange: "₹1,000 - ₹3,000/session",
+      priceRange: "$1,000 - $3,000/session",
       description:
         "Specialized neurological rehabilitation for stroke survivors including mobility restoration, balance training, gait re-education, upper limb function recovery, and home modification guidance.",
       faqItems: [
         {
-          question: "What does stroke rehabilitation cost in India?",
+          question: "What does stroke rehabilitation cost globally?",
           answer:
-            "Stroke rehab costs ₹1,000-3,000 per session. Intensive stroke rehab programs (daily sessions for 4-12 weeks) cost ₹50,000-2,00,000. Home-based stroke rehab costs ₹1,500-3,000 per visit. Many neurological physio centers offer monthly packages at ₹20,000-40,000 for 15-20 sessions.",
+            "Stroke rehab costs $1,000-3,000 per session. Intensive stroke rehab programs (daily sessions for 4-12 weeks) cost $50,000-2,00,000. Home-based stroke rehab costs $1,500-3,000 per visit. Many neurological physio centers offer monthly packages at $20,000-40,000 for 15-20 sessions.",
         },
         {
           question: "How long does stroke rehabilitation take?",

@@ -8,7 +8,7 @@ export const nicheData: NicheData = {
   image: images.pediatrician,
   heroHeadline: "Parents Ask AI Which Pediatrician to Trust. What Does AI Say About You?",
   heroSubline:
-    "New parents at 2 AM ask ChatGPT 'best pediatrician near me' or 'baby fever what to do'. If AI recommends another doctor, that family — worth ₹50K-2L over their child's first 5 years — goes to your competitor.",
+    "New parents at 2 AM ask ChatGPT 'best pediatrician near me' or 'baby fever what to do'. If AI recommends another doctor, that family — worth $50K-200k over their child's first 5 years — goes to your competitor.",
   painPoints: [
     {
       title: "New Parents Asking AI for Baby Doctor Recommendations",
@@ -29,7 +29,7 @@ export const nicheData: NicheData = {
   services: [
     {
       tier: "AI Visibility Starter",
-      price: "₹20,000 - ₹40,000",
+      price: "$20,000 - $40,000",
       features: [
         "AI search audit for pediatric queries in your city",
         "Google Business Profile optimization with specializations",
@@ -40,7 +40,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "AI Authority Builder",
-      price: "₹50,000 - ₹1,00,000",
+      price: "$50,000 - $1,00,000",
       features: [
         "Full AEO strategy for pediatric practice",
         "20+ content pages (age-wise guides, common conditions, vaccination FAQs)",
@@ -52,7 +52,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "AI Dominance Package",
-      price: "₹1,50,000 - ₹3,00,000",
+      price: "$1,50,000 - $3,00,000",
       features: [
         "Complete AI ecosystem ownership for pediatrics in your city",
         "50+ programmatic pages (condition + age + treatment combos)",
@@ -66,9 +66,9 @@ export const nicheData: NicheData = {
   ],
   roiExample: {
     metric: "20 New Families/Month",
-    value: "₹1L - ₹2L",
+    value: "$100k - $200k",
     pitch:
-      "Each new family visits 8-12 times in the first year alone (vaccinations, check-ups, illness). 20 new families per month means ₹1-2L in monthly revenue, compounding as those families stay for 5-10 years.",
+      "Each new family visits 8-12 times in the first year alone (vaccinations, check-ups, illness). 20 new families per month means $1-200k in monthly revenue, compounding as those families stay for 5-10 years.",
   },
   faqItems: [
     {
@@ -79,7 +79,7 @@ export const nicheData: NicheData = {
     {
       question: "Our practice is full. Why do we need AI visibility?",
       answer:
-        "Even full practices lose patients to attrition (families moving, children growing up). AI visibility ensures a steady pipeline of new families. Plus, AI-recommended doctors can charge premium consultation fees — ₹800-1,500 instead of ₹500.",
+        "Even full practices lose patients to attrition (families moving, children growing up). AI visibility ensures a steady pipeline of new families. Plus, AI-recommended doctors can charge premium consultation fees — $800-1,500 instead of $500.",
     },
     {
       question: "Is AEO relevant for pediatricians with hospital affiliations?",
@@ -94,7 +94,7 @@ export const nicheData: NicheData = {
   ],
   stats: [
     { label: "New Parents Using AI for Doctor Recommendations", value: "71%" },
-    { label: "Lifetime Value of One Pediatric Family", value: "₹50K-2L" },
+    { label: "Lifetime Value of One Pediatric Family", value: "$50K-200k" },
     { label: "Pediatricians Missing from AI Answers", value: "83%" },
   ],
   ctaText: "Get Your Free AI Visibility Audit — See What Parents Find When They Ask AI About Pediatricians",
@@ -104,14 +104,14 @@ export const nicheData: NicheData = {
     {
       slug: "child-vaccination-cost",
       name: "Child Vaccination Cost",
-      priceRange: "₹500 - ₹5,000/vaccine",
+      priceRange: "$500 - $5,000/vaccine",
       description:
         "Vaccination is the #1 reason parents visit a pediatrician and the most searched pediatric query. Parents compare costs across clinics using AI, making structured vaccination data critical for patient acquisition.",
       faqItems: [
         {
-          question: "What is the average child vaccination cost in India?",
+          question: "What is the average child vaccination cost globally?",
           answer:
-            "Individual vaccines cost ₹500 to ₹5,000. BCG: ₹500-800, Pentavalent: ₹1,000-2,500, PCV: ₹3,000-4,500, Rotavirus: ₹1,000-1,500, MMR: ₹500-1,000. Complete vaccination for 0-5 years costs ₹15,000-40,000 at private clinics.",
+            "Individual vaccines cost $500 to $5,000. BCG: $500-800, Pentavalent: $1,000-2,500, PCV: $3,000-4,500, Rotavirus: $1,000-1,500, MMR: $500-1,000. Complete vaccination for 0-5 years costs $15,000-40,000 at private clinics.",
         },
         {
           question: "What is the IAP vaccination schedule for babies?",
@@ -121,40 +121,40 @@ export const nicheData: NicheData = {
         {
           question: "Are government vaccines different from private clinic vaccines?",
           answer:
-            "Government provides free essential vaccines (BCG, OPV, Pentavalent, MR, JE). Private clinics offer additional recommended vaccines (PCV, Rotavirus, Varicella, Hepatitis A) and often use acellular versions with fewer side effects. Total private cost: ₹25K-40K for 0-5 years.",
+            "Government provides free essential vaccines (BCG, OPV, Pentavalent, MR, JE). Private clinics offer additional recommended vaccines (PCV, Rotavirus, Varicella, Hepatitis A) and often use acellular versions with fewer side effects. Total private cost: $25K-40K for 0-5 years.",
         },
       ],
     },
     {
       slug: "newborn-checkup-cost",
       name: "Newborn Checkup Cost",
-      priceRange: "₹500 - ₹2,000",
+      priceRange: "$500 - $2,000",
       description:
         "Newborn checkups in the first 28 days are critical, and new parents actively search for trusted pediatricians during this window. Capturing these families means years of retained patients.",
       faqItems: [
         {
           question: "What does a newborn checkup include?",
           answer:
-            "A newborn checkup includes weight and length measurement, head circumference, reflexes check, heart and lung examination, umbilical cord assessment, jaundice screening, and feeding guidance. First visit costs ₹500-2,000 and should happen within 3-5 days of birth.",
+            "A newborn checkup includes weight and length measurement, head circumference, reflexes check, heart and lung examination, umbilical cord assessment, jaundice screening, and feeding guidance. First visit costs $500-2,000 and should happen within 3-5 days of birth.",
         },
         {
           question: "How often should a newborn see a pediatrician?",
           answer:
-            "Newborns should visit at 3-5 days, 2 weeks, 1 month, and then monthly until 6 months. After that, every 2-3 months until age 1. This means 10-12 visits in the first year alone, each costing ₹500-1,500 for consultation.",
+            "Newborns should visit at 3-5 days, 2 weeks, 1 month, and then monthly until 6 months. After that, every 2-3 months until age 1. This means 10-12 visits in the first year alone, each costing $500-1,500 for consultation.",
         },
       ],
     },
     {
       slug: "child-nutrition-consultation-cost",
       name: "Child Nutrition Consultation Cost",
-      priceRange: "₹800 - ₹3,000",
+      priceRange: "$800 - $3,000",
       description:
         "Parents increasingly consult pediatricians about child nutrition, picky eating, and growth concerns. AI queries about child nutrition are growing 40% year-over-year, making this a high-value content opportunity.",
       faqItems: [
         {
           question: "What does a child nutrition consultation include?",
           answer:
-            "A pediatric nutrition consultation includes growth assessment (height, weight, BMI percentile), dietary analysis, nutrient deficiency screening, and a personalized meal plan. Sessions cost ₹800-3,000 and typically require 2-3 follow-ups over 3 months.",
+            "A pediatric nutrition consultation includes growth assessment (height, weight, BMI percentile), dietary analysis, nutrient deficiency screening, and a personalized meal plan. Sessions cost $800-3,000 and typically require 2-3 follow-ups over 3 months.",
         },
         {
           question: "When should I consult a pediatrician about my child's eating habits?",
@@ -164,21 +164,21 @@ export const nicheData: NicheData = {
         {
           question: "Can a pediatrician help with a picky eater?",
           answer:
-            "Yes, pediatricians can assess whether picky eating is behavioral or has an underlying cause (sensory issues, reflux, allergies). They provide structured feeding strategies and may refer to a pediatric nutritionist. Consultation costs ₹800-2,000.",
+            "Yes, pediatricians can assess whether picky eating is behavioral or has an underlying cause (sensory issues, reflux, allergies). They provide structured feeding strategies and may refer to a pediatric nutritionist. Consultation costs $800-2,000.",
         },
       ],
     },
     {
       slug: "pediatric-allergy-test-cost",
       name: "Pediatric Allergy Test Cost",
-      priceRange: "₹2,000 - ₹10,000",
+      priceRange: "$2,000 - $10,000",
       description:
-        "Childhood allergies are rising in Indian cities, and parents actively search for pediatric allergy testing. AI queries about food allergies, skin prick tests, and allergy treatment are high-intent conversion opportunities.",
+        "Childhood allergies are rising globallyn cities, and parents actively search for pediatric allergy testing. AI queries about food allergies, skin prick tests, and allergy treatment are high-intent conversion opportunities.",
       faqItems: [
         {
           question: "What is the cost of allergy testing for children?",
           answer:
-            "Pediatric allergy tests cost ₹2,000 to ₹10,000. Skin prick test: ₹2,000-4,000, specific IgE blood panel: ₹3,000-8,000, comprehensive food allergy panel: ₹5,000-10,000. Patch testing for contact allergies: ₹2,000-5,000.",
+            "Pediatric allergy tests cost $2,000 to $10,000. Skin prick test: $2,000-4,000, specific IgE blood panel: $3,000-8,000, comprehensive food allergy panel: $5,000-10,000. Patch testing for contact allergies: $2,000-5,000.",
         },
         {
           question: "At what age can children get allergy testing?",
@@ -190,14 +190,14 @@ export const nicheData: NicheData = {
     {
       slug: "child-development-screening-cost",
       name: "Child Development Screening Cost",
-      priceRange: "₹1,500 - ₹5,000",
+      priceRange: "$1,500 - $5,000",
       description:
         "Developmental screening for speech delay, autism spectrum, and learning disabilities is increasingly searched by concerned parents. Early detection is critical, making these AI queries high-intent and urgent.",
       faqItems: [
         {
           question: "What is included in a child development screening?",
           answer:
-            "Development screening assesses motor skills, speech and language, social interaction, cognitive abilities, and adaptive behavior using standardized tools (M-CHAT, DASII, ASQ). Sessions take 45-90 minutes and cost ₹1,500-5,000. Results guide further evaluation if needed.",
+            "Development screening assesses motor skills, speech and language, social interaction, cognitive abilities, and adaptive behavior using standardized tools (M-CHAT, DASII, ASQ). Sessions take 45-90 minutes and cost $1,500-5,000. Results guide further evaluation if needed.",
         },
         {
           question: "When should I get my child screened for developmental delays?",
@@ -207,21 +207,21 @@ export const nicheData: NicheData = {
         {
           question: "What happens if screening shows a developmental concern?",
           answer:
-            "A positive screening leads to detailed assessment by specialists (developmental pediatrician, speech therapist, psychologist). Early intervention services (speech therapy: ₹500-1,500/session, occupational therapy: ₹500-1,200/session) are highly effective before age 3.",
+            "A positive screening leads to detailed assessment by specialists (developmental pediatrician, speech therapist, psychologist). Early intervention services (speech therapy: $500-1,500/session, occupational therapy: $500-1,200/session) are highly effective before age 3.",
         },
       ],
     },
     {
       slug: "pediatric-ent-cost",
       name: "Pediatric ENT Consultation Cost",
-      priceRange: "₹800 - ₹3,000",
+      priceRange: "$800 - $3,000",
       description:
         "Ear infections, tonsillitis, and adenoid issues are among the most common pediatric complaints. Parents search AI for both immediate remedies and specialist recommendations, making this a consistent traffic driver.",
       faqItems: [
         {
           question: "What is the cost of a pediatric ENT consultation?",
           answer:
-            "Pediatric ENT consultation costs ₹800 to ₹3,000. Follow-up visits: ₹500-1,500. Common procedures like ear wax removal: ₹500-1,500, hearing test: ₹1,000-3,000, tonsillectomy: ₹25,000-60,000 (including hospital stay).",
+            "Pediatric ENT consultation costs $800 to $3,000. Follow-up visits: $500-1,500. Common procedures like ear wax removal: $500-1,500, hearing test: $1,000-3,000, tonsillectomy: $25,000-60,000 (including hospital stay).",
         },
         {
           question: "When should I take my child to an ENT specialist?",

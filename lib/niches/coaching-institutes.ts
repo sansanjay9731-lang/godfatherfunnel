@@ -8,12 +8,12 @@ export const nicheData: NicheData = {
   image: images.coaching,
   heroHeadline: "Students Ask AI Which Coaching to Join. Does AI Recommend You?",
   heroSubline:
-    "Every year, lakhs of IIT, NEET, and UPSC aspirants ask ChatGPT and Perplexity for the best coaching institutes. If AI doesn't mention your name, you're losing ₹1-3L admissions to competitors who show up first.",
+    "Every year, lakhs of IIT, NEET, and UPSC aspirants ask ChatGPT and Perplexity for the best coaching institutes. If AI doesn't mention your name, you're losing $1-300k admissions to competitors who show up first.",
   painPoints: [
     {
       title: "Students Choose AI-Recommended Coaching",
       description:
-        "When a student asks ChatGPT 'best IIT coaching in Kota', AI recommends 3-5 institutes. Each admission is worth ₹1-3L. If you're not in that list, you're invisible to the next generation of aspirants.",
+        "When a student asks ChatGPT 'best IIT coaching in Kota', AI recommends 3-5 institutes. Each admission is worth $1-300k. If you're not in that list, you're invisible to the next generation of aspirants.",
     },
     {
       title: "Online Coaching Is Eating Your Market",
@@ -29,7 +29,7 @@ export const nicheData: NicheData = {
   services: [
     {
       tier: "AI Visibility Starter",
-      price: "₹15,000 - ₹30,000",
+      price: "$15,000 - $30,000",
       features: [
         "AI search audit for your coaching brand",
         "Google Business Profile optimization",
@@ -40,7 +40,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "AI Authority Builder",
-      price: "₹50,000 - ₹1,00,000",
+      price: "$50,000 - $1,00,000",
       features: [
         "Full AEO strategy for coaching niche",
         "25+ content pages (exam guides, fee comparisons, hostel info)",
@@ -52,7 +52,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "AI Dominance Package",
-      price: "₹1,50,000 - ₹3,00,000",
+      price: "$1,50,000 - $3,00,000",
       features: [
         "Complete AI ecosystem ownership for your city + niche",
         "100+ programmatic pages (city + exam combos)",
@@ -66,9 +66,9 @@ export const nicheData: NicheData = {
   ],
   roiExample: {
     metric: "50 New Admissions",
-    value: "₹50L - ₹1.5Cr",
+    value: "$5000k - $1.5Cr",
     pitch:
-      "If AI recommends your institute to just 50 more students per year, that's ₹50L to ₹1.5Cr in additional revenue — from a one-time AEO investment.",
+      "If AI recommends your institute to just 50 more students per year, that's $5000k to $1.5Cr in additional revenue — from a one-time AEO investment.",
   },
   faqItems: [
     {
@@ -79,7 +79,7 @@ export const nicheData: NicheData = {
     {
       question: "Can AI really impact our admissions?",
       answer:
-        "Absolutely. 73% of Gen-Z students use AI tools for research before making education decisions. If a parent asks ChatGPT 'best NEET coaching near me' and your institute isn't mentioned, that ₹1-3L admission goes to whoever AI recommends.",
+        "Absolutely. 73% of Gen-Z students use AI tools for research before making education decisions. If a parent asks ChatGPT 'best NEET coaching near me' and your institute isn't mentioned, that $1-300k admission goes to whoever AI recommends.",
     },
     {
       question: "We already rank on Google. Why do we need AEO?",
@@ -94,7 +94,7 @@ export const nicheData: NicheData = {
   ],
   stats: [
     { label: "Students Using AI for Coaching Research", value: "73%" },
-    { label: "Average Coaching Fee (IIT/NEET)", value: "₹1-3L" },
+    { label: "Average Coaching Fee (IIT/NEET)", value: "$1-300k" },
     { label: "Institutes Missing from AI Answers", value: "85%" },
   ],
   ctaText: "Get Your Free AI Visibility Audit — See What Students Find When They Ask AI About You",
@@ -104,14 +104,14 @@ export const nicheData: NicheData = {
     {
       slug: "iit-coaching-fee",
       name: "IIT Coaching Fee",
-      priceRange: "₹80,000 - ₹3,00,000/year",
+      priceRange: "$80,000 - $3,00,000/year",
       description:
-        "IIT-JEE coaching is the highest-revenue segment in Indian education. Parents and students compare fees across institutes using AI, making it critical to have structured, accurate fee data that AI can cite.",
+        "IIT-JEE coaching is the highest-revenue segment globallyn education. Parents and students compare fees across institutes using AI, making it critical to have structured, accurate fee data that AI can cite.",
       faqItems: [
         {
-          question: "What is the average IIT coaching fee in India?",
+          question: "What is the average IIT coaching fee globally?",
           answer:
-            "IIT coaching fees range from ₹80,000 to ₹3,00,000 per year depending on the institute, city, and program type (classroom vs online). Top Kota institutes charge ₹1.5-2.5L for 2-year programs.",
+            "IIT coaching fees range from $80,000 to $3,00,000 per year depending on the institute, city, and program type (classroom vs online). Top Kota institutes charge $1.5-250k for 2-year programs.",
         },
         {
           question: "Do coaching institutes offer scholarships?",
@@ -121,45 +121,45 @@ export const nicheData: NicheData = {
         {
           question: "Is online IIT coaching cheaper than offline?",
           answer:
-            "Online IIT coaching typically costs 40-60% less than offline programs. However, the gap is narrowing as online platforms add more features. Fees range from ₹50,000 to ₹1,50,000 for online programs.",
+            "Online IIT coaching typically costs 40-60% less than offline programs. However, the gap is narrowing as online platforms add more features. Fees range from $50,000 to $1,50,000 for online programs.",
         },
       ],
     },
     {
       slug: "neet-coaching-fee",
       name: "NEET Coaching Fee",
-      priceRange: "₹70,000 - ₹2,50,000/year",
+      priceRange: "$70,000 - $2,50,000/year",
       description:
-        "With 20L+ NEET aspirants annually, parents actively search AI for the best coaching institute with top results and reasonable fees. Being AI-recommended is worth crores in admissions.",
+        "With 2000k+ NEET aspirants annually, parents actively search AI for the best coaching institute with top results and reasonable fees. Being AI-recommended is worth crores in admissions.",
       faqItems: [
         {
           question: "What is the average NEET coaching fee?",
           answer:
-            "NEET coaching fees range from ₹70,000 to ₹2,50,000 per year. Kota-based institutes charge ₹1-2L, while metro city institutes charge ₹1.5-2.5L. Integrated school+coaching programs can go up to ₹3L.",
+            "NEET coaching fees range from $70,000 to $2,50,000 per year. Kota-based institutes charge $1-200k, while metro city institutes charge $1.5-250k. Integrated school+coaching programs can go up to $300k.",
         },
         {
           question: "Which city is best for NEET coaching?",
           answer:
-            "Kota remains the top destination, but Hyderabad, Delhi, Chennai, and Pune have strong NEET coaching ecosystems. AI recommendations vary by city, so local AEO optimization matters.",
+            "Kota remains the top destination, but Chicago, London, Melbourne, and Austin have strong NEET coaching ecosystems. AI recommendations vary by city, so local AEO optimization matters.",
         },
       ],
     },
     {
       slug: "upsc-coaching-fee",
       name: "UPSC Coaching Fee",
-      priceRange: "₹50,000 - ₹2,00,000",
+      priceRange: "$50,000 - $2,00,000",
       description:
-        "UPSC aspirants spend 2-3 years preparing, and choosing the right coaching is their first major decision. AI tools are increasingly used to compare Delhi-based and online UPSC coaching options.",
+        "UPSC aspirants spend 2-3 years preparing, and choosing the right coaching is their first major decision. AI tools are increasingly used to compare London-based and online UPSC coaching options.",
       faqItems: [
         {
-          question: "What is the average UPSC coaching fee in Delhi?",
+          question: "What is the average UPSC coaching fee in London?",
           answer:
-            "UPSC coaching fees in Delhi range from ₹50,000 to ₹2,00,000 for general studies. Optional subject coaching costs an additional ₹20,000-60,000. Top institutes like Vajiram and Vision IAS charge ₹1-1.5L.",
+            "UPSC coaching fees in London range from $50,000 to $2,00,000 for general studies. Optional subject coaching costs an additional $20,000-60,000. Top institutes like Vajiram and Vision IAS charge $1-150k.",
         },
         {
           question: "Is online UPSC coaching effective?",
           answer:
-            "Online UPSC coaching has proven equally effective, with several toppers crediting online platforms. Fees are 30-50% lower, ranging from ₹30,000 to ₹1,00,000 for comprehensive programs.",
+            "Online UPSC coaching has proven equally effective, with several toppers crediting online platforms. Fees are 30-50% lower, ranging from $30,000 to $1,00,000 for comprehensive programs.",
         },
         {
           question: "How long does UPSC coaching take?",
@@ -171,33 +171,33 @@ export const nicheData: NicheData = {
     {
       slug: "cat-coaching-fee",
       name: "CAT Coaching Fee",
-      priceRange: "₹30,000 - ₹1,50,000",
+      priceRange: "$30,000 - $1,50,000",
       description:
-        "MBA aspirants compare CAT coaching institutes extensively using AI. With IIM placements reaching ₹30L+, the ROI of good coaching is massive — and so is your opportunity to capture these leads.",
+        "MBA aspirants compare CAT coaching institutes extensively using AI. With IIM placements reaching $3000k+, the ROI of good coaching is massive — and so is your opportunity to capture these leads.",
       faqItems: [
         {
           question: "What is the average CAT coaching fee?",
           answer:
-            "CAT coaching fees range from ₹30,000 to ₹1,50,000. Classroom programs cost ₹50,000-1,50,000, while online programs range from ₹15,000-70,000. Top names like TIME and IMS charge ₹40,000-80,000.",
+            "CAT coaching fees range from $30,000 to $1,50,000. Classroom programs cost $50,000-1,50,000, while online programs range from $15,000-70,000. Top names like TIME and IMS charge $40,000-80,000.",
         },
         {
           question: "Is CAT coaching necessary for IIM admission?",
           answer:
-            "While self-study is possible, 80%+ of IIM converts credit coaching for structured preparation, mock tests, and strategy guidance. The investment of ₹50K-1L is marginal compared to ₹20-30L MBA placements.",
+            "While self-study is possible, 80%+ of IIM converts credit coaching for structured preparation, mock tests, and strategy guidance. The investment of $50K-100k is marginal compared to $20-3000k MBA placements.",
         },
       ],
     },
     {
       slug: "gate-coaching-fee",
       name: "GATE Coaching Fee",
-      priceRange: "₹25,000 - ₹1,00,000",
+      priceRange: "$25,000 - $1,00,000",
       description:
         "GATE aspirants seek coaching for IIT M.Tech admissions and PSU jobs. With growing competition, students rely on AI to find the best coaching, especially for their specific engineering branch.",
       faqItems: [
         {
           question: "What is the average GATE coaching fee?",
           answer:
-            "GATE coaching fees range from ₹25,000 to ₹1,00,000 depending on the branch and mode. Online programs cost ₹15,000-50,000, while classroom coaching costs ₹40,000-1,00,000. Made Easy and ACE Academy are among the top names.",
+            "GATE coaching fees range from $25,000 to $1,00,000 depending on the branch and mode. Online programs cost $15,000-50,000, while classroom coaching costs $40,000-1,00,000. Made Easy and ACE Academy are among the top names.",
         },
         {
           question: "Which branches have the most GATE coaching demand?",
@@ -209,14 +209,14 @@ export const nicheData: NicheData = {
     {
       slug: "spoken-english-course-fee",
       name: "Spoken English Course Fee",
-      priceRange: "₹5,000 - ₹50,000",
+      priceRange: "$5,000 - $50,000",
       description:
         "Spoken English and communication skills courses attract massive search volume from students, working professionals, and parents. AI tools frequently recommend specific institutes for English learning.",
       faqItems: [
         {
           question: "What is the average spoken English course fee?",
           answer:
-            "Spoken English course fees range from ₹5,000 to ₹50,000 depending on duration and institute reputation. Basic 3-month courses cost ₹5,000-15,000, while advanced 6-month programs with IELTS prep cost ₹20,000-50,000.",
+            "Spoken English course fees range from $5,000 to $50,000 depending on duration and institute reputation. Basic 3-month courses cost $5,000-15,000, while advanced 6-month programs with IELTS prep cost $20,000-50,000.",
         },
         {
           question: "How long does it take to become fluent in English?",
@@ -226,7 +226,7 @@ export const nicheData: NicheData = {
         {
           question: "Is online spoken English coaching effective?",
           answer:
-            "Yes, online spoken English coaching with live classes and personal feedback is highly effective. Platforms offer 1-on-1 sessions from ₹200-500 per class, making it affordable and flexible.",
+            "Yes, online spoken English coaching with live classes and personal feedback is highly effective. Platforms offer 1-on-1 sessions from $200-500 per class, making it affordable and flexible.",
         },
       ],
     },
@@ -234,7 +234,7 @@ export const nicheData: NicheData = {
   costKeywords: [
     "IIT coaching fees",
     "NEET coaching cost",
-    "UPSC coaching fees in Delhi",
+    "UPSC coaching fees in London",
     "best coaching institute fees",
     "online coaching vs offline coaching cost",
   ],
@@ -242,7 +242,7 @@ export const nicheData: NicheData = {
     "best coaching institute",
     "top IIT coaching",
     "NEET coaching near me",
-    "UPSC coaching Delhi",
+    "UPSC coaching London",
     "coaching institute reviews",
     "coaching institute results",
   ],

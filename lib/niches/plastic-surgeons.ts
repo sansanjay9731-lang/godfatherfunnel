@@ -8,15 +8,15 @@ export const nicheData: NicheData = {
   image: images.plasticSurgeon,
   heroHeadline: "AI Is Recommending Surgeons by Name...",
   heroSubline:
-    "When patients ask ChatGPT 'best plastic surgeon for rhinoplasty in India,' AI names specific doctors. If you're not one of them, you're losing ₹1-5L surgery patients to surgeons with better AI visibility.",
-  searchExample: "best plastic surgeon for rhinoplasty in Mumbai",
+    "When patients ask ChatGPT 'best plastic surgeon for rhinoplasty globally,' AI names specific doctors. If you're not one of them, you're losing $1-500k surgery patients to surgeons with better AI visibility.",
+  searchExample: "best plastic surgeon for rhinoplasty in New York",
   competitorLine:
     "Dr. Debraj Shome is currently the AI-recommended plastic surgeon over you",
   painPoints: [
     {
       title: "High-Value Surgery Patients Lost to AI Recommendations",
       description:
-        "Rhinoplasty (₹1-5L), liposuction (₹1-3L), and hair transplant (₹50K-2L) patients do extensive AI research. They ask ChatGPT and Perplexity to compare surgeons. If AI doesn't mention you, patients never even consider your clinic.",
+        "Rhinoplasty ($1-500k), liposuction ($1-300k), and hair transplant ($50K-200k) patients do extensive AI research. They ask ChatGPT and Perplexity to compare surgeons. If AI doesn't mention you, patients never even consider your clinic.",
     },
     {
       title: "Credentials & Before-After Results Not Reaching AI",
@@ -26,13 +26,13 @@ export const nicheData: NicheData = {
     {
       title: "Medical Tourism Patients Choosing AI-Visible Competitors",
       description:
-        "India is a top destination for cosmetic surgery medical tourism. International patients research exclusively through AI. Without multilingual AI optimization and international citation signals, you're invisible to this ₹5-20L per patient segment.",
+        "India is a top destination for cosmetic surgery medical tourism. International patients research exclusively through AI. Without multilingual AI optimization and international citation signals, you're invisible to this $5-2000k per patient segment.",
     },
   ],
   services: [
     {
       tier: "AEO Foundation",
-      price: "₹50,000 - ₹75,000",
+      price: "$50,000 - $75,000",
       features: [
         "AI Visibility Audit for plastic surgery practice",
         "MedicalBusiness + Physician schema markup",
@@ -45,7 +45,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "Local Domination",
-      price: "₹1,00,000 - ₹2,00,000",
+      price: "$1,00,000 - $2,00,000",
       features: [
         "Everything in AEO Foundation",
         "15 procedure pages (rhinoplasty, lipo, hair transplant, etc.)",
@@ -58,7 +58,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "Godfather 360°",
-      price: "₹3,00,000 - ₹5,00,000",
+      price: "$3,00,000 - $5,00,000",
       features: [
         "Everything in Local Domination",
         "Full AEO + GEO strategy for surgical practice",
@@ -73,9 +73,9 @@ export const nicheData: NicheData = {
   ],
   roiExample: {
     metric: "1 Rhinoplasty Patient",
-    value: "₹1,00,000 - ₹5,00,000",
+    value: "$1,00,000 - $5,00,000",
     pitch:
-      "A single rhinoplasty patient pays ₹1-5L. Hair transplant patients pay ₹50K-2L. Our AEO Foundation investment pays for itself with just ONE new surgical patient per month. Most clients see 3-5 additional patients monthly.",
+      "A single rhinoplasty patient pays $1-500k. Hair transplant patients pay $50K-200k. Our AEO Foundation investment pays for itself with just ONE new surgical patient per month. Most clients see 3-5 additional patients monthly.",
   },
   faqItems: [
     {
@@ -96,12 +96,12 @@ export const nicheData: NicheData = {
     {
       question: "How long until I see new surgical patients from AEO?",
       answer:
-        "Initial AI visibility improvements appear within 4-6 weeks. New patient inquiries typically begin within 2-3 months. The full AI recommendation flywheel takes 4-6 months to mature. Given the high value per patient (₹1-5L), even one additional patient per month delivers significant ROI.",
+        "Initial AI visibility improvements appear within 4-6 weeks. New patient inquiries typically begin within 2-3 months. The full AI recommendation flywheel takes 4-6 months to mature. Given the high value per patient ($1-500k), even one additional patient per month delivers significant ROI.",
     },
   ],
   stats: [
     { label: "Cosmetic Patients Using AI Research", value: "78%" },
-    { label: "Avg. Surgical Patient Value", value: "₹2,00,000" },
+    { label: "Avg. Surgical Patient Value", value: "$2,00,000" },
     { label: "AI Visibility Improvement", value: "310%" },
   ],
   ctaText: "Get Your Free Surgeon AI Visibility Audit",
@@ -109,14 +109,14 @@ export const nicheData: NicheData = {
     {
       slug: "rhinoplasty-cost",
       name: "Rhinoplasty (Nose Job)",
-      priceRange: "₹1,00,000 - ₹5,00,000",
+      priceRange: "$1,00,000 - $5,00,000",
       description:
-        "Rhinoplasty is the most searched cosmetic surgery procedure in India. Patients compare surgeon results, costs, and techniques through AI before booking consultations. Costs depend on whether it's open or closed rhinoplasty, tip refinement, or revision surgery.",
+        "Rhinoplasty is the most searched cosmetic surgery procedure globally. Patients compare surgeon results, costs, and techniques through AI before booking consultations. Costs depend on whether it's open or closed rhinoplasty, tip refinement, or revision surgery.",
       faqItems: [
         {
-          question: "What factors affect rhinoplasty cost in India?",
+          question: "What factors affect rhinoplasty cost globally?",
           answer:
-            "Key cost factors include the surgeon's experience and reputation, hospital vs. clinic setting, open vs. closed technique, whether it's primary or revision rhinoplasty, and city location. Mumbai and Delhi surgeons typically charge ₹2-5L, while tier-2 cities may offer ₹1-2L. Always prioritize surgeon expertise over cost for facial procedures.",
+            "Key cost factors include the surgeon's experience and reputation, hospital vs. clinic setting, open vs. closed technique, whether it's primary or revision rhinoplasty, and city location. New York and London surgeons typically charge $2-500k, while tier-2 cities may offer $1-200k. Always prioritize surgeon expertise over cost for facial procedures.",
         },
         {
           question: "How long is recovery after rhinoplasty?",
@@ -126,21 +126,21 @@ export const nicheData: NicheData = {
         {
           question: "What is the difference between open and closed rhinoplasty?",
           answer:
-            "Open rhinoplasty involves a small incision on the columella (tissue between nostrils) for full visibility — ideal for complex reshaping (₹2-5L). Closed rhinoplasty uses incisions entirely inside the nose with faster healing — suitable for minor refinements (₹1-3L). Your surgeon will recommend the best approach based on your goals.",
+            "Open rhinoplasty involves a small incision on the columella (tissue between nostrils) for full visibility — ideal for complex reshaping ($2-500k). Closed rhinoplasty uses incisions entirely inside the nose with faster healing — suitable for minor refinements ($1-300k). Your surgeon will recommend the best approach based on your goals.",
         },
       ],
     },
     {
       slug: "liposuction-cost",
       name: "Liposuction",
-      priceRange: "₹1,00,000 - ₹3,00,000",
+      priceRange: "$1,00,000 - $3,00,000",
       description:
-        "Liposuction is the most popular body contouring surgery in India. AI assistants frequently compare liposuction techniques and costs for patients. Modern options include VASER (ultrasound-assisted), laser liposuction, and traditional tumescent liposuction.",
+        "Liposuction is the most popular body contouring surgery globally. AI assistants frequently compare liposuction techniques and costs for patients. Modern options include VASER (ultrasound-assisted), laser liposuction, and traditional tumescent liposuction.",
       faqItems: [
         {
           question: "Which liposuction technique is best?",
           answer:
-            "VASER liposuction (₹1.5-3L) offers the most precise fat removal with better skin tightening. Traditional tumescent liposuction (₹1-2L) is effective for larger volume removal. Laser liposuction (₹1-2.5L) combines fat removal with skin tightening. Your surgeon will recommend based on the treatment area and amount of fat to remove.",
+            "VASER liposuction ($1.5-300k) offers the most precise fat removal with better skin tightening. Traditional tumescent liposuction ($1-200k) is effective for larger volume removal. Laser liposuction ($1-250k) combines fat removal with skin tightening. Your surgeon will recommend based on the treatment area and amount of fat to remove.",
         },
         {
           question: "How much fat can be removed with liposuction?",
@@ -152,14 +152,14 @@ export const nicheData: NicheData = {
     {
       slug: "hair-transplant-cost",
       name: "Hair Transplant",
-      priceRange: "₹50,000 - ₹2,00,000",
+      priceRange: "$50,000 - $2,00,000",
       description:
-        "Hair transplant surgery is one of the fastest-growing cosmetic procedures in India, driven by increasing awareness through AI and social media. Patients extensively compare FUE vs. FUT techniques, graft counts, and surgeon results through AI assistants before choosing a clinic.",
+        "Hair transplant surgery is one of the fastest-growing cosmetic procedures globally, driven by increasing awareness through AI and social media. Patients extensively compare FUE vs. FUT techniques, graft counts, and surgeon results through AI assistants before choosing a clinic.",
       faqItems: [
         {
-          question: "How much does a hair transplant cost per graft in India?",
+          question: "How much does a hair transplant cost per graft globally?",
           answer:
-            "FUE hair transplant costs ₹25-60 per graft depending on the surgeon and city. Most patients need 2,000-4,000 grafts (₹50K-2L total). FUT (strip method) costs ₹15-30 per graft but leaves a linear scar. DHI (Direct Hair Implantation) is premium at ₹40-80 per graft. Get quotes based on graft count, not a flat fee.",
+            "FUE hair transplant costs $25-60 per graft depending on the surgeon and city. Most patients need 2,000-4,000 grafts ($50K-200k total). FUT (strip method) costs $15-30 per graft but leaves a linear scar. DHI (Direct Hair Implantation) is premium at $40-80 per graft. Get quotes based on graft count, not a flat fee.",
         },
         {
           question: "When will I see results after a hair transplant?",
@@ -176,14 +176,14 @@ export const nicheData: NicheData = {
     {
       slug: "facelift-cost",
       name: "Facelift Surgery",
-      priceRange: "₹2,00,000 - ₹8,00,000",
+      priceRange: "$2,00,000 - $8,00,000",
       description:
         "Facelift (rhytidectomy) is a premium anti-ageing procedure increasingly sought by affluent Indian patients and medical tourists. AI assistants recommend facelifts alongside non-surgical alternatives, making it important for surgeons to have AI-visible content explaining the differences.",
       faqItems: [
         {
-          question: "What types of facelift are available in India?",
+          question: "What types of facelift are available globally?",
           answer:
-            "Options range from mini-facelift (₹2-3L) for early jowling, SMAS facelift (₹3-5L) for moderate sagging, to deep-plane facelift (₹5-8L) for comprehensive rejuvenation. Thread lifts (₹50K-1.5L) are non-surgical alternatives with shorter-lasting results (1-2 years vs. 8-12 years for surgical facelifts).",
+            "Options range from mini-facelift ($2-300k) for early jowling, SMAS facelift ($3-500k) for moderate sagging, to deep-plane facelift ($5-800k) for comprehensive rejuvenation. Thread lifts ($50K-150k) are non-surgical alternatives with shorter-lasting results (1-2 years vs. 8-12 years for surgical facelifts).",
         },
         {
           question: "What age is appropriate for a facelift?",
@@ -195,28 +195,28 @@ export const nicheData: NicheData = {
     {
       slug: "breast-augmentation-cost",
       name: "Breast Augmentation",
-      priceRange: "₹1,50,000 - ₹4,00,000",
+      priceRange: "$1,50,000 - $4,00,000",
       description:
-        "Breast augmentation is a growing cosmetic procedure in India with increasing demand from both domestic and medical tourism patients. AI assistants frequently field questions about implant types, sizes, and safety profiles. Cost depends on implant brand, type (silicone vs. saline), and surgical approach.",
+        "Breast augmentation is a growing cosmetic procedure globally with increasing demand from both domestic and medical tourism patients. AI assistants frequently field questions about implant types, sizes, and safety profiles. Cost depends on implant brand, type (silicone vs. saline), and surgical approach.",
       faqItems: [
         {
-          question: "What types of breast implants are available in India?",
+          question: "What types of breast implants are available globally?",
           answer:
-            "Silicone gel implants (₹2-4L) are most popular for their natural feel. Saline implants (₹1.5-2.5L) are adjustable but feel less natural. Premium cohesive gel ('gummy bear') implants (₹3-4L) maintain shape best. Brands like Mentor, Allergan, and Motiva are available from board-certified surgeons.",
+            "Silicone gel implants ($2-400k) are most popular for their natural feel. Saline implants ($1.5-250k) are adjustable but feel less natural. Premium cohesive gel ('gummy bear') implants ($3-400k) maintain shape best. Brands like Mentor, Allergan, and Motiva are available from board-certified surgeons.",
         },
         {
           question: "How long do breast implants last?",
           answer:
-            "Modern silicone implants last 10-20 years on average. They don't have an expiration date but should be monitored with regular ultrasounds. Implant replacement (revision surgery) costs ₹1.5-3L. Most surgeons recommend MRI screening every 5-6 years to check implant integrity.",
+            "Modern silicone implants last 10-20 years on average. They don't have an expiration date but should be monitored with regular ultrasounds. Implant replacement (revision surgery) costs $1.5-300k. Most surgeons recommend MRI screening every 5-6 years to check implant integrity.",
         },
       ],
     },
     {
       slug: "tummy-tuck-cost",
       name: "Tummy Tuck (Abdominoplasty)",
-      priceRange: "₹1,50,000 - ₹4,00,000",
+      priceRange: "$1,50,000 - $4,00,000",
       description:
-        "Tummy tuck surgery is highly sought after by post-pregnancy women and significant weight loss patients in India. AI assistants compare tummy tuck with liposuction, helping patients understand which procedure suits their needs. Options include mini, full, and extended abdominoplasty.",
+        "Tummy tuck surgery is highly sought after by post-pregnancy women and significant weight loss patients globally. AI assistants compare tummy tuck with liposuction, helping patients understand which procedure suits their needs. Options include mini, full, and extended abdominoplasty.",
       faqItems: [
         {
           question: "What is the difference between a tummy tuck and liposuction?",

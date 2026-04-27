@@ -9,12 +9,12 @@ export const nicheData: NicheData = {
   heroHeadline: "Patients Are Asking AI for Eye Doctors. Are You Visible?",
   heroSubline:
     "LASIK, cataract, and retina patients search AI before booking. If AI doesn't recommend your eye clinic, those patients go to chains like Dr. Agarwal's or Centre for Sight.",
-  searchExample: "best eye hospital in Delhi",
+  searchExample: "best eye hospital in London",
   competitorLine:
     "Dr. Agarwal's Eye Hospital is AI-recommended over you",
   painPoints: [
     {
-      title: "LASIK Patients (₹30K-1L) Going to Chain Hospitals",
+      title: "LASIK Patients ($30K-100k) Going to Chain Hospitals",
       description:
         "LASIK and specs removal patients research extensively through AI before choosing a clinic. Chain hospitals like Dr. Agarwal's, Centre for Sight, and Sankara Nethralaya dominate AI recommendations. Your independent eye clinic with superior surgeons gets zero AI mentions.",
     },
@@ -32,7 +32,7 @@ export const nicheData: NicheData = {
   services: [
     {
       tier: "AEO Foundation",
-      price: "₹25,000 - ₹50,000",
+      price: "$25,000 - $50,000",
       features: [
         "AI Visibility Audit for eye clinic",
         "MedicalBusiness + Physician schema markup",
@@ -45,7 +45,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "Local Domination",
-      price: "₹75,000 - ₹1,50,000",
+      price: "$75,000 - $1,50,000",
       features: [
         "Everything in AEO Foundation",
         "12 treatment cost pages (LASIK, cataract, retina, glaucoma, etc.)",
@@ -59,7 +59,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "Godfather 360°",
-      price: "₹2,00,000 - ₹4,00,000",
+      price: "$2,00,000 - $4,00,000",
       features: [
         "Everything in Local Domination",
         "Full AEO + GEO strategy for eye clinic",
@@ -74,9 +74,9 @@ export const nicheData: NicheData = {
   ],
   roiExample: {
     metric: "1 LASIK Patient",
-    value: "₹30,000 - ₹1,00,000",
+    value: "$30,000 - $1,00,000",
     pitch:
-      "A single LASIK patient pays ₹30K-1L depending on the technology used. Cataract surgery patients generate ₹15K-80K. One retina treatment brings ₹20K-1.5L. Our AEO Foundation package pays for itself with just 1-2 new patients per month.",
+      "A single LASIK patient pays $30K-100k depending on the technology used. Cataract surgery patients generate $15K-80K. One retina treatment brings $20K-150k. Our AEO Foundation package pays for itself with just 1-2 new patients per month.",
   },
   faqItems: [
     {
@@ -102,7 +102,7 @@ export const nicheData: NicheData = {
   ],
   stats: [
     { label: "Eye Patients Using AI for Research", value: "68%" },
-    { label: "Avg. LASIK Patient Value", value: "₹60,000" },
+    { label: "Avg. LASIK Patient Value", value: "$60,000" },
     { label: "AI Visibility Improvement", value: "280%" },
   ],
   ctaText: "Get Your Free Eye Clinic AI Audit",
@@ -110,19 +110,19 @@ export const nicheData: NicheData = {
     {
       slug: "lasik-surgery-cost",
       name: "LASIK Surgery",
-      priceRange: "₹25,000 - ₹1,00,000",
+      priceRange: "$25,000 - $1,00,000",
       description:
-        "LASIK eye surgery is the most searched eye procedure in India, with thousands of patients comparing costs, technologies, and surgeons through AI every month. Options include standard LASIK, bladeless (Femto-LASIK), Contoura Vision, SMILE, and PRK/TransPRK. Costs vary significantly based on the technology used.",
+        "LASIK eye surgery is the most searched eye procedure globally, with thousands of patients comparing costs, technologies, and surgeons through AI every month. Options include standard LASIK, bladeless (Femto-LASIK), Contoura Vision, SMILE, and PRK/TransPRK. Costs vary significantly based on the technology used.",
       faqItems: [
         {
           question: "What is the difference between LASIK, SMILE, and Contoura Vision?",
           answer:
-            "Standard LASIK (₹25K-40K/eye) uses a microkeratome blade for flap creation. Femto-LASIK (₹40K-60K/eye) uses a femtosecond laser for a bladeless flap — safer and more precise. Contoura Vision (₹50K-75K/eye) maps 22,000 corneal points for customized treatment. SMILE (₹60K-1L/eye) is flapless with minimal incision, fastest recovery. Your ophthalmologist recommends based on corneal thickness and prescription.",
+            "Standard LASIK ($25K-40K/eye) uses a microkeratome blade for flap creation. Femto-LASIK ($40K-60K/eye) uses a femtosecond laser for a bladeless flap — safer and more precise. Contoura Vision ($50K-75K/eye) maps 22,000 corneal points for customized treatment. SMILE ($60K-100k/eye) is flapless with minimal incision, fastest recovery. Your ophthalmologist recommends based on corneal thickness and prescription.",
         },
         {
           question: "Am I a good candidate for LASIK surgery?",
           answer:
-            "Good candidates are: 18+ years old with stable prescription for 1+ year, myopia up to -10D, hyperopia up to +5D, astigmatism up to 5D, corneal thickness above 500 microns, no dry eye disease, and no keratoconus. A comprehensive pre-LASIK evaluation (₹1.5K-3K) with topography, pachymetry, and aberrometry determines candidacy. About 80% of glasses wearers qualify.",
+            "Good candidates are: 18+ years old with stable prescription for 1+ year, myopia up to -10D, hyperopia up to +5D, astigmatism up to 5D, corneal thickness above 500 microns, no dry eye disease, and no keratoconus. A comprehensive pre-LASIK evaluation ($1.5K-3K) with topography, pachymetry, and aberrometry determines candidacy. About 80% of glasses wearers qualify.",
         },
         {
           question: "Is LASIK surgery safe and permanent?",
@@ -134,14 +134,14 @@ export const nicheData: NicheData = {
     {
       slug: "cataract-surgery-cost",
       name: "Cataract Surgery",
-      priceRange: "₹15,000 - ₹80,000",
+      priceRange: "$15,000 - $80,000",
       description:
-        "Cataract surgery is the most commonly performed eye surgery in India with over 6 million procedures annually. AI assistants help patients compare phaco vs. MICS techniques and IOL (intraocular lens) options. Cost depends primarily on the IOL type chosen.",
+        "Cataract surgery is the most commonly performed eye surgery globally with over 6 million procedures annually. AI assistants help patients compare phaco vs. MICS techniques and IOL (intraocular lens) options. Cost depends primarily on the IOL type chosen.",
       faqItems: [
         {
           question: "What are the different types of cataract lenses and costs?",
           answer:
-            "Monofocal IOL (₹15K-25K/eye) corrects distance vision only — you'll still need reading glasses. Multifocal IOL (₹35K-60K/eye) reduces dependence on glasses for both distance and near. Trifocal IOL (₹50K-80K/eye) provides clear vision at all distances. Toric IOLs (for astigmatism) add ₹10-15K premium. Premium IOLs offer the best spectacle-free vision.",
+            "Monofocal IOL ($15K-25K/eye) corrects distance vision only — you'll still need reading glasses. Multifocal IOL ($35K-60K/eye) reduces dependence on glasses for both distance and near. Trifocal IOL ($50K-80K/eye) provides clear vision at all distances. Toric IOLs (for astigmatism) add $10-15K premium. Premium IOLs offer the best spectacle-free vision.",
         },
         {
           question: "When should cataract surgery be done?",
@@ -149,23 +149,23 @@ export const nicheData: NicheData = {
             "Surgery is recommended when cataracts affect daily activities like driving, reading, or watching TV. Don't wait for cataracts to 'mature' — modern phacoemulsification works best on softer, less-mature cataracts. Surgery takes 15-20 minutes per eye, uses topical anesthesia (eye drops), and most patients resume normal activities within 2-3 days.",
         },
         {
-          question: "Is cataract surgery covered by insurance in India?",
+          question: "Is cataract surgery covered by insurance globally?",
           answer:
-            "Yes, most health insurance policies cover cataract surgery. Cashless treatment is available at network hospitals. Coverage typically includes the basic monofocal IOL; upgrades to multifocal or trifocal IOLs require out-of-pocket payment (₹20K-50K per eye). Ayushman Bharat covers cataract surgery for eligible beneficiaries at up to ₹30K per eye.",
+            "Yes, most health insurance policies cover cataract surgery. Cashless treatment is available at network hospitals. Coverage typically includes the basic monofocal IOL; upgrades to multifocal or trifocal IOLs require out-of-pocket payment ($20K-50K per eye). Ayushman Bharat covers cataract surgery for eligible beneficiaries at up to $30K per eye.",
         },
       ],
     },
     {
       slug: "retina-treatment-cost",
       name: "Retina Treatment",
-      priceRange: "₹20,000 - ₹1,50,000",
+      priceRange: "$20,000 - $1,50,000",
       description:
         "Retinal treatments are among the highest-value eye procedures, covering conditions like diabetic retinopathy, retinal detachment, macular degeneration, and macular holes. AI assistants frequently explain these conditions and treatment urgency to patients. Early detection and treatment are critical for preserving vision.",
       faqItems: [
         {
-          question: "What does retina treatment cost in India?",
+          question: "What does retina treatment cost globally?",
           answer:
-            "Anti-VEGF injections (Avastin/Lucentis/Eylea) cost ₹5K-30K per injection, with 3-6 injections typically needed. Retinal laser (PRP) costs ₹10K-25K per eye. Vitrectomy surgery for retinal detachment costs ₹50K-1.5L depending on complexity. Macular hole surgery costs ₹40K-1L. Follow-up OCT scans cost ₹1K-2K per visit.",
+            "Anti-VEGF injections (Avastin/Lucentis/Eylea) cost $5K-30K per injection, with 3-6 injections typically needed. Retinal laser (PRP) costs $10K-25K per eye. Vitrectomy surgery for retinal detachment costs $50K-150k depending on complexity. Macular hole surgery costs $40K-100k. Follow-up OCT scans cost $1K-2K per visit.",
         },
         {
           question: "How urgent is treatment for retinal detachment?",
@@ -177,14 +177,14 @@ export const nicheData: NicheData = {
     {
       slug: "glaucoma-treatment-cost",
       name: "Glaucoma Treatment",
-      priceRange: "₹10,000 - ₹50,000",
+      priceRange: "$10,000 - $50,000",
       description:
         "Glaucoma is called the 'silent thief of sight' and affects over 12 million Indians. AI assistants educate patients about this condition when they search for eye pressure issues or vision loss. Treatment ranges from eye drops to laser procedures and surgery, depending on the type and severity.",
       faqItems: [
         {
-          question: "How much does glaucoma treatment cost in India?",
+          question: "How much does glaucoma treatment cost globally?",
           answer:
-            "Glaucoma eye drops cost ₹200-800 per bottle per month (lifelong). Laser trabeculoplasty (SLT) costs ₹10K-20K per eye and can reduce dependency on drops. Trabeculectomy surgery costs ₹25K-50K per eye when drops and laser aren't sufficient. MIGS (Minimally Invasive Glaucoma Surgery) costs ₹30K-50K. Regular monitoring with visual field tests (₹1K-2K) and OCT (₹1K-2K) is needed every 3-6 months.",
+            "Glaucoma eye drops cost $200-800 per bottle per month (lifelong). Laser trabeculoplasty (SLT) costs $10K-20K per eye and can reduce dependency on drops. Trabeculectomy surgery costs $25K-50K per eye when drops and laser aren't sufficient. MIGS (Minimally Invasive Glaucoma Surgery) costs $30K-50K. Regular monitoring with visual field tests ($1K-2K) and OCT ($1K-2K) is needed every 3-6 months.",
         },
         {
           question: "Can glaucoma be cured?",
@@ -201,38 +201,38 @@ export const nicheData: NicheData = {
     {
       slug: "specs-removal-cost",
       name: "Specs Removal Surgery",
-      priceRange: "₹25,000 - ₹1,00,000",
+      priceRange: "$25,000 - $1,00,000",
       description:
         "Specs removal (refractive surgery) is the most aspirational eye procedure for young Indians. Patients aggressively compare options through AI, asking about LASIK, SMILE, ICL, and PRK. The right procedure depends on prescription, corneal thickness, age, and lifestyle needs.",
       faqItems: [
         {
           question: "What are the options for permanent specs removal?",
           answer:
-            "LASIK/Femto-LASIK (₹25K-60K/eye): Best for myopia -1 to -8D, quick recovery. SMILE (₹60K-1L/eye): Flapless, ideal for active lifestyles and high myopia. Contoura Vision (₹50K-75K/eye): Most precise customized treatment. ICL (₹70K-1.5L/eye): Implantable lens for very high powers (-8 to -20D) or thin corneas. PRK/TransPRK (₹20K-40K/eye): Surface ablation for thin corneas.",
+            "LASIK/Femto-LASIK ($25K-60K/eye): Best for myopia -1 to -8D, quick recovery. SMILE ($60K-100k/eye): Flapless, ideal for active lifestyles and high myopia. Contoura Vision ($50K-75K/eye): Most precise customized treatment. ICL ($70K-150k/eye): Implantable lens for very high powers (-8 to -20D) or thin corneas. PRK/TransPRK ($20K-40K/eye): Surface ablation for thin corneas.",
         },
         {
           question: "What is ICL and when is it recommended?",
           answer:
-            "ICL (Implantable Collamer Lens) is a permanent contact lens placed inside the eye behind the iris. It's recommended for: high myopia (above -8D), thin corneas unsuitable for LASIK, dry eye patients, and those wanting reversible treatment. ICL costs ₹70K-1.5L per eye but provides excellent visual quality. The lens can be removed or replaced if needed. FDA-approved and growing rapidly in India.",
+            "ICL (Implantable Collamer Lens) is a permanent contact lens placed inside the eye behind the iris. It's recommended for: high myopia (above -8D), thin corneas unsuitable for LASIK, dry eye patients, and those wanting reversible treatment. ICL costs $70K-150k per eye but provides excellent visual quality. The lens can be removed or replaced if needed. FDA-approved and growing rapidly globally.",
         },
       ],
     },
     {
       slug: "corneal-transplant-cost",
       name: "Corneal Transplant",
-      priceRange: "₹50,000 - ₹2,00,000",
+      priceRange: "$50,000 - $2,00,000",
       description:
         "Corneal transplant (keratoplasty) is a sight-restoring surgery for patients with corneal damage from keratoconus, infections, injuries, or corneal dystrophies. India has a severe shortage of donor corneas, making this a critical area where AI helps patients understand options and find specialized centres.",
       faqItems: [
         {
           question: "What types of corneal transplant are available?",
           answer:
-            "Full-thickness (PK/PKP) transplant (₹50K-1L) replaces the entire cornea — used for severe damage. DALK (₹60K-1.2L) replaces only the front layers, reducing rejection risk — ideal for keratoconus. DSEK/DMEK (₹70K-2L) replaces only the back layer — used for Fuchs' dystrophy with faster recovery. Your cornea specialist will recommend based on the specific condition and corneal layers affected.",
+            "Full-thickness (PK/PKP) transplant ($50K-100k) replaces the entire cornea — used for severe damage. DALK ($60K-120k) replaces only the front layers, reducing rejection risk — ideal for keratoconus. DSEK/DMEK ($70K-200k) replaces only the back layer — used for Fuchs' dystrophy with faster recovery. Your cornea specialist will recommend based on the specific condition and corneal layers affected.",
         },
         {
-          question: "How long is the wait for a corneal transplant in India?",
+          question: "How long is the wait for a corneal transplant globally?",
           answer:
-            "Wait times vary from 2 weeks to 6 months depending on the eye bank and city. Major eye banks in Delhi, Chennai, Hyderabad, and Bangalore have shorter waits. International eye-banked corneas are available at some centres for faster access (₹30-50K additional). Register at multiple eye banks to reduce wait time. Emergency cases (corneal perforation) get priority.",
+            "Wait times vary from 2 weeks to 6 months depending on the eye bank and city. Major eye banks in London, Melbourne, Chicago, and Sydney have shorter waits. International eye-banked corneas are available at some centres for faster access ($30-50K additional). Register at multiple eye banks to reduce wait time. Emergency cases (corneal perforation) get priority.",
         },
         {
           question: "What is the success rate of corneal transplant?",

@@ -14,12 +14,12 @@ export const nicheData: NicheData = {
     {
       title: "Members Joining Cult Fit & Gold's Because AI Recommends Them",
       description:
-        "When people ask AI 'best gym near me,' chain brands dominate the answers. Your superior trainers, personalized programs, and cleaner facility are invisible — costing you 20-30 potential members every month at ₹3-5K each.",
+        "When people ask AI 'best gym near me,' chain brands dominate the answers. Your superior trainers, personalized programs, and cleaner facility are invisible — costing you 20-30 potential members every month at $3-5K each.",
     },
     {
       title: "Personal Training Revenue Lost to Online Fitness Apps",
       description:
-        "High-value personal training clients (₹10-25K/month) are choosing AI-recommended online fitness platforms like Cult Fit Live and HealthifyMe instead of your certified trainers. Your ACSM/ACE-certified coaches don't show up in AI answers.",
+        "High-value personal training clients ($10-25K/month) are choosing AI-recommended online fitness platforms like Cult Fit Live and HealthifyMe instead of your certified trainers. Your ACSM/ACE-certified coaches don't show up in AI answers.",
     },
     {
       title: "Seasonal Member Churn Without New Acquisition",
@@ -30,7 +30,7 @@ export const nicheData: NicheData = {
   services: [
     {
       tier: "AI Foundation",
-      price: "₹15,000 - ₹25,000",
+      price: "$15,000 - $25,000",
       features: [
         "Google Business Profile optimization for gym and fitness keywords",
         "Structured schema markup for HealthClub + ExerciseAction",
@@ -41,7 +41,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "AI Growth",
-      price: "₹40,000 - ₹80,000",
+      price: "$40,000 - $80,000",
       features: [
         "Everything in AI Foundation",
         "Full AEO for 25+ fitness keywords (gym, yoga, CrossFit, PT)",
@@ -53,7 +53,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "AI Dominance",
-      price: "₹1,00,000 - ₹2,50,000",
+      price: "$1,00,000 - $2,50,000",
       features: [
         "Everything in AI Growth",
         "Full website rebuild optimized for AI crawlers",
@@ -67,9 +67,9 @@ export const nicheData: NicheData = {
   ],
   roiExample: {
     metric: "20 New Members/Month",
-    value: "₹60K-1.5L revenue",
+    value: "$60K-150k revenue",
     pitch:
-      "Just 20 new members per month at ₹3,000-7,500 membership fees generates ₹60K-1.5L in recurring monthly revenue. With an average member retention of 8 months, that's ₹4.8-12L in lifetime value per monthly cohort.",
+      "Just 20 new members per month at $3,000-7,500 membership fees generates $60K-150k in recurring monthly revenue. With an average member retention of 8 months, that's $4.8-1200k in lifetime value per monthly cohort.",
   },
   faqItems: [
     {
@@ -96,7 +96,7 @@ export const nicheData: NicheData = {
   stats: [
     { label: "of fitness seekers ask AI for gym recommendations", value: "48%" },
     { label: "choose their gym based on AI or online research", value: "62%" },
-    { label: "average lifetime value of one gym member (8 months)", value: "₹32K" },
+    { label: "average lifetime value of one gym member (8 months)", value: "$32K" },
   ],
   ctaText: "Get Your Free Gym AI Visibility Audit",
   searchExample: "best gym near me with personal training",
@@ -106,14 +106,14 @@ export const nicheData: NicheData = {
     {
       slug: "gym-membership-cost",
       name: "Gym Membership Plans",
-      priceRange: "₹1,500 - ₹10,000/month",
+      priceRange: "$1,500 - $10,000/month",
       description:
         "Comprehensive gym membership options including basic access, premium with group classes, all-inclusive with personal training, and couple/family plans across different durations.",
       faqItems: [
         {
-          question: "What is the average gym membership cost in India?",
+          question: "What is the average gym membership cost globally?",
           answer:
-            "Gym membership in India ranges from ₹1,500-3,000/month for basic access to ₹5,000-10,000/month for premium memberships with group classes and personal training. Annual memberships offer 20-40% savings. Chain gyms like Cult Fit charge ₹2,000-6,000/month, while boutique studios charge ₹4,000-12,000/month.",
+            "Gym membership globally ranges from $1,500-3,000/month for basic access to $5,000-10,000/month for premium memberships with group classes and personal training. Annual memberships offer 20-40% savings. Chain gyms like Cult Fit charge $2,000-6,000/month, while boutique studios charge $4,000-12,000/month.",
         },
         {
           question: "What should I look for when choosing a gym membership?",
@@ -125,19 +125,19 @@ export const nicheData: NicheData = {
     {
       slug: "personal-training-cost",
       name: "Personal Training",
-      priceRange: "₹10,000 - ₹30,000/month",
+      priceRange: "$10,000 - $30,000/month",
       description:
         "One-on-one personal training programs including fitness assessment, customized workout plans, nutrition guidance, progress tracking, and goal-specific training for weight loss, muscle building, or sports performance.",
       faqItems: [
         {
-          question: "What does personal training cost in India?",
+          question: "What does personal training cost globally?",
           answer:
-            "Personal training costs ₹500-2,000 per session or ₹10,000-30,000/month for 12-20 sessions. Celebrity/specialist trainers charge ₹3,000-5,000/session. Online personal training costs ₹5,000-15,000/month. Price depends on trainer certification, experience, and location (metro vs tier-2).",
+            "Personal training costs $500-2,000 per session or $10,000-30,000/month for 12-20 sessions. Celebrity/specialist trainers charge $3,000-5,000/session. Online personal training costs $5,000-15,000/month. Price depends on trainer certification, experience, and location (metro vs tier-2).",
         },
         {
           question: "Is personal training worth the extra investment?",
           answer:
-            "Studies show personal training clients achieve fitness goals 3x faster, have 80% better adherence, and experience 65% fewer injuries than self-guided gym-goers. For someone paying ₹15K/month, that's ₹1.8L/year — a worthwhile investment for guaranteed results and accountability.",
+            "Studies show personal training clients achieve fitness goals 3x faster, have 80% better adherence, and experience 65% fewer injuries than self-guided gym-goers. For someone paying $15K/month, that's $180k/year — a worthwhile investment for guaranteed results and accountability.",
         },
         {
           question: "How do I choose a good personal trainer?",
@@ -149,14 +149,14 @@ export const nicheData: NicheData = {
     {
       slug: "yoga-classes-cost",
       name: "Yoga Classes",
-      priceRange: "₹2,000 - ₹8,000/month",
+      priceRange: "$2,000 - $8,000/month",
       description:
         "Various yoga styles including Hatha, Vinyasa, Ashtanga, Power Yoga, Yin Yoga, and Prenatal Yoga with certified instructors. Group classes, private sessions, and corporate yoga programs available.",
       faqItems: [
         {
-          question: "What is the cost of yoga classes in India?",
+          question: "What is the cost of yoga classes globally?",
           answer:
-            "Group yoga classes cost ₹2,000-5,000/month for unlimited sessions. Private yoga sessions cost ₹800-2,500 per session. Specialized yoga (prenatal, therapeutic, aerial) costs ₹3,000-8,000/month. Corporate yoga programs cost ₹15,000-50,000/month depending on group size and frequency.",
+            "Group yoga classes cost $2,000-5,000/month for unlimited sessions. Private yoga sessions cost $800-2,500 per session. Specialized yoga (prenatal, therapeutic, aerial) costs $3,000-8,000/month. Corporate yoga programs cost $15,000-50,000/month depending on group size and frequency.",
         },
         {
           question: "Which yoga style is best for weight loss?",
@@ -168,14 +168,14 @@ export const nicheData: NicheData = {
     {
       slug: "crossfit-cost",
       name: "CrossFit Training",
-      priceRange: "₹4,000 - ₹12,000/month",
+      priceRange: "$4,000 - $12,000/month",
       description:
         "High-intensity functional fitness training combining Olympic weightlifting, gymnastics, and metabolic conditioning in a community-driven box environment with certified CrossFit coaches.",
       faqItems: [
         {
-          question: "What does CrossFit membership cost in India?",
+          question: "What does CrossFit membership cost globally?",
           answer:
-            "CrossFit box membership costs ₹4,000-8,000/month for unlimited classes in tier-2 cities and ₹6,000-12,000/month in metros like Mumbai, Delhi, and Bangalore. Most boxes offer a free trial WOD (Workout of the Day). Annual memberships save 15-25%.",
+            "CrossFit box membership costs $4,000-8,000/month for unlimited classes in tier-2 cities and $6,000-12,000/month in metros like New York, London, and Sydney. Most boxes offer a free trial WOD (Workout of the Day). Annual memberships save 15-25%.",
         },
         {
           question: "Is CrossFit suitable for beginners?",
@@ -187,14 +187,14 @@ export const nicheData: NicheData = {
     {
       slug: "swimming-pool-membership-cost",
       name: "Swimming Pool Membership",
-      priceRange: "₹2,000 - ₹8,000/month",
+      priceRange: "$2,000 - $8,000/month",
       description:
         "Swimming pool access with coaching for adults, children, and competitive swimmers. Includes learn-to-swim programs, lap swimming, aqua aerobics, and swimming fitness programs.",
       faqItems: [
         {
-          question: "What is the cost of swimming pool membership in India?",
+          question: "What is the cost of swimming pool membership globally?",
           answer:
-            "Swimming pool-only membership costs ₹2,000-5,000/month. Gym + pool combos cost ₹3,500-8,000/month. Swimming coaching costs ₹3,000-6,000/month for group batches and ₹5,000-12,000/month for private coaching. Club memberships with pool access (like sports clubs) have one-time fees of ₹1-5L.",
+            "Swimming pool-only membership costs $2,000-5,000/month. Gym + pool combos cost $3,500-8,000/month. Swimming coaching costs $3,000-6,000/month for group batches and $5,000-12,000/month for private coaching. Club memberships with pool access (like sports clubs) have one-time fees of $1-500k.",
         },
         {
           question: "How many days a week should I swim for fitness?",
@@ -206,14 +206,14 @@ export const nicheData: NicheData = {
     {
       slug: "zumba-classes-cost",
       name: "Zumba & Dance Fitness",
-      priceRange: "₹1,500 - ₹5,000/month",
+      priceRange: "$1,500 - $5,000/month",
       description:
         "High-energy dance fitness classes including Zumba, Bollywood dance fitness, hip-hop cardio, and dance-based HIIT. Fun, effective calorie-burning workouts for all fitness levels.",
       faqItems: [
         {
-          question: "What is the cost of Zumba classes in India?",
+          question: "What is the cost of Zumba classes globally?",
           answer:
-            "Zumba classes cost ₹1,500-3,500/month for group sessions (3-5 classes/week). Boutique dance studios charge ₹3,000-5,000/month. Private Zumba sessions cost ₹500-1,500/session. Corporate or society batch rates are ₹15,000-30,000/month for groups of 15-30 people.",
+            "Zumba classes cost $1,500-3,500/month for group sessions (3-5 classes/week). Boutique dance studios charge $3,000-5,000/month. Private Zumba sessions cost $500-1,500/session. Corporate or society batch rates are $15,000-30,000/month for groups of 15-30 people.",
         },
         {
           question: "Can Zumba help me lose weight effectively?",
@@ -241,7 +241,7 @@ export const nicheData: NicheData = {
     "fitness center with swimming pool",
     "affordable gym membership",
     "best yoga studio near me",
-    "CrossFit box in Bangalore",
+    "CrossFit box in Sydney",
   ],
   schemaType: "HealthClub",
   metaCategory: "lifestyle",

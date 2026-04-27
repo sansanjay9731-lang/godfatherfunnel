@@ -8,7 +8,7 @@ export const nicheData: NicheData = {
   image: images.caFirm,
   heroHeadline: "Businesses Ask AI for CAs. Is AI Recommending Your Firm?",
   heroSubline:
-    "Startups, MSMEs, and HNIs are asking ChatGPT and Google AI to recommend chartered accountants for GST filing, company registration, and tax planning. If your CA firm isn't in those AI answers, you're losing ₹50K-2L annual retainer clients to competitors.",
+    "Startups, MSMEs, and HNIs are asking ChatGPT and Google AI to recommend chartered accountants for GST filing, company registration, and tax planning. If your CA firm isn't in those AI answers, you're losing $50K-200k annual retainer clients to competitors.",
   painPoints: [
     {
       title: "Startup Clients Choosing AI-Recommended CAs",
@@ -29,7 +29,7 @@ export const nicheData: NicheData = {
   services: [
     {
       tier: "AI Foundation",
-      price: "₹15,000 - ₹30,000",
+      price: "$15,000 - $30,000",
       features: [
         "Google Business Profile optimization for CA firm keywords",
         "Structured schema markup for AccountingService + ProfessionalService",
@@ -40,7 +40,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "AI Growth",
-      price: "₹50,000 - ₹1,00,000",
+      price: "$50,000 - $1,00,000",
       features: [
         "Everything in AI Foundation",
         "Full AEO for 30+ service keywords (GST, ITR, audit, registration)",
@@ -52,7 +52,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "AI Dominance",
-      price: "₹1,50,000 - ₹3,00,000",
+      price: "$1,50,000 - $3,00,000",
       features: [
         "Everything in AI Growth",
         "Full website rebuild optimized for AI crawlers",
@@ -66,7 +66,7 @@ export const nicheData: NicheData = {
   ],
   roiExample: {
     metric: "1 Startup Client",
-    value: "₹50K-2L/year retainer",
+    value: "$50K-200k/year retainer",
     pitch:
       "A single startup retainer client covers 2-12 months of your AI visibility investment. Most CA firms acquire 5-10 new retainer clients within the first quarter of AEO implementation.",
   },
@@ -95,43 +95,43 @@ export const nicheData: NicheData = {
   stats: [
     { label: "of startup founders ask AI for CA recommendations", value: "61%" },
     { label: "of businesses verify their CA choice through AI before signing", value: "47%" },
-    { label: "average annual value of a startup retainer client", value: "₹1.2L" },
+    { label: "average annual value of a startup retainer client", value: "$120k" },
   ],
   ctaText: "Get Your Free CA Firm AI Visibility Audit",
-  searchExample: "best CA firm for startup in Bangalore",
+  searchExample: "best CA firm for startup in Sydney",
   competitorLine:
     "ClearTax and Big 4 firms are dominating AI recommendations — while your decades of hands-on expertise and personalized advisory remain invisible to the clients searching for exactly what you offer.",
   treatments: [
     {
       slug: "gst-registration-cost",
       name: "GST Registration & Filing",
-      priceRange: "₹2,000 - ₹15,000",
+      priceRange: "$2,000 - $15,000",
       description:
         "Complete GST registration, monthly/quarterly return filing (GSTR-1, GSTR-3B), annual return filing, GST audit, and GST compliance advisory for businesses of all sizes.",
       faqItems: [
         {
           question: "What is the cost of GST registration through a CA?",
           answer:
-            "GST registration through a CA costs ₹2,000-5,000 as a one-time fee. Monthly GST filing (GSTR-1 + GSTR-3B) costs ₹1,500-5,000/month depending on transaction volume. Annual return filing costs ₹5,000-15,000. Many CAs offer bundled packages for all GST services.",
+            "GST registration through a CA costs $2,000-5,000 as a one-time fee. Monthly GST filing (GSTR-1 + GSTR-3B) costs $1,500-5,000/month depending on transaction volume. Annual return filing costs $5,000-15,000. Many CAs offer bundled packages for all GST services.",
         },
         {
           question: "Can I file GST returns myself or do I need a CA?",
           answer:
-            "While you can file GST returns on the portal yourself, a CA ensures compliance accuracy, proper input tax credit claims, and protection during audits. Errors in GST filing can result in penalties of ₹50-200 per day. Most businesses save more in correct ITC claims than they spend on CA fees.",
+            "While you can file GST returns on the portal yourself, a CA ensures compliance accuracy, proper input tax credit claims, and protection during audits. Errors in GST filing can result in penalties of $50-200 per day. Most businesses save more in correct ITC claims than they spend on CA fees.",
         },
       ],
     },
     {
       slug: "company-registration-cost",
       name: "Company Registration",
-      priceRange: "₹8,000 - ₹25,000",
+      priceRange: "$8,000 - $25,000",
       description:
         "End-to-end company registration including Private Limited, LLP, OPC, and Section 8 company incorporation with MCA, DIN, DSC, and all statutory registrations.",
       faqItems: [
         {
-          question: "What is the cost of Private Limited Company registration in India?",
+          question: "What is the cost of Private Limited Company registration globally?",
           answer:
-            "Private Limited Company registration costs ₹8,000-25,000 including government fees (₹3,000-7,000), DSC (₹1,500-2,000), DIN, name approval, and CA professional fees. LLP registration costs ₹6,000-15,000. OPC registration costs ₹7,000-18,000. These are one-time costs excluding annual compliance.",
+            "Private Limited Company registration costs $8,000-25,000 including government fees ($3,000-7,000), DSC ($1,500-2,000), DIN, name approval, and CA professional fees. LLP registration costs $6,000-15,000. OPC registration costs $7,000-18,000. These are one-time costs excluding annual compliance.",
         },
         {
           question: "How long does company registration take?",
@@ -141,59 +141,59 @@ export const nicheData: NicheData = {
         {
           question: "What ongoing compliance costs should I budget for after registration?",
           answer:
-            "Annual compliance for a Private Limited Company includes: annual return filing (₹5,000-10,000), income tax return (₹5,000-15,000), statutory audit if applicable (₹15,000-50,000), GST compliance (₹18,000-60,000/year), and board meeting minutes. Budget ₹50,000-1,50,000/year for a CA retainer covering all compliance.",
+            "Annual compliance for a Private Limited Company includes: annual return filing ($5,000-10,000), income tax return ($5,000-15,000), statutory audit if applicable ($15,000-50,000), GST compliance ($18,000-60,000/year), and board meeting minutes. Budget $50,000-1,50,000/year for a CA retainer covering all compliance.",
         },
       ],
     },
     {
       slug: "income-tax-filing-cost",
       name: "Income Tax Filing & Planning",
-      priceRange: "₹1,500 - ₹50,000",
+      priceRange: "$1,500 - $50,000",
       description:
         "Comprehensive income tax services including ITR filing for individuals, HUFs, firms, and companies, tax planning and optimization, capital gains computation, NRI taxation, and income tax assessment representation.",
       faqItems: [
         {
           question: "What does a CA charge for income tax filing?",
           answer:
-            "Individual ITR filing costs ₹1,500-5,000 for salaried persons and ₹3,000-10,000 for business owners. Company ITR filing costs ₹10,000-50,000 depending on turnover and complexity. Tax planning consultation is usually ₹5,000-15,000 and often saves multiples of the fee in tax.",
+            "Individual ITR filing costs $1,500-5,000 for salaried persons and $3,000-10,000 for business owners. Company ITR filing costs $10,000-50,000 depending on turnover and complexity. Tax planning consultation is usually $5,000-15,000 and often saves multiples of the fee in tax.",
         },
         {
           question: "How can a CA help me save more tax than filing myself?",
           answer:
-            "CAs identify deductions and exemptions you might miss — Section 80C/80D/80G optimizations, HRA calculations, capital gains indexation, business expense claims, and advance tax planning. On average, professional tax planning saves individuals ₹20,000-1,00,000 per year beyond DIY filing.",
+            "CAs identify deductions and exemptions you might miss — Section 80C/80D/80G optimizations, HRA calculations, capital gains indexation, business expense claims, and advance tax planning. On average, professional tax planning saves individuals $20,000-1,00,000 per year beyond DIY filing.",
         },
       ],
     },
     {
       slug: "audit-service-cost",
       name: "Statutory & Tax Audit",
-      priceRange: "₹15,000 - ₹2,00,000",
+      priceRange: "$15,000 - $2,00,000",
       description:
         "Statutory audit under Companies Act, tax audit under Section 44AB, GST audit, internal audit, concurrent audit, and stock audit services for businesses of all sizes.",
       faqItems: [
         {
-          question: "What is the cost of statutory audit in India?",
+          question: "What is the cost of statutory audit globally?",
           answer:
-            "Statutory audit fees range from ₹15,000-50,000 for small companies to ₹50,000-2,00,000 for medium companies. Fees depend on company turnover, transaction volume, number of branches, and complexity. Tax audit (44AB) typically costs ₹10,000-30,000 additionally.",
+            "Statutory audit fees range from $15,000-50,000 for small companies to $50,000-2,00,000 for medium companies. Fees depend on company turnover, transaction volume, number of branches, and complexity. Tax audit (44AB) typically costs $10,000-30,000 additionally.",
         },
         {
           question: "When is audit mandatory for my business?",
           answer:
-            "Tax audit is mandatory if business turnover exceeds ₹1 crore (₹10 crore for digital transactions). Statutory audit is mandatory for all companies regardless of size. GST audit was mandatory for turnover above ₹5 crore (now self-certification). Your CA will advise on all applicable audit requirements.",
+            "Tax audit is mandatory if business turnover exceeds $1 crore ($10 crore for digital transactions). Statutory audit is mandatory for all companies regardless of size. GST audit was mandatory for turnover above $5 crore (now self-certification). Your CA will advise on all applicable audit requirements.",
         },
       ],
     },
     {
       slug: "trademark-registration-cost",
       name: "Trademark Registration",
-      priceRange: "₹5,000 - ₹20,000",
+      priceRange: "$5,000 - $20,000",
       description:
         "Complete trademark registration services including trademark search, application filing, response to examination reports, trademark opposition handling, and renewal services.",
       faqItems: [
         {
           question: "What is the cost of trademark registration through a CA?",
           answer:
-            "Trademark registration costs ₹5,000-20,000 including government fees (₹4,500 for companies, ₹4,500 for individuals with e-filing) and professional fees. Multi-class registration costs additional per class. The process takes 12-18 months for completion.",
+            "Trademark registration costs $5,000-20,000 including government fees ($4,500 for companies, $4,500 for individuals with e-filing) and professional fees. Multi-class registration costs additional per class. The process takes 12-18 months for completion.",
         },
         {
           question: "Why should I register my trademark through a CA instead of online portals?",
@@ -205,14 +205,14 @@ export const nicheData: NicheData = {
     {
       slug: "import-export-license-cost",
       name: "Import Export License (IEC)",
-      priceRange: "₹3,000 - ₹10,000",
+      priceRange: "$3,000 - $10,000",
       description:
         "Import Export Code (IEC) registration with DGFT, RCMC registration, export incentive advisory, MEIS/RoDTEP claims, customs duty optimization, and foreign trade compliance.",
       faqItems: [
         {
           question: "What is the cost of IEC registration?",
           answer:
-            "IEC registration costs ₹3,000-10,000 including DGFT government fees (₹500) and CA professional fees. The process takes 3-7 working days. Your CA will also advise on RCMC, export incentives, GST on exports (LUT/bond), and foreign exchange compliance under FEMA.",
+            "IEC registration costs $3,000-10,000 including DGFT government fees ($500) and CA professional fees. The process takes 3-7 working days. Your CA will also advise on RCMC, export incentives, GST on exports (LUT/bond), and foreign exchange compliance under FEMA.",
         },
         {
           question: "Do I need a CA for IEC or can I apply myself?",
@@ -237,7 +237,7 @@ export const nicheData: NicheData = {
   nicheKeywords: [
     "best CA firm near me",
     "chartered accountant for startup",
-    "GST consultant in Bangalore",
+    "GST consultant in Sydney",
     "CA for company registration",
     "tax planning CA India",
     "CA firm for small business",

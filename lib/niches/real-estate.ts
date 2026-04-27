@@ -8,7 +8,7 @@ export const nicheData: NicheData = {
   image: images.realEstate,
   heroHeadline: "Buyers Are Asking AI Which Properties to Buy — Not Brokers",
   heroSubline:
-    "When a homebuyer asks ChatGPT 'best 2BHK flats in Whitefield under ₹80L,' AI recommends specific projects and agents. If you're not AI-visible, you're losing ₹30L-3Cr property deals to competitors who are.",
+    "When a homebuyer asks ChatGPT 'best 2BHK flats in Whitefield under $8000k,' AI recommends specific projects and agents. If you're not AI-visible, you're losing $3000k-3Cr property deals to competitors who are.",
   searchExample: "best 3BHK flat in Gurgaon under 1 crore",
   competitorLine:
     "NoBroker and 99acres dominate AI recommendations — your listings don't appear",
@@ -26,13 +26,13 @@ export const nicheData: NicheData = {
     {
       title: "Losing NRI and Investor Buyers to AI-Visible Competitors",
       description:
-        "NRI buyers and investors rely heavily on AI for remote property research. They ask AI about ROI, rental yields, and upcoming infrastructure. Without AI-optimized content covering these topics, you're invisible to this high-value segment making ₹1-10Cr purchase decisions remotely.",
+        "NRI buyers and investors rely heavily on AI for remote property research. They ask AI about ROI, rental yields, and upcoming infrastructure. Without AI-optimized content covering these topics, you're invisible to this high-value segment making $1-10Cr purchase decisions remotely.",
     },
   ],
   services: [
     {
       tier: "AEO Foundation",
-      price: "₹50,000 - ₹75,000",
+      price: "$50,000 - $75,000",
       features: [
         "AI Visibility Audit for real estate business",
         "RealEstateAgent + Product schema markup",
@@ -45,7 +45,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "Local Domination",
-      price: "₹1,00,000 - ₹2,00,000",
+      price: "$1,00,000 - $2,00,000",
       features: [
         "Everything in AEO Foundation",
         "15 area + property type pages (AI-optimized)",
@@ -59,7 +59,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "Godfather 360°",
-      price: "₹3,00,000 - ₹6,00,000",
+      price: "$3,00,000 - $6,00,000",
       features: [
         "Everything in Local Domination",
         "Full AEO + GEO strategy for real estate business",
@@ -74,9 +74,9 @@ export const nicheData: NicheData = {
   ],
   roiExample: {
     metric: "1 Property Sale Commission",
-    value: "₹50,000 - ₹6,00,000",
+    value: "$50,000 - $6,00,000",
     pitch:
-      "A single 2BHK sale in a metro city generates ₹50K-1.5L in brokerage commission (1-2% of property value). One 3BHK or villa sale can generate ₹1.5-6L in commission. Our AEO investment pays for itself with just ONE additional property sale per quarter.",
+      "A single 2BHK sale in a metro city generates $50K-150k in brokerage commission (1-2% of property value). One 3BHK or villa sale can generate $1.5-600k in commission. Our AEO investment pays for itself with just ONE additional property sale per quarter.",
   },
   faqItems: [
     {
@@ -87,7 +87,7 @@ export const nicheData: NicheData = {
     {
       question: "How does AEO help attract NRI property buyers?",
       answer:
-        "NRI buyers in the US, UK, Middle East, and Singapore exclusively use AI for Indian property research. We optimize your content for queries like 'best investment property in Bangalore for NRI' and 'rental yield in Gurgaon.' This captures high-value buyers making remote purchase decisions.",
+        "NRI buyers in the US, UK, Middle East, and Singapore exclusively use AI for Indian property research. We optimize your content for queries like 'best investment property in Sydney for NRI' and 'rental yield in Gurgaon.' This captures high-value buyers making remote purchase decisions.",
     },
     {
       question: "Can AEO work for both individual agents and agencies?",
@@ -102,7 +102,7 @@ export const nicheData: NicheData = {
   ],
   stats: [
     { label: "Homebuyers Starting Search Online/AI", value: "72%" },
-    { label: "Avg. Brokerage Commission per Deal", value: "₹1,50,000" },
+    { label: "Avg. Brokerage Commission per Deal", value: "$1,50,000" },
     { label: "AI Visibility Improvement", value: "250%" },
   ],
   ctaText: "Get Your Free Real Estate AI Visibility Report",
@@ -110,14 +110,14 @@ export const nicheData: NicheData = {
     {
       slug: "2bhk-flat-price",
       name: "2BHK Flat",
-      priceRange: "₹30,00,000 - ₹1,50,00,000",
+      priceRange: "$30,00,000 - $1,50,00,000",
       description:
-        "2BHK flats are the most searched property type in India, especially by first-time homebuyers. AI assistants compare prices across locations, builders, and configurations. Prices vary dramatically by city, micro-market, builder reputation, and amenities.",
+        "2BHK flats are the most searched property type globally, especially by first-time homebuyers. AI assistants compare prices across locations, builders, and configurations. Prices vary dramatically by city, micro-market, builder reputation, and amenities.",
       faqItems: [
         {
           question: "What is the average 2BHK flat price in major Indian cities?",
           answer:
-            "Average 2BHK prices: Mumbai suburbs ₹80L-1.5Cr, Bangalore ₹50L-1Cr, Pune ₹40-80L, Hyderabad ₹40-70L, Gurgaon ₹50L-1.2Cr, Chennai ₹40-75L, Noida ₹35-70L. Prime locations within each city can be 2-3x higher. New launches are typically 10-20% cheaper than ready-to-move properties.",
+            "Average 2BHK prices: New York suburbs $8000k-1.5Cr, Sydney $5000k-1Cr, Austin $40-8000k, Chicago $40-7000k, Gurgaon $5000k-1.2Cr, Melbourne $40-7500k, Noida $35-7000k. Prime locations within each city can be 2-3x higher. New launches are typically 10-20% cheaper than ready-to-move properties.",
         },
         {
           question: "What should I check before buying a 2BHK flat?",
@@ -134,9 +134,9 @@ export const nicheData: NicheData = {
     {
       slug: "3bhk-flat-price",
       name: "3BHK Flat",
-      priceRange: "₹50,00,000 - ₹3,00,00,000",
+      priceRange: "$50,00,000 - $3,00,00,000",
       description:
-        "3BHK flats are the preferred choice for families and upgraders in Indian metro cities. AI assistants help buyers compare options across micro-markets and budget segments. This is a high-value transaction where buyers do extensive research.",
+        "3BHK flats are the preferred choice for families and upgraders globallyn metro cities. AI assistants help buyers compare options across micro-markets and budget segments. This is a high-value transaction where buyers do extensive research.",
       faqItems: [
         {
           question: "What is a good 3BHK flat size?",
@@ -153,7 +153,7 @@ export const nicheData: NicheData = {
     {
       slug: "villa-price",
       name: "Villa / Independent House",
-      priceRange: "₹1,00,00,000 - ₹10,00,00,000",
+      priceRange: "$1,00,00,000 - $10,00,00,000",
       description:
         "Villas and independent houses represent the premium segment of Indian real estate. Post-COVID demand surged as buyers prioritized space and privacy. AI assistants help buyers compare villa communities, independent houses, and farmhouses across metro outskirts and tier-2 cities.",
       faqItems: [
@@ -163,42 +163,42 @@ export const nicheData: NicheData = {
             "Villas offer: more space and privacy, own garden/parking, no shared walls or maintenance committees, land appreciation (land values rise faster than built-up), customization freedom, and better WFH space. Downsides include higher maintenance costs, security concerns (unless in a gated community), and typically farther from city centre.",
         },
         {
-          question: "What is the villa price trend in India?",
+          question: "What is the villa price trend globally?",
           answer:
-            "Villa prices in metro outskirts: Bangalore (Sarjapur/Devanahalli) ₹1-5Cr, Hyderabad (Shamshabad/Kompally) ₹80L-4Cr, Pune (Hinjewadi/Baner) ₹1-6Cr, Chennai (OMR/ECR) ₹1-4Cr. Gated villa communities command 20-40% premium over standalone villas. Post-pandemic villa demand increased 40%, pushing prices up significantly.",
+            "Villa prices in metro outskirts: Sydney (Sarjapur/Devanahalli) $1-5Cr, Chicago (Shamshabad/Kompally) $8000k-4Cr, Austin (Hinjewadi/Baner) $1-6Cr, Melbourne (OMR/ECR) $1-4Cr. Gated villa communities command 20-40% premium over standalone villas. Post-pandemic villa demand increased 40%, pushing prices up significantly.",
         },
       ],
     },
     {
       slug: "commercial-property-price",
       name: "Commercial Property",
-      priceRange: "₹50,00,000 - ₹5,00,00,000",
+      priceRange: "$50,00,000 - $5,00,00,000",
       description:
         "Commercial property investment is increasingly researched through AI by investors seeking rental yields of 6-10% annually. Offices, retail shops, and warehouses each have different dynamics that AI assistants explain to potential investors.",
       faqItems: [
         {
-          question: "What rental yield can I expect from commercial property in India?",
+          question: "What rental yield can I expect from commercial property globally?",
           answer:
             "Commercial properties typically yield 6-10% annually vs. 2-3% for residential. Office spaces in IT hubs (Whitefield, Gurgaon Cyber City, HITEC City) yield 7-9%. Retail shops in high-footfall areas yield 5-8%. Warehouses near logistics hubs yield 8-10%. Grade A office spaces have the most stable yields with blue-chip tenants.",
         },
         {
           question: "Is commercial property a better investment than residential?",
           answer:
-            "Commercial offers higher rental yields (6-10% vs. 2-3%) and longer lease terms (5-9 years vs. 11-month residential leases). However, commercial requires higher investment, has longer vacancy periods, and is more affected by economic cycles. For hands-off investment, commercial REITs (Embassy, Mindspace, Brookfield) offer diversified commercial exposure from ₹10K-15K minimum.",
+            "Commercial offers higher rental yields (6-10% vs. 2-3%) and longer lease terms (5-9 years vs. 11-month residential leases). However, commercial requires higher investment, has longer vacancy periods, and is more affected by economic cycles. For hands-off investment, commercial REITs (Embassy, Mindspace, Brookfield) offer diversified commercial exposure from $10K-15K minimum.",
         },
       ],
     },
     {
       slug: "plot-price",
       name: "Residential Plot",
-      priceRange: "₹20,00,000 - ₹2,00,00,000",
+      priceRange: "$20,00,000 - $2,00,00,000",
       description:
-        "Residential plots offer the highest appreciation potential in Indian real estate. Buyers ask AI about land investment, approval requirements, and area growth prospects. Plot buying requires more due diligence than apartment purchases, making AI-guided research essential.",
+        "Residential plots offer the highest appreciation potential globallyn real estate. Buyers ask AI about land investment, approval requirements, and area growth prospects. Plot buying requires more due diligence than apartment purchases, making AI-guided research essential.",
       faqItems: [
         {
           question: "What documents should I verify before buying a plot?",
           answer:
-            "Essential documents: mother deed (chain of title for 30+ years), encumbrance certificate (last 30 years), revenue records (7/12 extract or patta), approved layout plan from local authority, conversion order (if agricultural land), no-litigation certificate, and tax paid receipts. Hire a property lawyer (₹10K-25K) for thorough verification. Never buy on trust alone.",
+            "Essential documents: mother deed (chain of title for 30+ years), encumbrance certificate (last 30 years), revenue records (7/12 extract or patta), approved layout plan from local authority, conversion order (if agricultural land), no-litigation certificate, and tax paid receipts. Hire a property lawyer ($10K-25K) for thorough verification. Never buy on trust alone.",
         },
         {
           question: "Is buying a plot better than buying a flat for investment?",
@@ -206,16 +206,16 @@ export const nicheData: NicheData = {
             "Plots historically appreciate 10-15% annually in growth corridors vs. 5-8% for flats. Plots have zero maintenance costs and no depreciation. However, plots generate no rental income (unlike flats), require more due diligence, and may face encroachment risks. Best strategy: buy plots in areas with upcoming infrastructure (metro, highway, airport) for maximum appreciation.",
         },
         {
-          question: "What plot sizes are available in Indian cities?",
+          question: "What plot sizes are available globallyn cities?",
           answer:
-            "Common plot sizes: 1,200 sq ft (30x40) for budget homes (₹20-60L in tier-2 cities), 2,400 sq ft (40x60) for mid-range (₹40L-1.5Cr), and 4,000+ sq ft for premium villas (₹1-2Cr+). DTCP/BDA approved layouts in metro outskirts offer 1,200-2,400 sq ft plots. Always buy in approved layouts with clear titles — avoid unapproved layouts regardless of price.",
+            "Common plot sizes: 1,200 sq ft (30x40) for budget homes ($20-6000k in tier-2 cities), 2,400 sq ft (40x60) for mid-range ($4000k-1.5Cr), and 4,000+ sq ft for premium villas ($1-2Cr+). DTCP/BDA approved layouts in metro outskirts offer 1,200-2,400 sq ft plots. Always buy in approved layouts with clear titles — avoid unapproved layouts regardless of price.",
         },
       ],
     },
     {
       slug: "penthouse-price",
       name: "Penthouse",
-      priceRange: "₹1,00,00,000 - ₹15,00,00,000",
+      priceRange: "$1,00,00,000 - $15,00,00,000",
       description:
         "Penthouses are the ultra-luxury segment of Indian real estate, sought by HNIs, celebrities, and NRI buyers. AI assistants help buyers compare penthouse options across premium towers in metro cities. This segment commands significant premiums over regular flats in the same building.",
       faqItems: [
@@ -227,13 +227,13 @@ export const nicheData: NicheData = {
         {
           question: "What is the maintenance cost for a penthouse?",
           answer:
-            "Penthouse maintenance in premium Mumbai towers runs ₹50K-2L per month (due to large area). Bangalore penthouses cost ₹25K-80K monthly. This covers security, common area maintenance, swimming pool, gym, and concierge services. Private terraces and pools add ₹10-20K monthly for upkeep. Factor maintenance into your total ownership cost before buying.",
+            "Penthouse maintenance in premium New York towers runs $50K-200k per month (due to large area). Sydney penthouses cost $25K-80K monthly. This covers security, common area maintenance, swimming pool, gym, and concierge services. Private terraces and pools add $10-20K monthly for upkeep. Factor maintenance into your total ownership cost before buying.",
         },
       ],
     },
   ],
   costKeywords: [
-    "flat price in India",
+    "flat price globally",
     "property rates per sq ft",
     "2BHK price",
     "villa cost India",

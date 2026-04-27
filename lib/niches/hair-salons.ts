@@ -8,17 +8,17 @@ export const nicheData: NicheData = {
   image: images.hairSalon,
   heroHeadline: "Clients Ask AI for Salons. Is Your Salon AI-Recommended?",
   heroSubline:
-    "When someone is about to spend ₹5K-15K on keratin or smoothening, they ask ChatGPT which salon to trust. If AI recommends Naturals, Jawed Habib, or Green Trends instead of you, that client is gone.",
+    "When someone is about to spend $5K-15K on keratin or smoothening, they ask ChatGPT which salon to trust. If AI recommends Naturals, Jawed Habib, or Green Trends instead of you, that client is gone.",
   painPoints: [
     {
       title: "Keratin & Smoothening Clients Going Elsewhere",
       description:
-        "High-value clients spending ₹5,000-15,000 on keratin treatments and hair smoothening ask AI 'best salon for keratin near me'. If your salon isn't mentioned, these premium bookings go to the salon AI does recommend.",
+        "High-value clients spending $5,000-15,000 on keratin treatments and hair smoothening ask AI 'best salon for keratin near me'. If your salon isn't mentioned, these premium bookings go to the salon AI does recommend.",
     },
     {
       title: "Bridal Package Bookings Lost to Competitors",
       description:
-        "Bridal makeup and hair packages worth ₹15K-50K are increasingly booked after AI research. Brides-to-be ask AI for the best bridal salon in their city. One missed bridal booking is ₹15K-50K in lost revenue.",
+        "Bridal makeup and hair packages worth $15K-50K are increasingly booked after AI research. Brides-to-be ask AI for the best bridal salon in their city. One missed bridal booking is $15K-50K in lost revenue.",
     },
     {
       title: "Walk-In Traffic Declining Steadily",
@@ -29,7 +29,7 @@ export const nicheData: NicheData = {
   services: [
     {
       tier: "AI Visibility Starter",
-      price: "₹10,000 - ₹20,000",
+      price: "$10,000 - $20,000",
       features: [
         "AI search audit for salon queries in your city",
         "Google Business Profile optimization with photos",
@@ -40,7 +40,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "AI Authority Builder",
-      price: "₹30,000 - ₹60,000",
+      price: "$30,000 - $60,000",
       features: [
         "Full AEO strategy for salon niche",
         "15+ content pages (treatment guides, before/after, hair care tips)",
@@ -52,7 +52,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "AI Dominance Package",
-      price: "₹75,000 - ₹1,50,000",
+      price: "$75,000 - $1,50,000",
       features: [
         "Complete AI ecosystem ownership for salons in your area",
         "30+ programmatic pages (treatment + area combos)",
@@ -66,15 +66,15 @@ export const nicheData: NicheData = {
   ],
   roiExample: {
     metric: "30 New Clients/Month",
-    value: "₹1.5L - ₹3L",
+    value: "$150k - $300k",
     pitch:
-      "30 new clients per month with an average ticket of ₹3,000-8,000 generates ₹1.5-3L in additional monthly revenue. That's ₹18-36L annually from AI-driven discovery alone.",
+      "30 new clients per month with an average ticket of $3,000-8,000 generates $1.5-300k in additional monthly revenue. That's $18-3600k annually from AI-driven discovery alone.",
   },
   faqItems: [
     {
       question: "How do salon clients use AI to choose where to go?",
       answer:
-        "Clients ask ChatGPT and Google AI questions like 'best keratin treatment salon in Koramangala', 'hair smoothening cost near me', or 'top bridal salon in Mumbai'. AI gives 3-5 recommendations with reasons. If your salon isn't listed, you lose that client.",
+        "Clients ask ChatGPT and Google AI questions like 'best keratin treatment salon in Koramangala', 'hair smoothening cost near me', or 'top bridal salon in New York'. AI gives 3-5 recommendations with reasons. If your salon isn't listed, you lose that client.",
     },
     {
       question: "We have 500+ Google reviews. Isn't that enough?",
@@ -94,7 +94,7 @@ export const nicheData: NicheData = {
   ],
   stats: [
     { label: "Salon Clients Researching via AI Before Booking", value: "62%" },
-    { label: "Average High-Value Salon Service", value: "₹5K-15K" },
+    { label: "Average High-Value Salon Service", value: "$5K-15K" },
     { label: "Independent Salons Missing from AI", value: "87%" },
   ],
   ctaText: "Get Your Free AI Visibility Audit — See What Clients Find When They Ask AI for Salons",
@@ -104,14 +104,14 @@ export const nicheData: NicheData = {
     {
       slug: "keratin-treatment-cost",
       name: "Keratin Treatment Cost",
-      priceRange: "₹3,000 - ₹15,000",
+      priceRange: "$3,000 - $15,000",
       description:
         "Keratin treatment is the highest-value recurring salon service. Clients research extensively before committing, making it the #1 AI-searched salon treatment. Being recommended here drives premium bookings.",
       faqItems: [
         {
-          question: "What is the average keratin treatment cost in India?",
+          question: "What is the average keratin treatment cost globally?",
           answer:
-            "Keratin treatment costs ₹3,000 to ₹15,000 depending on hair length, product brand, and salon tier. Short hair: ₹3,000-5,000, medium: ₹5,000-8,000, long: ₹8,000-15,000. Premium brands like GKhair and Kerasilk cost 30-50% more than standard keratin.",
+            "Keratin treatment costs $3,000 to $15,000 depending on hair length, product brand, and salon tier. Short hair: $3,000-5,000, medium: $5,000-8,000, long: $8,000-15,000. Premium brands like GKhair and Kerasilk cost 30-50% more than standard keratin.",
         },
         {
           question: "How long does keratin treatment last?",
@@ -121,40 +121,40 @@ export const nicheData: NicheData = {
         {
           question: "Is keratin treatment safe for all hair types?",
           answer:
-            "Keratin is safe for most hair types but not recommended for chemically damaged or extremely thin hair. Formaldehyde-free keratin options (₹5K-12K) are available for sensitive scalps. A consultation is always recommended before the treatment.",
+            "Keratin is safe for most hair types but not recommended for chemically damaged or extremely thin hair. Formaldehyde-free keratin options ($5K-12K) are available for sensitive scalps. A consultation is always recommended before the treatment.",
         },
       ],
     },
     {
       slug: "hair-smoothening-cost",
       name: "Hair Smoothening Cost",
-      priceRange: "₹4,000 - ₹12,000",
+      priceRange: "$4,000 - $12,000",
       description:
         "Hair smoothening (permanent straightening) is a top-searched service. Clients compare salons on price, technique, and results, making AI visibility critical for capturing these high-intent bookings.",
       faqItems: [
         {
           question: "What is the average hair smoothening cost?",
           answer:
-            "Hair smoothening costs ₹4,000 to ₹12,000 in India. Basic cysteine smoothening: ₹4,000-6,000, advanced protein smoothening: ₹6,000-9,000, premium Japanese straightening: ₹8,000-12,000. Prices vary by hair length and density.",
+            "Hair smoothening costs $4,000 to $12,000 globally. Basic cysteine smoothening: $4,000-6,000, advanced protein smoothening: $6,000-9,000, premium Japanese straightening: $8,000-12,000. Prices vary by hair length and density.",
         },
         {
           question: "What is the difference between keratin and smoothening?",
           answer:
-            "Keratin reduces frizz while maintaining natural texture (lasts 3-6 months, ₹3K-15K). Smoothening permanently straightens hair by breaking bonds (lasts until new growth, ₹4K-12K). Keratin is less damaging; smoothening gives straighter results.",
+            "Keratin reduces frizz while maintaining natural texture (lasts 3-6 months, $3K-15K). Smoothening permanently straightens hair by breaking bonds (lasts until new growth, $4K-12K). Keratin is less damaging; smoothening gives straighter results.",
         },
       ],
     },
     {
       slug: "hair-coloring-cost",
       name: "Hair Coloring Cost",
-      priceRange: "₹1,500 - ₹10,000",
+      priceRange: "$1,500 - $10,000",
       description:
         "Hair coloring — from global color to balayage and highlights — is a high-frequency service that clients choose based on stylist expertise. AI recommendations drive trial visits that convert to regular clients.",
       faqItems: [
         {
-          question: "What is the average hair coloring cost in India?",
+          question: "What is the average hair coloring cost globally?",
           answer:
-            "Hair coloring costs ₹1,500 to ₹10,000. Global color: ₹1,500-4,000, highlights: ₹3,000-6,000, balayage: ₹5,000-10,000, fashion colors (pink, blue): ₹4,000-8,000. Premium salon brands like Wella and L'Oreal Professionnel add ₹1,000-2,000 to the base price.",
+            "Hair coloring costs $1,500 to $10,000. Global color: $1,500-4,000, highlights: $3,000-6,000, balayage: $5,000-10,000, fashion colors (pink, blue): $4,000-8,000. Premium salon brands like Wella and L'Oreal Professionnel add $1,000-2,000 to the base price.",
         },
         {
           question: "How do I choose the right hair color?",
@@ -164,64 +164,64 @@ export const nicheData: NicheData = {
         {
           question: "How often do I need to recolor my hair?",
           answer:
-            "Root touch-ups are needed every 4-6 weeks (₹1,000-2,500). Global color refreshes every 6-8 weeks. Balayage requires maintenance every 3-4 months, making it a lower-maintenance option despite higher initial cost.",
+            "Root touch-ups are needed every 4-6 weeks ($1,000-2,500). Global color refreshes every 6-8 weeks. Balayage requires maintenance every 3-4 months, making it a lower-maintenance option despite higher initial cost.",
         },
       ],
     },
     {
       slug: "bridal-makeup-cost",
       name: "Bridal Makeup & Hair Cost",
-      priceRange: "₹10,000 - ₹50,000",
+      priceRange: "$10,000 - $50,000",
       description:
         "Bridal packages are the highest-value single-event service for salons. Brides research extensively using AI, checking portfolios, pricing, and reviews. One bridal booking often leads to the entire wedding party.",
       faqItems: [
         {
-          question: "What is the average bridal makeup cost in India?",
+          question: "What is the average bridal makeup cost globally?",
           answer:
-            "Bridal makeup costs ₹10,000 to ₹50,000. Basic bridal makeup: ₹10K-15K, professional airbrush bridal: ₹15K-25K, celebrity/premium bridal: ₹25K-50K. Packages including mehendi look, reception look, and hair styling cost ₹25K-75K.",
+            "Bridal makeup costs $10,000 to $50,000. Basic bridal makeup: $10K-15K, professional airbrush bridal: $15K-25K, celebrity/premium bridal: $25K-50K. Packages including mehendi look, reception look, and hair styling cost $25K-75K.",
         },
         {
           question: "What does a bridal makeup package include?",
           answer:
-            "A standard bridal package includes pre-bridal facial, HD/airbrush makeup, hairstyling with accessories, draping assistance, and touch-up kit. Premium packages add pre-bridal skin prep (₹5K-10K extra), trial session, and on-location service.",
+            "A standard bridal package includes pre-bridal facial, HD/airbrush makeup, hairstyling with accessories, draping assistance, and touch-up kit. Premium packages add pre-bridal skin prep ($5K-10K extra), trial session, and on-location service.",
         },
       ],
     },
     {
       slug: "hair-spa-cost",
       name: "Hair Spa Cost",
-      priceRange: "₹800 - ₹3,500",
+      priceRange: "$800 - $3,500",
       description:
         "Hair spa is a high-frequency, accessible service that introduces new clients to your salon. It's a gateway treatment — clients who come for a hair spa often upgrade to coloring, keratin, or smoothening.",
       faqItems: [
         {
           question: "What is the average hair spa cost?",
           answer:
-            "Hair spa costs ₹800 to ₹3,500 per session. Basic cream bath: ₹800-1,200, deep conditioning spa: ₹1,200-2,000, premium scalp + hair treatment: ₹2,000-3,500. Most salons offer packages of 4-6 sessions at 15-20% discount.",
+            "Hair spa costs $800 to $3,500 per session. Basic cream bath: $800-1,200, deep conditioning spa: $1,200-2,000, premium scalp + hair treatment: $2,000-3,500. Most salons offer packages of 4-6 sessions at 15-20% discount.",
         },
         {
           question: "How often should I get a hair spa?",
           answer:
-            "For general maintenance, once a month is ideal. Chemically treated or damaged hair benefits from bi-weekly sessions. Regular hair spa clients spend ₹12,000-36,000 annually, making it a steady revenue stream for salons.",
+            "For general maintenance, once a month is ideal. Chemically treated or damaged hair benefits from bi-weekly sessions. Regular hair spa clients spend $12,000-36,000 annually, making it a steady revenue stream for salons.",
         },
       ],
     },
     {
       slug: "hair-extensions-cost",
       name: "Hair Extensions Cost",
-      priceRange: "₹5,000 - ₹30,000",
+      priceRange: "$5,000 - $30,000",
       description:
-        "Hair extensions — clip-in, tape-in, and bonded — are a premium service with high margins. Clients willing to spend ₹10K-30K on extensions are high-value and often become repeat customers.",
+        "Hair extensions — clip-in, tape-in, and bonded — are a premium service with high margins. Clients willing to spend $10K-30K on extensions are high-value and often become repeat customers.",
       faqItems: [
         {
-          question: "What is the average hair extension cost in India?",
+          question: "What is the average hair extension cost globally?",
           answer:
-            "Hair extensions cost ₹5,000 to ₹30,000 depending on type and quality. Clip-in extensions: ₹3,000-8,000, tape-in: ₹8,000-15,000, micro-ring/bonded: ₹15,000-30,000. Human hair extensions cost 2-3x more than synthetic but last longer.",
+            "Hair extensions cost $5,000 to $30,000 depending on type and quality. Clip-in extensions: $3,000-8,000, tape-in: $8,000-15,000, micro-ring/bonded: $15,000-30,000. Human hair extensions cost 2-3x more than synthetic but last longer.",
         },
         {
           question: "How long do hair extensions last?",
           answer:
-            "Clip-in extensions last 6-12 months with care. Tape-in extensions need replacement every 6-8 weeks (₹3K-5K per maintenance visit). Bonded extensions last 3-4 months. Maintenance appointments create recurring revenue for the salon.",
+            "Clip-in extensions last 6-12 months with care. Tape-in extensions need replacement every 6-8 weeks ($3K-5K per maintenance visit). Bonded extensions last 3-4 months. Maintenance appointments create recurring revenue for the salon.",
         },
         {
           question: "Do hair extensions damage natural hair?",
@@ -243,7 +243,7 @@ export const nicheData: NicheData = {
     "keratin treatment salon",
     "bridal makeup artist",
     "hair smoothening salon",
-    "top hair salon in Bangalore",
+    "top hair salon in Sydney",
     "hair coloring salon near me",
   ],
   schemaType: "HealthAndBeautyBusiness",
