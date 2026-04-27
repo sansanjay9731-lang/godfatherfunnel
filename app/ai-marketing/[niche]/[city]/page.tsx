@@ -13,7 +13,7 @@ function cityFromSlug(slug: string) {
 
 function formatCurrency(price: string, country: string) {
   const currency = country === "UK" ? "£" : country === "Australia" ? "A$" : "$";
-  // Replace $, ₹, or £ with the target currency
+  // Replace $, $, or £ with the target currency
   return price.replace(/[$\u20B9\u00A3]/g, currency);
 }
 

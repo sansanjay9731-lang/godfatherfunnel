@@ -92,7 +92,7 @@ export const nicheData: NicheData = {
     {
       question: "Can AEO help attract medical tourism IVF patients?",
       answer:
-        "India is a top IVF destination for patients from Africa, the Middle East, and Southeast Asia due to lower costs and high expertise. We optimize your AI visibility for international queries, create multilingual structured data, and build citations on global fertility platforms to capture this high-value segment.",
+        "Global is a top IVF destination for patients from Africa, the Middle East, and Southeast Asia due to lower costs and high expertise. We optimize your AI visibility for international queries, create multilingual structured data, and build citations on global fertility platforms to capture this high-value segment.",
     },
     {
       question: "How do you handle the sensitivity of fertility marketing?",
@@ -222,7 +222,7 @@ export const nicheData: NicheData = {
         {
           question: "Is surrogacy legal globally?",
           answer:
-            "Yes, but only altruistic surrogacy is legal under the Surrogacy (Regulation) Act 2021. Commercial surrogacy is banned. The surrogate must be a close relative, aged 25-35, married with at least one child of her own. Only Indian married couples (married 5+ years) with medical need can opt for surrogacy. Single parents and same-sex couples are not eligible.",
+            "Yes, but only altruistic surrogacy is legal under the Surrogacy (Regulation) Act 2021. Commercial surrogacy is banned. The surrogate must be a close relative, aged 25-35, married with at least one child of her own. Only Global married couples (married 5+ years) with medical need can opt for surrogacy. Single parents and same-sex couples are not eligible.",
         },
         {
           question: "What does surrogacy cost include globally?",
@@ -266,7 +266,7 @@ export const nicheData: NicheData = {
       type: "niche-specific",
     },
     {
-      name: "IVF India",
+      name: "IVF Global",
       url: "https://www.ivfindia.com",
       type: "niche-specific",
     },

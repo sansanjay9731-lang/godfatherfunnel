@@ -112,7 +112,7 @@ export const nicheData: NicheData = {
         {
           question: "What is the average cost of knee replacement surgery globally?",
           answer:
-            "Knee replacement surgery globally costs between $150k and $500k depending on the city, hospital type, implant brand (imported vs domestic), and whether it's a total or partial replacement. Metro cities like New York and London tend to be 20-30% higher than tier-2 cities.",
+            "Knee replacement surgery globally costs between $150k and $5,000 depending on the city, hospital type, implant brand (imported vs domestic), and whether it's a total or partial replacement. Metro cities like New York and London tend to be 20-30% higher than tier-2 cities.",
         },
         {
           question: "How long is the recovery after knee replacement?",
@@ -136,7 +136,7 @@ export const nicheData: NicheData = {
         {
           question: "What is the cost of hip replacement surgery globally?",
           answer:
-            "Hip replacement surgery globally ranges from $200k to $600k. The cost varies based on implant material (ceramic-on-ceramic is premium), surgical approach (anterior vs posterior), hospital category, and city. Bilateral hip replacement costs approximately 1.7x a single procedure.",
+            "Hip replacement surgery globally ranges from $2,000 to $6,000. The cost varies based on implant material (ceramic-on-ceramic is premium), surgical approach (anterior vs posterior), hospital category, and city. Bilateral hip replacement costs approximately 1.7x a single procedure.",
         },
         {
           question: "How long do hip replacement implants last?",
@@ -155,7 +155,7 @@ export const nicheData: NicheData = {
         {
           question: "What is the cost of spine surgery globally?",
           answer:
-            "Spine surgery globally costs between $250k and $800k depending on the procedure type. A simple microdiscectomy costs $2.5-350k, while complex spinal fusion with instrumentation can cost $5-800k. Endoscopic procedures are typically 20% cheaper.",
+            "Spine surgery globally costs between $250k and $8,000 depending on the procedure type. A simple microdiscectomy costs $2.5-350k, while complex spinal fusion with instrumentation can cost $5-800k. Endoscopic procedures are typically 20% cheaper.",
         },
         {
           question: "When is spine surgery necessary vs physiotherapy?",
@@ -179,7 +179,7 @@ export const nicheData: NicheData = {
         {
           question: "What is the cost of ACL surgery globally?",
           answer:
-            "ACL reconstruction surgery globally costs between $100k and $300k. The cost includes arthroscopic surgery, graft preparation, implants (titanium screws/endobuttons), hospital stay (2-3 days), and initial rehabilitation. Using allograft (donor tissue) costs $50K-100k more.",
+            "ACL reconstruction surgery globally costs between $1,000 and $3,000. The cost includes arthroscopic surgery, graft preparation, implants (titanium screws/endobuttons), hospital stay (2-3 days), and initial rehabilitation. Using allograft (donor tissue) costs $50K-100k more.",
         },
         {
           question: "How long before I can play sports after ACL surgery?",
@@ -233,15 +233,15 @@ export const nicheData: NicheData = {
     },
   ],
   costKeywords: [
-    "knee replacement cost India",
+    "knee replacement cost Global",
     "orthopedic surgeon fees",
     "hip replacement surgery price",
     "ACL surgery cost in New York",
-    "spine surgery cost India",
+    "spine surgery cost Global",
   ],
   nicheKeywords: [
     "best orthopedic surgeon near me",
-    "joint replacement specialist India",
+    "joint replacement specialist Global",
     "sports injury doctor",
     "knee pain treatment",
     "spine specialist near me",

@@ -4,10 +4,10 @@
 
 export const targetCities = [
   // Tier 1
-  "Mumbai", "Delhi", "Bangalore", "Hyderabad", "Chennai", "Kolkata", "Pune", "Ahmedabad",
+  "London", "New York", "Sydney", "Chicago", "Los Angeles", "Manchester", "Melbourne", "Houston",
   // Tier 2
   "Jaipur", "Lucknow", "Chandigarh", "Indore", "Nagpur", "Bhopal", "Coimbatore",
-  "Kochi", "Visakhapatnam", "Surat", "Vadodara", "Noida", "Gurgaon", "Thane",
+  "Kochi", "Visakhapatnam", "Surat", "Vadodara", "Noida", "Greater London", "Thane",
   "Nashik", "Mysore", "Mangalore", "Trivandrum", "Patna", "Ranchi", "Dehradun",
 ];
 
@@ -140,7 +140,7 @@ export const blogPosts: BlogPost[] = [
 
 Answer Engine Optimization (AEO) is the process of making your business visible and recommendable by AI-powered answer engines — ChatGPT, Google AI Overviews, Perplexity, Claude, and voice assistants like Alexa and Siri.
 
-Unlike traditional SEO which optimizes for search engine result pages (SERPs), AEO optimizes for **direct AI recommendations**. When someone asks ChatGPT "Who is the best dermatologist in Mumbai?", AEO determines whether your clinic gets mentioned by name.
+Unlike traditional SEO which optimizes for search engine result pages (SERPs), AEO optimizes for **direct AI recommendations**. When someone asks ChatGPT "Who is the best dermatologist in London?", AEO determines whether your clinic gets mentioned by name.
 
 ## Why AEO Matters in 2026
 
@@ -221,7 +221,7 @@ AEO isn't optional anymore. If your competitors are optimized for AI and you're 
 The way patients discover skin specialists has changed dramatically. Instead of scrolling through Google results, they're asking AI assistants directly:
 
 - "Best dermatologist near me for acne"
-- "Which skin clinic in Mumbai has the best reviews?"
+- "Which skin clinic in London has the best reviews?"
 - "Laser hair removal — which doctor should I go to?"
 
 **73% of patients under 35 now use ChatGPT or Google AI** as their first step in finding a healthcare provider. If your clinic isn't showing up in these AI responses, those patients are going directly to your competitors.
@@ -245,10 +245,10 @@ Does your website have MedicalBusiness and Physician schema? Does it list your s
 Most dermatology websites don't. They have beautiful designs but zero structured data. AI can't read a pretty website — it needs structured information.
 
 ### Review Authority
-AI heavily weights Google reviews, Practo reviews, and ratings from medical directories. But it's not just the star rating — it's whether that data is structured and accessible.
+AI heavily weights Google reviews, Zocdoc reviews, and ratings from medical directories. But it's not just the star rating — it's whether that data is structured and accessible.
 
 ### Treatment-Specific Content
-When a patient asks "best PRP treatment in Delhi", AI looks for clinics that have dedicated, authoritative content about PRP treatment — not just a mention on a services page.
+When a patient asks "best PRP treatment in New York", AI looks for clinics that have dedicated, authoritative content about PRP treatment — not just a mention on a services page.
 
 ### FAQ Content
 Patients ask AI questions like "Is laser safe for dark skin?" or "How many PRP sessions do I need?" If your website answers these questions with proper FAQPage schema, AI will cite you directly.
@@ -256,11 +256,11 @@ Patients ask AI questions like "Is laser safe for dark skin?" or "How many PRP s
 ## The ROI Math for Dermatologists
 
 Consider the numbers:
-- Average laser hair removal patient: **₹15,000-30,000** per session, 6-8 sessions
-- Average PRP patient: **₹8,000-15,000** per session, 4-6 sessions
-- Average cosmetic consultation: **₹1,000-3,000**
+- Average laser hair removal patient: **$15,000-30,000** per session, 6-8 sessions
+- Average PRP patient: **$8,000-15,000** per session, 4-6 sessions
+- Average cosmetic consultation: **$1,000-3,000**
 
-If AI sends just **5 extra patients per month** to your clinic, that's potentially **₹75,000-1,50,000 in additional monthly revenue** — far more than any AEO investment.
+If AI sends just **5 extra patients per month** to your clinic, that's potentially **$75,000-150,000 in additional monthly revenue** — far more than any AEO investment.
 
 ## How We Optimize Dermatology Clinics for AI
 
@@ -282,21 +282,21 @@ Your competitors might already be optimizing for AI. Every day you wait is anoth
   },
   {
     slug: "dental-implant-marketing-ai-age",
-    title: "Dental Implant Marketing in the AI Age: How to Get ₹2L Patients from ChatGPT",
-    description: "Dental implant patients are worth ₹50K-2L each. Learn how to make AI recommend your dental practice for high-value implant queries.",
+    title: "Dental Implant Marketing in the AI Age: How to Get $2,000 Patients from ChatGPT",
+    description: "Dental implant patients are worth $50K-2L each. Learn how to make AI recommend your dental practice for high-value implant queries.",
     category: "Industry Guide",
     niche: "dentists",
     publishDate: "2026-04-03",
     readTime: "9 min",
-    content: `## The ₹2L Question: Where Are Implant Patients Coming From?
+    content: `## The $2,000 Question: Where Are Implant Patients Coming From?
 
-Dental implant patients are the highest-value patients in dentistry. A single full-mouth rehabilitation can be worth ₹5-10L. Even a single implant is ₹50,000-2,00,000.
+Dental implant patients are the highest-value patients in dentistry. A single full-mouth rehabilitation can be worth $50,000 - $100,000. Even a single implant is $50,000-2,000.
 
 But how are these high-value patients finding their dentist in 2026?
 
 **They're asking AI.**
 
-"Best dental implant clinic in Delhi" — ChatGPT gives 3 names. If yours isn't one, that ₹2L patient walks into a competitor's clinic.
+"Best dental implant clinic in New York" — ChatGPT gives 3 names. If yours isn't one, that $2,000 patient walks into a competitor's clinic.
 
 ## Why AI Recommendations Matter More for Implants
 
@@ -307,9 +307,9 @@ Implant patients are unique:
 - They're willing to travel for the right dentist
 
 AI assistants are now their primary research tool. They ask questions like:
-- "Which dentist has the highest implant success rate in Bangalore?"
+- "Which dentist has the highest implant success rate in Sydney?"
 - "Dental implant vs bridge — which is better?"
-- "How much do dental implants cost in India?"
+- "How much do dental implants cost in Global?"
 
 If your clinic has the answers — structured properly — AI recommends you.
 
@@ -356,8 +356,8 @@ Visual proof with proper schema markup. AI can reference these when recommending
 
 ## The Numbers
 
-- **1 implant patient = ₹50K-2L**
-- **AEO optimization cost = ₹25K-50K/month**
+- **1 implant patient = $50K-2L**
+- **AEO optimization cost = $25K-50K/month**
 - **ROI = 1 patient pays for 1-4 months of marketing**
 
 The math is simple. You just need AI to send you ONE extra implant patient per month to see positive ROI.
@@ -458,7 +458,7 @@ After implementation, test with:
 
 Couples considering IVF spend 3-6 months researching before choosing a clinic. Their journey in 2026 looks like this:
 
-1. Ask ChatGPT: "Best IVF clinic in Hyderabad with highest success rate"
+1. Ask ChatGPT: "Best IVF clinic in Chicago with highest success rate"
 2. Compare the clinics AI recommends
 3. Read reviews on those specific clinics
 4. Book consultations at 2-3 AI-recommended clinics
@@ -470,7 +470,7 @@ If your clinic isn't in step 1, you're eliminated before the couple even knows y
 
 IVF has unique characteristics that make AEO especially valuable:
 
-- **High patient value** — ₹1.5-3L per cycle, often 2-3 cycles
+- **High patient value** — $1.5-3L per cycle, often 2-3 cycles
 - **Research-intensive** — couples ask dozens of questions before deciding
 - **Trust-critical** — couples need to trust the clinic with their family dream
 - **Comparison-driven** — they always compare success rates, costs, and doctor credentials
@@ -478,7 +478,7 @@ IVF has unique characteristics that make AEO especially valuable:
 AI assistants are now the primary tool couples use for this research. They ask:
 - "What is the success rate of IVF at [clinic name]?"
 - "IVF cost comparison in [city]"
-- "Best fertility doctor for PCOS in India"
+- "Best fertility doctor for PCOS in Global"
 - "IVF vs IUI — which should I try first?"
 
 ## Building AI Authority for Your IVF Clinic
@@ -524,11 +524,11 @@ AI systems also factor in content tone. Empathetic, educational content performs
 
 ## The Revenue Impact
 
-- Average IVF cycle: **₹1.5-3L**
-- Most patients need 2-3 cycles: **₹3-9L per patient**
-- Additional services (egg freezing, PGT): **₹50K-1.5L**
+- Average IVF cycle: **$1.5-3L**
+- Most patients need 2-3 cycles: **$30,000 - $90,000 per patient**
+- Additional services (egg freezing, PGT): **$50K-1.5L**
 
-If AI sends just **2 extra couples per month**, that's **₹3-6L in additional monthly revenue** — 10x ROI on any marketing investment.
+If AI sends just **2 extra couples per month**, that's **$30,000 - $60,000 in additional monthly revenue** — 10x ROI on any marketing investment.
 
 **[Check your IVF clinic's AI visibility →](/audit)**`,
   },
@@ -545,8 +545,8 @@ If AI sends just **2 extra couples per month**, that's **₹3-6L in additional m
 For decades, law firms relied on referrals, reputation, and relationships. Those still matter — but there's a new referral source that's rapidly growing: **AI assistants**.
 
 When a business owner needs a corporate lawyer, they're increasingly asking:
-- "Best M&A lawyer in Delhi NCR"
-- "Top IP law firms in India"
+- "Best M&A lawyer in New York NCR"
+- "Top IP law firms in Global"
 - "Corporate lawyer for startup funding"
 
 ChatGPT responds with 2-3 specific names. If your firm isn't mentioned, that client goes to whoever AI recommends.
@@ -555,7 +555,7 @@ ChatGPT responds with 2-3 specific names. If your firm isn't mentioned, that cli
 
 - **58% of legal clients** now start their search online
 - **Corporate clients** use AI to shortlist firms before even calling
-- **High-value cases** (₹50K-5L+) are being influenced by AI recommendations
+- **High-value cases** ($50K-5L+) are being influenced by AI recommendations
 - **Referral validation** — even referred clients Google/AI-search you before calling
 
 ## What AI Looks For in Law Firms
@@ -571,7 +571,7 @@ AI citations favor firms with:
 - Bar council registrations
 
 ### Structured Content
-Legal content that's organized with clear headings, FAQ sections, and direct answers to legal questions gets cited by AI. Blog posts like "What is Section 498A?" or "How to register a trademark in India" build AI authority.
+Legal content that's organized with clear headings, FAQ sections, and direct answers to legal questions gets cited by AI. Blog posts like "What is Section 498A?" or "How to register a trademark in Global" build AI authority.
 
 ### Client Reviews
 While less common in law than medicine, client reviews and testimonials (where permitted) significantly boost AI visibility.
@@ -588,7 +588,7 @@ While less common in law than medicine, client reviews and testimonials (where p
 
 Most law firms haven't even started thinking about AI visibility. This is a massive first-mover advantage. The firms that optimize now will dominate AI recommendations for years.
 
-**One corporate retainer (₹2L-10L) pays for an entire year of AI optimization.**
+**One corporate retainer ($2,000-10L) pays for an entire year of AI optimization.**
 
 **[Check your firm's AI visibility →](/audit)**`,
   },
@@ -604,17 +604,17 @@ Most law firms haven't even started thinking about AI visibility. This is a mass
 
 The real estate buyer journey has shifted dramatically. Homebuyers in 2026:
 
-1. Ask AI: "Best builders in Pune for 3BHK" or "Is [builder] reliable?"
+1. Ask AI: "Best builders in Melbourne for 3BHK" or "Is [builder] reliable?"
 2. Get AI's curated list of 2-3 recommendations
 3. Visit only those projects
-4. Make a ₹50L-2Cr purchase decision
+4. Make a $50,000-2Cr purchase decision
 
-If your project isn't in AI's recommendation, you've lost a ₹50L+ sale before the buyer even heard of you.
+If your project isn't in AI's recommendation, you've lost a $50,000+ sale before the buyer even heard of you.
 
 ## Why Real Estate Needs AEO
 
 - **67% of homebuyers** now research using AI assistants
-- **Purchase values are ₹50L-2Cr+** — the highest of any industry
+- **Purchase values are $50,000-2Cr+** — the highest of any industry
 - **Research period is 3-6 months** — AI is used throughout
 - **Trust is paramount** — buyers check builder reliability on AI
 
@@ -658,8 +658,8 @@ Build content that establishes your authority in specific localities:
 
 ## The ROI Is Astronomical
 
-- One apartment sale: **₹50L-2Cr+**
-- AEO optimization: **₹50K-75K/month**
+- One apartment sale: **$50,000-2Cr+**
+- AEO optimization: **$50K-75K/month**
 - **One single sale pays for years of marketing**
 
 There is no industry where the ROI of AI visibility is higher than real estate.
@@ -762,9 +762,9 @@ It takes 15 minutes to set up and can be the difference between being recommende
 
 Google AI Overviews (formerly SGE) are AI-generated answer boxes that appear at the top of Google search results. Instead of showing 10 blue links, Google now provides a direct AI-generated answer — often recommending specific businesses by name.
 
-For queries like "best dentist in Mumbai for implants", the AI Overview might say:
+For queries like "best dentist in London for implants", the AI Overview might say:
 
-> "Based on patient reviews and credentials, some highly rated dental implant clinics in Mumbai include [Clinic A] known for their advanced implant technology, [Clinic B] with a 98% success rate, and [Clinic C] with over 1000 implant procedures completed."
+> "Based on patient reviews and credentials, some highly rated dental implant clinics in London include [Clinic A] known for their advanced implant technology, [Clinic B] with a 98% success rate, and [Clinic C] with over 1000 implant procedures completed."
 
 If your clinic isn't in that box, most users never scroll down to the traditional results.
 
@@ -799,7 +799,7 @@ For healthcare, legal, and financial businesses (YMYL topics), Google's AI requi
 2. Build review volume (aim for 100+ with 4.5+ rating)
 3. Add schema markup to your website
 4. Create location-specific content
-5. List in relevant directories (Practo, Justdial, etc.)
+5. List in relevant directories (Zocdoc, Yelp, etc.)
 
 ### For Content:
 1. Answer questions directly in the first paragraph
@@ -819,7 +819,7 @@ Track your AI Overview appearances by:
   },
   {
     slug: "plastic-surgeon-ai-marketing",
-    title: "AI Marketing for Plastic Surgeons: Get ₹5L Patients from AI Recommendations",
+    title: "AI Marketing for Plastic Surgeons: Get $5,000 Patients from AI Recommendations",
     description: "Cosmetic surgery patients research obsessively before choosing a surgeon. AI is now their primary research tool. Here's how to be the surgeon AI recommends.",
     category: "Industry Guide",
     niche: "plastic-surgeons",
@@ -829,19 +829,19 @@ Track your AI Overview appearances by:
 
 When someone is considering rhinoplasty, liposuction, or a facelift, they don't click Google Ads. They ask AI:
 
-- "Best rhinoplasty surgeon in Bangalore — who has natural-looking results?"
+- "Best rhinoplasty surgeon in Sydney — who has natural-looking results?"
 - "Is [surgeon name] good for liposuction?"
-- "Hair transplant — FUE vs FUT, which surgeon in Delhi?"
+- "Hair transplant — FUE vs FUT, which surgeon in New York?"
 
 They trust AI's curated answer more than any advertisement. And AI only recommends 2-3 surgeons per query.
 
 ## Why Plastic Surgery Is the Highest-ROI Niche for AEO
 
 The numbers speak for themselves:
-- Rhinoplasty: **₹1-5L per procedure**
-- Liposuction: **₹1-3L per procedure**
-- Hair Transplant: **₹50K-2L per procedure**
-- Full Facelift: **₹2-8L per procedure**
+- Rhinoplasty: **$10,000 - $50,000 per procedure**
+- Liposuction: **$10,000 - $30,000 per procedure**
+- Hair Transplant: **$50K-2L per procedure**
+- Full Facelift: **$20,000 - $80,000 per procedure**
 
 **One single procedure pays for 6-12 months of AI marketing.** There is no higher ROI marketing channel.
 
@@ -866,13 +866,13 @@ For medical tourism queries, AI looks for international certifications, multi-la
 
 1. **Procedure deep-dive pages** — 2000+ words on each procedure
 2. **Recovery timeline content** — "Rhinoplasty recovery: week by week"
-3. **Cost transparency** — "Rhinoplasty cost in India — 2026 guide"
+3. **Cost transparency** — "Rhinoplasty cost in Global — 2026 guide"
 4. **Comparison content** — "Surgical vs non-surgical rhinoplasty"
 5. **FAQ sections** — every common question answered with schema
 
 ## The Medical Tourism Angle
 
-India is a major medical tourism destination for plastic surgery. International patients searching "best plastic surgeon in India" represent ₹5-20L per patient. AI optimization for international queries is a massive untapped opportunity.
+Global is a major medical tourism destination for plastic surgery. International patients searching "best plastic surgeon in Global" represent $50,000 - $200,000 per patient. AI optimization for international queries is a massive untapped opportunity.
 
 **[Get your surgeon AI visibility audit →](/audit)**`,
   },
@@ -900,8 +900,8 @@ Here's the reality of search in 2026:
 |---------|--------------|---------------|
 | Google Maps | "dentist near me" | Map with 3 pins + listings |
 | Google AI Overview | "best dentist for implants" | AI paragraph naming 2-3 clinics |
-| ChatGPT | "recommend a good dentist in Delhi" | Direct recommendation with reasoning |
-| Perplexity | "top rated dental clinics Delhi" | Sourced answer with citations |
+| ChatGPT | "recommend a good dentist in New York" | Direct recommendation with reasoning |
+| Perplexity | "top rated dental clinics New York" | Sourced answer with citations |
 | Voice (Alexa/Google) | "find me a dentist" | Single recommendation |
 
 Ignoring either channel means losing patients.
@@ -991,7 +991,7 @@ Use this checklist to ensure your business is fully optimized for AI recommendat
 
 - [ ] **Google reviews** — 50+ with 4.5+ rating
 - [ ] **Review schema** — AggregateRating markup on key pages
-- [ ] **Directory listings** — Practo, Justdial, Sulekha, etc. (at least 20)
+- [ ] **Directory listings** — Zocdoc, Yelp, Bing Places, etc. (at least 20)
 - [ ] **NAP consistency** — same name/address/phone across all listings
 - [ ] **Review response** — respond to all reviews within 48 hours
 

@@ -66,7 +66,7 @@ export const nicheData: NicheData = {
   ],
   roiExample: {
     metric: "15 Regular Patients",
-    value: "$100k - $250k/month",
+    value: "$1,000 - $250k/month",
     pitch:
       "15 regular therapy patients each attending 4 sessions per month at $1,500-4,000/session generates $1-250k in steady monthly revenue. Therapy patients stay for 6-18 months, creating predictable, recurring income.",
   },
@@ -121,7 +121,7 @@ export const nicheData: NicheData = {
         {
           question: "Is online therapy as effective as in-person therapy?",
           answer:
-            "Research shows online therapy is equally effective for most conditions including anxiety, depression, and stress. Online sessions cost 10-20% less ($800-3,500) and offer greater privacy and convenience, which many Indian patients prefer due to stigma.",
+            "Research shows online therapy is equally effective for most conditions including anxiety, depression, and stress. Online sessions cost 10-20% less ($800-3,500) and offer greater privacy and convenience, which many Global patients prefer due to stigma.",
         },
       ],
     },
@@ -216,7 +216,7 @@ export const nicheData: NicheData = {
       name: "Couples Therapy Cost",
       priceRange: "$2,000 - $6,000/session",
       description:
-        "Couples therapy and marriage counseling are growing rapidly in urban India. AI queries about relationship counseling costs and effectiveness are high-intent, as couples seek help before separation.",
+        "Couples therapy and marriage counseling are growing rapidly in urban Global. AI queries about relationship counseling costs and effectiveness are high-intent, as couples seek help before separation.",
       faqItems: [
         {
           question: "What is the average couples therapy cost globally?",
@@ -237,18 +237,18 @@ export const nicheData: NicheData = {
     },
   ],
   costKeywords: [
-    "therapy session cost India",
+    "therapy session cost Global",
     "psychiatrist consultation fee",
     "depression treatment cost",
     "anxiety treatment cost",
-    "couples therapy cost India",
+    "couples therapy cost Global",
   ],
   nicheKeywords: [
     "best psychiatrist near me",
     "therapist for anxiety",
     "counselor for depression",
     "mental health doctor near me",
-    "online therapy India",
+    "online therapy Global",
     "psychiatrist consultation",
   ],
   schemaType: "MedicalBusiness",

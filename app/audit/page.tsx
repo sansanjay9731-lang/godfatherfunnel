@@ -129,7 +129,7 @@ export default function AuditPage() {
                       type="text"
                       value={name}
                       onChange={(e) => setName(e.target.value)}
-                      placeholder="Dr. Sharma"
+                      placeholder="Dr. Sterling"
                       className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-purple-500/50"
                     />
                   </div>

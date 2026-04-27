@@ -66,7 +66,7 @@ export const nicheData: NicheData = {
   ],
   roiExample: {
     metric: "30 New Clients/Month",
-    value: "$150k - $300k",
+    value: "$150k - $3,000",
     pitch:
       "30 new clients per month with an average ticket of $3,000-8,000 generates $1.5-300k in additional monthly revenue. That's $18-3600k annually from AI-driven discovery alone.",
   },
@@ -234,7 +234,7 @@ export const nicheData: NicheData = {
   costKeywords: [
     "keratin treatment cost",
     "hair smoothening price",
-    "bridal makeup cost India",
+    "bridal makeup cost Global",
     "hair coloring price near me",
     "hair spa cost",
   ],

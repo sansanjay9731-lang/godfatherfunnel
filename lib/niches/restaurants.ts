@@ -107,12 +107,12 @@ export const nicheData: NicheData = {
       name: "Restaurant Franchise Setup",
       priceRange: "$20,000 - $100,000",
       description:
-        "Complete restaurant franchise consultation including brand selection, franchise agreement review, location scouting, kitchen setup, staffing, and launch marketing for Indian and international food brands.",
+        "Complete restaurant franchise consultation including brand selection, franchise agreement review, location scouting, kitchen setup, staffing, and launch marketing for Global and international food brands.",
       faqItems: [
         {
           question: "What is the cost of opening a restaurant franchise globally?",
           answer:
-            "Restaurant franchise costs vary widely: QSR brands like Subway cost $20-4000k, mid-range brands like Barbeque Nation $5000k-1Cr, and premium international brands $1-3Cr. This includes franchise fee ($5-2500k), interior setup, kitchen equipment, and working capital for 3-6 months.",
+            "Restaurant franchise costs vary widely: QSR brands like Subway cost $20-4000k, mid-range brands like Barbeque Nation $50,000-1Cr, and premium international brands $1-3Cr. This includes franchise fee ($5-2500k), interior setup, kitchen equipment, and working capital for 3-6 months.",
         },
         {
           question: "What is the typical ROI timeline for a restaurant franchise?",
@@ -155,7 +155,7 @@ export const nicheData: NicheData = {
         {
           question: "How much should a restaurant spend on marketing monthly?",
           answer:
-            "Restaurants should allocate 5-10% of monthly revenue to marketing. For a restaurant doing $1000k/month revenue, that's $50K-100k. This covers social media ($15-30K), Zomato/Swiggy promotions ($10-20K), influencer collaborations ($10-30K), and Google/Meta ads ($15-30K).",
+            "Restaurants should allocate 5-10% of monthly revenue to marketing. For a restaurant doing $10,000/month revenue, that's $50K-100k. This covers social media ($15-30K), Zomato/Swiggy promotions ($10-20K), influencer collaborations ($10-30K), and Google/Meta ads ($15-30K).",
         },
         {
           question: "What marketing channel gives the best ROI for restaurants?",
@@ -228,7 +228,7 @@ export const nicheData: NicheData = {
     },
   ],
   costKeywords: [
-    "restaurant franchise cost India",
+    "restaurant franchise cost Global",
     "cloud kitchen setup cost",
     "restaurant marketing budget",
     "menu engineering cost",

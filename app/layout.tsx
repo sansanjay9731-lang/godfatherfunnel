@@ -32,7 +32,7 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Godfather Funnel AI — India's #1 AEO & AI Marketing Agency",
+        alt: "Godfather Funnel AI — #1 AEO & AI Marketing Agency",
       },
     ],
   },
@@ -71,10 +71,10 @@ export default function RootLayout({
               url: "https://www.godfatherfunnelai.com",
               logo: "https://www.godfatherfunnelai.com/logo.png",
               description:
-                "India's premier AEO and AI marketing agency. We make AI recommend your business by name.",
+                "World's premier AEO and AI marketing agency. We make AI recommend your business by name.",
               foundingDate: "2026",
               slogan: "Make AI Recommend You by Name",
-              telephone: "+91 98765 43210",
+              telephone: "+44 20 7946 0000",
               areaServed: [
                 { "@type": "Country", name: "USA" },
                 { "@type": "Country", name: "UK" },
@@ -90,7 +90,7 @@ export default function RootLayout({
               },
               founder: {
                 "@type": "Person",
-                name: "Arjun Verma",
+                name: "Alex Sterling",
                 url: "https://www.godfatherfunnelai.com/about",
                 jobTitle: "Founder & CEO",
                 worksFor: {

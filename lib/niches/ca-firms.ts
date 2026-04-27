@@ -141,7 +141,7 @@ export const nicheData: NicheData = {
         {
           question: "What ongoing compliance costs should I budget for after registration?",
           answer:
-            "Annual compliance for a Private Limited Company includes: annual return filing ($5,000-10,000), income tax return ($5,000-15,000), statutory audit if applicable ($15,000-50,000), GST compliance ($18,000-60,000/year), and board meeting minutes. Budget $50,000-1,50,000/year for a CA retainer covering all compliance.",
+            "Annual compliance for a Private Limited Company includes: annual return filing ($5,000-10,000), income tax return ($5,000-15,000), statutory audit if applicable ($15,000-50,000), GST compliance ($18,000-60,000/year), and board meeting minutes. Budget $50,000-150,000/year for a CA retainer covering all compliance.",
         },
       ],
     },
@@ -229,7 +229,7 @@ export const nicheData: NicheData = {
   ],
   costKeywords: [
     "CA fees for GST filing",
-    "company registration cost India",
+    "company registration cost Global",
     "income tax filing charges CA",
     "CA firm fees for startup",
     "audit cost for small company",
@@ -239,7 +239,7 @@ export const nicheData: NicheData = {
     "chartered accountant for startup",
     "GST consultant in Sydney",
     "CA for company registration",
-    "tax planning CA India",
+    "tax planning CA Global",
     "CA firm for small business",
   ],
   schemaType: "AccountingService",

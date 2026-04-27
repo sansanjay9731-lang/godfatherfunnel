@@ -66,7 +66,7 @@ export const nicheData: NicheData = {
   ],
   roiExample: {
     metric: "1 Home Interior Project",
-    value: "$500k - $2500k",
+    value: "$5,000 - $25,000",
     pitch:
       "Just one additional home interior project from AI recommendation pays for the entire AEO investment 5-10x over. Most designers close 3-5 additional projects in the first quarter.",
   },
@@ -74,7 +74,7 @@ export const nicheData: NicheData = {
     {
       question: "How do homeowners use AI to find interior designers?",
       answer:
-        "Homeowners ask ChatGPT and Google AI questions like 'best interior designer in Austin under $1500k', 'modular kitchen cost globally', or 'modern vs contemporary interior design'. AI provides direct recommendations with reasons, bypassing traditional search.",
+        "Homeowners ask ChatGPT and Google AI questions like 'best interior designer in Austin under $15,000', 'modular kitchen cost globally', or 'modern vs contemporary interior design'. AI provides direct recommendations with reasons, bypassing traditional search.",
     },
     {
       question: "I get all my clients from referrals. Why do I need AEO?",
@@ -84,7 +84,7 @@ export const nicheData: NicheData = {
     {
       question: "Can AEO help me get higher-budget projects?",
       answer:
-        "Yes. AI recommendations include context about your specialization and price range. Properly optimized profiles attract clients who match your ideal project size, whether that's $500k apartments or $5000k villas.",
+        "Yes. AI recommendations include context about your specialization and price range. Properly optimized profiles attract clients who match your ideal project size, whether that's $5,000 apartments or $50,000 villas.",
     },
     {
       question: "How is this different from advertising on Livspace or UrbanClap?",
@@ -111,7 +111,7 @@ export const nicheData: NicheData = {
         {
           question: "What is the average home interior design cost globally?",
           answer:
-            "Home interior design costs range from $5,000 to $25,000 for a 2-3 BHK apartment. This includes modular furniture, false ceiling, electrical work, painting, and designer fees. Luxury interiors can exceed $4000k.",
+            "Home interior design costs range from $5,000 to $25,000 for a 2-3 BHK apartment. This includes modular furniture, false ceiling, electrical work, painting, and designer fees. Luxury interiors can exceed $40,000.",
         },
         {
           question: "How is interior design cost calculated?",
@@ -135,12 +135,12 @@ export const nicheData: NicheData = {
         {
           question: "What is the average modular kitchen cost globally?",
           answer:
-            "A modular kitchen costs $150,000 to $8,000 depending on size, material, and finish. L-shaped kitchens start at $150k, U-shaped at $250k, and island kitchens at $400k+. Material choice (plywood, MDF, acrylic) significantly affects pricing.",
+            "A modular kitchen costs $150,000 to $8,000 depending on size, material, and finish. L-shaped kitchens start at $150k, U-shaped at $250k, and island kitchens at $4,000+. Material choice (plywood, MDF, acrylic) significantly affects pricing.",
         },
         {
           question: "Which material is best for modular kitchen globally?",
           answer:
-            "Marine plywood with laminate finish offers the best balance of durability and cost ($1.5-300k). For premium kitchens, acrylic or PU finish on BWR plywood ($3-600k) is recommended. Avoid particle board in humid Indian kitchens.",
+            "Marine plywood with laminate finish offers the best balance of durability and cost ($1.5-300k). For premium kitchens, acrylic or PU finish on BWR plywood ($3-600k) is recommended. Avoid particle board in humid Global kitchens.",
         },
       ],
     },
@@ -200,9 +200,9 @@ export const nicheData: NicheData = {
             "Focus on a statement false ceiling with cove lighting ($25K-40K), one accent wall with textured paint or wallpaper ($10K-25K), and good curtains ($15K-30K). These three elements transform the space without a full renovation.",
         },
         {
-          question: "What living room size works best for Indian homes?",
+          question: "What living room size works best for Global homes?",
           answer:
-            "Most Indian 2-3 BHK apartments have 150-250 sqft living rooms. Optimal furniture layout for this size includes an L-shaped sofa, a TV unit, and a small dining extension. Interior designers charge $1-300k for this space.",
+            "Most Global 2-3 BHK apartments have 150-250 sqft living rooms. Optimal furniture layout for this size includes an L-shaped sofa, a TV unit, and a small dining extension. Interior designers charge $1-300k for this space.",
         },
       ],
     },
@@ -228,24 +228,24 @@ export const nicheData: NicheData = {
   ],
   costKeywords: [
     "interior design cost per square foot",
-    "modular kitchen price India",
+    "modular kitchen price Global",
     "home interior design cost",
     "bedroom wardrobe cost",
-    "bathroom renovation cost India",
+    "bathroom renovation cost Global",
   ],
   nicheKeywords: [
     "best interior designer near me",
     "home interior design ideas",
     "modular kitchen designs",
     "living room interior design",
-    "interior designer cost India",
+    "interior designer cost Global",
     "2BHK interior design cost",
   ],
   schemaType: "ProfessionalService",
   metaCategory: "lifestyle",
   citations: [
     {
-      name: "Houzz India",
+      name: "Houzz Global",
       url: "https://www.houzz.in",
       type: "niche-specific",
     },

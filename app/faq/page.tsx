@@ -15,7 +15,7 @@ const faqs = [
       },
       {
         q: "Why do businesses need AEO in 2026?",
-        a: "73% of consumers under 35 now use AI assistants instead of Google to find services. When someone asks ChatGPT 'best dermatologist in Mumbai', AI names 2-3 clinics. If you're not one of them, you're losing patients to competitors who are. AEO ensures AI knows you exist and recommends you.",
+        a: "73% of consumers under 35 now use AI assistants instead of Google to find services. When someone asks ChatGPT 'best dermatologist in London', AI names 2-3 clinics. If you're not one of them, you're losing patients to competitors who are. AEO ensures AI knows you exist and recommends you.",
       },
     ],
   },
@@ -24,7 +24,7 @@ const faqs = [
     items: [
       {
         q: "What does Godfather Funnel AI do?",
-        a: "We are India's premier AEO (Answer Engine Optimization) and AI marketing agency. We make AI assistants like ChatGPT, Google AI Overviews, and Perplexity recommend your business by name. We specialize in 6 premium industries: dermatologists, dentists, plastic surgeons, IVF clinics, lawyers, and real estate developers.",
+        a: "We are Global's premier AEO (Answer Engine Optimization) and AI marketing agency. We make AI assistants like ChatGPT, Google AI Overviews, and Perplexity recommend your business by name. We specialize in 6 premium industries: dermatologists, dentists, plastic surgeons, IVF clinics, lawyers, and real estate developers.",
       },
       {
         q: "Which industries do you specialize in?",
@@ -53,7 +53,7 @@ const faqs = [
       },
       {
         q: "What is the ROI of AEO?",
-        a: "For premium niches, one client acquisition often pays for 3-6 months of AEO investment. A single dental implant patient is worth ₹1-3L. One IVF patient is worth ₹2-5L. One corporate law retainer is worth ₹5-15L. When AI recommends you by name, these clients come to you directly — no ad spend, no competition.",
+        a: "For premium niches, one client acquisition often pays for 3-6 months of AEO investment. A single dental implant patient is worth $10,000 - $30,000. One IVF patient is worth $20,000 - $50,000. One corporate law retainer is worth $50,000 - $150,000. When AI recommends you by name, these clients come to you directly — no ad spend, no competition.",
       },
       {
         q: "Do I still need Google Ads if I do AEO?",

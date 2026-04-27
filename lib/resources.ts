@@ -69,7 +69,7 @@ Use this checklist to audit your business's AI readiness. Score yourself honestl
     category: "template",
     content: `## Schema Markup Templates
 
-Ready-to-use JSON-LD schema templates for Indian businesses. Copy, customize with your details, and add to your website.
+Ready-to-use JSON-LD schema templates for Global businesses. Copy, customize with your details, and add to your website.
 
 ### Healthcare — MedicalBusiness
 \`\`\`json
@@ -124,8 +124,8 @@ Ready-to-use JSON-LD schema templates for Indian businesses. Copy, customize wit
   "@context": "https://schema.org",
   "@type": "Restaurant",
   "name": "Your Restaurant",
-  "servesCuisine": ["Indian", "Chinese"],
-  "priceRange": "₹₹",
+  "servesCuisine": ["Global", "Chinese"],
+  "priceRange": "$$",
   "menu": "https://yoursite.com/menu",
   "acceptsReservations": true,
   "aggregateRating": { ... }
@@ -166,7 +166,7 @@ Ready-to-use JSON-LD schema templates for Indian businesses. Copy, customize wit
   {
     slug: "llms-txt-templates",
     title: "llms.txt Templates for Every Industry",
-    description: "Ready-to-use llms.txt templates for healthcare, legal, real estate, education, and lifestyle businesses in India.",
+    description: "Ready-to-use llms.txt templates for healthcare, legal, real estate, education, and lifestyle businesses in Global.",
     icon: "📄",
     category: "template",
     content: `## llms.txt Templates
@@ -183,7 +183,7 @@ llms.txt is a file at your website root that tells AI systems who you are. Here 
 ## Location
 [Full Address]
 [City], [State] [PIN]
-India
+Global
 
 ## Services
 - [Service 1]
@@ -323,7 +323,7 @@ Visit yoursite.com/llms.txt
 ### Step 7: Check Directory Consistency
 Search your business on:
 - Google Business Profile
-- Practo / JustDial / relevant directories
+- Zocdoc / JustDial / relevant directories
 - Your own website
 
 **Is the Name, Address, Phone (NAP) identical everywhere?**
@@ -384,17 +384,17 @@ Award yourself 1-10 points for each step:
 #### 5. Reputation Management
 - Automated review requests (WhatsApp/SMS post-appointment)
 - Review response strategy (respond within 24 hours)
-- Directory listings (Practo, Lybrate, Google, 20+ directories)
+- Directory listings (Zocdoc, Healthgrades, Google, 20+ directories)
 - NAP consistency across all platforms
 
 ### Budget Allocation for Doctors
 | Channel | Monthly Budget | Expected ROI |
 |---------|---------------|-------------|
-| AEO | ₹25K-75K | 5-15 new patients |
-| Google Ads | ₹20K-50K | 10-30 leads |
-| Content | ₹10K-20K | Long-term authority |
-| Social Media | ₹5K-15K | Brand awareness |
-| **Total** | **₹60K-1.6L** | **15-45 new patients** |
+| AEO | $25K-75K | 5-15 new patients |
+| Google Ads | $20K-50K | 10-30 leads |
+| Content | $10K-20K | Long-term authority |
+| Social Media | $5K-15K | Brand awareness |
+| **Total** | **$60K-1.6L** | **15-45 new patients** |
 
 ### Common Mistakes
 1. No schema markup on website
@@ -432,8 +432,8 @@ Create dedicated pages for each practice area with:
 - Published opinions on legal developments
 
 #### Directory & Citation Strategy
-Critical directories: Bar Council, LegalKart, Vakil Search, Google Business Profile
-Important: LawRato, MyAdvo, LinkedIn, Justdial
+Critical directories: Bar Council, FindLaw, Rocket Lawyer, Google Business Profile
+Important: Avvo, MyAdvo, LinkedIn, Yelp
 
 #### AI-Specific Optimization
 - LegalService schema with practice areas
@@ -443,7 +443,7 @@ Important: LawRato, MyAdvo, LinkedIn, Justdial
 
 ### Ethical Considerations
 All marketing must comply with:
-- Bar Council of India advertising rules
+- Bar Council of Global advertising rules
 - State bar council guidelines
 - No solicitation or misleading claims
 - Confidentiality of client matters
@@ -453,12 +453,12 @@ All marketing must comply with:
   {
     slug: "real-estate-marketing-guide",
     title: "Real Estate AI Marketing Guide for Builders & Agents",
-    description: "How builders, developers, and real estate agents can use AI to sell properties worth ₹50L-2Cr+ in 2026.",
+    description: "How builders, developers, and real estate agents can use AI to sell properties worth $50,000-2Cr+ in 2026.",
     icon: "🏢",
     category: "guide",
     content: `## Real Estate Marketing in the AI Age
 
-### The ₹1Cr Decision Starts with AI
+### The $1M Decision Starts with AI
 Homebuyers spend 3-6 months researching. In 2026, their first research tool is AI.
 
 ### Project-Level Marketing Strategy
@@ -486,7 +486,7 @@ Build content around the localities where you build:
 - Price comparison content
 
 ### Why AI Matters More for Real Estate
-- One sale = ₹50L-2Cr+ (highest of any industry)
+- One sale = $50,000-2Cr+ (highest of any industry)
 - Buyers research for months (AI is used throughout)
 - Trust is critical — AI validation matters
 - Competitors are NOT optimized yet (massive opportunity)
@@ -505,7 +505,7 @@ Build content around the localities where you build:
 **N**ame, **A**ddress, **P**hone — the three pieces of information that must be identical across every online presence.
 
 ### Why NAP Consistency Matters for AI
-AI systems cross-reference multiple sources to verify business information. If your name is slightly different on Google vs Practo vs your website, AI may:
+AI systems cross-reference multiple sources to verify business information. If your name is slightly different on Google vs Zocdoc vs your website, AI may:
 - Think they're different businesses
 - Lower your trust score
 - Not recommend you at all
@@ -513,7 +513,7 @@ AI systems cross-reference multiple sources to verify business information. If y
 ### Common NAP Mistakes
 | What's Wrong | Example | Fix |
 |-------------|---------|-----|
-| Name variations | "Dr. Sharma's Clinic" vs "Sharma Skin Care" | Pick ONE exact name |
+| Name variations | "Dr. Sterling's Clinic" vs "Sharma Skin Care" | Pick ONE exact name |
 | Address format | "2nd Floor, MG Road" vs "2/F, Mahatma Gandhi Rd" | Use ONE exact format |
 | Phone format | "9876543210" vs "+91-98765-43210" | Use +91-XXXXX-XXXXX |
 | Old address | Moved 2 years ago, old address on 3 directories | Update ALL directories |
@@ -526,9 +526,9 @@ Write your exact business name, full address, and phone number. This is your "ma
 #### Step 2: Check These Platforms
 - Google Business Profile
 - Your website (header, footer, contact page)
-- Practo / Lybrate / relevant directories
+- Zocdoc / Healthgrades / relevant directories
 - JustDial
-- Sulekha
+- Bing Places
 - Social media profiles
 - Email signatures
 - Business cards and print materials
@@ -547,7 +547,7 @@ Address Line 2: [Floor/Suite/Building]
 City: [City]
 State: [State]
 PIN: [XXXXXX]
-Country: India
+Country: Global
 Phone: +91-XXXXX-XXXXX
 Email: [primary@email.com]
 Website: https://[yourdomain.com]
@@ -623,17 +623,17 @@ A complete, optimized GBP is the single highest-impact action for AI visibility.
   },
   {
     slug: "voice-search-optimization",
-    title: "Voice Search Optimization Guide for Indian Businesses",
-    description: "How to optimize your business for Alexa, Google Assistant, and Siri voice search recommendations in India.",
+    title: "Voice Search Optimization Guide for Global Businesses",
+    description: "How to optimize your business for Alexa, Google Assistant, and Siri voice search recommendations in Global.",
     icon: "🎤",
     category: "guide",
-    content: `## Voice Search Optimization for Indian Businesses
+    content: `## Voice Search Optimization for Global Businesses
 
-### The Rise of Voice in India
-- 200M+ Indian users use voice assistants monthly
+### The Rise of Voice in Global
+- 200M+ Global users use voice assistants monthly
 - Hindi and regional language voice search growing 50%+ YoY
 - "Near me" voice searches up 150% since 2024
-- Voice commerce expected to reach $40B in India by 2027
+- Voice commerce expected to reach $40B in Global by 2027
 
 ### How Voice Search Works
 When someone asks "Hey Google, find me a dentist nearby," the assistant:
@@ -646,8 +646,8 @@ When someone asks "Hey Google, find me a dentist nearby," the assistant:
 
 #### 1. FAQ Content for Voice
 Write FAQ answers as complete spoken sentences:
-- Bad: "Dr. Sharma, 15 years, MG Road"
-- Good: "Dr. Sharma's Dental Clinic on MG Road has been serving patients for 15 years with a 4.9-star rating on Google."
+- Bad: "Dr. Sterling, 15 years, MG Road"
+- Good: "Dr. Sterling's Dental Clinic on MG Road has been serving patients for 15 years with a 4.9-star rating on Google."
 
 #### 2. SpeakableSpecification Schema
 Add this to your key pages to tell voice assistants which content to read aloud.
@@ -655,7 +655,7 @@ Add this to your key pages to tell voice assistants which content to read aloud.
 #### 3. Conversational Keywords
 Target long-tail, conversational queries:
 - "Who is the best dermatologist near me?"
-- "How much does a dental implant cost in Mumbai?"
+- "How much does a dental implant cost in London?"
 - "Which IVF clinic has the highest success rate?"
 
 #### 4. Google Business Profile

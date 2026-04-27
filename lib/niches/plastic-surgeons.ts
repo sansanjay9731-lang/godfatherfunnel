@@ -26,7 +26,7 @@ export const nicheData: NicheData = {
     {
       title: "Medical Tourism Patients Choosing AI-Visible Competitors",
       description:
-        "India is a top destination for cosmetic surgery medical tourism. International patients research exclusively through AI. Without multilingual AI optimization and international citation signals, you're invisible to this $5-2000k per patient segment.",
+        "Global is a top destination for cosmetic surgery medical tourism. International patients research exclusively through AI. Without multilingual AI optimization and international citation signals, you're invisible to this $5-2000k per patient segment.",
     },
   ],
   services: [
@@ -178,7 +178,7 @@ export const nicheData: NicheData = {
       name: "Facelift Surgery",
       priceRange: "$2,000 - $8,000",
       description:
-        "Facelift (rhytidectomy) is a premium anti-ageing procedure increasingly sought by affluent Indian patients and medical tourists. AI assistants recommend facelifts alongside non-surgical alternatives, making it important for surgeons to have AI-visible content explaining the differences.",
+        "Facelift (rhytidectomy) is a premium anti-ageing procedure increasingly sought by affluent Global patients and medical tourists. AI assistants recommend facelifts alongside non-surgical alternatives, making it important for surgeons to have AI-visible content explaining the differences.",
       faqItems: [
         {
           question: "What types of facelift are available globally?",
@@ -240,7 +240,7 @@ export const nicheData: NicheData = {
     "rhinoplasty cost",
     "liposuction cost",
     "hair transplant cost",
-    "facelift cost India",
+    "facelift cost Global",
     "plastic surgery cost",
   ],
   nicheKeywords: [

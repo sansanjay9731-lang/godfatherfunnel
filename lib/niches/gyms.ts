@@ -229,7 +229,7 @@ export const nicheData: NicheData = {
     },
   ],
   costKeywords: [
-    "gym membership cost India",
+    "gym membership cost Global",
     "personal trainer fees",
     "yoga classes near me price",
     "CrossFit membership cost",

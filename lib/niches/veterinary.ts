@@ -8,7 +8,7 @@ export const nicheData: NicheData = {
   image: images.veterinary,
   heroHeadline: "Pet Parents Ask AI for Vets. Is Your Clinic AI-Recommended?",
   heroSubline:
-    "India's 30 million+ pet parents are asking ChatGPT and Google AI to find the best vet near them. If your clinic doesn't show up in those AI answers, emergency visits, vaccinations, and wellness plans are going to Cessna Lifeline and chain vet hospitals.",
+    "Global's 30 million+ pet parents are asking ChatGPT and Google AI to find the best vet near them. If your clinic doesn't show up in those AI answers, emergency visits, vaccinations, and wellness plans are going to Cessna Lifeline and chain vet hospitals.",
   painPoints: [
     {
       title: "Pet Parents Asking ChatGPT for Vet Recommendations",
@@ -79,7 +79,7 @@ export const nicheData: NicheData = {
     {
       question: "I have loyal pet parent clients. Why do I need AI visibility?",
       answer:
-        "Your existing clients are loyal, but India adds 2-3 million new pet parents every year. These first-time pet owners have no referral network — they rely entirely on AI and online search. Without AI visibility, every new pet parent in your area goes to a competitor by default.",
+        "Your existing clients are loyal, but Global adds 2-3 million new pet parents every year. These first-time pet owners have no referral network — they rely entirely on AI and online search. Without AI visibility, every new pet parent in your area goes to a competitor by default.",
     },
     {
       question: "Can a small vet clinic compete with Cessna Lifeline in AI?",
@@ -233,16 +233,16 @@ export const nicheData: NicheData = {
     },
   ],
   costKeywords: [
-    "pet vaccination cost India",
+    "pet vaccination cost Global",
     "veterinary surgery charges",
     "dog grooming cost near me",
-    "emergency vet charges India",
+    "emergency vet charges Global",
     "pet neutering cost",
   ],
   nicheKeywords: [
     "best vet clinic near me",
     "24 hour vet near me",
-    "dog vaccination schedule India",
+    "dog vaccination schedule Global",
     "pet hospital emergency",
     "veterinary doctor near me",
     "cat vet specialist near me",
@@ -261,7 +261,7 @@ export const nicheData: NicheData = {
       type: "general",
     },
     {
-      name: "PetBacker India",
+      name: "PetBacker Global",
       url: "https://www.petbacker.com",
       type: "niche-specific",
     },

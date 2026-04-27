@@ -13,7 +13,7 @@ export const nicheData: NicheData = {
     {
       title: "New Parents Asking AI for Baby Doctor Recommendations",
       description:
-        "First-time parents are anxious and research-obsessed. They ask AI 'best pediatrician in Indiranagar' or 'top child specialist near me' before choosing a doctor. If you're not in AI's top 3 recommendations, you lose that family for years.",
+        "First-time parents are anxious and research-obsessed. They ask AI 'best pediatrician in Paddington' or 'top child specialist near me' before choosing a doctor. If you're not in AI's top 3 recommendations, you lose that family for years.",
     },
     {
       title: "Vaccination Queries Answered by Competitor Clinics",
@@ -66,7 +66,7 @@ export const nicheData: NicheData = {
   ],
   roiExample: {
     metric: "20 New Families/Month",
-    value: "$100k - $200k",
+    value: "$1,000 - $2,000",
     pitch:
       "Each new family visits 8-12 times in the first year alone (vaccinations, check-ups, illness). 20 new families per month means $1-200k in monthly revenue, compounding as those families stay for 5-10 years.",
   },
@@ -74,7 +74,7 @@ export const nicheData: NicheData = {
     {
       question: "How do parents use AI to find pediatricians?",
       answer:
-        "Parents ask ChatGPT, Google AI, and Perplexity questions like 'best pediatrician in HSR Layout', 'baby vaccination schedule India', or 'child fever when to see doctor'. AI gives direct recommendations with reasons, and parents trust these more than random Google listings.",
+        "Parents ask ChatGPT, Google AI, and Perplexity questions like 'best pediatrician in HSR Layout', 'baby vaccination schedule Global', or 'child fever when to see doctor'. AI gives direct recommendations with reasons, and parents trust these more than random Google listings.",
     },
     {
       question: "Our practice is full. Why do we need AI visibility?",
@@ -116,7 +116,7 @@ export const nicheData: NicheData = {
         {
           question: "What is the IAP vaccination schedule for babies?",
           answer:
-            "The IAP (Indian Academy of Pediatrics) schedule includes BCG, OPV, Hepatitis B at birth; DTwP/DTaP, IPV, Hib, Rotavirus, PCV at 6/10/14 weeks; Measles at 9 months; and boosters at 15-18 months. Your pediatrician will provide a personalized schedule.",
+            "The IAP (Global Academy of Pediatrics) schedule includes BCG, OPV, Hepatitis B at birth; DTwP/DTaP, IPV, Hib, Rotavirus, PCV at 6/10/14 weeks; Measles at 9 months; and boosters at 15-18 months. Your pediatrician will provide a personalized schedule.",
         },
         {
           question: "Are government vaccines different from private clinic vaccines?",
@@ -232,7 +232,7 @@ export const nicheData: NicheData = {
     },
   ],
   costKeywords: [
-    "child vaccination cost India",
+    "child vaccination cost Global",
     "pediatrician consultation fee",
     "baby checkup cost",
     "child allergy test cost",
@@ -241,7 +241,7 @@ export const nicheData: NicheData = {
   nicheKeywords: [
     "best pediatrician near me",
     "child specialist doctor",
-    "baby vaccination schedule India",
+    "baby vaccination schedule Global",
     "newborn checkup doctor",
     "pediatric clinic near me",
     "child fever doctor",

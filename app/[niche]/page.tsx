@@ -65,7 +65,11 @@ export default async function NichePage({
               "@id": "https://www.godfatherfunnelai.com/#organization",
             },
             url: `https://www.godfatherfunnelai.com/${niche.slug}`,
-            areaServed: { "@type": "Country", name: "India" },
+            areaServed: [
+              { "@type": "Country", name: "USA" },
+              { "@type": "Country", name: "UK" },
+              { "@type": "Country", name: "Australia" },
+            ],
             serviceType: ["Answer Engine Optimization", "AI Marketing", "Digital Marketing"],
           }),
         }}
@@ -94,7 +98,7 @@ export default async function NichePage({
       <TrustBar />
       <StatsBar stats={niche.stats} />
       <PainPoints points={niche.painPoints} />
-      <BeforeAfter />
+      <BeforeAfter niche={niche.name.toLowerCase().replace(/s$/, "")} city="London" />
       <ServiceTiers services={niche.services} />
       <ROICalculator roi={niche.roiExample} />
       <Testimonials />
@@ -105,7 +109,7 @@ export default async function NichePage({
         <div
           className="absolute inset-0 opacity-[0.02]"
           style={{
-            backgroundImage: `linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)`,
+            backgroundImage: `linear-gradient(rgba(255255255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255255255,0.1) 1px, transparent 1px)`,
             backgroundSize: "60px 60px",
           }}
         />

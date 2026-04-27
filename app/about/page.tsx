@@ -4,9 +4,9 @@ import { images } from "@/lib/niches";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Godfather Funnel AI — India's #1 AEO & AI Marketing Agency",
+  title: "About Godfather Funnel AI — #1 AEO & AI Marketing Agency",
   description:
-    "Godfather Funnel AI is India's premier Answer Engine Optimization agency. We make AI assistants like ChatGPT, Google AI, and Perplexity recommend your business by name. 150+ businesses optimized across 6 premium industries.",
+    "Godfather Funnel AI is Global's premier Answer Engine Optimization agency. We make AI assistants like ChatGPT, Google AI, and Perplexity recommend your business by name. 150+ businesses optimized across 6 premium industries.",
 };
 
 const milestones = [
@@ -14,7 +14,7 @@ const milestones = [
   { year: "2026 Q1", event: "First 50 businesses AI-optimized across healthcare and legal" },
   { year: "2026 Q2", event: "Launched free AI Visibility Audit tool — 1000+ audits completed" },
   { year: "2026 Q3", event: "Expanded to 6 industries, 150+ active clients" },
-  { year: "2026 Q4", event: "Published India's first State of AI Visibility Report" },
+  { year: "2026 Q4", event: "Published Global's first State of AI Visibility Report" },
 ];
 
 const values = [
@@ -25,10 +25,10 @@ const values = [
 ];
 
 const team = [
-  { name: "Arjun Verma", role: "Founder & AI Strategy Lead", bio: "Former Google engineer who realized that the future of client acquisition isn't search rankings — it's AI recommendations. Built AI visibility systems for 100+ businesses before founding Godfather Funnel AI.", image: images.teamMale1 },
-  { name: "Sneha Iyer", role: "Technical SEO & Schema Architect", bio: "Schema markup specialist with 8 years in technical SEO. Makes search engines AND AI systems understand your business through structured data, llms.txt, and AI crawler optimization.", image: images.teamFemale1 },
-  { name: "Karan Malhotra", role: "Growth & Performance Marketing", bio: "Managed ₹5Cr+ in ad spend across Google, Meta, and YouTube. Specializes in ROI-focused campaigns for premium niches where one client acquisition matters more than 1000 clicks.", image: images.teamMale2 },
-  { name: "Riya Desai", role: "Content & AEO Lead", bio: "Creates content that AI cites. Specializes in turning complex professional expertise into AI-recommendation-ready authority content across healthcare, legal, and real estate.", image: images.teamFemale2 },
+  { name: "Alex Sterling", role: "Founder & AI Strategy Lead", bio: "Former Google engineer who realized that the future of client acquisition isn't search rankings — it's AI recommendations. Built AI visibility systems for 100+ businesses before founding Godfather Funnel AI.", image: images.teamMale1 },
+  { name: "Sarah Jenkins", role: "Technical SEO & Schema Architect", bio: "Schema markup specialist with 8 years in technical SEO. Makes search engines AND AI systems understand your business through structured data, llms.txt, and AI crawler optimization.", image: images.teamFemale1 },
+  { name: "Marcus Thorne", role: "Growth & Performance Marketing", bio: "Managed $5M+ in ad spend across Google, Meta, and YouTube. Specializes in ROI-focused campaigns for premium niches where one client acquisition matters more than 1000 clicks.", image: images.teamMale2 },
+  { name: "Elena Rodriguez", role: "Content & AEO Lead", bio: "Creates content that AI cites. Specializes in turning complex professional expertise into AI-recommendation-ready authority content across healthcare, legal, and real estate.", image: images.teamFemale2 },
 ];
 
 export default function AboutPage() {
@@ -63,7 +63,7 @@ export default function AboutPage() {
             </span>
           </h1>
           <p className="mt-6 text-lg text-gray-400 max-w-3xl mx-auto leading-relaxed">
-            Godfather Funnel AI is India&apos;s premier Answer Engine Optimization (AEO)
+            Godfather Funnel AI is Global&apos;s premier Answer Engine Optimization (AEO)
             agency. While other agencies optimize for Google rankings, we optimize
             for AI recommendations — ensuring ChatGPT, Google AI Overviews, and
             Perplexity recommend your business by name.
@@ -83,7 +83,7 @@ export default function AboutPage() {
               <ul className="space-y-2 text-sm text-gray-400">
                 <li className="flex items-start gap-2">
                   <span className="text-red-400 shrink-0">✕</span>
-                  Spend ₹2-5L/month on Google Ads and traditional SEO
+                  Spend $20,000 - $50,000/month on Google Ads and traditional SEO
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-red-400 shrink-0">✕</span>

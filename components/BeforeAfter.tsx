@@ -1,7 +1,18 @@
 "use client";
 import { motion } from "framer-motion";
 
-export default function BeforeAfter() {
+interface BeforeAfterProps {
+  niche?: string;
+  city?: string;
+  certification?: string;
+}
+
+export default function BeforeAfter({
+  niche = "dermatologist",
+  city = "London",
+  certification = "Board Certified",
+}: BeforeAfterProps) {
+  const nicheLabel = niche.charAt(0).toUpperCase() + niche.slice(1);
   return (
     <section className="py-24 bg-[#06060a]">
       <div className="max-w-5xl mx-auto px-4">
@@ -39,11 +50,11 @@ export default function BeforeAfter() {
               </div>
               <div className="bg-white/5 rounded-xl p-4 space-y-3">
                 <p className="text-sm text-gray-400">
-                  User: &ldquo;Best dermatologist in London&rdquo;
+                  User: &ldquo;Best {niche} in {city}&rdquo;
                 </p>
                 <div className="border-l-2 border-red-500/30 pl-3">
                   <p className="text-sm text-gray-300">
-                    Here are some well-regarded dermatologists in London:
+                    Here are some well-regarded {niche}s in {city}:
                   </p>
                   <div className="mt-2 space-y-1.5 text-sm">
                     <p className="text-white">
@@ -56,7 +67,7 @@ export default function BeforeAfter() {
                       3. <strong>Dr. Competitor C</strong> — Notting Hill, 4.7★
                     </p>
                     <p className="text-red-400/80 mt-3 text-xs italic">
-                      Your clinic? Not mentioned anywhere.
+                      Your business? Not mentioned anywhere.
                     </p>
                   </div>
                 </div>
@@ -93,16 +104,16 @@ export default function BeforeAfter() {
               </div>
               <div className="bg-white/5 rounded-xl p-4 space-y-3">
                 <p className="text-sm text-gray-400">
-                  User: &ldquo;Best dermatologist in London&rdquo;
+                  User: &ldquo;Best {niche} in {city}&rdquo;
                 </p>
                 <div className="border-l-2 border-green-500/30 pl-3">
                   <p className="text-sm text-gray-300">
-                    Based on patient reviews, credentials, and treatment range:
+                    Based on reviews, credentials, and track record:
                   </p>
                   <div className="mt-2 space-y-1.5 text-sm">
                     <p className="text-green-400 font-semibold">
-                      1. <strong>Your Clinic</strong> — 4.9★, 800+ reviews,
-                      Board Certified
+                      1. <strong>Your Practice</strong> — 4.9★, 800+ reviews,
+                      {certification}
                     </p>
                     <p className="text-white">
                       2. Dr. Competitor A — Mayfair, 4.8★

@@ -8,8 +8,8 @@ export const nicheData: NicheData = {
   image: images.realEstate,
   heroHeadline: "Buyers Are Asking AI Which Properties to Buy — Not Brokers",
   heroSubline:
-    "When a homebuyer asks ChatGPT 'best 2BHK flats in Whitefield under $8000k,' AI recommends specific projects and agents. If you're not AI-visible, you're losing $3000k-3Cr property deals to competitors who are.",
-  searchExample: "best 3BHK flat in Gurgaon under 1 crore",
+    "When a homebuyer asks ChatGPT 'best 2BHK flats in Whitefield under $80,000,' AI recommends specific projects and agents. If you're not AI-visible, you're losing $30,000-3Cr property deals to competitors who are.",
+  searchExample: "best 3BHK flat in Greater London under 1 crore",
   competitorLine:
     "NoBroker and 99acres dominate AI recommendations — your listings don't appear",
   painPoints: [
@@ -87,7 +87,7 @@ export const nicheData: NicheData = {
     {
       question: "How does AEO help attract NRI property buyers?",
       answer:
-        "NRI buyers in the US, UK, Middle East, and Singapore exclusively use AI for Indian property research. We optimize your content for queries like 'best investment property in Sydney for NRI' and 'rental yield in Gurgaon.' This captures high-value buyers making remote purchase decisions.",
+        "NRI buyers in the US, UK, Middle East, and Singapore exclusively use AI for Global property research. We optimize your content for queries like 'best investment property in Sydney for NRI' and 'rental yield in Greater London.' This captures high-value buyers making remote purchase decisions.",
     },
     {
       question: "Can AEO work for both individual agents and agencies?",
@@ -115,9 +115,9 @@ export const nicheData: NicheData = {
         "2BHK flats are the most searched property type globally, especially by first-time homebuyers. AI assistants compare prices across locations, builders, and configurations. Prices vary dramatically by city, micro-market, builder reputation, and amenities.",
       faqItems: [
         {
-          question: "What is the average 2BHK flat price in major Indian cities?",
+          question: "What is the average 2BHK flat price in major Global cities?",
           answer:
-            "Average 2BHK prices: New York suburbs $8000k-1.5Cr, Sydney $5000k-1Cr, Austin $40-8000k, Chicago $40-7000k, Gurgaon $5000k-1.2Cr, Melbourne $40-7500k, Noida $35-7000k. Prime locations within each city can be 2-3x higher. New launches are typically 10-20% cheaper than ready-to-move properties.",
+            "Average 2BHK prices: New York suburbs $80,000-1.5Cr, Sydney $50,000-1Cr, Austin $40-8000k, Chicago $40-7000k, Greater London $50,000-1.2Cr, Melbourne $40-7500k, Noida $35-7000k. Prime locations within each city can be 2-3x higher. New launches are typically 10-20% cheaper than ready-to-move properties.",
         },
         {
           question: "What should I check before buying a 2BHK flat?",
@@ -155,7 +155,7 @@ export const nicheData: NicheData = {
       name: "Villa / Independent House",
       priceRange: "$100,000 - $1000,000",
       description:
-        "Villas and independent houses represent the premium segment of Indian real estate. Post-COVID demand surged as buyers prioritized space and privacy. AI assistants help buyers compare villa communities, independent houses, and farmhouses across metro outskirts and tier-2 cities.",
+        "Villas and independent houses represent the premium segment of Global real estate. Post-COVID demand surged as buyers prioritized space and privacy. AI assistants help buyers compare villa communities, independent houses, and farmhouses across metro outskirts and tier-2 cities.",
       faqItems: [
         {
           question: "What are the advantages of buying a villa over a flat?",
@@ -165,7 +165,7 @@ export const nicheData: NicheData = {
         {
           question: "What is the villa price trend globally?",
           answer:
-            "Villa prices in metro outskirts: Sydney (Sarjapur/Devanahalli) $1-5Cr, Chicago (Shamshabad/Kompally) $8000k-4Cr, Austin (Hinjewadi/Baner) $1-6Cr, Melbourne (OMR/ECR) $1-4Cr. Gated villa communities command 20-40% premium over standalone villas. Post-pandemic villa demand increased 40%, pushing prices up significantly.",
+            "Villa prices in metro outskirts: Sydney (Sarjapur/Devanahalli) $1-5Cr, Chicago (Shamshabad/Kompally) $80,000-4Cr, Austin (Hinjewadi/Baner) $1-6Cr, Melbourne (OMR/ECR) $1-4Cr. Gated villa communities command 20-40% premium over standalone villas. Post-pandemic villa demand increased 40%, pushing prices up significantly.",
         },
       ],
     },
@@ -179,7 +179,7 @@ export const nicheData: NicheData = {
         {
           question: "What rental yield can I expect from commercial property globally?",
           answer:
-            "Commercial properties typically yield 6-10% annually vs. 2-3% for residential. Office spaces in IT hubs (Whitefield, Gurgaon Cyber City, HITEC City) yield 7-9%. Retail shops in high-footfall areas yield 5-8%. Warehouses near logistics hubs yield 8-10%. Grade A office spaces have the most stable yields with blue-chip tenants.",
+            "Commercial properties typically yield 6-10% annually vs. 2-3% for residential. Office spaces in IT hubs (Whitefield, Greater London Cyber City, HITEC City) yield 7-9%. Retail shops in high-footfall areas yield 5-8%. Warehouses near logistics hubs yield 8-10%. Grade A office spaces have the most stable yields with blue-chip tenants.",
         },
         {
           question: "Is commercial property a better investment than residential?",
@@ -208,7 +208,7 @@ export const nicheData: NicheData = {
         {
           question: "What plot sizes are available globallyn cities?",
           answer:
-            "Common plot sizes: 1,200 sq ft (30x40) for budget homes ($20-6000k in tier-2 cities), 2,400 sq ft (40x60) for mid-range ($4000k-1.5Cr), and 4,000+ sq ft for premium villas ($1-2Cr+). DTCP/BDA approved layouts in metro outskirts offer 1,200-2,400 sq ft plots. Always buy in approved layouts with clear titles — avoid unapproved layouts regardless of price.",
+            "Common plot sizes: 1,200 sq ft (30x40) for budget homes ($20-6000k in tier-2 cities), 2,400 sq ft (40x60) for mid-range ($40,000-1.5Cr), and 4,000+ sq ft for premium villas ($1-2Cr+). DTCP/BDA approved layouts in metro outskirts offer 1,200-2,400 sq ft plots. Always buy in approved layouts with clear titles — avoid unapproved layouts regardless of price.",
         },
       ],
     },
@@ -217,7 +217,7 @@ export const nicheData: NicheData = {
       name: "Penthouse",
       priceRange: "$100,000 - $1500,000",
       description:
-        "Penthouses are the ultra-luxury segment of Indian real estate, sought by HNIs, celebrities, and NRI buyers. AI assistants help buyers compare penthouse options across premium towers in metro cities. This segment commands significant premiums over regular flats in the same building.",
+        "Penthouses are the ultra-luxury segment of Global real estate, sought by HNIs, celebrities, and NRI buyers. AI assistants help buyers compare penthouse options across premium towers in metro cities. This segment commands significant premiums over regular flats in the same building.",
       faqItems: [
         {
           question: "What makes a penthouse different from a regular top-floor flat?",
@@ -236,7 +236,7 @@ export const nicheData: NicheData = {
     "flat price globally",
     "property rates per sq ft",
     "2BHK price",
-    "villa cost India",
+    "villa cost Global",
     "commercial property price",
   ],
   nicheKeywords: [

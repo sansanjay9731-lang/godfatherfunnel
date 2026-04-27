@@ -32,7 +32,7 @@ export default function Home() {
             name: "Godfather Funnel AI",
             url: "https://www.godfatherfunnelai.com",
             description:
-              "India's #1 AEO & AI Marketing Agency. We make AI recommend your business by name.",
+              "World's #1 AEO & AI Marketing Agency. We make AI recommend your business by name.",
             publisher: {
               "@id": "https://www.godfatherfunnelai.com/#organization",
             },
@@ -157,7 +157,7 @@ export default function Home() {
         <div
           className="absolute inset-0 opacity-[0.02]"
           style={{
-            backgroundImage: `linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)`,
+            backgroundImage: `linear-gradient(rgba(255255255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255255255,0.1) 1px, transparent 1px)`,
             backgroundSize: "60px 60px",
           }}
         />

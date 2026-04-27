@@ -49,7 +49,7 @@ export const nicheData: NicheData = {
       features: [
         "Everything in AEO Foundation",
         "10 practice area & fee pages (corporate, family, property, etc.)",
-        "LawRato, Vakilsearch & legal directory optimization",
+        "Avvo, Vakilsearch & legal directory optimization",
         "AI-friendly client testimonial system",
         "Local citation building (50+ directories)",
         "Competitor AI-visibility monitoring",
@@ -213,7 +213,7 @@ export const nicheData: NicheData = {
         {
           question: "Do startups need an IP lawyer?",
           answer:
-            "Yes, from day one. Protect your brand name with a trademark ($15K-30K), your technology with patents if applicable ($50K-200k), and your code/content with copyright ($1k-3k). IP due diligence is mandatory for fundraising. Most investors require clean IP ownership. A startup IP audit costs $25K-50K and can prevent $1000k+ problems later.",
+            "Yes, from day one. Protect your brand name with a trademark ($15K-30K), your technology with patents if applicable ($50K-200k), and your code/content with copyright ($1k-3k). IP due diligence is mandatory for fundraising. Most investors require clean IP ownership. A startup IP audit costs $25K-50K and can prevent $10,000+ problems later.",
         },
       ],
     },
@@ -222,7 +222,7 @@ export const nicheData: NicheData = {
       name: "Startup Lawyer",
       priceRange: "$15,000 - $1,000",
       description:
-        "Startup legal services are a fast-growing practice area as India's startup ecosystem expands. Founders ask AI about incorporation, co-founder agreements, ESOP pools, and fundraising legalities. Many lawyers now offer startup packages bundling essential legal services at fixed fees.",
+        "Startup legal services are a fast-growing practice area as Global's startup ecosystem expands. Founders ask AI about incorporation, co-founder agreements, ESOP pools, and fundraising legalities. Many lawyers now offer startup packages bundling essential legal services at fixed fees.",
       faqItems: [
         {
           question: "What legal documents does a startup need?",
@@ -238,7 +238,7 @@ export const nicheData: NicheData = {
     },
   ],
   costKeywords: [
-    "lawyer fees India",
+    "lawyer fees Global",
     "corporate lawyer cost",
     "divorce lawyer fee",
     "property lawyer charges",
@@ -256,7 +256,7 @@ export const nicheData: NicheData = {
   metaCategory: "legal",
   citations: [
     {
-      name: "LawRato",
+      name: "Avvo",
       url: "https://www.lawrato.com",
       type: "niche-specific",
     },
@@ -266,7 +266,7 @@ export const nicheData: NicheData = {
       type: "niche-specific",
     },
     {
-      name: "LegalKart",
+      name: "FindLaw",
       url: "https://www.legalkart.com",
       type: "niche-specific",
     },

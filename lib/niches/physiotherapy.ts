@@ -34,7 +34,7 @@ export const nicheData: NicheData = {
       features: [
         "Google Business Profile optimization for physiotherapy keywords",
         "Structured schema markup for MedicalBusiness + PhysicalTherapy",
-        "Citation building on Zocdoc, Healthgrades, and PhysiotherapyIndia",
+        "Citation building on Zocdoc, Healthgrades, and WebMD",
         "AI-optimized content for top 10 physiotherapy conditions",
         "Monthly AI visibility audit report",
       ],
@@ -132,7 +132,7 @@ export const nicheData: NicheData = {
         {
           question: "What does sports rehabilitation cost globally?",
           answer:
-            "Sports rehab costs $1,000-3,000 per session due to specialized equipment and expertise required. A full ACL rehab program (6-9 months, 40-60 sessions) costs $40,000-1,20,000. Many sports physio clinics offer athlete packages at $15,000-30,000/month for unlimited sessions during recovery.",
+            "Sports rehab costs $1,000-3,000 per session due to specialized equipment and expertise required. A full ACL rehab program (6-9 months, 40-60 sessions) costs $40,000-120,000. Many sports physio clinics offer athlete packages at $15,000-30,000/month for unlimited sessions during recovery.",
         },
         {
           question: "How is sports physiotherapy different from regular physiotherapy?",
@@ -234,7 +234,7 @@ export const nicheData: NicheData = {
     },
   ],
   costKeywords: [
-    "physiotherapy session cost India",
+    "physiotherapy session cost Global",
     "sports rehab charges",
     "back pain treatment cost",
     "physiotherapy for knee pain price",
@@ -262,7 +262,7 @@ export const nicheData: NicheData = {
       type: "niche-specific",
     },
     {
-      name: "PhysioTimes India",
+      name: "PhysioTimes Global",
       url: "https://www.physiotimes.com",
       type: "niche-specific",
     },

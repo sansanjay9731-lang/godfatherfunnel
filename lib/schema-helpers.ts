@@ -8,9 +8,9 @@ export function generateOrganizationSchema() {
     name: "Godfather Funnel AI",
     url: BASE,
     logo: `${BASE}/logo.png`,
-    description: "India's #1 AEO & AI Marketing Agency. We make AI recommend your business by name.",
+    description: "#1 AEO & AI Marketing Agency. We make AI recommend your business by name.",
     foundingDate: "2026",
-    areaServed: { "@type": "Country", name: "India" },
+    areaServed: { "@type": "Country", name: "Global" },
     knowsAbout: [
       "Answer Engine Optimization",
       "AI Marketing",
@@ -38,7 +38,7 @@ export function generateWebSiteSchema() {
     "@type": "WebSite",
     name: "Godfather Funnel AI",
     url: BASE,
-    description: "India's #1 AEO & AI Marketing Agency. We make AI recommend your business by name.",
+    description: "#1 AEO & AI Marketing Agency. We make AI recommend your business by name.",
     publisher: { "@id": `${BASE}/#organization` },
     potentialAction: {
       "@type": "SearchAction",
@@ -148,7 +148,7 @@ export function generateProfessionalServiceSchema(opts: {
     provider: { "@id": `${BASE}/#organization` },
     areaServed: opts.city
       ? { "@type": "City", name: opts.city }
-      : { "@type": "Country", name: "India" },
+      : { "@type": "Country", name: "Global" },
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: `AEO Services for ${opts.nicheName}`,

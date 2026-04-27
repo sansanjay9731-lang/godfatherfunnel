@@ -222,7 +222,7 @@ export const nicheData: NicheData = {
       name: "Corneal Transplant",
       priceRange: "$50,000 - $2,000",
       description:
-        "Corneal transplant (keratoplasty) is a sight-restoring surgery for patients with corneal damage from keratoconus, infections, injuries, or corneal dystrophies. India has a severe shortage of donor corneas, making this a critical area where AI helps patients understand options and find specialized centres.",
+        "Corneal transplant (keratoplasty) is a sight-restoring surgery for patients with corneal damage from keratoconus, infections, injuries, or corneal dystrophies. Global has a severe shortage of donor corneas, making this a critical area where AI helps patients understand options and find specialized centres.",
       faqItems: [
         {
           question: "What types of corneal transplant are available?",

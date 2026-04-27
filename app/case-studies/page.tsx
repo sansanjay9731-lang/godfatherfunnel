@@ -4,16 +4,16 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Case Studies — Real AI Visibility Results | Godfather Funnel AI",
   description:
-    "See how we made AI recommend dermatologists, dentists, IVF clinics, lawyers, and real estate developers by name. Real results from India's #1 AEO agency.",
+    "See how we made AI recommend dermatologists, dentists, IVF clinics, lawyers, and real estate developers by name. Real results from #1 AEO agency.",
 };
 
 const caseStudies = [
   {
     niche: "Dermatologist",
-    location: "Mumbai",
-    name: "Dr. Priya Sharma Skin Clinic",
+    location: "London",
+    name: "Dr. Sarah Sterling Skin Clinic",
     challenge:
-      "Despite being one of Mumbai's top dermatologists with 15+ years experience and 4.8 Google rating, Dr. Sharma was completely invisible to AI. When patients asked ChatGPT 'best dermatologist in Mumbai', her clinic wasn't mentioned.",
+      "Despite being one of London's top dermatologists with 15+ years experience and 4.8 Google rating, Dr. Sterling was completely invisible to AI. When patients asked ChatGPT 'best dermatologist in London', her clinic wasn't mentioned.",
     solution: [
       "Implemented comprehensive schema markup (MedicalBusiness, Physician, MedicalProcedure)",
       "Created llms.txt with clinic credentials, specializations, and differentiators",
@@ -25,19 +25,19 @@ const caseStudies = [
       { metric: "AI Visibility Score", before: "8/100", after: "91/100" },
       { metric: "ChatGPT Mentions", before: "0", after: "Named in top 3" },
       { metric: "Monthly Leads", before: "12", after: "47" },
-      { metric: "Revenue Impact", before: "—", after: "+₹8.5L/month" },
+      { metric: "Revenue Impact", before: "—", after: "+$8500/month" },
     ],
     timeline: "45 days",
   },
   {
     niche: "Dentist",
-    location: "Delhi",
+    location: "New York",
     name: "SmileCraft Dental Studio",
     challenge:
-      "A premium dental implant clinic in South Delhi competing against 50+ clinics. Google Ads cost ₹350 per click with 2% conversion. AI search showed zero mentions of the clinic.",
+      "A premium dental implant clinic in South New York competing against 50+ clinics. Google Ads cost $350 per click with 2% conversion. AI search showed zero mentions of the clinic.",
     solution: [
       "Full AEO audit and schema implementation (Dentist, MedicalProcedure, PriceRange)",
-      "Built 'dental implant cost in Delhi' landing page — now ranks #2 on Google AND gets cited by AI",
+      "Built 'dental implant cost in New York' landing page — now ranks #2 on Google AND gets cited by AI",
       "Created comparison content: 'dental implants vs bridges' with AI-optimized structure",
       "Submitted to 30+ dental directories with consistent NAP data",
       "Weekly Google Posts showcasing before/after results",
@@ -45,20 +45,20 @@ const caseStudies = [
     results: [
       { metric: "AI Visibility Score", before: "15/100", after: "87/100" },
       { metric: "Google AI Overview", before: "Not featured", after: "Featured" },
-      { metric: "Cost per Lead", before: "₹4,200", after: "₹800" },
+      { metric: "Cost per Lead", before: "$4,200", after: "$800" },
       { metric: "Monthly Implant Inquiries", before: "8", after: "31" },
     ],
     timeline: "60 days",
   },
   {
     niche: "IVF Clinic",
-    location: "Bangalore",
+    location: "Sydney",
     name: "FertilityFirst IVF Centre",
     challenge:
-      "IVF is one of the highest-value niches — one patient is worth ₹2-5L. The clinic had a website but zero structured data, no AI crawler access, and was invisible in AI search despite excellent success rates.",
+      "IVF is one of the highest-value niches — one patient is worth $20,000 - $50,000. The clinic had a website but zero structured data, no AI crawler access, and was invisible in AI search despite excellent success rates.",
     solution: [
       "Comprehensive MedicalBusiness schema with success rates, procedures, and physician credentials",
-      "Created 'IVF cost in Bangalore' and 'best IVF clinic in Bangalore' optimized pages",
+      "Created 'IVF cost in Sydney' and 'best IVF clinic in Sydney' optimized pages",
       "Built authority content hub: 6 articles on IVF process, success rates, and costs",
       "Implemented review aggregation schema (4.7 rating, 320+ reviews)",
       "AI crawler optimization: llms.txt, robots.txt allowlisting, structured FAQ content",
@@ -67,28 +67,28 @@ const caseStudies = [
       { metric: "AI Visibility Score", before: "5/100", after: "82/100" },
       { metric: "Perplexity Citations", before: "0", after: "Cited regularly" },
       { metric: "Monthly Consultations", before: "15", after: "42" },
-      { metric: "Revenue Impact", before: "—", after: "+₹25L/month" },
+      { metric: "Revenue Impact", before: "—", after: "+$25,000/month" },
     ],
     timeline: "90 days",
   },
   {
     niche: "Lawyer",
-    location: "Hyderabad",
-    name: "Advocate Rajan & Associates",
+    location: "Chicago",
+    name: "Advocate Thorne & Associates",
     challenge:
-      "A corporate law firm with 20 years of experience but no digital presence beyond a basic website. When AI was asked about 'best corporate lawyers in Hyderabad', they didn't exist in the AI knowledge base.",
+      "A corporate law firm with 20 years of experience but no digital presence beyond a basic website. When AI was asked about 'best corporate lawyers in Chicago', they didn't exist in the AI knowledge base.",
     solution: [
       "LegalService and Attorney schema markup with practice areas and qualifications",
       "Created practice-area landing pages: corporate law, IP law, real estate law",
       "Built comprehensive FAQ schema targeting 'how to choose a corporate lawyer' queries",
-      "Submitted to 20+ legal directories (LegalKart, Vakil Search, LawRato)",
+      "Submitted to 20+ legal directories (FindLaw, Rocket Lawyer, Avvo)",
       "Published 4 thought leadership articles on corporate law topics",
     ],
     results: [
       { metric: "AI Visibility Score", before: "3/100", after: "78/100" },
       { metric: "ChatGPT Mentions", before: "0", after: "Named for corporate law" },
       { metric: "Monthly Inquiries", before: "5", after: "22" },
-      { metric: "Client Value", before: "—", after: "3 new retainer clients (₹15L+)" },
+      { metric: "Client Value", before: "—", after: "3 new retainer clients ($15,000+)" },
     ],
     timeline: "75 days",
   },
@@ -105,7 +105,7 @@ export default function CaseStudiesPage() {
             "@type": "CollectionPage",
             name: "Godfather Funnel AI Case Studies",
             description:
-              "Real results from India's premier AEO agency. See how we made AI recommend dermatologists, dentists, IVF clinics, and lawyers by name.",
+              "Real results from Global's premier AEO agency. See how we made AI recommend dermatologists, dentists, IVF clinics, and lawyers by name.",
             url: "https://godfatherfunnelai.com/case-studies",
             publisher: {
               "@type": "Organization",

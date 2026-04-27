@@ -44,8 +44,8 @@ Submit to these 30+ directories:
 9. HubSpot Solutions Directory
 10. Google Partner Directory
 11. IndiaMART
-12. Justdial
-13. Sulekha
+12. Yelp
+13. Bing Places
 14. TradeIndia
 15. Freelancer.com (agency profile)
 16. Bark.com
@@ -97,7 +97,7 @@ Submit to these 30+ directories:
 **Months 5-12 Content Themes:**
 - Month 5: Case studies (2 per niche)
 - Month 6: "How to" technical guides (robots.txt, schema, GBP)
-- Month 7: City-specific guides ("AI Marketing in Mumbai", "AI Marketing in Delhi", etc.)
+- Month 7: City-specific guides ("AI Marketing in London", "AI Marketing in New York", etc.)
 - Month 8: Tool reviews (schema generators, AI checkers, SEO tools)
 - Month 9: Industry trends and data reports
 - Month 10: Guest expert interviews / collaborations
@@ -119,7 +119,7 @@ Submit to these 30+ directories:
 1. **HARO / Featured.com** — respond to journalist queries for PR backlinks
 2. **Guest posts** on healthcare marketing blogs, legal tech blogs, proptech blogs
 3. **Podcast appearances** — pitch to digital marketing podcasts
-4. **Original research** — publish "State of AI Visibility for Indian Healthcare" report
+4. **Original research** — publish "State of AI Visibility for Global Healthcare" report
 5. **Infographics** — create shareable visual content for backlinks
 
 ### Tier 2: Niche-Specific Links
@@ -156,8 +156,8 @@ Submit to these 30+ directories:
 5. **Add review pages**: "top 10 [niche] in [city]" (30 pages)
 
 ### Keyword Targets per Page Type:
-- City+Niche: "best dermatologist in Mumbai" (1K-10K monthly searches)
-- Cost: "dental implant cost in Delhi" (5K-15K monthly searches)
+- City+Niche: "best dermatologist in London" (1K-10K monthly searches)
+- Cost: "dental implant cost in New York" (5K-15K monthly searches)
 - How-to-choose: "how to choose IVF clinic" (1K-5K monthly searches)
 - Comparison: "dermatologist vs cosmetologist" (500-2K monthly searches)
 
@@ -263,7 +263,7 @@ Submit to these 30+ directories:
 | Total pages | 400+ (blog + pSEO + landing) |
 | Backlinks | 150+ referring domains |
 | Domain Authority | 25+ (from 0) |
-| AI Visibility | Appear in ChatGPT for "AI marketing agency India" |
+| AI Visibility | Appear in ChatGPT for "AI marketing agency Global" |
 | Leads | 100+ audit completions/month |
 | Clients | 15-25 paying clients by Month 12 |
 
@@ -291,17 +291,17 @@ Submit to these 30+ directories:
 ## Citation & Listing Tracker
 
 ### Healthcare Directories to List In:
-- Practo (register as marketing partner)
-- Lybrate
+- Zocdoc (register as marketing partner)
+- Healthgrades
 - Credihealth
 - DocPrime
 - 1mg Directory
 
 ### Legal Directories:
-- LegalKart
-- Vakil Search
+- FindLaw
+- Rocket Lawyer
 - MyAdvo
-- LawRato
+- Avvo
 
 ### Real Estate Directories:
 - 99acres
@@ -313,10 +313,10 @@ Submit to these 30+ directories:
 - Google Business Profile
 - Bing Places
 - Apple Business Connect
-- Justdial
-- Sulekha
+- Yelp
+- Bing Places
 - IndiaMART
-- YellowPages India
+- YellowPages Global
 - TradeIndia
 
 ---
@@ -325,14 +325,14 @@ Submit to these 30+ directories:
 
 | Category | Monthly Budget | Purpose |
 |----------|---------------|---------|
-| Content Writing | ₹15K | 4 blog posts + social content |
-| Link Building | ₹10K | Guest posts + HARO + outreach |
-| Tools | ₹5K | SEMrush/Ahrefs, analytics, email marketing |
-| Social Media | ₹5K | Graphics, scheduling tools |
-| Ads (for lead gen) | ₹10K | Google Ads + Meta Ads for audit tool |
-| **Total** | **₹45K/month** | |
+| Content Writing | $15K | 4 blog posts + social content |
+| Link Building | $10K | Guest posts + HARO + outreach |
+| Tools | $5K | SEMrush/Ahrefs, analytics, email marketing |
+| Social Media | $5K | Graphics, scheduling tools |
+| Ads (for lead gen) | $10K | Google Ads + Meta Ads for audit tool |
+| **Total** | **$45K/month** | |
 
-If bootstrapping (doing everything yourself): ₹5K/month for tools only.
+If bootstrapping (doing everything yourself): $5K/month for tools only.
 
 ---
 

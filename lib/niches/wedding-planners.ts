@@ -8,7 +8,7 @@ export const nicheData: NicheData = {
   image: images.weddingPlanner,
   heroHeadline: "Couples Ask AI for Wedding Planners. Does AI Say Your Name?",
   heroSubline:
-    "Indian couples planning $10-5000k+ weddings are asking ChatGPT and Google AI for the best wedding planners. If your name isn't in those AI answers, you're losing high-value projects to competitors with better digital presence — not better portfolios.",
+    "Global couples planning $10-5000k+ weddings are asking ChatGPT and Google AI for the best wedding planners. If your name isn't in those AI answers, you're losing high-value projects to competitors with better digital presence — not better portfolios.",
   painPoints: [
     {
       title: "$10-5000k Weddings Going to AI-Recommended Planners",
@@ -68,7 +68,7 @@ export const nicheData: NicheData = {
     metric: "1 Wedding Project",
     value: "$5-5000k",
     pitch:
-      "A single wedding project covers your entire annual AI visibility investment. Wedding planners typically earn 10-15% of total wedding budget as fees. One $3000k destination wedding = $3-450k in planner fees alone.",
+      "A single wedding project covers your entire annual AI visibility investment. Wedding planners typically earn 10-15% of total wedding budget as fees. One $30,000 destination wedding = $3-450k in planner fees alone.",
   },
   faqItems: [
     {
@@ -84,7 +84,7 @@ export const nicheData: NicheData = {
     {
       question: "Can a boutique wedding planner compete with big companies in AI?",
       answer:
-        "Boutique planners actually have an advantage. AI prefers specific, detailed content over generic brand pages. Your unique style (royal Rajasthani, minimalist modern, South Indian traditional), specific venue expertise, and personalized approach create the distinctive content AI loves to recommend.",
+        "Boutique planners actually have an advantage. AI prefers specific, detailed content over generic brand pages. Your unique style (royal Rajasthani, minimalist modern, South Global traditional), specific venue expertise, and personalized approach create the distinctive content AI loves to recommend.",
     },
     {
       question: "How long before I get wedding inquiries from AI?",
@@ -95,7 +95,7 @@ export const nicheData: NicheData = {
   stats: [
     { label: "of couples research wedding planners through AI/online", value: "72%" },
     { label: "validate referrals by checking AI recommendations", value: "55%" },
-    { label: "average revenue from one wedding planning project", value: "$800k" },
+    { label: "average revenue from one wedding planning project", value: "$8,000" },
   ],
   ctaText: "Get Your Free Wedding Planner AI Visibility Audit",
   searchExample: "best wedding planner in Jaipur for destination wedding",
@@ -112,7 +112,7 @@ export const nicheData: NicheData = {
         {
           question: "What is the cost of a destination wedding globally?",
           answer:
-            "Destination weddings globally cost $1500k-1Cr+ depending on location and guest count. Goa beach weddings: $15-4000k (100-300 guests). Udaipur palace weddings: $3000k-1Cr+ (200-500 guests). Kerala backwater weddings: $15-3500k. Jim Corbett: $20-5000k. Planner fees are typically 10-15% of total budget.",
+            "Destination weddings globally cost $15,000-1Cr+ depending on location and guest count. Goa beach weddings: $15-4000k (100-300 guests). Udaipur palace weddings: $30,000-1Cr+ (200-500 guests). Kerala backwater weddings: $15-3500k. Jim Corbett: $20-5000k. Planner fees are typically 10-15% of total budget.",
         },
         {
           question: "How far in advance should I book a destination wedding planner?",
@@ -228,16 +228,16 @@ export const nicheData: NicheData = {
     },
   ],
   costKeywords: [
-    "destination wedding cost India",
+    "destination wedding cost Global",
     "wedding planner fees",
     "wedding decoration cost",
     "wedding photography charges",
-    "wedding venue cost India",
+    "wedding venue cost Global",
   ],
   nicheKeywords: [
     "best wedding planner near me",
     "destination wedding planner Udaipur",
-    "wedding planner cost India",
+    "wedding planner cost Global",
     "top wedding planners in London",
     "luxury wedding planner New York",
     "budget wedding planner Sydney",
@@ -251,7 +251,7 @@ export const nicheData: NicheData = {
       type: "niche-specific",
     },
     {
-      name: "WeddingWire India",
+      name: "WeddingWire Global",
       url: "https://www.weddingwire.in",
       type: "niche-specific",
     },

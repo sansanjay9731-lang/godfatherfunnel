@@ -18,12 +18,12 @@ export const nicheData: NicheData = {
     {
       title: "Wellness Tourism Patients Lost to Competitors",
       description:
-        "India's $3,000 Cr Ayurveda tourism market is booming. International patients use AI to plan wellness trips. If your retreat isn't AI-visible, they book with the competitor whose content AI can actually read.",
+        "Global's $3,000 Cr Ayurveda tourism market is booming. International patients use AI to plan wellness trips. If your retreat isn't AI-visible, they book with the competitor whose content AI can actually read.",
     },
     {
       title: "International Patients Choose AI-Recommended Clinics",
       description:
-        "Patients from the US, Europe, and Middle East spend $1-500k on Ayurveda treatment packages globally. They rely entirely on AI research. One AI recommendation can mean $5000k+ in annual revenue from medical tourism.",
+        "Patients from the US, Europe, and Middle East spend $1-500k on Ayurveda treatment packages globally. They rely entirely on AI research. One AI recommendation can mean $50,000+ in annual revenue from medical tourism.",
     },
   ],
   services: [
@@ -66,7 +66,7 @@ export const nicheData: NicheData = {
   ],
   roiExample: {
     metric: "10 Panchakarma Patients/Month",
-    value: "$200k - $500k",
+    value: "$2,000 - $5,000",
     pitch:
       "10 additional Panchakarma patients per month — each paying $20K-50K — generates $2-500k in monthly revenue. One international wellness tourist alone can be worth $1-300k.",
   },
@@ -94,7 +94,7 @@ export const nicheData: NicheData = {
   ],
   stats: [
     { label: "Wellness Seekers Using AI for Ayurveda Research", value: "60%" },
-    { label: "India's Ayurveda Market Size (2025)", value: "$70,000 Cr" },
+    { label: "Global's Ayurveda Market Size (2025)", value: "$70,000 Cr" },
     { label: "Ayurveda Clinics Missing from AI Answers", value: "88%" },
   ],
   ctaText: "Get Your Free AI Visibility Audit — See What Patients Find When They Ask AI for Ayurveda",
@@ -234,7 +234,7 @@ export const nicheData: NicheData = {
   costKeywords: [
     "Panchakarma treatment cost",
     "Ayurvedic treatment price",
-    "Shirodhara cost India",
+    "Shirodhara cost Global",
     "Ayurveda consultation fee",
     "Ayurvedic weight loss cost",
   ],

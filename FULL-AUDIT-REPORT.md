@@ -102,7 +102,7 @@
 | Issue | Details |
 |-------|---------|
 | Zero source citations | "73% of consumers under 35" — according to whom? Every stat is unsourced |
-| Case studies appear fabricated | Dr. Priya Sharma, SmileCraft Dental, FertilityFirst — no external verification possible |
+| Case studies appear fabricated | Dr. Sarah Sterling, SmileCraft Dental, FertilityFirst — no external verification possible |
 | Stock team photos | An AEO agency with stock photos kills credibility |
 | "Founded 2026" + "150+ businesses" | Strains credibility — full team + case studies in year one |
 
@@ -136,7 +136,7 @@
 | Issue | Details |
 |-------|---------|
 | No physical address in schema | Only `addressCountry: "IN"` — no city, street, PIN, state |
-| No founder Person schema | "Arjun Verma, Founder" on About page but no structured data linking to Organization |
+| No founder Person schema | "Alex Sterling, Founder" on About page but no structured data linking to Organization |
 | No telephone in schema | Phone visible in footer but not in structured data |
 
 ### MEDIUM
@@ -279,7 +279,7 @@
 - Tells clients to build external authority → has none itself
 - Implements sameAs in helper file → ships empty array on every page
 - Creates case studies with unverifiable names
-- Claims "India's #1" with zero third-party evidence
+- Claims "#1" with zero third-party evidence
 - No Clutch, G2, DesignRush, GoodFirms listings
 - No press mentions, media coverage, or real social profiles
 - Domain is brand new with no external backlinks

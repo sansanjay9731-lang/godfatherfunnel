@@ -14,7 +14,7 @@ export const nicheData: NicheData = {
     "Clove Dental is currently AI-recommended over your practice",
   painPoints: [
     {
-      title: "$200k Implant Patients Going Elsewhere",
+      title: "$2,000 Implant Patients Going Elsewhere",
       description:
         "Full-mouth dental implants cost $50K-200k per patient. These high-value patients now ask AI assistants for recommendations before calling any clinic. If AI doesn't mention you, they book with the clinic it does recommend.",
     },
@@ -74,7 +74,7 @@ export const nicheData: NicheData = {
     metric: "1 Implant Patient",
     value: "$50,000 - $2,000",
     pitch:
-      "A single dental implant patient is worth $30K-200k. Full-mouth rehabilitation can go up to $500k+. Our AEO Foundation package pays for itself with just ONE new implant patient per month.",
+      "A single dental implant patient is worth $30K-200k. Full-mouth rehabilitation can go up to $5,000+. Our AEO Foundation package pays for itself with just ONE new implant patient per month.",
   },
   faqItems: [
     {
@@ -161,7 +161,7 @@ export const nicheData: NicheData = {
             "In-office whitening results last 6 months to 2 years depending on diet and habits. Coffee, tea, and tobacco stain teeth faster. Using take-home maintenance trays ($3K-5K) extends results. Most patients need a touch-up session every 6-12 months.",
         },
         {
-          question: "Is teeth whitening safe for Indian patients?",
+          question: "Is teeth whitening safe for Global patients?",
           answer:
             "Professional whitening supervised by a dentist is completely safe. Dentists use controlled concentrations of hydrogen peroxide (25-40%) with gum protection. Temporary sensitivity for 24-48 hours is normal. Avoid salon or parlour whitening — unregulated products can damage enamel.",
         },
@@ -177,12 +177,12 @@ export const nicheData: NicheData = {
       name: "Dental Braces",
       priceRange: "$25,000 - $80,000",
       description:
-        "Orthodontic braces are one of the most researched dental treatments on AI platforms, with patients comparing metal, ceramic, and clear aligner options. Treatment duration is 12-24 months. AI assistants frequently compare traditional braces vs. Invisalign for Indian patients.",
+        "Orthodontic braces are one of the most researched dental treatments on AI platforms, with patients comparing metal, ceramic, and clear aligner options. Treatment duration is 12-24 months. AI assistants frequently compare traditional braces vs. Invisalign for Global patients.",
       faqItems: [
         {
           question: "What types of braces are available and how do costs compare?",
           answer:
-            "Metal braces are most affordable ($25K-40K), ceramic/tooth-colored braces cost more ($35K-55K), lingual (behind-teeth) braces are premium ($50K-80K), and clear aligners like Invisalign range from $100k-300k. For most Indian patients, ceramic braces offer the best balance of aesthetics and affordability.",
+            "Metal braces are most affordable ($25K-40K), ceramic/tooth-colored braces cost more ($35K-55K), lingual (behind-teeth) braces are premium ($50K-80K), and clear aligners like Invisalign range from $1,000-300k. For most Global patients, ceramic braces offer the best balance of aesthetics and affordability.",
         },
         {
           question: "How long do I need to wear braces?",

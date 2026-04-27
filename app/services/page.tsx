@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Our Services — AEO, AI Marketing & 360° Digital | Godfather Funnel AI",
   description:
-    "From Answer Engine Optimization to schema markup, Google Ads to reputation management — we offer end-to-end AI marketing services for dermatologists, dentists, plastic surgeons, IVF clinics, lawyers, and real estate developers across India.",
+    "From Answer Engine Optimization to schema markup, Google Ads to reputation management — we offer end-to-end AI marketing services for dermatologists, dentists, plastic surgeons, IVF clinics, lawyers, and real estate developers across Global.",
 };
 
 const services = [
@@ -39,8 +39,8 @@ const services = [
     tag: "Scale",
     desc: "We build hundreds of hyper-targeted landing pages that capture long-tail search traffic and AI citations. Every page is schema-enriched and designed to convert.",
     features: [
-      "City + niche landing pages (e.g., 'best dermatologist in Mumbai')",
-      "Treatment + city pages (e.g., 'dental implant cost in Delhi')",
+      "City + niche landing pages (e.g., 'best dermatologist in London')",
+      "Treatment + city pages (e.g., 'dental implant cost in New York')",
       "Comparison pages (e.g., 'AEO vs SEO')",
       "Dynamic FAQ generation per page",
       "Internal linking architecture",
@@ -63,12 +63,12 @@ const services = [
   {
     name: "Reputation & Review Management",
     tag: "Trust",
-    desc: "AI systems heavily weight reviews and ratings. We build and manage your online reputation across Google, Practo, Justdial, and niche-specific platforms to maximize AI trust signals.",
+    desc: "AI systems heavily weight reviews and ratings. We build and manage your online reputation across Google, Zocdoc, Yelp, and niche-specific platforms to maximize AI trust signals.",
     features: [
       "Review generation campaigns",
       "Negative review response strategy",
       "Review schema markup (AggregateRating)",
-      "Multi-platform monitoring (Google, Practo, Justdial)",
+      "Multi-platform monitoring (Google, Zocdoc, Yelp)",
       "Testimonial collection & display",
       "Trust badge implementation",
     ],
@@ -100,11 +100,11 @@ export default function ServicesPage() {
             name: "Godfather Funnel AI",
             url: "https://www.godfatherfunnelai.com/services",
             description:
-              "India's premier AEO and AI marketing agency offering Answer Engine Optimization, schema markup, programmatic SEO, Google & Meta Ads, reputation management, and 360° digital marketing for premium businesses.",
+              "Global's premier AEO and AI marketing agency offering Answer Engine Optimization, schema markup, programmatic SEO, Google & Meta Ads, reputation management, and 360° digital marketing for premium businesses.",
             provider: {
               "@id": "https://www.godfatherfunnelai.com/#organization",
             },
-            areaServed: { "@type": "Country", name: "India" },
+            areaServed: { "@type": "Country", name: "Global" },
             hasOfferCatalog: {
               "@type": "OfferCatalog",
               name: "AI Marketing Services",

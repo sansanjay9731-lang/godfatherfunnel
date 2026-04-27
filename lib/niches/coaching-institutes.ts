@@ -66,9 +66,9 @@ export const nicheData: NicheData = {
   ],
   roiExample: {
     metric: "50 New Admissions",
-    value: "$5000k - $1.5Cr",
+    value: "$50,000 - $1.5Cr",
     pitch:
-      "If AI recommends your institute to just 50 more students per year, that's $5000k to $1.5Cr in additional revenue — from a one-time AEO investment.",
+      "If AI recommends your institute to just 50 more students per year, that's $50,000 to $1.5Cr in additional revenue — from a one-time AEO investment.",
   },
   faqItems: [
     {
@@ -135,7 +135,7 @@ export const nicheData: NicheData = {
         {
           question: "What is the average NEET coaching fee?",
           answer:
-            "NEET coaching fees range from $70,000 to $250,000 per year. Kota-based institutes charge $1-200k, while metro city institutes charge $1.5-250k. Integrated school+coaching programs can go up to $300k.",
+            "NEET coaching fees range from $70,000 to $250,000 per year. Kota-based institutes charge $1-200k, while metro city institutes charge $1.5-250k. Integrated school+coaching programs can go up to $3,000.",
         },
         {
           question: "Which city is best for NEET coaching?",
@@ -173,12 +173,12 @@ export const nicheData: NicheData = {
       name: "CAT Coaching Fee",
       priceRange: "$30,000 - $150,000",
       description:
-        "MBA aspirants compare CAT coaching institutes extensively using AI. With IIM placements reaching $3000k+, the ROI of good coaching is massive — and so is your opportunity to capture these leads.",
+        "MBA aspirants compare CAT coaching institutes extensively using AI. With IIM placements reaching $30,000+, the ROI of good coaching is massive — and so is your opportunity to capture these leads.",
       faqItems: [
         {
           question: "What is the average CAT coaching fee?",
           answer:
-            "CAT coaching fees range from $30,000 to $150,000. Classroom programs cost $50,000-1,50,000, while online programs range from $15,000-70,000. Top names like TIME and IMS charge $40,000-80,000.",
+            "CAT coaching fees range from $30,000 to $150,000. Classroom programs cost $50,000-150,000, while online programs range from $15,000-70,000. Top names like TIME and IMS charge $40,000-80,000.",
         },
         {
           question: "Is CAT coaching necessary for IIM admission?",
