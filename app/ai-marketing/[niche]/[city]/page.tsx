@@ -7,8 +7,17 @@ import type { Metadata } from "next";
 const allCities = getAllCities();
 const topCities = allCities.filter((c) => c.tier === 1);
 
-function cityFromSlug(slug: string): { name: string; slug: string } | undefined {
+function cityFromSlug(slug: string) {
   return allCities.find((c) => c.slug === slug);
+}
+
+function getCurrency(country: string) {
+  switch (country) {
+    case "USA": return "$";
+    case "UK": return "£";
+    case "Australia": return "A$";
+    default: return "$";
+  }
 }
 
 export function generateStaticParams() {
@@ -63,13 +72,44 @@ export default async function CityNichePage({
             provider: {
               "@type": "Organization",
               name: "Godfather Funnel AI",
-              url: "https://godfatherfunnelai.com",
+              url: "https://www.godfatherfunnelai.com",
             },
             areaServed: {
               "@type": "City",
               name: cityName,
-              containedInPlace: { "@type": "Country", name: "India" },
+              containedInPlace: { "@type": "Country", name: city.country },
             },
+          }),
+        }}
+      />
+
+      {/* BreadcrumbList Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.godfatherfunnelai.com",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: niche.name,
+                item: `https://www.godfatherfunnelai.com/${niche.slug}`,
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: cityName,
+                item: `https://www.godfatherfunnelai.com/ai-marketing/${niche.slug}/${city.slug}`,
+              },
+            ],
           }),
         }}
       />
@@ -185,7 +225,7 @@ export default async function CityNichePage({
                     name: `How much does AI marketing cost for ${niche.name.toLowerCase()} in ${cityName}?`,
                     acceptedAnswer: {
                       "@type": "Answer",
-                      text: `Our plans for ${niche.name.toLowerCase()} start at ${niche.services[0].price}. ${niche.roiExample.pitch}`,
+                      text: `Our plans for ${niche.name.toLowerCase()} start at ${niche.services[0].price.replace("₹", getCurrency(city.country))}. ${niche.roiExample.pitch}`,
                     },
                   },
                   {
@@ -193,7 +233,7 @@ export default async function CityNichePage({
                     name: `Do you work with ${niche.name.toLowerCase()} only in ${cityName}?`,
                     acceptedAnswer: {
                       "@type": "Answer",
-                      text: `We work with ${niche.name.toLowerCase()} across India, but have specific expertise in ${cityName}'s competitive landscape.`,
+                      text: `We work with ${niche.name.toLowerCase()} globally including USA, UK, and Australia, but have specific expertise in ${cityName}'s competitive landscape.`,
                     },
                   },
                 ],
@@ -222,7 +262,7 @@ export default async function CityNichePage({
                 Do you work with {niche.name.toLowerCase()} only in {cityName}?
               </h3>
               <p className="text-xs text-gray-400 mt-1">
-                We work with {niche.name.toLowerCase()} across India, but have specific expertise in {cityName}&apos;s competitive landscape.
+                We work with {niche.name.toLowerCase()} globally, but have specific expertise in {cityName}&apos;s competitive landscape.
               </p>
             </div>
           </div>

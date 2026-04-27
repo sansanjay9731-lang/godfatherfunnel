@@ -75,14 +75,18 @@ export default function RootLayout({
               foundingDate: "2026",
               slogan: "Make AI Recommend You by Name",
               telephone: "+91 98765 43210",
-              areaServed: { "@type": "Country", name: "India" },
+              areaServed: [
+                { "@type": "Country", name: "USA" },
+                { "@type": "Country", name: "UK" },
+                { "@type": "Country", name: "Australia" },
+              ],
               address: {
                 "@type": "PostalAddress",
-                streetAddress: "Koramangala, 5th Block",
-                addressLocality: "Bangalore",
-                addressRegion: "Karnataka",
-                postalCode: "560095",
-                addressCountry: "IN",
+                streetAddress: "71-75 Shelton Street, Covent Garden",
+                addressLocality: "London",
+                addressRegion: "London",
+                postalCode: "WC2H 9JQ",
+                addressCountry: "GB",
               },
               founder: {
                 "@type": "Person",
@@ -90,8 +94,7 @@ export default function RootLayout({
                 url: "https://www.godfatherfunnelai.com/about",
                 jobTitle: "Founder & CEO",
                 worksFor: {
-                  "@id":
-                    "https://www.godfatherfunnelai.com/#organization",
+                  "@id": "https://www.godfatherfunnelai.com/#organization",
                 },
               },
               email: "contact@godfatherfunnelai.com",
