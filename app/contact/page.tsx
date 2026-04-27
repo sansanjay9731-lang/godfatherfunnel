@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Contact Godfather Funnel AI — Get Your Free AI Visibility Audit",
   description:
-    "Contact India's #1 AEO & AI marketing agency. Get a free AI visibility audit, book a strategy call, or ask us anything about making AI recommend your business.",
+    "Contact the world's #1 AEO & AI marketing agency. Get a free AI visibility audit, book a strategy call, or ask us anything about making AI recommend your business.",
 };
 
 export default function ContactPage() {
@@ -84,7 +84,7 @@ export default function ContactPage() {
                 response.
               </p>
               <p className="text-sm text-green-400 mt-2 font-semibold">
-                +91 98765 43210
+                +44 20 7946 0000
               </p>
             </div>
           </div>
@@ -107,7 +107,7 @@ export default function ContactPage() {
                 <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1">
                   Phone / WhatsApp
                 </h3>
-                <p className="text-sm text-gray-300">+91 98765 43210</p>
+                <p className="text-sm text-gray-300">+44 20 7946 0000</p>
               </div>
               <div>
                 <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1">
@@ -142,7 +142,7 @@ export default function ContactPage() {
                   Response Time
                 </h3>
                 <p className="text-sm text-gray-300">
-                  We respond within 2 hours during business hours (Mon-Sat, 9am-7pm IST).
+                  We respond within 2 hours during business hours (Mon-Fri, 9am-6pm GMT).
                 </p>
               </div>
             </div>

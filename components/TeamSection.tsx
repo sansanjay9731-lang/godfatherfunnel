@@ -5,25 +5,25 @@ import { images } from "@/lib/niches";
 
 const team = [
   {
-    name: "Arjun Verma",
+    name: "Alex Sterling",
     role: "AI Strategy Lead",
-    desc: "Former Google engineer. Built AI visibility systems for 100+ premium businesses.",
+    desc: "Former Big Tech engineer. Built AI visibility systems for 100+ premium businesses.",
     image: images.teamMale1,
   },
   {
-    name: "Sneha Iyer",
+    name: "Sarah Jenkins",
     role: "Technical SEO Architect",
     desc: "Schema markup specialist. Makes search engines and AI systems understand your business.",
     image: images.teamFemale1,
   },
   {
-    name: "Karan Malhotra",
+    name: "Marcus Thorne",
     role: "Growth & Ads Manager",
-    desc: "Managed ₹5Cr+ in ad spend. Specializes in ROI-focused campaigns for premium niches.",
+    desc: "Managed $10M+ in ad spend. Specializes in ROI-focused campaigns for premium niches.",
     image: images.teamMale2,
   },
   {
-    name: "Riya Desai",
+    name: "Elena Rodriguez",
     role: "Content & AEO Lead",
     desc: "Creates AI-citation-ready content. Turns complex expertise into AI-recommended authority.",
     image: images.teamFemale2,

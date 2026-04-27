@@ -7,8 +7,8 @@ const testimonials = [
   {
     quote:
       "After Godfather Funnel optimized our clinic, ChatGPT started recommending us by name. We got 23 new patients in the first month — all from AI search.",
-    name: "Dr. Priya Sharma",
-    role: "Dermatologist, Mumbai",
+    name: "Dr. Sarah Jenkins",
+    role: "Dermatologist, London",
     image: images.doctorFemale1,
     scoreBefore: 12,
     scoreAfter: 87,
@@ -16,9 +16,9 @@ const testimonials = [
   },
   {
     quote:
-      "We were spending ₹2L/month on Google Ads. Now AI sends us patients for free. Our cost per acquisition dropped by 65%.",
-    name: "Dr. Rahul Mehta",
-    role: "Dental Surgeon, Delhi",
+      "We were spending $5,000/month on Google Ads. Now AI sends us patients for free. Our cost per acquisition dropped by 65%.",
+    name: "Dr. Michael Chen",
+    role: "Dental Surgeon, NYC",
     image: images.doctorMale1,
     scoreBefore: 8,
     scoreAfter: 91,
@@ -26,9 +26,9 @@ const testimonials = [
   },
   {
     quote:
-      "I was skeptical at first. Then I searched my own name on ChatGPT and saw nothing. 60 days later, I'm the #1 recommendation in Bangalore for rhinoplasty.",
-    name: "Dr. Anjali Reddy",
-    role: "Plastic Surgeon, Bangalore",
+      "I was skeptical at first. Then I searched my own name on ChatGPT and saw nothing. 60 days later, I'm the #1 recommendation in Sydney for rhinoplasty.",
+    name: "Dr. Elena Rodriguez",
+    role: "Plastic Surgeon, Sydney",
     image: images.doctorFemale2,
     scoreBefore: 5,
     scoreAfter: 82,
@@ -37,8 +37,8 @@ const testimonials = [
   {
     quote:
       "Our IVF inquiries went up 180% in 3 months. Couples are finding us through AI before they even Google. This is the future of patient acquisition.",
-    name: "Dr. Vikram Patel",
-    role: "IVF Specialist, Hyderabad",
+    name: "Dr. David Sterling",
+    role: "IVF Specialist, Chicago",
     image: images.doctorMale2,
     scoreBefore: 15,
     scoreAfter: 79,
@@ -47,8 +47,8 @@ const testimonials = [
   {
     quote:
       "As a corporate lawyer, I never thought AI marketing would apply to me. Now ChatGPT recommends our firm for M&A queries. We landed 3 retainers from AI referrals.",
-    name: "Adv. Neha Kapoor",
-    role: "Corporate Lawyer, Delhi NCR",
+    name: "Marcus Thorne",
+    role: "Corporate Lawyer, London",
     image: images.businessWoman,
     scoreBefore: 3,
     scoreAfter: 74,
@@ -56,9 +56,9 @@ const testimonials = [
   },
   {
     quote:
-      "Homebuyers are asking AI which builder to trust. After Godfather Funnel, our project is the first name AI mentions in Pune. Bookings are up 40%.",
-    name: "Rajesh Singhania",
-    role: "MD, Singhania Realty, Pune",
+      "Homebuyers are asking AI which builder to trust. After Godfather Funnel, our project is the first name AI mentions in Melbourne. Bookings are up 40%.",
+    name: "Jonathan Hughes",
+    role: "MD, Hughes Realty, Melbourne",
     image: images.businessMan,
     scoreBefore: 10,
     scoreAfter: 85,

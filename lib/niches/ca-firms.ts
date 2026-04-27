@@ -33,14 +33,14 @@ export const nicheData: NicheData = {
       features: [
         "Google Business Profile optimization for CA firm keywords",
         "Structured schema markup for AccountingService + ProfessionalService",
-        "Citation building on CAclubindia, Justdial, and Sulekha",
+        "Citation building on CAclubindia, Yelp, and Bing Places",
         "AI-optimized content for top 10 CA services",
         "Monthly AI visibility audit report",
       ],
     },
     {
       tier: "AI Growth",
-      price: "$50,000 - $1,00,000",
+      price: "$50,000 - $1,000",
       features: [
         "Everything in AI Foundation",
         "Full AEO for 30+ service keywords (GST, ITR, audit, registration)",
@@ -52,7 +52,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "AI Dominance",
-      price: "$1,50,000 - $3,00,000",
+      price: "$150,000 - $3,000",
       features: [
         "Everything in AI Growth",
         "Full website rebuild optimized for AI crawlers",
@@ -74,7 +74,7 @@ export const nicheData: NicheData = {
     {
       question: "How does AI recommend CA firms to business owners?",
       answer:
-        "AI models pull from structured data on your website, professional directories like CAclubindia and Justdial, Google reviews, published articles, and LinkedIn content. If your firm lacks structured schema markup and citations on these platforms, AI cannot recommend you — even if you're the most experienced CA in your area.",
+        "AI models pull from structured data on your website, professional directories like CAclubindia and Yelp, Google reviews, published articles, and LinkedIn content. If your firm lacks structured schema markup and citations on these platforms, AI cannot recommend you — even if you're the most experienced CA in your area.",
     },
     {
       question: "We already get clients through referrals. Why do we need AI visibility?",
@@ -160,21 +160,21 @@ export const nicheData: NicheData = {
         {
           question: "How can a CA help me save more tax than filing myself?",
           answer:
-            "CAs identify deductions and exemptions you might miss — Section 80C/80D/80G optimizations, HRA calculations, capital gains indexation, business expense claims, and advance tax planning. On average, professional tax planning saves individuals $20,000-1,00,000 per year beyond DIY filing.",
+            "CAs identify deductions and exemptions you might miss — Section 80C/80D/80G optimizations, HRA calculations, capital gains indexation, business expense claims, and advance tax planning. On average, professional tax planning saves individuals $20,000-1,000 per year beyond DIY filing.",
         },
       ],
     },
     {
       slug: "audit-service-cost",
       name: "Statutory & Tax Audit",
-      priceRange: "$15,000 - $2,00,000",
+      priceRange: "$15,000 - $2,000",
       description:
         "Statutory audit under Companies Act, tax audit under Section 44AB, GST audit, internal audit, concurrent audit, and stock audit services for businesses of all sizes.",
       faqItems: [
         {
           question: "What is the cost of statutory audit globally?",
           answer:
-            "Statutory audit fees range from $15,000-50,000 for small companies to $50,000-2,00,000 for medium companies. Fees depend on company turnover, transaction volume, number of branches, and complexity. Tax audit (44AB) typically costs $10,000-30,000 additionally.",
+            "Statutory audit fees range from $15,000-50,000 for small companies to $50,000-2,000 for medium companies. Fees depend on company turnover, transaction volume, number of branches, and complexity. Tax audit (44AB) typically costs $10,000-30,000 additionally.",
         },
         {
           question: "When is audit mandatory for my business?",
@@ -251,12 +251,12 @@ export const nicheData: NicheData = {
       type: "niche-specific",
     },
     {
-      name: "Justdial",
+      name: "Yelp",
       url: "https://www.justdial.com",
       type: "general",
     },
     {
-      name: "Sulekha",
+      name: "Bing Places",
       url: "https://www.sulekha.com",
       type: "general",
     },

@@ -32,11 +32,11 @@ export default function TrustBar() {
         {/* Featured in logos (text-based for now) */}
         <div className="flex flex-wrap items-center justify-center gap-8 opacity-40">
           {[
-            "YourStory",
-            "Economic Times",
-            "Inc42",
-            "Business Standard",
-            "Entrepreneur India",
+            "Forbes",
+            "TechCrunch",
+            "Wired",
+            "Bloomberg",
+            "Business Insider",
           ].map((name) => (
             <span
               key={name}

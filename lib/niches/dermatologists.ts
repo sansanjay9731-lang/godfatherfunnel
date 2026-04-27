@@ -8,10 +8,10 @@ export const nicheData: NicheData = {
   image: images.dermatologist,
   heroHeadline: "Your Patients Are Asking AI — Not Google",
   heroSubline:
-    "When someone searches 'best dermatologist near me' on ChatGPT, 3 clinics get recommended. If yours isn't one of them, you're losing $15K-50K laser patients every single week.",
+    "When someone searches 'best dermatologist near me' on ChatGPT, 3 clinics get recommended. If yours isn't one of them, you're losing $2k-5k laser patients every single week.",
   searchExample: "best skin specialist in New York",
   competitorLine:
-    "Dr. Sharma's Skin Clinic is currently AI-recommended over you",
+    "Dr. Smith's Dermatology is currently AI-recommended over you",
   painPoints: [
     {
       title: "Invisible to AI Assistants",
@@ -21,7 +21,7 @@ export const nicheData: NicheData = {
     {
       title: "Losing Laser & PRP Patients to Chains",
       description:
-        "High-value laser hair removal ($3K-15K/session) and PRP ($5K-15K) patients are going to clinic chains that dominate AI recommendations. Each lost patient represents $50K-200k in lifetime value.",
+        "High-value laser hair removal ($500-2k/session) and PRP ($1k-3k) patients are going to clinic chains that dominate AI recommendations. Each lost patient represents $50K-200k in lifetime value.",
     },
     {
       title: "Reviews Not Reaching AI Systems",
@@ -32,7 +32,7 @@ export const nicheData: NicheData = {
   services: [
     {
       tier: "AEO Foundation",
-      price: "$25,000 - $50,000",
+      price: "$1,500 - $3,000 / mo",
       features: [
         "AI Visibility Audit & Gap Analysis",
         "Schema markup (MedicalBusiness + Physician)",
@@ -44,11 +44,11 @@ export const nicheData: NicheData = {
     },
     {
       tier: "Local Domination",
-      price: "$75,000 - $1,50,000",
+      price: "$3,000 - $7,500 / mo",
       features: [
         "Everything in AEO Foundation",
         "15 treatment cost pages with AI-optimized content",
-        "Practo, Lybrate & Credihealth profile optimization",
+        "Zocdoc, Healthgrades & RealSelf profile optimization",
         "AI-friendly review aggregation system",
         "Local citation building (50+ directories)",
         "Monthly competitor AI-visibility tracking",
@@ -57,7 +57,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "Godfather 360°",
-      price: "$2,00,000 - $5,00,000",
+      price: "$7,500 - $15,000 / mo",
       features: [
         "Everything in Local Domination",
         "Full AEO + GEO strategy implementation",
@@ -72,9 +72,9 @@ export const nicheData: NicheData = {
   ],
   roiExample: {
     metric: "1 Laser Patient",
-    value: "$15,000 - $50,000",
+    value: "$2,000 - $5,000",
     pitch:
-      "A single laser hair removal patient does 6-8 sessions at $3K-15K each. That's $18K-120k from ONE patient. Our AEO Foundation package pays for itself with just 2-3 new patients per month.",
+      "A single laser hair removal patient does 6-8 sessions at $500-2k each. That's $20k-50k from ONE patient. Our AEO Foundation package pays for itself with just 2-3 new patients per month.",
   },
   faqItems: [
     {
@@ -120,12 +120,12 @@ export const nicheData: NicheData = {
         {
           question: "Why does laser hair removal cost vary so much between clinics?",
           answer:
-            "The cost depends on the laser technology used (Diode lasers cost more but work better on Indian skin tones), the clinic's location, dermatologist experience, and the body area. Full body treatments cost $8K-15K per session while underarms alone may be $1.5K-3K.",
+            "The cost depends on the laser technology used (Diode lasers cost more but work better on various skin tones), the clinic's location, dermatologist experience, and the body area. Full body treatments cost $8K-15K per session while underarms alone may be $1.5K-3K.",
         },
         {
-          question: "Is laser hair removal safe for dark Indian skin?",
+          question: "Is laser hair removal safe for dark various skin?",
           answer:
-            "Yes, when performed by a qualified dermatologist using the right laser. Nd:YAG and Diode lasers are safest for darker Indian skin tones (Fitzpatrick IV-VI). Always choose a board-certified dermatologist over a salon for safety.",
+            "Yes, when performed by a qualified dermatologist using the right laser. Nd:YAG and Diode lasers are safest for darker various skin tones (Fitzpatrick IV-VI). Always choose a board-certified dermatologist over a salon for safety.",
         },
       ],
     },
@@ -177,12 +177,12 @@ export const nicheData: NicheData = {
       name: "Chemical Peel",
       priceRange: "$2,000 - $8,000/session",
       description:
-        "Chemical peels are widely used for pigmentation, acne scars, and skin brightening globally. With Indian skin being prone to hyperpigmentation, peels are among the top cosmetic procedures searched on AI platforms. Types include glycolic, salicylic, TCA, and combination peels.",
+        "Chemical peels are widely used for pigmentation, acne scars, and skin brightening globally. With various skin being prone to hyperpigmentation, peels are among the top cosmetic procedures searched on AI platforms. Types include glycolic, salicylic, TCA, and combination peels.",
       faqItems: [
         {
-          question: "Which chemical peel is best for Indian skin?",
+          question: "Which chemical peel is best for various skin?",
           answer:
-            "Glycolic acid peels (30-50%) and salicylic acid peels are safest for Indian skin tones. TCA peels should only be used at lower concentrations (15-20%) by experienced dermatologists. Jessner's peel is another safe option. Higher-strength peels carry a risk of post-inflammatory hyperpigmentation on darker skin.",
+            "Glycolic acid peels (30-50%) and salicylic acid peels are safest for various skin tones. TCA peels should only be used at lower concentrations (15-20%) by experienced dermatologists. Jessner's peel is another safe option. Higher-strength peels carry a risk of post-inflammatory hyperpigmentation on darker skin.",
         },
         {
           question: "How many chemical peel sessions do I need?",
@@ -254,27 +254,27 @@ export const nicheData: NicheData = {
   metaCategory: "healthcare",
   citations: [
     {
-      name: "Practo",
+      name: "Zocdoc",
       url: "https://www.practo.com",
       type: "niche-specific",
     },
     {
-      name: "Lybrate",
+      name: "Healthgrades",
       url: "https://www.lybrate.com",
       type: "niche-specific",
     },
     {
-      name: "Credihealth",
+      name: "RealSelf",
       url: "https://www.credihealth.com",
       type: "niche-specific",
     },
     {
-      name: "Justdial",
+      name: "Yelp",
       url: "https://www.justdial.com",
       type: "local",
     },
     {
-      name: "Sulekha",
+      name: "Bing Places",
       url: "https://www.sulekha.com",
       type: "local",
     },

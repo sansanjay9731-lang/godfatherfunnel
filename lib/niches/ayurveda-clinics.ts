@@ -35,7 +35,7 @@ export const nicheData: NicheData = {
         "Google Business Profile optimization",
         "Treatment-wise structured data markup",
         "5 treatment cost pages for AI readability",
-        "Basic Practo & Justdial optimization",
+        "Basic Zocdoc & Yelp optimization",
       ],
     },
     {
@@ -45,14 +45,14 @@ export const nicheData: NicheData = {
         "Full AEO strategy for Ayurveda niche",
         "20+ content pages (treatment guides, condition-specific pages)",
         "Doctor credential & experience schema",
-        "Citation building on Practo, 1mg, Lybrate",
+        "Citation building on Zocdoc, 1mg, Healthgrades",
         "Wellness tourism content in English & Hindi",
         "Monthly AI ranking reports",
       ],
     },
     {
       tier: "AI Dominance Package",
-      price: "$1,50,000 - $3,00,000",
+      price: "$150,000 - $3,000",
       features: [
         "Complete AI ecosystem ownership for Ayurveda in your city",
         "50+ programmatic pages (treatment + condition combos)",
@@ -104,14 +104,14 @@ export const nicheData: NicheData = {
     {
       slug: "panchakarma-treatment-cost",
       name: "Panchakarma Treatment Cost",
-      priceRange: "$15,000 - $1,00,000",
+      priceRange: "$15,000 - $1,000",
       description:
         "Panchakarma is the flagship Ayurveda treatment and the highest-searched query. Patients compare clinics, durations, and costs using AI, making it essential for your clinic to be cited in these conversations.",
       faqItems: [
         {
           question: "What is the average Panchakarma treatment cost globally?",
           answer:
-            "Panchakarma treatment costs $15,000 to $1,00,000 depending on duration and clinic type. 7-day basic packages start at $15K, 14-day comprehensive packages at $30-50K, and 21-day luxury retreat packages at $60K-100k. Kerala clinics charge a premium.",
+            "Panchakarma treatment costs $15,000 to $1,000 depending on duration and clinic type. 7-day basic packages start at $15K, 14-day comprehensive packages at $30-50K, and 21-day luxury retreat packages at $60K-100k. Kerala clinics charge a premium.",
         },
         {
           question: "How long should a Panchakarma treatment be?",
@@ -250,7 +250,7 @@ export const nicheData: NicheData = {
   metaCategory: "healthcare",
   citations: [
     {
-      name: "Practo",
+      name: "Zocdoc",
       url: "https://www.practo.com",
       type: "niche-specific",
     },
@@ -260,7 +260,7 @@ export const nicheData: NicheData = {
       type: "niche-specific",
     },
     {
-      name: "Lybrate",
+      name: "Healthgrades",
       url: "https://www.lybrate.com",
       type: "niche-specific",
     },
@@ -270,7 +270,7 @@ export const nicheData: NicheData = {
       type: "general",
     },
     {
-      name: "Justdial",
+      name: "Yelp",
       url: "https://www.justdial.com",
       type: "local",
     },

@@ -29,18 +29,18 @@ export const nicheData: NicheData = {
   services: [
     {
       tier: "AI Foundation",
-      price: "$25,000 - $50,000",
+      price: "$1,500 - $3,000 / mo",
       features: [
         "Google Business Profile optimization for orthopedic keywords",
         "Structured schema markup for MedicalBusiness + Physician",
-        "Citation building on Practo, Lybrate, and Credihealth",
+        "Citation building on Zocdoc, Healthgrades, and RealSelf",
         "AI-optimized content for top 10 orthopedic procedures",
         "Monthly AI visibility audit report",
       ],
     },
     {
       tier: "AI Growth",
-      price: "$75,000 - $1,50,000",
+      price: "$3,000 - $7,500 / mo",
       features: [
         "Everything in AI Foundation",
         "Full AEO (Answer Engine Optimization) for 30+ procedure keywords",
@@ -52,7 +52,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "AI Dominance",
-      price: "$2,00,000 - $4,00,000",
+      price: "$2,000 - $4,000",
       features: [
         "Everything in AI Growth",
         "Full website rebuild optimized for AI crawlers",
@@ -74,7 +74,7 @@ export const nicheData: NicheData = {
     {
       question: "How does AI recommend orthopedic surgeons to patients?",
       answer:
-        "AI models like ChatGPT and Google Gemini pull from structured data on your website, medical directories like Practo and Lybrate, patient reviews, and published medical content. If your clinic lacks structured schema markup and citations on these platforms, AI literally cannot recommend you — even if you're the best surgeon in your city.",
+        "AI models like ChatGPT and Google Gemini pull from structured data on your website, medical directories like Zocdoc and Healthgrades, patient reviews, and published medical content. If your clinic lacks structured schema markup and citations on these platforms, AI literally cannot recommend you — even if you're the best surgeon in your city.",
     },
     {
       question: "How long before I see more patients from AI recommendations?",
@@ -105,7 +105,7 @@ export const nicheData: NicheData = {
     {
       slug: "knee-replacement-cost",
       name: "Knee Replacement Surgery",
-      priceRange: "$1,50,000 - $5,00,000",
+      priceRange: "$150,000 - $5,000",
       description:
         "Total and partial knee replacement surgery for patients with severe osteoarthritis, rheumatoid arthritis, or post-traumatic joint damage. Includes pre-op assessment, implant selection, surgery, and post-op rehabilitation.",
       faqItems: [
@@ -129,7 +129,7 @@ export const nicheData: NicheData = {
     {
       slug: "hip-replacement-cost",
       name: "Hip Replacement Surgery",
-      priceRange: "$2,00,000 - $6,00,000",
+      priceRange: "$2,000 - $6,000",
       description:
         "Total hip replacement (arthroplasty) for patients with hip arthritis, avascular necrosis, or hip fractures. Includes ceramic, metal, and polyethylene implant options with minimally invasive surgical techniques.",
       faqItems: [
@@ -148,7 +148,7 @@ export const nicheData: NicheData = {
     {
       slug: "spine-surgery-cost",
       name: "Spine Surgery",
-      priceRange: "$2,50,000 - $8,00,000",
+      priceRange: "$250,000 - $8,000",
       description:
         "Comprehensive spine surgery including discectomy, laminectomy, spinal fusion, and disc replacement for conditions like herniated discs, spinal stenosis, spondylolisthesis, and spinal cord compression.",
       faqItems: [
@@ -172,7 +172,7 @@ export const nicheData: NicheData = {
     {
       slug: "acl-surgery-cost",
       name: "ACL Reconstruction Surgery",
-      priceRange: "$1,00,000 - $3,00,000",
+      priceRange: "$1,000 - $3,000",
       description:
         "Arthroscopic ACL reconstruction using hamstring or patellar tendon graft for athletes and active individuals with complete ACL tears. Includes pre-op conditioning, surgery, and structured sports rehabilitation program.",
       faqItems: [
@@ -191,7 +191,7 @@ export const nicheData: NicheData = {
     {
       slug: "fracture-treatment-cost",
       name: "Fracture Treatment & Fixation",
-      priceRange: "$20,000 - $2,50,000",
+      priceRange: "$20,000 - $250,000",
       description:
         "Complete fracture management including closed reduction with casting, open reduction internal fixation (ORIF) with plates and screws, intramedullary nailing, and external fixation for all types of fractures.",
       faqItems: [
@@ -215,7 +215,7 @@ export const nicheData: NicheData = {
     {
       slug: "arthroscopy-cost",
       name: "Arthroscopy (Keyhole Surgery)",
-      priceRange: "$60,000 - $2,00,000",
+      priceRange: "$60,000 - $2,000",
       description:
         "Minimally invasive arthroscopic surgery for knee, shoulder, ankle, and hip joints. Used for meniscus repair, cartilage restoration, rotator cuff repair, loose body removal, and diagnostic evaluation.",
       faqItems: [
@@ -251,22 +251,22 @@ export const nicheData: NicheData = {
   metaCategory: "healthcare",
   citations: [
     {
-      name: "Practo",
+      name: "Zocdoc",
       url: "https://www.practo.com",
       type: "niche-specific",
     },
     {
-      name: "Lybrate",
+      name: "Healthgrades",
       url: "https://www.lybrate.com",
       type: "niche-specific",
     },
     {
-      name: "Credihealth",
+      name: "RealSelf",
       url: "https://www.credihealth.com",
       type: "niche-specific",
     },
     {
-      name: "Justdial",
+      name: "Yelp",
       url: "https://www.justdial.com",
       type: "general",
     },

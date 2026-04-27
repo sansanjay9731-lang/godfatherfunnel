@@ -8,7 +8,7 @@ export const nicheData: NicheData = {
   image: images.hairSalon,
   heroHeadline: "Clients Ask AI for Salons. Is Your Salon AI-Recommended?",
   heroSubline:
-    "When someone is about to spend $5K-15K on keratin or smoothening, they ask ChatGPT which salon to trust. If AI recommends Naturals, Jawed Habib, or Green Trends instead of you, that client is gone.",
+    "When someone is about to spend $1k-3k on keratin or smoothening, they ask ChatGPT which salon to trust. If AI recommends Naturals, Jawed Habib, or Green Trends instead of you, that client is gone.",
   painPoints: [
     {
       title: "Keratin & Smoothening Clients Going Elsewhere",
@@ -18,7 +18,7 @@ export const nicheData: NicheData = {
     {
       title: "Bridal Package Bookings Lost to Competitors",
       description:
-        "Bridal makeup and hair packages worth $15K-50K are increasingly booked after AI research. Brides-to-be ask AI for the best bridal salon in their city. One missed bridal booking is $15K-50K in lost revenue.",
+        "Bridal makeup and hair packages worth $2k-5k are increasingly booked after AI research. Brides-to-be ask AI for the best bridal salon in their city. One missed bridal booking is $2k-5k in lost revenue.",
     },
     {
       title: "Walk-In Traffic Declining Steadily",
@@ -45,14 +45,14 @@ export const nicheData: NicheData = {
         "Full AEO strategy for salon niche",
         "15+ content pages (treatment guides, before/after, hair care tips)",
         "Stylist credential & portfolio schema",
-        "Citation building on UrbanClap, Justdial, Google Maps",
+        "Citation building on UrbanClap, Yelp, Google Maps",
         "Instagram content optimization for AI discovery",
         "Monthly AI ranking reports",
       ],
     },
     {
       tier: "AI Dominance Package",
-      price: "$75,000 - $1,50,000",
+      price: "$3,000 - $7,500 / mo",
       features: [
         "Complete AI ecosystem ownership for salons in your area",
         "30+ programmatic pages (treatment + area combos)",
@@ -94,7 +94,7 @@ export const nicheData: NicheData = {
   ],
   stats: [
     { label: "Salon Clients Researching via AI Before Booking", value: "62%" },
-    { label: "Average High-Value Salon Service", value: "$5K-15K" },
+    { label: "Average High-Value Salon Service", value: "$1k-3k" },
     { label: "Independent Salons Missing from AI", value: "87%" },
   ],
   ctaText: "Get Your Free AI Visibility Audit — See What Clients Find When They Ask AI for Salons",
@@ -140,7 +140,7 @@ export const nicheData: NicheData = {
         {
           question: "What is the difference between keratin and smoothening?",
           answer:
-            "Keratin reduces frizz while maintaining natural texture (lasts 3-6 months, $3K-15K). Smoothening permanently straightens hair by breaking bonds (lasts until new growth, $4K-12K). Keratin is less damaging; smoothening gives straighter results.",
+            "Keratin reduces frizz while maintaining natural texture (lasts 3-6 months, $500-2k). Smoothening permanently straightens hair by breaking bonds (lasts until new growth, $4K-12K). Keratin is less damaging; smoothening gives straighter results.",
         },
       ],
     },
@@ -260,7 +260,7 @@ export const nicheData: NicheData = {
       type: "general",
     },
     {
-      name: "Justdial",
+      name: "Yelp",
       url: "https://www.justdial.com",
       type: "local",
     },

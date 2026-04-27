@@ -32,7 +32,7 @@ export const nicheData: NicheData = {
   services: [
     {
       tier: "AEO Foundation",
-      price: "$25,000 - $50,000",
+      price: "$1,500 - $3,000 / mo",
       features: [
         "AI Visibility Audit for dental practice",
         "Dentist schema markup (Dentist + MedicalOrganization)",
@@ -44,11 +44,11 @@ export const nicheData: NicheData = {
     },
     {
       tier: "Local Domination",
-      price: "$50,000 - $1,50,000",
+      price: "$50,000 - $150,000",
       features: [
         "Everything in AEO Foundation",
         "12 treatment cost pages (implants, RCT, braces, etc.)",
-        "Practo, Lybrate & DentistFind profile optimization",
+        "Zocdoc, Healthgrades & DentistFind profile optimization",
         "AI-friendly patient review aggregation",
         "Local citation building (50+ directories)",
         "Competitor AI-visibility monitoring",
@@ -57,7 +57,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "Godfather 360°",
-      price: "$1,50,000 - $4,00,000",
+      price: "$150,000 - $4,000",
       features: [
         "Everything in Local Domination",
         "Full AEO + GEO strategy for dental practice",
@@ -72,7 +72,7 @@ export const nicheData: NicheData = {
   ],
   roiExample: {
     metric: "1 Implant Patient",
-    value: "$50,000 - $2,00,000",
+    value: "$50,000 - $2,000",
     pitch:
       "A single dental implant patient is worth $30K-200k. Full-mouth rehabilitation can go up to $500k+. Our AEO Foundation package pays for itself with just ONE new implant patient per month.",
   },
@@ -100,7 +100,7 @@ export const nicheData: NicheData = {
   ],
   stats: [
     { label: "Patients Using AI for Dentist Search", value: "65%" },
-    { label: "Avg. Implant Patient Value", value: "$1,00,000" },
+    { label: "Avg. Implant Patient Value", value: "$1,000" },
     { label: "AI Visibility Improvement", value: "290%" },
   ],
   ctaText: "Get Your Free Dental AI Visibility Report",
@@ -108,7 +108,7 @@ export const nicheData: NicheData = {
     {
       slug: "dental-implant-cost",
       name: "Dental Implants",
-      priceRange: "$30,000 - $2,00,000",
+      priceRange: "$30,000 - $2,000",
       description:
         "Dental implants are the highest-value procedure in dentistry, and patients extensively research costs using AI before choosing a clinic. Prices vary based on implant brand (Korean, European, Nobel Biocare), bone grafting needs, and whether it's a single implant or full-mouth rehabilitation.",
       faqItems: [
@@ -139,7 +139,7 @@ export const nicheData: NicheData = {
         {
           question: "How much does a root canal cost for a molar tooth?",
           answer:
-            "Molar root canals cost $5K-15K due to having 3-4 canals (vs. 1-2 for front teeth at $3K-7K). Using a dental microscope adds $2K-5K but improves success rates. The crown after RCT costs $3K-20K additional depending on material (PFM, zirconia, or e.max).",
+            "Molar root canals cost $1k-3k due to having 3-4 canals (vs. 1-2 for front teeth at $3K-7K). Using a dental microscope adds $2K-5K but improves success rates. The crown after RCT costs $3K-20K additional depending on material (PFM, zirconia, or e.max).",
         },
         {
           question: "Is root canal treatment painful?",
@@ -225,7 +225,7 @@ export const nicheData: NicheData = {
         {
           question: "How much does impacted wisdom tooth removal cost?",
           answer:
-            "Simple extraction costs $2K-4K while surgical removal of impacted wisdom teeth costs $5K-10K per tooth. If done under IV sedation or general anesthesia (for anxious patients or multiple teeth), add $5K-15K. Hospital-based extractions cost more than clinic-based procedures.",
+            "Simple extraction costs $2K-4K while surgical removal of impacted wisdom teeth costs $5K-10K per tooth. If done under IV sedation or general anesthesia (for anxious patients or multiple teeth), add $1k-3k. Hospital-based extractions cost more than clinic-based procedures.",
         },
         {
           question: "How long is recovery after wisdom tooth removal?",
@@ -254,12 +254,12 @@ export const nicheData: NicheData = {
   metaCategory: "healthcare",
   citations: [
     {
-      name: "Practo",
+      name: "Zocdoc",
       url: "https://www.practo.com",
       type: "niche-specific",
     },
     {
-      name: "Lybrate",
+      name: "Healthgrades",
       url: "https://www.lybrate.com",
       type: "niche-specific",
     },
@@ -269,7 +269,7 @@ export const nicheData: NicheData = {
       type: "niche-specific",
     },
     {
-      name: "Justdial",
+      name: "Yelp",
       url: "https://www.justdial.com",
       type: "local",
     },

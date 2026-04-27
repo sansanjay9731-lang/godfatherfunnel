@@ -39,21 +39,21 @@ export default function BeforeAfter() {
               </div>
               <div className="bg-white/5 rounded-xl p-4 space-y-3">
                 <p className="text-sm text-gray-400">
-                  User: &ldquo;Best dermatologist in Mumbai&rdquo;
+                  User: &ldquo;Best dermatologist in London&rdquo;
                 </p>
                 <div className="border-l-2 border-red-500/30 pl-3">
                   <p className="text-sm text-gray-300">
-                    Here are some well-regarded dermatologists in Mumbai:
+                    Here are some well-regarded dermatologists in London:
                   </p>
                   <div className="mt-2 space-y-1.5 text-sm">
                     <p className="text-white">
-                      1. <strong>Dr. Competitor A</strong> — Bandra, 4.9★
+                      1. <strong>Dr. Competitor A</strong> — Mayfair, 4.9★
                     </p>
                     <p className="text-white">
-                      2. <strong>Dr. Competitor B</strong> — Andheri, 4.8★
+                      2. <strong>Dr. Competitor B</strong> — Covent Garden, 4.8★
                     </p>
                     <p className="text-white">
-                      3. <strong>Dr. Competitor C</strong> — Juhu, 4.7★
+                      3. <strong>Dr. Competitor C</strong> — Notting Hill, 4.7★
                     </p>
                     <p className="text-red-400/80 mt-3 text-xs italic">
                       Your clinic? Not mentioned anywhere.
@@ -93,7 +93,7 @@ export default function BeforeAfter() {
               </div>
               <div className="bg-white/5 rounded-xl p-4 space-y-3">
                 <p className="text-sm text-gray-400">
-                  User: &ldquo;Best dermatologist in Mumbai&rdquo;
+                  User: &ldquo;Best dermatologist in London&rdquo;
                 </p>
                 <div className="border-l-2 border-green-500/30 pl-3">
                   <p className="text-sm text-gray-300">
@@ -102,13 +102,13 @@ export default function BeforeAfter() {
                   <div className="mt-2 space-y-1.5 text-sm">
                     <p className="text-green-400 font-semibold">
                       1. <strong>Your Clinic</strong> — 4.9★, 800+ reviews,
-                      IADVL certified
+                      Board Certified
                     </p>
                     <p className="text-white">
-                      2. Dr. Competitor A — Bandra, 4.8★
+                      2. Dr. Competitor A — Mayfair, 4.8★
                     </p>
                     <p className="text-white">
-                      3. Dr. Competitor B — Andheri, 4.7★
+                      3. Dr. Competitor B — Covent Garden, 4.7★
                     </p>
                     <p className="text-green-400/80 mt-3 text-xs italic">
                       AI recommends you first based on structured data &

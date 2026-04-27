@@ -45,7 +45,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "Local Domination",
-      price: "$1,00,000 - $2,00,000",
+      price: "$1,000 - $2,000",
       features: [
         "Everything in AEO Foundation",
         "15 area + property type pages (AI-optimized)",
@@ -59,7 +59,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "Godfather 360°",
-      price: "$3,00,000 - $6,00,000",
+      price: "$3,000 - $6,000",
       features: [
         "Everything in Local Domination",
         "Full AEO + GEO strategy for real estate business",
@@ -74,7 +74,7 @@ export const nicheData: NicheData = {
   ],
   roiExample: {
     metric: "1 Property Sale Commission",
-    value: "$50,000 - $6,00,000",
+    value: "$50,000 - $6,000",
     pitch:
       "A single 2BHK sale in a metro city generates $50K-150k in brokerage commission (1-2% of property value). One 3BHK or villa sale can generate $1.5-600k in commission. Our AEO investment pays for itself with just ONE additional property sale per quarter.",
   },
@@ -102,7 +102,7 @@ export const nicheData: NicheData = {
   ],
   stats: [
     { label: "Homebuyers Starting Search Online/AI", value: "72%" },
-    { label: "Avg. Brokerage Commission per Deal", value: "$1,50,000" },
+    { label: "Avg. Brokerage Commission per Deal", value: "$150,000" },
     { label: "AI Visibility Improvement", value: "250%" },
   ],
   ctaText: "Get Your Free Real Estate AI Visibility Report",
@@ -110,7 +110,7 @@ export const nicheData: NicheData = {
     {
       slug: "2bhk-flat-price",
       name: "2BHK Flat",
-      priceRange: "$30,00,000 - $1,50,00,000",
+      priceRange: "$30,000 - $150,000",
       description:
         "2BHK flats are the most searched property type globally, especially by first-time homebuyers. AI assistants compare prices across locations, builders, and configurations. Prices vary dramatically by city, micro-market, builder reputation, and amenities.",
       faqItems: [
@@ -134,7 +134,7 @@ export const nicheData: NicheData = {
     {
       slug: "3bhk-flat-price",
       name: "3BHK Flat",
-      priceRange: "$50,00,000 - $3,00,00,000",
+      priceRange: "$50,000 - $300,000",
       description:
         "3BHK flats are the preferred choice for families and upgraders globallyn metro cities. AI assistants help buyers compare options across micro-markets and budget segments. This is a high-value transaction where buyers do extensive research.",
       faqItems: [
@@ -153,7 +153,7 @@ export const nicheData: NicheData = {
     {
       slug: "villa-price",
       name: "Villa / Independent House",
-      priceRange: "$1,00,00,000 - $10,00,00,000",
+      priceRange: "$100,000 - $1000,000",
       description:
         "Villas and independent houses represent the premium segment of Indian real estate. Post-COVID demand surged as buyers prioritized space and privacy. AI assistants help buyers compare villa communities, independent houses, and farmhouses across metro outskirts and tier-2 cities.",
       faqItems: [
@@ -172,7 +172,7 @@ export const nicheData: NicheData = {
     {
       slug: "commercial-property-price",
       name: "Commercial Property",
-      priceRange: "$50,00,000 - $5,00,00,000",
+      priceRange: "$50,000 - $500,000",
       description:
         "Commercial property investment is increasingly researched through AI by investors seeking rental yields of 6-10% annually. Offices, retail shops, and warehouses each have different dynamics that AI assistants explain to potential investors.",
       faqItems: [
@@ -191,7 +191,7 @@ export const nicheData: NicheData = {
     {
       slug: "plot-price",
       name: "Residential Plot",
-      priceRange: "$20,00,000 - $2,00,00,000",
+      priceRange: "$20,000 - $200,000",
       description:
         "Residential plots offer the highest appreciation potential globallyn real estate. Buyers ask AI about land investment, approval requirements, and area growth prospects. Plot buying requires more due diligence than apartment purchases, making AI-guided research essential.",
       faqItems: [
@@ -215,7 +215,7 @@ export const nicheData: NicheData = {
     {
       slug: "penthouse-price",
       name: "Penthouse",
-      priceRange: "$1,00,00,000 - $15,00,00,000",
+      priceRange: "$100,000 - $1500,000",
       description:
         "Penthouses are the ultra-luxury segment of Indian real estate, sought by HNIs, celebrities, and NRI buyers. AI assistants help buyers compare penthouse options across premium towers in metro cities. This segment commands significant premiums over regular flats in the same building.",
       faqItems: [
@@ -271,7 +271,7 @@ export const nicheData: NicheData = {
       type: "niche-specific",
     },
     {
-      name: "Justdial",
+      name: "Yelp",
       url: "https://www.justdial.com",
       type: "local",
     },

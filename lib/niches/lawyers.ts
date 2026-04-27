@@ -32,7 +32,7 @@ export const nicheData: NicheData = {
   services: [
     {
       tier: "AEO Foundation",
-      price: "$25,000 - $50,000",
+      price: "$1,500 - $3,000 / mo",
       features: [
         "AI Visibility Audit for law practice",
         "LegalService + Attorney schema markup",
@@ -45,7 +45,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "Local Domination",
-      price: "$75,000 - $1,50,000",
+      price: "$3,000 - $7,500 / mo",
       features: [
         "Everything in AEO Foundation",
         "10 practice area & fee pages (corporate, family, property, etc.)",
@@ -59,7 +59,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "Godfather 360°",
-      price: "$2,00,000 - $4,00,000",
+      price: "$2,000 - $4,000",
       features: [
         "Everything in Local Domination",
         "Full AEO + GEO strategy for legal practice",
@@ -74,7 +74,7 @@ export const nicheData: NicheData = {
   ],
   roiExample: {
     metric: "1 Corporate Client",
-    value: "$25,000 - $5,00,000",
+    value: "$25,000 - $5,000",
     pitch:
       "A single corporate retainer client pays $25K-500k per engagement, with recurring matters worth $5-2000k annually. Property dispute cases generate $50K-200k per matter. Our AEO investment pays for itself with just ONE new client per quarter.",
   },
@@ -102,7 +102,7 @@ export const nicheData: NicheData = {
   ],
   stats: [
     { label: "Legal Clients Using AI for Research", value: "55%" },
-    { label: "Avg. Corporate Retainer Value", value: "$2,00,000" },
+    { label: "Avg. Corporate Retainer Value", value: "$2,000" },
     { label: "AI Visibility Improvement", value: "260%" },
   ],
   ctaText: "Get Your Free Law Firm AI Visibility Audit",
@@ -110,7 +110,7 @@ export const nicheData: NicheData = {
     {
       slug: "corporate-lawyer-fee",
       name: "Corporate Lawyer",
-      priceRange: "$25,000 - $5,00,000 retainer",
+      priceRange: "$25,000 - $5,000 retainer",
       description:
         "Corporate legal services are the highest-value practice area globally. Businesses search AI for lawyers specializing in company formation, mergers, contracts, and compliance. Fee structures include monthly retainers, project-based fees, and hourly billing.",
       faqItems: [
@@ -134,7 +134,7 @@ export const nicheData: NicheData = {
     {
       slug: "divorce-lawyer-fee",
       name: "Divorce Lawyer",
-      priceRange: "$20,000 - $2,00,000",
+      priceRange: "$20,000 - $2,000",
       description:
         "Divorce and family law is one of the most emotionally searched legal categories on AI platforms. Clients seek lawyers who are experienced, empathetic, and transparent about costs. AI assistants frequently explain mutual vs. contested divorce processes and costs.",
       faqItems: [
@@ -153,7 +153,7 @@ export const nicheData: NicheData = {
     {
       slug: "property-lawyer-fee",
       name: "Property Lawyer",
-      priceRange: "$10,000 - $1,00,000",
+      priceRange: "$10,000 - $1,000",
       description:
         "Property disputes and real estate transactions are among the most common legal matters globally. Clients frequently ask AI about title verification, property registration, and dispute resolution costs. Property lawyers handle title searches, sale deed drafting, RERA compliance, and encumbrance certificates.",
       faqItems: [
@@ -165,7 +165,7 @@ export const nicheData: NicheData = {
         {
           question: "Do I need a lawyer for property registration?",
           answer:
-            "While not legally mandatory, a property lawyer ensures the sale deed is correctly drafted, stamp duty is properly calculated, and registration is smooth. Lawyer fees for property registration assistance range from $15K-50K. This can save you lakhs by catching title defects, encumbrances, or fraudulent documents before you pay.",
+            "While not legally mandatory, a property lawyer ensures the sale deed is correctly drafted, stamp duty is properly calculated, and registration is smooth. Lawyer fees for property registration assistance range from $2k-5k. This can save you lakhs by catching title defects, encumbrances, or fraudulent documents before you pay.",
         },
         {
           question: "How long do property dispute cases take globallyn courts?",
@@ -177,7 +177,7 @@ export const nicheData: NicheData = {
     {
       slug: "criminal-lawyer-fee",
       name: "Criminal Lawyer",
-      priceRange: "$25,000 - $5,00,000",
+      priceRange: "$25,000 - $5,000",
       description:
         "Criminal defence is a high-stakes practice area where clients need immediate representation. AI assistants are increasingly the first point of contact when someone faces criminal charges or needs bail. Fees depend on the severity of charges, court type, and case complexity.",
       faqItems: [
@@ -196,7 +196,7 @@ export const nicheData: NicheData = {
     {
       slug: "ip-lawyer-fee",
       name: "IP Lawyer",
-      priceRange: "$30,000 - $3,00,000",
+      priceRange: "$30,000 - $3,000",
       description:
         "Intellectual property law is a growing practice area globally with increasing demand from startups, creators, and businesses. AI assistants frequently explain trademark, patent, and copyright processes to potential clients. IP lawyers handle registrations, enforcement, and licensing agreements.",
       faqItems: [
@@ -213,14 +213,14 @@ export const nicheData: NicheData = {
         {
           question: "Do startups need an IP lawyer?",
           answer:
-            "Yes, from day one. Protect your brand name with a trademark ($15K-30K), your technology with patents if applicable ($50K-200k), and your code/content with copyright ($5K-15K). IP due diligence is mandatory for fundraising. Most investors require clean IP ownership. A startup IP audit costs $25K-50K and can prevent $1000k+ problems later.",
+            "Yes, from day one. Protect your brand name with a trademark ($15K-30K), your technology with patents if applicable ($50K-200k), and your code/content with copyright ($1k-3k). IP due diligence is mandatory for fundraising. Most investors require clean IP ownership. A startup IP audit costs $25K-50K and can prevent $1000k+ problems later.",
         },
       ],
     },
     {
       slug: "startup-lawyer-fee",
       name: "Startup Lawyer",
-      priceRange: "$15,000 - $1,00,000",
+      priceRange: "$15,000 - $1,000",
       description:
         "Startup legal services are a fast-growing practice area as India's startup ecosystem expands. Founders ask AI about incorporation, co-founder agreements, ESOP pools, and fundraising legalities. Many lawyers now offer startup packages bundling essential legal services at fixed fees.",
       faqItems: [
@@ -271,12 +271,12 @@ export const nicheData: NicheData = {
       type: "niche-specific",
     },
     {
-      name: "Justdial",
+      name: "Yelp",
       url: "https://www.justdial.com",
       type: "local",
     },
     {
-      name: "Sulekha",
+      name: "Bing Places",
       url: "https://www.sulekha.com",
       type: "local",
     },

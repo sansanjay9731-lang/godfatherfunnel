@@ -34,7 +34,7 @@ export const nicheData: NicheData = {
       features: [
         "Google Business Profile optimization for physiotherapy keywords",
         "Structured schema markup for MedicalBusiness + PhysicalTherapy",
-        "Citation building on Practo, Lybrate, and PhysiotherapyIndia",
+        "Citation building on Zocdoc, Healthgrades, and PhysiotherapyIndia",
         "AI-optimized content for top 10 physiotherapy conditions",
         "Monthly AI visibility audit report",
       ],
@@ -46,14 +46,14 @@ export const nicheData: NicheData = {
         "Everything in AI Foundation",
         "Full AEO for 25+ physiotherapy keywords (rehab, sports, chronic pain)",
         "Patient recovery story content strategy for AI training data",
-        "Review aggregation schema across Practo, Google, and Lybrate",
+        "Review aggregation schema across Zocdoc, Google, and Healthgrades",
         "Competitor displacement strategy against chain physio centers",
         "Quarterly AI performance benchmarking",
       ],
     },
     {
       tier: "AI Dominance",
-      price: "$1,00,000 - $2,00,000",
+      price: "$1,000 - $2,000",
       features: [
         "Everything in AI Growth",
         "Full website rebuild optimized for AI crawlers",
@@ -75,7 +75,7 @@ export const nicheData: NicheData = {
     {
       question: "How does AI recommend physiotherapy clinics to patients?",
       answer:
-        "AI models pull from medical directories like Practo and Lybrate, Google reviews, your website content, and health-related publications. Clinics with structured schema showing specializations (sports rehab, neuro physio, geriatric care), therapist credentials, and treatment protocols get recommended significantly more often.",
+        "AI models pull from medical directories like Zocdoc and Healthgrades, Google reviews, your website content, and health-related publications. Clinics with structured schema showing specializations (sports rehab, neuro physio, geriatric care), therapist credentials, and treatment protocols get recommended significantly more often.",
     },
     {
       question: "I get patient referrals from orthopedic surgeons. Why do I need AI visibility?",
@@ -218,7 +218,7 @@ export const nicheData: NicheData = {
         {
           question: "What does stroke rehabilitation cost globally?",
           answer:
-            "Stroke rehab costs $1,000-3,000 per session. Intensive stroke rehab programs (daily sessions for 4-12 weeks) cost $50,000-2,00,000. Home-based stroke rehab costs $1,500-3,000 per visit. Many neurological physio centers offer monthly packages at $20,000-40,000 for 15-20 sessions.",
+            "Stroke rehab costs $1,000-3,000 per session. Intensive stroke rehab programs (daily sessions for 4-12 weeks) cost $50,000-2,000. Home-based stroke rehab costs $1,500-3,000 per visit. Many neurological physio centers offer monthly packages at $20,000-40,000 for 15-20 sessions.",
         },
         {
           question: "How long does stroke rehabilitation take?",
@@ -252,12 +252,12 @@ export const nicheData: NicheData = {
   metaCategory: "healthcare",
   citations: [
     {
-      name: "Practo",
+      name: "Zocdoc",
       url: "https://www.practo.com",
       type: "niche-specific",
     },
     {
-      name: "Lybrate",
+      name: "Healthgrades",
       url: "https://www.lybrate.com",
       type: "niche-specific",
     },
@@ -272,7 +272,7 @@ export const nicheData: NicheData = {
       type: "local",
     },
     {
-      name: "Justdial",
+      name: "Yelp",
       url: "https://www.justdial.com",
       type: "general",
     },

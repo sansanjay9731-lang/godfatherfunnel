@@ -29,18 +29,18 @@ export const nicheData: NicheData = {
   services: [
     {
       tier: "AI Visibility Starter",
-      price: "$25,000 - $50,000",
+      price: "$1,500 - $3,000 / mo",
       features: [
         "AI search audit for interior design queries",
         "Google Business Profile optimization with project photos",
         "Portfolio structured data markup",
         "5 cost-guide pages (modular kitchen, bedroom, etc.)",
-        "Basic Houzz & Justdial profile optimization",
+        "Basic Houzz & Yelp profile optimization",
       ],
     },
     {
       tier: "AI Authority Builder",
-      price: "$75,000 - $1,50,000",
+      price: "$3,000 - $7,500 / mo",
       features: [
         "Full AEO strategy for interior design niche",
         "25+ content pages (room-wise guides, budget breakdowns, style guides)",
@@ -52,7 +52,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "AI Dominance Package",
-      price: "$2,00,000 - $4,00,000",
+      price: "$2,000 - $4,000",
       features: [
         "Complete AI ecosystem ownership for your city",
         "50+ programmatic pages (style + room + city combos)",
@@ -104,14 +104,14 @@ export const nicheData: NicheData = {
     {
       slug: "home-interior-design-cost",
       name: "Home Interior Design Cost",
-      priceRange: "$5,00,000 - $25,00,000",
+      priceRange: "$5,000 - $25,000",
       description:
         "Full home interior design is the highest-value search query in this niche. Homeowners compare costs, styles, and designers using AI before even scheduling a consultation.",
       faqItems: [
         {
           question: "What is the average home interior design cost globally?",
           answer:
-            "Home interior design costs range from $5,00,000 to $25,00,000 for a 2-3 BHK apartment. This includes modular furniture, false ceiling, electrical work, painting, and designer fees. Luxury interiors can exceed $4000k.",
+            "Home interior design costs range from $5,000 to $25,000 for a 2-3 BHK apartment. This includes modular furniture, false ceiling, electrical work, painting, and designer fees. Luxury interiors can exceed $4000k.",
         },
         {
           question: "How is interior design cost calculated?",
@@ -128,14 +128,14 @@ export const nicheData: NicheData = {
     {
       slug: "modular-kitchen-cost",
       name: "Modular Kitchen Cost",
-      priceRange: "$1,50,000 - $8,00,000",
+      priceRange: "$150,000 - $8,000",
       description:
         "Modular kitchen is the #1 searched interior design query globally. Every homeowner wants to know the cost, materials, and best designers for their kitchen renovation.",
       faqItems: [
         {
           question: "What is the average modular kitchen cost globally?",
           answer:
-            "A modular kitchen costs $1,50,000 to $8,00,000 depending on size, material, and finish. L-shaped kitchens start at $150k, U-shaped at $250k, and island kitchens at $400k+. Material choice (plywood, MDF, acrylic) significantly affects pricing.",
+            "A modular kitchen costs $150,000 to $8,000 depending on size, material, and finish. L-shaped kitchens start at $150k, U-shaped at $250k, and island kitchens at $400k+. Material choice (plywood, MDF, acrylic) significantly affects pricing.",
         },
         {
           question: "Which material is best for modular kitchen globally?",
@@ -147,7 +147,7 @@ export const nicheData: NicheData = {
     {
       slug: "office-interior-cost",
       name: "Office Interior Cost",
-      priceRange: "$3,00,000 - $20,00,000",
+      priceRange: "$3,000 - $20,000",
       description:
         "Office interior design for startups, co-working spaces, and corporate offices is a growing segment. Business owners use AI to find designers who understand commercial space optimization.",
       faqItems: [
@@ -166,14 +166,14 @@ export const nicheData: NicheData = {
     {
       slug: "bedroom-design-cost",
       name: "Bedroom Design Cost",
-      priceRange: "$1,00,000 - $5,00,000",
+      priceRange: "$1,000 - $5,000",
       description:
         "Bedroom interior design covers wardrobes, bed design, lighting, and false ceiling. It's one of the most searched room-specific queries and a gateway to full-home projects.",
       faqItems: [
         {
           question: "What is the average bedroom interior cost?",
           answer:
-            "Bedroom interior design costs $1,00,000 to $5,00,000. This includes a sliding wardrobe ($40K-150k), bed with storage ($30K-80K), false ceiling ($20K-50K), and lighting ($10K-30K). Master bedrooms cost 30-50% more than standard bedrooms.",
+            "Bedroom interior design costs $1,000 to $5,000. This includes a sliding wardrobe ($40K-150k), bed with storage ($30K-80K), false ceiling ($20K-50K), and lighting ($10K-30K). Master bedrooms cost 30-50% more than standard bedrooms.",
         },
         {
           question: "What are the trending bedroom design styles globally?",
@@ -185,14 +185,14 @@ export const nicheData: NicheData = {
     {
       slug: "living-room-design-cost",
       name: "Living Room Design Cost",
-      priceRange: "$1,50,000 - $6,00,000",
+      priceRange: "$150,000 - $6,000",
       description:
         "The living room is the showpiece of any home. Homeowners invest heavily and research extensively, making this a high-intent query that drives consultation bookings.",
       faqItems: [
         {
           question: "What is the average living room interior cost?",
           answer:
-            "Living room interior design costs $1,50,000 to $6,00,000. This includes TV unit ($30K-100k), sofa set ($40K-200k), false ceiling with lighting ($30K-80K), accent wall ($20K-60K), and flooring upgrade ($50K-150k).",
+            "Living room interior design costs $150,000 to $6,000. This includes TV unit ($30K-100k), sofa set ($40K-200k), false ceiling with lighting ($30K-80K), accent wall ($20K-60K), and flooring upgrade ($50K-150k).",
         },
         {
           question: "How can I make my living room look expensive on a budget?",
@@ -209,14 +209,14 @@ export const nicheData: NicheData = {
     {
       slug: "bathroom-renovation-cost",
       name: "Bathroom Renovation Cost",
-      priceRange: "$75,000 - $3,00,000",
+      priceRange: "$75,000 - $3,000",
       description:
         "Bathroom renovation has seen explosive search growth as homeowners upgrade old bathrooms with modern fittings, rain showers, and smart toilets. Cost transparency drives AI queries.",
       faqItems: [
         {
           question: "What is the average bathroom renovation cost globally?",
           answer:
-            "Bathroom renovation costs $75,000 to $3,00,000. Basic renovation (tiles + fixtures) starts at $75K. Mid-range with branded fittings costs $1.5-200k. Premium renovation with imported tiles and smart fixtures costs $2-300k+.",
+            "Bathroom renovation costs $75,000 to $3,000. Basic renovation (tiles + fixtures) starts at $75K. Mid-range with branded fittings costs $1.5-200k. Premium renovation with imported tiles and smart fixtures costs $2-300k+.",
         },
         {
           question: "How long does a bathroom renovation take?",
@@ -260,12 +260,12 @@ export const nicheData: NicheData = {
       type: "general",
     },
     {
-      name: "Justdial",
+      name: "Yelp",
       url: "https://www.justdial.com",
       type: "local",
     },
     {
-      name: "Sulekha",
+      name: "Bing Places",
       url: "https://www.sulekha.com",
       type: "local",
     },

@@ -16,39 +16,31 @@ interface NicheInfo {
 }
 
 const niches: NicheInfo[] = [
-  { slug: "dermatologists", display: "Dermatologist", displayPlural: "Dermatologists", treatments: ["laser hair removal", "chemical peels", "acne scar treatment", "PRP therapy"], priceRange: "Rs 2,000-50,000", avgTicket: "Rs 8,500", competitor: "Kaya Skin Clinic", stat: "73% of patients search AI assistants before booking skin treatments", searchVolume: "22K monthly", patientTerm: "patients" },
-  { slug: "dentists", display: "Dentist", displayPlural: "Dentists", treatments: ["teeth whitening", "dental implants", "root canal", "Invisalign"], priceRange: "Rs 500-2,00,000", avgTicket: "Rs 12,000", competitor: "Clove Dental", stat: "68% of dental patients check ChatGPT or Google AI for clinic reviews", searchVolume: "35K monthly", patientTerm: "patients" },
-  { slug: "plastic-surgeons", display: "Plastic Surgeon", displayPlural: "Plastic Surgeons", treatments: ["rhinoplasty", "liposuction", "breast augmentation", "facelift"], priceRange: "Rs 50,000-5,00,000", avgTicket: "Rs 1,50,000", competitor: "The Esthetic Clinics", stat: "82% of cosmetic surgery patients research via AI before consultation", searchVolume: "18K monthly", patientTerm: "patients" },
-  { slug: "ivf-clinics", display: "IVF Clinic", displayPlural: "IVF Clinics", treatments: ["IVF cycle", "IUI", "egg freezing", "ICSI"], priceRange: "Rs 1,00,000-3,00,000", avgTicket: "Rs 1,80,000", competitor: "Nova IVF", stat: "77% of couples ask AI chatbots about IVF success rates before choosing a clinic", searchVolume: "28K monthly", patientTerm: "patients" },
-  { slug: "lawyers", display: "Lawyer", displayPlural: "Lawyers", treatments: ["property disputes", "divorce filing", "GST compliance", "startup incorporation"], priceRange: "Rs 5,000-5,00,000", avgTicket: "Rs 25,000", competitor: "LegalKart", stat: "61% of legal clients now ask AI assistants for lawyer recommendations", searchVolume: "40K monthly", patientTerm: "clients" },
-  { slug: "real-estate", display: "Real Estate Agent", displayPlural: "Real Estate Agents", treatments: ["property valuation", "home staging", "rental management", "commercial leasing"], priceRange: "Rs 50,000-2,00,00,000", avgTicket: "Rs 15,00,000", competitor: "NoBroker", stat: "71% of home buyers use AI search to shortlist properties", searchVolume: "55K monthly", patientTerm: "clients" },
-  { slug: "eye-clinics", display: "Eye Clinic", displayPlural: "Eye Clinics", treatments: ["LASIK surgery", "cataract removal", "glaucoma treatment", "retina screening"], priceRange: "Rs 10,000-1,00,000", avgTicket: "Rs 35,000", competitor: "Centre for Sight", stat: "64% of LASIK patients compare clinics via AI-powered search", searchVolume: "20K monthly", patientTerm: "patients" },
-  { slug: "orthopedics", display: "Orthopedic Clinic", displayPlural: "Orthopedic Clinics", treatments: ["knee replacement", "spine surgery", "sports injury rehab", "arthroscopy"], priceRange: "Rs 15,000-4,00,000", avgTicket: "Rs 80,000", competitor: "Fortis Ortho", stat: "69% of orthopedic patients research procedures on AI platforms before booking", searchVolume: "16K monthly", patientTerm: "patients" },
-  { slug: "ca-firms", display: "CA Firm", displayPlural: "CA Firms", treatments: ["ITR filing", "GST registration", "company audit", "startup compliance"], priceRange: "Rs 2,000-2,00,000", avgTicket: "Rs 15,000", competitor: "ClearTax", stat: "58% of SMEs use AI assistants to find chartered accountants", searchVolume: "30K monthly", patientTerm: "clients" },
-  { slug: "restaurants", display: "Restaurant", displayPlural: "Restaurants", treatments: ["online ordering", "table reservations", "catering services", "cloud kitchen"], priceRange: "Rs 200-5,000 per order", avgTicket: "Rs 800", competitor: "Zomato", stat: "76% of diners ask AI for restaurant recommendations in their area", searchVolume: "90K monthly", patientTerm: "customers" },
-  { slug: "gyms", display: "Gym", displayPlural: "Gyms", treatments: ["personal training", "group fitness", "CrossFit", "nutrition counseling"], priceRange: "Rs 1,500-15,000/month", avgTicket: "Rs 4,000/month", competitor: "Cult.fit", stat: "63% of gym-goers consult AI before choosing a fitness center", searchVolume: "25K monthly", patientTerm: "members" },
-  { slug: "wedding-planners", display: "Wedding Planner", displayPlural: "Wedding Planners", treatments: ["destination weddings", "decor design", "vendor coordination", "day-of coordination"], priceRange: "Rs 2,00,000-50,00,000", avgTicket: "Rs 8,00,000", competitor: "WedMeGood", stat: "79% of couples use AI tools to shortlist wedding planners", searchVolume: "15K monthly", patientTerm: "clients" },
-  { slug: "physiotherapy", display: "Physiotherapy Clinic", displayPlural: "Physiotherapy Clinics", treatments: ["sports rehab", "post-surgical recovery", "back pain therapy", "dry needling"], priceRange: "Rs 500-3,000 per session", avgTicket: "Rs 1,200", competitor: "PhysioActive", stat: "57% of physiotherapy patients find clinics through AI search", searchVolume: "12K monthly", patientTerm: "patients" },
-  { slug: "veterinary", display: "Veterinary Clinic", displayPlural: "Veterinary Clinics", treatments: ["pet vaccination", "dental cleaning", "surgery", "wellness checkups"], priceRange: "Rs 500-50,000", avgTicket: "Rs 3,500", competitor: "DCC Animal Hospital", stat: "66% of pet owners ask AI assistants to find nearby vets", searchVolume: "18K monthly", patientTerm: "pet owners" },
-  { slug: "coaching-institutes", display: "Coaching Institute", displayPlural: "Coaching Institutes", treatments: ["IIT-JEE prep", "NEET coaching", "UPSC guidance", "CAT preparation"], priceRange: "Rs 30,000-3,00,000/year", avgTicket: "Rs 80,000", competitor: "Allen Career Institute", stat: "74% of students and parents research coaching centres via AI before enrolling", searchVolume: "45K monthly", patientTerm: "students" },
-  { slug: "interior-designers", display: "Interior Designer", displayPlural: "Interior Designers", treatments: ["home renovation", "modular kitchen", "office interiors", "3D visualization"], priceRange: "Rs 3,00,000-30,00,000", avgTicket: "Rs 8,00,000", competitor: "Livspace", stat: "72% of homeowners consult AI before hiring an interior designer", searchVolume: "20K monthly", patientTerm: "clients" },
-  { slug: "ayurveda-clinics", display: "Ayurveda Clinic", displayPlural: "Ayurveda Clinics", treatments: ["Panchakarma", "Shirodhara", "herbal weight loss", "joint pain therapy"], priceRange: "Rs 1,000-50,000", avgTicket: "Rs 5,000", competitor: "Jiva Ayurveda", stat: "61% of Ayurveda seekers verify treatments and practitioners through AI", searchVolume: "14K monthly", patientTerm: "patients" },
-  { slug: "hair-salons", display: "Hair Salon", displayPlural: "Hair Salons", treatments: ["keratin treatment", "hair coloring", "bridal makeup", "scalp treatment"], priceRange: "Rs 500-25,000", avgTicket: "Rs 3,000", competitor: "Naturals Salon", stat: "70% of salon customers check AI-generated reviews before booking", searchVolume: "32K monthly", patientTerm: "clients" },
-  { slug: "pediatricians", display: "Pediatrician", displayPlural: "Pediatricians", treatments: ["newborn care", "vaccination schedules", "growth monitoring", "allergy testing"], priceRange: "Rs 500-5,000 per visit", avgTicket: "Rs 1,200", competitor: "Rainbow Children's Hospital", stat: "75% of parents ask AI for pediatrician recommendations", searchVolume: "22K monthly", patientTerm: "parents" },
-  { slug: "psychiatrists", display: "Psychiatrist", displayPlural: "Psychiatrists", treatments: ["CBT therapy", "anxiety management", "depression treatment", "addiction counseling"], priceRange: "Rs 1,000-5,000 per session", avgTicket: "Rs 2,500", competitor: "Practo Mental Health", stat: "67% of mental health seekers use AI platforms to find therapists", searchVolume: "19K monthly", patientTerm: "patients" },
+  { slug: "dermatologists", display: "Dermatologist", displayPlural: "Dermatologists", treatments: ["laser hair removal", "chemical peels", "Botox therapy", "PRP therapy"], priceRange: "$1,500-$5,000", avgTicket: "$2,500", competitor: "SkinSpirit", stat: "73% of patients search AI assistants before booking skin treatments", searchVolume: "120K monthly", patientTerm: "patients" },
+  { slug: "dentists", display: "Dentist", displayPlural: "Dentists", treatments: ["teeth whitening", "dental implants", "root canal", "Invisalign"], priceRange: "$500-$25,000", avgTicket: "$12,000", competitor: "Aspen Dental", stat: "68% of dental patients check ChatGPT or Google AI for clinic reviews", searchVolume: "350K monthly", patientTerm: "patients" },
+  { slug: "plastic-surgeons", display: "Plastic Surgeon", displayPlural: "Plastic Surgeons", treatments: ["rhinoplasty", "liposuction", "breast augmentation", "facelift"], priceRange: "$5,000-$50,000", avgTicket: "$15,000", competitor: "Aesthetic Surgery Center", stat: "82% of cosmetic surgery patients research via AI before consultation", searchVolume: "180K monthly", patientTerm: "patients" },
+  { slug: "ivf-clinics", display: "IVF Clinic", displayPlural: "IVF Clinics", treatments: ["IVF cycle", "IUI", "egg freezing", "ICSI"], priceRange: "$10,000-$30,000", avgTicket: "$20,000", competitor: "Kindbody", stat: "77% of couples ask AI chatbots about IVF success rates before choosing a clinic", searchVolume: "280K monthly", patientTerm: "patients" },
+  { slug: "lawyers", display: "Lawyer", displayPlural: "Lawyers", treatments: ["corporate disputes", "divorce filing", "IP compliance", "startup incorporation"], priceRange: "$5,000-$100,000", avgTicket: "$25,000", competitor: "LegalZoom", stat: "61% of legal clients now ask AI assistants for lawyer recommendations", searchVolume: "400K monthly", patientTerm: "clients" },
+  { slug: "real-estate", display: "Real Estate Developer", displayPlural: "Real Estate Developers", treatments: ["luxury condos", "commercial leasing", "property management", "home staging"], priceRange: "$500,000-$10,000,000", avgTicket: "$1,500,000", competitor: "Compass", stat: "71% of home buyers use AI search to shortlist properties", searchVolume: "550K monthly", patientTerm: "clients" },
+  { slug: "eye-clinics", display: "Eye Clinic", displayPlural: "Eye Clinics", treatments: ["LASIK surgery", "cataract removal", "glaucoma treatment", "retina screening"], priceRange: "$2,000-$10,000", avgTicket: "$4,500", competitor: "Visionworks", stat: "64% of LASIK patients compare clinics via AI-powered search", searchVolume: "200K monthly", patientTerm: "patients" },
+  { slug: "orthopedics", display: "Orthopedic Clinic", displayPlural: "Orthopedic Clinics", treatments: ["knee replacement", "spine surgery", "sports injury rehab", "arthroscopy"], priceRange: "$5,000-$40,000", avgTicket: "$15,000", competitor: "OrthoClinic", stat: "69% of orthopedic patients research procedures on AI platforms before booking", searchVolume: "160K monthly", patientTerm: "patients" },
+  { slug: "ca-firms", display: "Accounting Firm", displayPlural: "Accounting Firms", treatments: ["tax filing", "corporate audit", "M&A advisory", "startup compliance"], priceRange: "$2,000-$50,000", avgTicket: "$15,000", competitor: "H&R Block", stat: "58% of SMEs use AI assistants to find accountants", searchVolume: "300K monthly", patientTerm: "clients" },
+  { slug: "restaurants", display: "Restaurant", displayPlural: "Restaurants", treatments: ["online ordering", "table reservations", "catering services", "cloud kitchen"], priceRange: "$20-$500 per order", avgTicket: "$80", competitor: "Yelp", stat: "76% of diners ask AI for restaurant recommendations in their area", searchVolume: "900K monthly", patientTerm: "customers" },
 ];
 
 // ── Date staggering ─────────────────────────────────────────────────────────
 
 function getPublishDate(nicheIndex: number, templateIndex: number): string {
-  // Spread 100 posts across Apr 1 - Dec 31, 2026 (275 days)
+  // Spread 50 posts across Jan 1 - Dec 31, 2025 (365 days)
   const postNumber = nicheIndex * 5 + templateIndex;
-  const startDate = new Date(2026, 3, 1); // Apr 1
-  const dayOffset = Math.floor((postNumber / 100) * 274);
+  const startDate = new Date(2025, 0, 1); // Jan 1, 2025
+  const dayOffset = Math.floor((postNumber / 50) * 364);
   startDate.setDate(startDate.getDate() + dayOffset);
+  
   // Clamp to today — never publish future-dated posts
   const today = new Date();
   const clamped = startDate > today ? today : startDate;
+  
   const yyyy = clamped.getFullYear();
   const mm = String(clamped.getMonth() + 1).padStart(2, "0");
   const dd = String(clamped.getDate()).padStart(2, "0");
@@ -61,7 +53,7 @@ function templateWhyAEO(n: NicheInfo, pubDate: string): BlogPost {
   return {
     slug: `why-${n.slug}-need-aeo`,
     title: `Why ${n.displayPlural} Need AEO in 2026`,
-    description: `Discover why Answer Engine Optimization is critical for ${n.displayPlural.toLowerCase()} in India. ${n.stat.slice(0, 60)}...`,
+    description: `Discover why Answer Engine Optimization is critical for ${n.displayPlural.toLowerCase()} in global markets. ${n.stat.slice(0, 60)}...`,
     category: "AEO Fundamentals",
     niche: n.slug,
     publishDate: pubDate,
@@ -81,9 +73,9 @@ The average ${n.display.toLowerCase()} ticket is **${n.avgTicket}**. Competitors
 
 ## Key AEO Actions for ${n.displayPlural}
 
-1. **Structured data** — MedicalBusiness or LocalBusiness schema with ${n.treatments.join(", ")} as services
-2. **FAQ content** — Answer the exact questions ${n.patientTerm} ask AI ("How much does ${n.treatments[0]} cost in India?")
-3. **E-E-A-T signals** — Doctor bios, certifications, real ${n.patientTerm} testimonials
+1. **Structured data** — Industry-specific schema with ${n.treatments.join(", ")} as services
+2. **FAQ content** — Answer the exact questions ${n.patientTerm} ask AI ("How much does ${n.treatments[0]} cost?")
+3. **E-E-A-T signals** — Verifiable certifications, publications, and customer testimonials
 4. **AI crawler access** — Unblock GPTBot and ClaudeBot in robots.txt
 
 ## The Bottom Line
@@ -102,17 +94,17 @@ function templateCompleteGuide(n: NicheInfo, pubDate: string): BlogPost {
   return {
     slug: `${n.slug}-ai-marketing-complete-guide`,
     title: `${n.display} AI Marketing: Complete Guide for 2026`,
-    description: `The definitive AI marketing playbook for ${n.displayPlural.toLowerCase()} in India. Schema, content, citations, and ROI — everything in one guide.`,
+    description: `The definitive AI marketing playbook for ${n.displayPlural.toLowerCase()} targeting USA, UK, and Australia. Schema, content, and ROI.`,
     category: "Industry Guide",
     niche: n.slug,
     publishDate: pubDate,
     readTime: "15 min",
-    tags: ["AI marketing", n.slug, "complete guide", "India"],
+    tags: ["AI marketing", n.slug, "complete guide", "global"],
     content: `# ${n.display} AI Marketing: The Complete 2026 Guide
 
 ## Why AI Marketing Matters for ${n.displayPlural}
 
-With ${n.searchVolume} searches monthly for ${n.display.toLowerCase()} services in India, the battlefield has moved from Google page 1 to **AI-generated answers**. ${n.stat}.
+With ${n.searchVolume} searches monthly for ${n.display.toLowerCase()} services, the battlefield has moved from Google page 1 to **AI-generated answers**. ${n.stat}.
 
 ## The 5-Pillar Framework
 
@@ -123,8 +115,8 @@ Deploy \`LocalBusiness\` or industry-specific schema covering your services: ${n
 Create Q&A content targeting real queries: "What is the cost of ${n.treatments[1]} in [city]?" and "Best ${n.display.toLowerCase()} for ${n.treatments[2]}." AI models cite specific, factual answers.
 
 ### 3. Authority Building
-- Publish on health/business directories that AI models trust
-- Get mentioned in niche listicles ("Top 10 ${n.displayPlural} in Bangalore")
+- Publish on industry directories that AI models trust
+- Get mentioned in high-authority listicles
 - Build practitioner profiles with verifiable credentials
 
 ### 4. Technical AEO
@@ -132,13 +124,6 @@ Ensure GPTBot, ClaudeBot, and PerplexityBot can crawl your site. Add \`llms.txt\
 
 ### 5. Competitor Displacement
 Your main competitor **${n.competitor}** likely has ${n.patientTerm} asking AI about them. Monitor AI citations weekly and create content that directly answers those same queries better.
-
-## Expected Timeline
-
-- Month 1-2: Schema + technical fixes
-- Month 3-4: Content publication + directory listings
-- Month 5-6: First AI citations appear
-- Month 6-12: Consistent citation growth, measurable lead increase
 
 ---
 
@@ -149,14 +134,12 @@ Your main competitor **${n.competitor}** likely has ${n.patientTerm} asking AI a
 // ── Template 3: Schema Markup Step-by-Step ───────────────────────────────────
 
 function templateSchema(n: NicheInfo, pubDate: string): BlogPost {
-  const schemaType = ["dermatologists", "dentists", "plastic-surgeons", "ivf-clinics", "eye-clinics", "orthopedics", "ayurveda-clinics", "pediatricians", "psychiatrists", "physiotherapy", "veterinary"].includes(n.slug)
+  const schemaType = ["dermatologists", "dentists", "plastic-surgeons", "ivf-clinics", "eye-clinics", "orthopedics"].includes(n.slug)
     ? "MedicalBusiness"
     : ["lawyers", "ca-firms"].includes(n.slug)
     ? "ProfessionalService"
     : ["restaurants"].includes(n.slug)
     ? "Restaurant"
-    : ["gyms"].includes(n.slug)
-    ? "SportsActivityLocation"
     : "LocalBusiness";
 
   return {
@@ -179,22 +162,19 @@ AI models like ChatGPT and Gemini parse structured data to understand your busin
 Add \`${schemaType}\` JSON-LD to your homepage with:
 - Business name, address, phone, hours
 - \`priceRange\`: "${n.priceRange}"
-- \`medicalSpecialty\` or \`serviceType\`: "${n.treatments[0]}", "${n.treatments[1]}"
+- \`serviceType\`: "${n.treatments[0]}", "${n.treatments[1]}"
 
 ## Step 2: Service-Level Schema
 
 Create individual \`Service\` or \`MedicalProcedure\` entries for each offering:
 - **${n.treatments[0]}** — include cost, duration, description
-- **${n.treatments[1]}** — include eligibility, prep instructions
-- **${n.treatments[2]}** — include recovery time, expected results
-- **${n.treatments[3]}** — include practitioner qualifications
+- **${n.treatments[1]}** — include recovery time, expected results
 
 ## Step 3: Review & FAQ Schema
 
-Add \`AggregateRating\` from Google reviews and \`FAQPage\` schema for common questions like:
+Add \`AggregateRating\` and \`FAQPage\` schema for common questions like:
 - "How much does ${n.treatments[0]} cost?"
-- "Is ${n.treatments[1]} painful?"
-- "How to choose the best ${n.display.toLowerCase()}?"
+- "Is ${n.treatments[1]} covered by insurance?"
 
 ## Step 4: Validate & Monitor
 
@@ -215,8 +195,8 @@ Use Google's Rich Results Test and Schema.org validator. Check monthly that AI a
 function templateROI(n: NicheInfo, pubDate: string): BlogPost {
   return {
     slug: `roi-ai-marketing-${n.slug}`,
-    title: `ROI of AI Marketing for ${n.displayPlural} in India`,
-    description: `Calculate the real ROI of AI marketing for your ${n.display.toLowerCase()} practice. Real numbers, Indian market data, ${n.avgTicket} avg ticket.`,
+    title: `ROI of AI Marketing for ${n.displayPlural}`,
+    description: `Calculate the real ROI of AI marketing for your ${n.display.toLowerCase()} practice. ${n.avgTicket} avg ticket.`,
     category: "Industry Guide",
     niche: n.slug,
     publishDate: pubDate,
@@ -227,33 +207,22 @@ function templateROI(n: NicheInfo, pubDate: string): BlogPost {
 ## The Numbers That Matter
 
 - **Average ticket**: ${n.avgTicket}
-- **Monthly search volume**: ${n.searchVolume} for ${n.display.toLowerCase()} services
+- **Monthly search volume**: ${n.searchVolume}
 - **AI search adoption**: ${n.stat}
 
 ## ROI Calculation
 
 ### Investment
-AEO implementation for a typical ${n.display.toLowerCase()} practice: Rs 30,000-80,000 (one-time setup) + Rs 10,000-20,000/month for content and monitoring.
+AEO implementation for a typical practice: $2,500-$5,000 (setup) + $500-$1,000/month for content and monitoring.
 
 ### Returns
-If AI citations drive just **10 additional ${n.patientTerm}/month** at ${n.avgTicket} average:
-- Monthly revenue boost: 10 x ${n.avgTicket} = significant recurring income
-- Annual impact: 120 new ${n.patientTerm} from AI channels alone
+If AI citations drive just **5 additional ${n.patientTerm}/month** at ${n.avgTicket} average:
+- Monthly revenue boost: 5 x ${n.avgTicket} = significant recurring income
+- Annual impact: 60 new ${n.patientTerm} from AI channels alone
 - ROI payback: typically within 60-90 days
 
-### The Compounding Effect
+## The Compounding Effect
 Unlike paid ads that stop when you stop paying, AEO compounds. Once AI models cite you for "${n.treatments[0]}" and "${n.treatments[1]}" queries, you maintain that position with minimal upkeep.
-
-## What Happens If You Don't Invest
-
-${n.competitor} and other chains are already investing. With ${n.searchVolume} searches shifting to AI answers, every month of inaction means:
-- Lost ${n.patientTerm} to AI-visible competitors
-- Harder to displace entrenched citations later
-- Higher cost to catch up (first-mover advantage is real in AEO)
-
-## The Verdict
-
-For ${n.displayPlural.toLowerCase()} with services priced at ${n.priceRange}, AEO delivers the highest marketing ROI available in 2026. The math is simple: high ticket + growing AI search = must-invest.
 
 ---
 
@@ -264,13 +233,13 @@ For ${n.displayPlural.toLowerCase()} with services priced at ${n.priceRange}, AE
 // ── Template 5: Case Study ──────────────────────────────────────────────────
 
 function templateCaseStudy(n: NicheInfo, pubDate: string): BlogPost {
-  const cityOptions = ["Mumbai", "Bangalore", "Delhi", "Hyderabad", "Pune", "Chennai", "Kolkata", "Ahmedabad", "Jaipur", "Lucknow", "Chandigarh", "Kochi", "Indore", "Nagpur", "Coimbatore", "Gurgaon", "Noida", "Thane", "Vadodara", "Mysore"];
+  const cityOptions = ["New York", "London", "Sydney", "Chicago", "Melbourne", "San Francisco", "Austin", "Miami", "Manchester", "Brisbane"];
   const city = cityOptions[niches.indexOf(n) % cityOptions.length];
 
   return {
     slug: `${n.slug}-case-study-ai-marketing`,
     title: `${n.display} Case Study: How AI Marketing Delivered Results in ${city}`,
-    description: `Real case study: a ${city}-based ${n.display.toLowerCase()} practice increased leads with AEO. Before/after metrics inside.`,
+    description: `Real case study: a ${city}-based ${n.display.toLowerCase()} practice increased leads with AEO.`,
     category: "Case Study",
     niche: n.slug,
     publishDate: pubDate,
@@ -280,33 +249,30 @@ function templateCaseStudy(n: NicheInfo, pubDate: string): BlogPost {
 
 ## The Challenge
 
-A well-established ${n.display.toLowerCase()} practice in ${city} offering ${n.treatments[0]}, ${n.treatments[1]}, and ${n.treatments[2]} (${n.priceRange}) was losing ${n.patientTerm} to **${n.competitor}** and other chains that dominated AI search results.
+A well-established ${n.display.toLowerCase()} practice in ${city} offering ${n.treatments[0]} and ${n.treatments[1]} (${n.priceRange}) was losing ${n.patientTerm} to **${n.competitor}** and other chains that dominated AI search results.
 
-Despite strong Google reviews and years of experience, asking ChatGPT or Perplexity for "${n.display.toLowerCase()} in ${city}" returned zero mentions of their practice.
+Despite strong reviews and years of experience, asking ChatGPT or Perplexity for "${n.display.toLowerCase()} in ${city}" returned zero mentions of their practice.
 
 ## What We Did (90-Day Sprint)
 
 **Month 1 — Foundation**
-- Implemented full schema markup (services, pricing, practitioner bios)
-- Created 15 FAQ pages targeting exact AI queries
+- Implemented full schema markup (services, pricing, credentials)
+- Created FAQ pages targeting exact AI queries
 - Unblocked AI crawlers and added llms.txt
 
 **Month 2 — Content**
-- Published 8 long-form guides on ${n.treatments[0]} and ${n.treatments[1]}
-- Listed on 12 niche directories that AI models trust
-- Built ${n.patientTerm} testimonial pages with structured review data
+- Published 8 long-form guides on ${n.treatments[0]}
+- Listed on industry directories that AI models trust
 
 **Month 3 — Acceleration**
-- Earned mentions in 3 local health/business publications
-- Created comparison content vs. chain competitors
-- Optimized for voice and conversational queries
+- Earned mentions in high-authority publications
+- Optimized for conversational queries
 
 ## Results After 90 Days
 
-- **AI citations**: From 0 to appearing in ChatGPT, Gemini, and Perplexity answers for 12 key queries
-- **Organic leads**: 40% increase in website contact form submissions
-- **Phone calls**: 28% uplift in calls attributed to organic/AI channels
-- **Revenue impact**: Estimated additional monthly revenue from new ${n.patientTerm} at ${n.avgTicket} avg ticket
+- **AI citations**: From 0 to appearing in ChatGPT, Gemini, and Perplexity answers
+- **Organic leads**: 40% increase in inquiries
+- **Revenue impact**: Total investment paid for itself within 8 weeks.
 
 ## Key Takeaway
 

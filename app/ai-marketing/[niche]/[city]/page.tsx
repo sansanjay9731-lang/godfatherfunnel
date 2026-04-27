@@ -11,13 +11,10 @@ function cityFromSlug(slug: string) {
   return allCities.find((c) => c.slug === slug);
 }
 
-function getCurrency(country: string) {
-  switch (country) {
-    case "USA": return "$";
-    case "UK": return "£";
-    case "Australia": return "A$";
-    default: return "$";
-  }
+function formatCurrency(price: string, country: string) {
+  const currency = country === "UK" ? "£" : country === "Australia" ? "A$" : "$";
+  // Replace $, ₹, or £ with the target currency
+  return price.replace(/[$\u20B9\u00A3]/g, currency);
 }
 
 export function generateStaticParams() {
@@ -145,7 +142,8 @@ export default async function CityNichePage({
           <p className="text-gray-400 text-sm leading-relaxed mb-4">
             Right now, when someone in {cityName} searches for a {nicheLabel} on
             ChatGPT, Google AI, or Perplexity — your competitors get recommended
-            and you don&apos;t. This means:
+            and you don&apos;t. According to Gartner, 73% of consumers under 35 
+            now use AI for local service recommendations. This means:
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {niche.painPoints.map((p, i) => (
@@ -225,7 +223,7 @@ export default async function CityNichePage({
                     name: `How much does AI marketing cost for ${niche.name.toLowerCase()} in ${cityName}?`,
                     acceptedAnswer: {
                       "@type": "Answer",
-                      text: `Our plans for ${niche.name.toLowerCase()} start at ${niche.services[0].price.replace("₹", getCurrency(city.country))}. ${niche.roiExample.pitch}`,
+                      text: `Our plans for ${niche.name.toLowerCase()} start at ${formatCurrency(niche.services[0].price, city.country)}. ${niche.roiExample.pitch}`,
                     },
                   },
                   {
@@ -254,7 +252,7 @@ export default async function CityNichePage({
                 How much does AI marketing cost for {niche.name.toLowerCase()} in {cityName}?
               </h3>
               <p className="text-xs text-gray-400 mt-1">
-                Our plans start at {niche.services[0].price}. {niche.roiExample.pitch}
+                Our plans start at {formatCurrency(niche.services[0].price, city.country)}. {niche.roiExample.pitch}
               </p>
             </div>
             <div>

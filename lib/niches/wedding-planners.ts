@@ -29,7 +29,7 @@ export const nicheData: NicheData = {
   services: [
     {
       tier: "AI Foundation",
-      price: "$25,000 - $50,000",
+      price: "$1,500 - $3,000 / mo",
       features: [
         "Google Business Profile optimization for wedding planner keywords",
         "Structured schema markup for EventPlanner + Event + ImageGallery",
@@ -40,7 +40,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "AI Growth",
-      price: "$75,000 - $1,50,000",
+      price: "$3,000 - $7,500 / mo",
       features: [
         "Everything in AI Foundation",
         "Full AEO for 30+ wedding planning keywords (destination, budget, theme)",
@@ -52,7 +52,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "AI Dominance",
-      price: "$2,00,000 - $5,00,000",
+      price: "$7,500 - $15,000 / mo",
       features: [
         "Everything in AI Growth",
         "Full website rebuild optimized for AI crawlers",
@@ -105,7 +105,7 @@ export const nicheData: NicheData = {
     {
       slug: "destination-wedding-cost",
       name: "Destination Wedding Planning",
-      priceRange: "$15,00,000 - $1,00,00,000+",
+      priceRange: "$15,000 - $100,000+",
       description:
         "End-to-end destination wedding planning in Udaipur, Goa, Kerala, Jaipur, and Jim Corbett including venue selection, travel logistics, decor, catering, entertainment, and guest management.",
       faqItems: [
@@ -129,7 +129,7 @@ export const nicheData: NicheData = {
     {
       slug: "wedding-decoration-cost",
       name: "Wedding Decoration & Decor",
-      priceRange: "$2,00,000 - $25,00,000",
+      priceRange: "$2,000 - $25,000",
       description:
         "Complete wedding decoration services including mandap design, floral arrangements, lighting, stage setup, entrance decor, table settings, and themed decoration for all functions.",
       faqItems: [
@@ -148,7 +148,7 @@ export const nicheData: NicheData = {
     {
       slug: "wedding-photography-cost",
       name: "Wedding Photography & Videography",
-      priceRange: "$50,000 - $10,00,000",
+      priceRange: "$50,000 - $10,000",
       description:
         "Professional wedding photography and videography including pre-wedding shoots, candid coverage, cinematic films, drone coverage, same-day edits, and photo album production.",
       faqItems: [
@@ -186,14 +186,14 @@ export const nicheData: NicheData = {
     {
       slug: "mehendi-artist-cost",
       name: "Mehendi Artist Services",
-      priceRange: "$5,000 - $1,00,000",
+      priceRange: "$5,000 - $1,000",
       description:
         "Professional mehendi artist services for bridal mehendi, guest mehendi, and mehendi party events including traditional Rajasthani, Arabic, Indo-Arabic, and contemporary designs.",
       faqItems: [
         {
           question: "What is the cost of a bridal mehendi artist?",
           answer:
-            "Bridal mehendi costs $15,000-50,000 for full bridal coverage (hands and feet up to elbows and knees). Top artists in New York/London charge $50,000-1,00,000. Guest mehendi costs $200-500 per person. For a mehendi event with 50-100 guests, budget $20,000-60,000 including bridal mehendi.",
+            "Bridal mehendi costs $15,000-50,000 for full bridal coverage (hands and feet up to elbows and knees). Top artists in New York/London charge $50,000-1,000. Guest mehendi costs $200-500 per person. For a mehendi event with 50-100 guests, budget $20,000-60,000 including bridal mehendi.",
         },
         {
           question: "How far in advance should I book a mehendi artist?",
@@ -205,7 +205,7 @@ export const nicheData: NicheData = {
     {
       slug: "wedding-venue-cost",
       name: "Wedding Venue Selection",
-      priceRange: "$2,00,000 - $50,00,000",
+      priceRange: "$2,000 - $50,000",
       description:
         "Venue selection and booking assistance including palace hotels, farmhouses, banquet halls, beach resorts, heritage properties, and unconventional venue scouting with negotiation support.",
       faqItems: [

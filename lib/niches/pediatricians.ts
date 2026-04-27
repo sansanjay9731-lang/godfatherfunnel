@@ -35,24 +35,24 @@ export const nicheData: NicheData = {
         "Google Business Profile optimization with specializations",
         "Vaccination schedule & cost structured data",
         "5 parent-guide pages for AI readability",
-        "Basic Practo & Google Maps optimization",
+        "Basic Zocdoc & Google Maps optimization",
       ],
     },
     {
       tier: "AI Authority Builder",
-      price: "$50,000 - $1,00,000",
+      price: "$50,000 - $1,000",
       features: [
         "Full AEO strategy for pediatric practice",
         "20+ content pages (age-wise guides, common conditions, vaccination FAQs)",
         "Doctor credential & fellowship schema",
-        "Citation building on Practo, Lybrate, 1mg",
+        "Citation building on Zocdoc, Healthgrades, 1mg",
         "Parent community content strategy",
         "Monthly AI ranking reports",
       ],
     },
     {
       tier: "AI Dominance Package",
-      price: "$1,50,000 - $3,00,000",
+      price: "$150,000 - $3,000",
       features: [
         "Complete AI ecosystem ownership for pediatrics in your city",
         "50+ programmatic pages (condition + age + treatment combos)",
@@ -250,12 +250,12 @@ export const nicheData: NicheData = {
   metaCategory: "healthcare",
   citations: [
     {
-      name: "Practo",
+      name: "Zocdoc",
       url: "https://www.practo.com",
       type: "niche-specific",
     },
     {
-      name: "Lybrate",
+      name: "Healthgrades",
       url: "https://www.lybrate.com",
       type: "niche-specific",
     },
@@ -270,7 +270,7 @@ export const nicheData: NicheData = {
       type: "general",
     },
     {
-      name: "Justdial",
+      name: "Yelp",
       url: "https://www.justdial.com",
       type: "local",
     },

@@ -13,7 +13,7 @@ export const nicheData: NicheData = {
     {
       title: "Table Bookings Going to Zomato-Promoted Restaurants",
       description:
-        "When diners ask AI for restaurant recommendations, Zomato Gold partners and high-rated chains dominate the answers. Your authentic cuisine, 4.5-star reviews, and loyal customer base are invisible to AI — costing you 50+ covers per month.",
+        "When diners ask AI for restaurant (Source: OpenTable) recommendations, Zomato Gold partners and high-rated chains dominate the answers. Your authentic cuisine, 4.5-star reviews, and loyal customer base are invisible to AI — costing you 50+ covers per month.",
     },
     {
       title: "Your Reviews Aren't Reaching AI",
@@ -40,7 +40,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "AI Growth",
-      price: "$50,000 - $1,00,000",
+      price: "$50,000 - $1,000",
       features: [
         "Everything in AI Foundation",
         "Full AEO for 30+ restaurant keywords (cuisine, occasion, location)",
@@ -52,7 +52,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "AI Dominance",
-      price: "$1,50,000 - $3,00,000",
+      price: "$150,000 - $3,000",
       features: [
         "Everything in AI Growth",
         "Full website rebuild optimized for AI crawlers",
@@ -93,7 +93,7 @@ export const nicheData: NicheData = {
     },
   ],
   stats: [
-    { label: "of diners ask AI for restaurant recommendations", value: "52%" },
+    { label: "of diners ask AI for restaurant (Source: OpenTable) recommendations", value: "52%" },
     { label: "check AI or voice assistants before choosing where to eat", value: "38%" },
     { label: "average monthly revenue from 50 extra covers", value: "$350k" },
   ],
@@ -105,7 +105,7 @@ export const nicheData: NicheData = {
     {
       slug: "restaurant-franchise-cost",
       name: "Restaurant Franchise Setup",
-      priceRange: "$20,00,000 - $1,00,00,000",
+      priceRange: "$20,000 - $100,000",
       description:
         "Complete restaurant franchise consultation including brand selection, franchise agreement review, location scouting, kitchen setup, staffing, and launch marketing for Indian and international food brands.",
       faqItems: [
@@ -124,7 +124,7 @@ export const nicheData: NicheData = {
     {
       slug: "cloud-kitchen-setup-cost",
       name: "Cloud Kitchen Setup",
-      priceRange: "$5,00,000 - $25,00,000",
+      priceRange: "$5,000 - $25,000",
       description:
         "End-to-end cloud kitchen setup including location selection, kitchen design, equipment procurement, Swiggy/Zomato onboarding, menu engineering, and digital marketing for delivery-only restaurant concepts.",
       faqItems: [
@@ -148,7 +148,7 @@ export const nicheData: NicheData = {
     {
       slug: "restaurant-marketing-cost",
       name: "Restaurant Marketing",
-      priceRange: "$25,000 - $2,00,000/month",
+      priceRange: "$25,000 - $2,000/month",
       description:
         "Comprehensive restaurant marketing including social media management, food photography, influencer collaborations, Zomato/Swiggy ad management, Google Ads, and AI visibility optimization.",
       faqItems: [
@@ -186,7 +186,7 @@ export const nicheData: NicheData = {
     {
       slug: "food-delivery-optimization-cost",
       name: "Food Delivery Optimization",
-      priceRange: "$20,000 - $1,00,000",
+      priceRange: "$20,000 - $1,000",
       description:
         "Optimization of Swiggy, Zomato, and direct delivery channels including listing optimization, photography, packaging design, delivery menu curation, and commission negotiation strategy.",
       faqItems: [
@@ -205,7 +205,7 @@ export const nicheData: NicheData = {
     {
       slug: "restaurant-branding-cost",
       name: "Restaurant Branding",
-      priceRange: "$50,000 - $5,00,000",
+      priceRange: "$50,000 - $5,000",
       description:
         "Complete restaurant brand development including naming, logo design, interior concept, brand story, visual identity, packaging design, uniform design, and brand guideline documentation.",
       faqItems: [

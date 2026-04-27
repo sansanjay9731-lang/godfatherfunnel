@@ -33,7 +33,7 @@ export const nicheData: NicheData = {
       features: [
         "Google Business Profile optimization for veterinary keywords",
         "Structured schema markup for VeterinaryCare + AnimalShelter",
-        "Citation building on Practo Vets, Justdial, and PetBacker",
+        "Citation building on Zocdoc Vets, Yelp, and PetBacker",
         "AI-optimized content for top 10 veterinary services",
         "Monthly AI visibility audit report",
       ],
@@ -45,14 +45,14 @@ export const nicheData: NicheData = {
         "Everything in AI Foundation",
         "Full AEO for 25+ veterinary keywords (emergency, vaccination, surgery)",
         "Pet care content strategy for AI training data",
-        "Review aggregation schema across Google, Practo, and social",
+        "Review aggregation schema across Google, Zocdoc, and social",
         "Competitor displacement strategy against chain vet hospitals",
         "Quarterly AI performance benchmarking",
       ],
     },
     {
       tier: "AI Dominance",
-      price: "$1,00,000 - $2,00,000",
+      price: "$1,000 - $2,000",
       features: [
         "Everything in AI Growth",
         "Full website rebuild optimized for AI crawlers",
@@ -129,7 +129,7 @@ export const nicheData: NicheData = {
     {
       slug: "pet-surgery-cost",
       name: "Pet Surgery",
-      priceRange: "$5,000 - $1,00,000",
+      priceRange: "$5,000 - $1,000",
       description:
         "Comprehensive surgical services including soft tissue surgery, orthopedic surgery, tumor removal, foreign body removal, caesarean section, and emergency surgical interventions with modern anesthesia.",
       faqItems: [
@@ -251,12 +251,12 @@ export const nicheData: NicheData = {
   metaCategory: "lifestyle",
   citations: [
     {
-      name: "Practo Vets",
+      name: "Zocdoc Vets",
       url: "https://www.practo.com",
       type: "niche-specific",
     },
     {
-      name: "Justdial",
+      name: "Yelp",
       url: "https://www.justdial.com",
       type: "general",
     },

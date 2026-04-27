@@ -32,7 +32,7 @@ export const nicheData: NicheData = {
   services: [
     {
       tier: "AEO Foundation",
-      price: "$25,000 - $50,000",
+      price: "$1,500 - $3,000 / mo",
       features: [
         "AI Visibility Audit for eye clinic",
         "MedicalBusiness + Physician schema markup",
@@ -45,11 +45,11 @@ export const nicheData: NicheData = {
     },
     {
       tier: "Local Domination",
-      price: "$75,000 - $1,50,000",
+      price: "$3,000 - $7,500 / mo",
       features: [
         "Everything in AEO Foundation",
         "12 treatment cost pages (LASIK, cataract, retina, glaucoma, etc.)",
-        "Practo, Lybrate & EyeMantra profile optimization",
+        "Zocdoc, Healthgrades & EyeMantra profile optimization",
         "AI-friendly patient testimonial system",
         "Local citation building (50+ directories)",
         "Competitor AI-visibility monitoring",
@@ -59,7 +59,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "Godfather 360°",
-      price: "$2,00,000 - $4,00,000",
+      price: "$2,000 - $4,000",
       features: [
         "Everything in Local Domination",
         "Full AEO + GEO strategy for eye clinic",
@@ -74,7 +74,7 @@ export const nicheData: NicheData = {
   ],
   roiExample: {
     metric: "1 LASIK Patient",
-    value: "$30,000 - $1,00,000",
+    value: "$30,000 - $1,000",
     pitch:
       "A single LASIK patient pays $30K-100k depending on the technology used. Cataract surgery patients generate $15K-80K. One retina treatment brings $20K-150k. Our AEO Foundation package pays for itself with just 1-2 new patients per month.",
   },
@@ -110,7 +110,7 @@ export const nicheData: NicheData = {
     {
       slug: "lasik-surgery-cost",
       name: "LASIK Surgery",
-      priceRange: "$25,000 - $1,00,000",
+      priceRange: "$25,000 - $1,000",
       description:
         "LASIK eye surgery is the most searched eye procedure globally, with thousands of patients comparing costs, technologies, and surgeons through AI every month. Options include standard LASIK, bladeless (Femto-LASIK), Contoura Vision, SMILE, and PRK/TransPRK. Costs vary significantly based on the technology used.",
       faqItems: [
@@ -158,7 +158,7 @@ export const nicheData: NicheData = {
     {
       slug: "retina-treatment-cost",
       name: "Retina Treatment",
-      priceRange: "$20,000 - $1,50,000",
+      priceRange: "$20,000 - $150,000",
       description:
         "Retinal treatments are among the highest-value eye procedures, covering conditions like diabetic retinopathy, retinal detachment, macular degeneration, and macular holes. AI assistants frequently explain these conditions and treatment urgency to patients. Early detection and treatment are critical for preserving vision.",
       faqItems: [
@@ -201,7 +201,7 @@ export const nicheData: NicheData = {
     {
       slug: "specs-removal-cost",
       name: "Specs Removal Surgery",
-      priceRange: "$25,000 - $1,00,000",
+      priceRange: "$25,000 - $1,000",
       description:
         "Specs removal (refractive surgery) is the most aspirational eye procedure for young Indians. Patients aggressively compare options through AI, asking about LASIK, SMILE, ICL, and PRK. The right procedure depends on prescription, corneal thickness, age, and lifestyle needs.",
       faqItems: [
@@ -220,7 +220,7 @@ export const nicheData: NicheData = {
     {
       slug: "corneal-transplant-cost",
       name: "Corneal Transplant",
-      priceRange: "$50,000 - $2,00,000",
+      priceRange: "$50,000 - $2,000",
       description:
         "Corneal transplant (keratoplasty) is a sight-restoring surgery for patients with corneal damage from keratoconus, infections, injuries, or corneal dystrophies. India has a severe shortage of donor corneas, making this a critical area where AI helps patients understand options and find specialized centres.",
       faqItems: [
@@ -261,12 +261,12 @@ export const nicheData: NicheData = {
   metaCategory: "healthcare",
   citations: [
     {
-      name: "Practo",
+      name: "Zocdoc",
       url: "https://www.practo.com",
       type: "niche-specific",
     },
     {
-      name: "Lybrate",
+      name: "Healthgrades",
       url: "https://www.lybrate.com",
       type: "niche-specific",
     },
@@ -276,7 +276,7 @@ export const nicheData: NicheData = {
       type: "niche-specific",
     },
     {
-      name: "Justdial",
+      name: "Yelp",
       url: "https://www.justdial.com",
       type: "local",
     },

@@ -45,11 +45,11 @@ export const nicheData: NicheData = {
     },
     {
       tier: "Local Domination",
-      price: "$1,00,000 - $2,00,000",
+      price: "$1,000 - $2,000",
       features: [
         "Everything in AEO Foundation",
         "15 procedure pages (rhinoplasty, lipo, hair transplant, etc.)",
-        "Practo, Lybrate & RealSelf profile optimization",
+        "Zocdoc, Healthgrades & RealSelf profile optimization",
         "AI-friendly patient testimonial system",
         "Medical tourism landing pages (AI-optimized)",
         "Local & international citation building (75+ directories)",
@@ -58,7 +58,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "Godfather 360°",
-      price: "$3,00,000 - $5,00,000",
+      price: "$3,000 - $5,000",
       features: [
         "Everything in Local Domination",
         "Full AEO + GEO strategy for surgical practice",
@@ -73,7 +73,7 @@ export const nicheData: NicheData = {
   ],
   roiExample: {
     metric: "1 Rhinoplasty Patient",
-    value: "$1,00,000 - $5,00,000",
+    value: "$1,000 - $5,000",
     pitch:
       "A single rhinoplasty patient pays $1-500k. Hair transplant patients pay $50K-200k. Our AEO Foundation investment pays for itself with just ONE new surgical patient per month. Most clients see 3-5 additional patients monthly.",
   },
@@ -101,7 +101,7 @@ export const nicheData: NicheData = {
   ],
   stats: [
     { label: "Cosmetic Patients Using AI Research", value: "78%" },
-    { label: "Avg. Surgical Patient Value", value: "$2,00,000" },
+    { label: "Avg. Surgical Patient Value", value: "$2,000" },
     { label: "AI Visibility Improvement", value: "310%" },
   ],
   ctaText: "Get Your Free Surgeon AI Visibility Audit",
@@ -109,7 +109,7 @@ export const nicheData: NicheData = {
     {
       slug: "rhinoplasty-cost",
       name: "Rhinoplasty (Nose Job)",
-      priceRange: "$1,00,000 - $5,00,000",
+      priceRange: "$1,000 - $5,000",
       description:
         "Rhinoplasty is the most searched cosmetic surgery procedure globally. Patients compare surgeon results, costs, and techniques through AI before booking consultations. Costs depend on whether it's open or closed rhinoplasty, tip refinement, or revision surgery.",
       faqItems: [
@@ -133,7 +133,7 @@ export const nicheData: NicheData = {
     {
       slug: "liposuction-cost",
       name: "Liposuction",
-      priceRange: "$1,00,000 - $3,00,000",
+      priceRange: "$1,000 - $3,000",
       description:
         "Liposuction is the most popular body contouring surgery globally. AI assistants frequently compare liposuction techniques and costs for patients. Modern options include VASER (ultrasound-assisted), laser liposuction, and traditional tumescent liposuction.",
       faqItems: [
@@ -152,7 +152,7 @@ export const nicheData: NicheData = {
     {
       slug: "hair-transplant-cost",
       name: "Hair Transplant",
-      priceRange: "$50,000 - $2,00,000",
+      priceRange: "$50,000 - $2,000",
       description:
         "Hair transplant surgery is one of the fastest-growing cosmetic procedures globally, driven by increasing awareness through AI and social media. Patients extensively compare FUE vs. FUT techniques, graft counts, and surgeon results through AI assistants before choosing a clinic.",
       faqItems: [
@@ -176,7 +176,7 @@ export const nicheData: NicheData = {
     {
       slug: "facelift-cost",
       name: "Facelift Surgery",
-      priceRange: "$2,00,000 - $8,00,000",
+      priceRange: "$2,000 - $8,000",
       description:
         "Facelift (rhytidectomy) is a premium anti-ageing procedure increasingly sought by affluent Indian patients and medical tourists. AI assistants recommend facelifts alongside non-surgical alternatives, making it important for surgeons to have AI-visible content explaining the differences.",
       faqItems: [
@@ -195,7 +195,7 @@ export const nicheData: NicheData = {
     {
       slug: "breast-augmentation-cost",
       name: "Breast Augmentation",
-      priceRange: "$1,50,000 - $4,00,000",
+      priceRange: "$150,000 - $4,000",
       description:
         "Breast augmentation is a growing cosmetic procedure globally with increasing demand from both domestic and medical tourism patients. AI assistants frequently field questions about implant types, sizes, and safety profiles. Cost depends on implant brand, type (silicone vs. saline), and surgical approach.",
       faqItems: [
@@ -214,7 +214,7 @@ export const nicheData: NicheData = {
     {
       slug: "tummy-tuck-cost",
       name: "Tummy Tuck (Abdominoplasty)",
-      priceRange: "$1,50,000 - $4,00,000",
+      priceRange: "$150,000 - $4,000",
       description:
         "Tummy tuck surgery is highly sought after by post-pregnancy women and significant weight loss patients globally. AI assistants compare tummy tuck with liposuction, helping patients understand which procedure suits their needs. Options include mini, full, and extended abdominoplasty.",
       faqItems: [
@@ -255,12 +255,12 @@ export const nicheData: NicheData = {
   metaCategory: "healthcare",
   citations: [
     {
-      name: "Practo",
+      name: "Zocdoc",
       url: "https://www.practo.com",
       type: "niche-specific",
     },
     {
-      name: "Lybrate",
+      name: "Healthgrades",
       url: "https://www.lybrate.com",
       type: "niche-specific",
     },
@@ -270,12 +270,12 @@ export const nicheData: NicheData = {
       type: "niche-specific",
     },
     {
-      name: "Justdial",
+      name: "Yelp",
       url: "https://www.justdial.com",
       type: "local",
     },
     {
-      name: "Sulekha",
+      name: "Bing Places",
       url: "https://www.sulekha.com",
       type: "local",
     },

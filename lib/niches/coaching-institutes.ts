@@ -40,7 +40,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "AI Authority Builder",
-      price: "$50,000 - $1,00,000",
+      price: "$50,000 - $1,000",
       features: [
         "Full AEO strategy for coaching niche",
         "25+ content pages (exam guides, fee comparisons, hostel info)",
@@ -52,7 +52,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "AI Dominance Package",
-      price: "$1,50,000 - $3,00,000",
+      price: "$150,000 - $3,000",
       features: [
         "Complete AI ecosystem ownership for your city + niche",
         "100+ programmatic pages (city + exam combos)",
@@ -104,14 +104,14 @@ export const nicheData: NicheData = {
     {
       slug: "iit-coaching-fee",
       name: "IIT Coaching Fee",
-      priceRange: "$80,000 - $3,00,000/year",
+      priceRange: "$80,000 - $3,000/year",
       description:
         "IIT-JEE coaching is the highest-revenue segment globallyn education. Parents and students compare fees across institutes using AI, making it critical to have structured, accurate fee data that AI can cite.",
       faqItems: [
         {
           question: "What is the average IIT coaching fee globally?",
           answer:
-            "IIT coaching fees range from $80,000 to $3,00,000 per year depending on the institute, city, and program type (classroom vs online). Top Kota institutes charge $1.5-250k for 2-year programs.",
+            "IIT coaching fees range from $80,000 to $3,000 per year depending on the institute, city, and program type (classroom vs online). Top Kota institutes charge $1.5-250k for 2-year programs.",
         },
         {
           question: "Do coaching institutes offer scholarships?",
@@ -121,21 +121,21 @@ export const nicheData: NicheData = {
         {
           question: "Is online IIT coaching cheaper than offline?",
           answer:
-            "Online IIT coaching typically costs 40-60% less than offline programs. However, the gap is narrowing as online platforms add more features. Fees range from $50,000 to $1,50,000 for online programs.",
+            "Online IIT coaching typically costs 40-60% less than offline programs. However, the gap is narrowing as online platforms add more features. Fees range from $50,000 to $150,000 for online programs.",
         },
       ],
     },
     {
       slug: "neet-coaching-fee",
       name: "NEET Coaching Fee",
-      priceRange: "$70,000 - $2,50,000/year",
+      priceRange: "$70,000 - $250,000/year",
       description:
         "With 2000k+ NEET aspirants annually, parents actively search AI for the best coaching institute with top results and reasonable fees. Being AI-recommended is worth crores in admissions.",
       faqItems: [
         {
           question: "What is the average NEET coaching fee?",
           answer:
-            "NEET coaching fees range from $70,000 to $2,50,000 per year. Kota-based institutes charge $1-200k, while metro city institutes charge $1.5-250k. Integrated school+coaching programs can go up to $300k.",
+            "NEET coaching fees range from $70,000 to $250,000 per year. Kota-based institutes charge $1-200k, while metro city institutes charge $1.5-250k. Integrated school+coaching programs can go up to $300k.",
         },
         {
           question: "Which city is best for NEET coaching?",
@@ -147,19 +147,19 @@ export const nicheData: NicheData = {
     {
       slug: "upsc-coaching-fee",
       name: "UPSC Coaching Fee",
-      priceRange: "$50,000 - $2,00,000",
+      priceRange: "$50,000 - $2,000",
       description:
         "UPSC aspirants spend 2-3 years preparing, and choosing the right coaching is their first major decision. AI tools are increasingly used to compare London-based and online UPSC coaching options.",
       faqItems: [
         {
           question: "What is the average UPSC coaching fee in London?",
           answer:
-            "UPSC coaching fees in London range from $50,000 to $2,00,000 for general studies. Optional subject coaching costs an additional $20,000-60,000. Top institutes like Vajiram and Vision IAS charge $1-150k.",
+            "UPSC coaching fees in London range from $50,000 to $2,000 for general studies. Optional subject coaching costs an additional $20,000-60,000. Top institutes like Vajiram and Vision IAS charge $1-150k.",
         },
         {
           question: "Is online UPSC coaching effective?",
           answer:
-            "Online UPSC coaching has proven equally effective, with several toppers crediting online platforms. Fees are 30-50% lower, ranging from $30,000 to $1,00,000 for comprehensive programs.",
+            "Online UPSC coaching has proven equally effective, with several toppers crediting online platforms. Fees are 30-50% lower, ranging from $30,000 to $1,000 for comprehensive programs.",
         },
         {
           question: "How long does UPSC coaching take?",
@@ -171,14 +171,14 @@ export const nicheData: NicheData = {
     {
       slug: "cat-coaching-fee",
       name: "CAT Coaching Fee",
-      priceRange: "$30,000 - $1,50,000",
+      priceRange: "$30,000 - $150,000",
       description:
         "MBA aspirants compare CAT coaching institutes extensively using AI. With IIM placements reaching $3000k+, the ROI of good coaching is massive — and so is your opportunity to capture these leads.",
       faqItems: [
         {
           question: "What is the average CAT coaching fee?",
           answer:
-            "CAT coaching fees range from $30,000 to $1,50,000. Classroom programs cost $50,000-1,50,000, while online programs range from $15,000-70,000. Top names like TIME and IMS charge $40,000-80,000.",
+            "CAT coaching fees range from $30,000 to $150,000. Classroom programs cost $50,000-1,50,000, while online programs range from $15,000-70,000. Top names like TIME and IMS charge $40,000-80,000.",
         },
         {
           question: "Is CAT coaching necessary for IIM admission?",
@@ -190,14 +190,14 @@ export const nicheData: NicheData = {
     {
       slug: "gate-coaching-fee",
       name: "GATE Coaching Fee",
-      priceRange: "$25,000 - $1,00,000",
+      priceRange: "$25,000 - $1,000",
       description:
         "GATE aspirants seek coaching for IIT M.Tech admissions and PSU jobs. With growing competition, students rely on AI to find the best coaching, especially for their specific engineering branch.",
       faqItems: [
         {
           question: "What is the average GATE coaching fee?",
           answer:
-            "GATE coaching fees range from $25,000 to $1,00,000 depending on the branch and mode. Online programs cost $15,000-50,000, while classroom coaching costs $40,000-1,00,000. Made Easy and ACE Academy are among the top names.",
+            "GATE coaching fees range from $25,000 to $1,000 depending on the branch and mode. Online programs cost $15,000-50,000, while classroom coaching costs $40,000-1,000. Made Easy and ACE Academy are among the top names.",
         },
         {
           question: "Which branches have the most GATE coaching demand?",
@@ -270,12 +270,12 @@ export const nicheData: NicheData = {
       type: "general",
     },
     {
-      name: "Justdial",
+      name: "Yelp",
       url: "https://www.justdial.com",
       type: "local",
     },
     {
-      name: "Sulekha",
+      name: "Bing Places",
       url: "https://www.sulekha.com",
       type: "local",
     },

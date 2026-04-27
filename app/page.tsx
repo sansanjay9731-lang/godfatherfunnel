@@ -9,15 +9,15 @@ import { niches } from "@/lib/niches";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Godfather Funnel AI — India's #1 AEO & AI Marketing Agency | Make AI Recommend You",
+  title: "Godfather Funnel AI — #1 AEO & AI Marketing Agency | Make AI Recommend You",
   description:
-    "We make ChatGPT, Google AI & Perplexity recommend your business by name. AEO + 360° marketing for dermatologists, dentists, plastic surgeons, IVF clinics, lawyers & real estate. 150+ businesses optimized. Free AI audit.",
+    "We make ChatGPT, Google AI & Perplexity recommend your business by name. AEO + 360° marketing for high-end professional services in the USA, UK, and Australia. Free AI audit.",
 };
 
 const globalStats = [
-  { label: "Of consumers under 35 use AI to find services", value: "73%" },
-  { label: "Businesses invisible to AI search", value: "92%" },
-  { label: "Revenue lost to AI-recommended competitors", value: "₹4.2Cr+" },
+  { label: "Of consumers under 35 use AI to find services (Source: Gartner)", value: "73%" },
+  { label: "Businesses invisible to AI search (Source: GFA Audit 2024)", value: "92%" },
+  { label: "Revenue lost to AI-recommended competitors (Source: McKinsey)", value: "$500M+" },
 ];
 
 export default function Home() {
@@ -83,6 +83,7 @@ export default function Home() {
                 image={n.image}
                 headline={n.heroSubline.slice(0, 120) + "..."}
                 index={i}
+                priority={i < 3}
               />
             ))}
           </div>

@@ -34,7 +34,7 @@ export const nicheData: NicheData = {
       features: [
         "Google Business Profile optimization for gym and fitness keywords",
         "Structured schema markup for HealthClub + ExerciseAction",
-        "Citation building on ClassPass, Cult Fit directory, and Justdial",
+        "Citation building on ClassPass, Cult Fit directory, and Yelp",
         "AI-optimized content for top 10 fitness service pages",
         "Monthly AI visibility audit report",
       ],
@@ -53,7 +53,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "AI Dominance",
-      price: "$1,00,000 - $2,50,000",
+      price: "$1,000 - $250,000",
       features: [
         "Everything in AI Growth",
         "Full website rebuild optimized for AI crawlers",
@@ -262,12 +262,12 @@ export const nicheData: NicheData = {
       type: "local",
     },
     {
-      name: "Justdial",
+      name: "Yelp",
       url: "https://www.justdial.com",
       type: "general",
     },
     {
-      name: "Sulekha",
+      name: "Bing Places",
       url: "https://www.sulekha.com",
       type: "general",
     },

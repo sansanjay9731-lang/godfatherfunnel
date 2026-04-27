@@ -35,7 +35,7 @@ export const nicheData: NicheData = {
         "Google Business Profile optimization (discreet & professional)",
         "Service and specialization structured data",
         "5 condition-specific pages for AI readability",
-        "Basic Practo & Lybrate optimization",
+        "Basic Zocdoc & Healthgrades optimization",
       ],
     },
     {
@@ -45,14 +45,14 @@ export const nicheData: NicheData = {
         "Full AEO strategy for mental health niche",
         "20+ content pages (condition guides, therapy types, cost transparency)",
         "Practitioner credential & specialization schema",
-        "Citation building on Practo, Lybrate, Amaha, MindPeers",
+        "Citation building on Zocdoc, Healthgrades, Amaha, MindPeers",
         "Stigma-sensitive content strategy",
         "Monthly AI ranking reports",
       ],
     },
     {
       tier: "AI Dominance Package",
-      price: "$1,00,000 - $2,50,000",
+      price: "$1,000 - $250,000",
       features: [
         "Complete AI ecosystem ownership for mental health in your city",
         "40+ programmatic pages (condition + therapy type combos)",
@@ -147,14 +147,14 @@ export const nicheData: NicheData = {
     {
       slug: "addiction-treatment-cost",
       name: "Addiction Treatment Cost",
-      priceRange: "$10,000 - $2,00,000",
+      priceRange: "$10,000 - $2,000",
       description:
         "Addiction treatment for alcohol, substance abuse, and behavioral addictions is a high-value, high-intent search. Families desperately searching AI for help represent significant treatment revenue and long-term patient relationships.",
       faqItems: [
         {
           question: "What is the cost of addiction treatment globally?",
           answer:
-            "Addiction treatment costs vary widely. Outpatient programs: $10,000-30,000/month. Intensive outpatient: $30,000-60,000/month. Residential rehab: $50,000-2,00,000 for 30-90 days. Medication-assisted treatment: $5,000-15,000/month including medication.",
+            "Addiction treatment costs vary widely. Outpatient programs: $10,000-30,000/month. Intensive outpatient: $30,000-60,000/month. Residential rehab: $50,000-2,000 for 30-90 days. Medication-assisted treatment: $5,000-15,000/month including medication.",
         },
         {
           question: "How long does addiction treatment take?",
@@ -164,7 +164,7 @@ export const nicheData: NicheData = {
         {
           question: "Is addiction treatment covered by insurance globally?",
           answer:
-            "Some health insurance policies cover addiction treatment, especially inpatient programs at NABH-accredited facilities. Mental Healthcare Act 2017 mandates insurance coverage for mental health conditions. Coverage typically ranges from $50,000 to $5,00,000.",
+            "Some health insurance policies cover addiction treatment, especially inpatient programs at NABH-accredited facilities. Mental Healthcare Act 2017 mandates insurance coverage for mental health conditions. Coverage typically ranges from $50,000 to $5,000.",
         },
       ],
     },
@@ -197,7 +197,7 @@ export const nicheData: NicheData = {
         {
           question: "What is the cost of depression treatment globally?",
           answer:
-            "Depression treatment costs $1,500-5,000 per session. Mild depression: 8-12 therapy sessions ($12,000-40,000 total). Moderate-severe depression: therapy + medication over 6-12 months ($30,000-1,00,000 total including medication costs of $1,000-3,000/month).",
+            "Depression treatment costs $1,500-5,000 per session. Mild depression: 8-12 therapy sessions ($12,000-40,000 total). Moderate-severe depression: therapy + medication over 6-12 months ($30,000-1,000 total including medication costs of $1,000-3,000/month).",
         },
         {
           question: "Do I need medication for depression?",
@@ -221,7 +221,7 @@ export const nicheData: NicheData = {
         {
           question: "What is the average couples therapy cost globally?",
           answer:
-            "Couples therapy costs $2,000 to $6,000 per session (60-90 minutes). Most couples need 8-20 sessions over 3-6 months, totaling $16,000-1,00,000. Some therapists offer package deals (8 sessions for $15,000-35,000). Online couples therapy costs 10-20% less.",
+            "Couples therapy costs $2,000 to $6,000 per session (60-90 minutes). Most couples need 8-20 sessions over 3-6 months, totaling $16,000-1,000. Some therapists offer package deals (8 sessions for $15,000-35,000). Online couples therapy costs 10-20% less.",
         },
         {
           question: "When should a couple consider therapy?",
@@ -255,7 +255,7 @@ export const nicheData: NicheData = {
   metaCategory: "healthcare",
   citations: [
     {
-      name: "Practo",
+      name: "Zocdoc",
       url: "https://www.practo.com",
       type: "niche-specific",
     },
@@ -265,7 +265,7 @@ export const nicheData: NicheData = {
       type: "niche-specific",
     },
     {
-      name: "Lybrate",
+      name: "Healthgrades",
       url: "https://www.lybrate.com",
       type: "niche-specific",
     },
@@ -275,7 +275,7 @@ export const nicheData: NicheData = {
       type: "general",
     },
     {
-      name: "Justdial",
+      name: "Yelp",
       url: "https://www.justdial.com",
       type: "local",
     },

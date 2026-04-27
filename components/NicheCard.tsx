@@ -10,6 +10,7 @@ interface NicheCardProps {
   headline: string;
   image: string;
   index: number;
+  priority?: boolean;
 }
 
 export default function NicheCard({
@@ -19,6 +20,7 @@ export default function NicheCard({
   headline,
   image,
   index,
+  priority = false,
 }: NicheCardProps) {
   return (
     <motion.div
@@ -35,6 +37,7 @@ export default function NicheCard({
               src={image}
               alt={name}
               fill
+              priority={priority}
               className="object-cover group-hover:scale-105 transition-transform duration-500"
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
             />

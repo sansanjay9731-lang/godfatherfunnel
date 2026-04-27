@@ -45,11 +45,11 @@ export const nicheData: NicheData = {
     },
     {
       tier: "Local Domination",
-      price: "$1,00,000 - $2,00,000",
+      price: "$1,000 - $2,000",
       features: [
         "Everything in AEO Foundation",
         "12 treatment & condition pages (IVF, IUI, ICSI, egg freezing, etc.)",
-        "Practo, Lybrate & fertility directory optimization",
+        "Zocdoc, Healthgrades & fertility directory optimization",
         "AI-friendly patient success story system",
         "Local citation building (60+ directories)",
         "Competitor AI-visibility monitoring",
@@ -59,7 +59,7 @@ export const nicheData: NicheData = {
     },
     {
       tier: "Godfather 360°",
-      price: "$2,50,000 - $5,00,000",
+      price: "$250,000 - $5,000",
       features: [
         "Everything in Local Domination",
         "Full AEO + GEO strategy for fertility practice",
@@ -74,7 +74,7 @@ export const nicheData: NicheData = {
   ],
   roiExample: {
     metric: "1 IVF Patient",
-    value: "$1,50,000 - $3,00,000",
+    value: "$150,000 - $3,000",
     pitch:
       "A single IVF cycle generates $1.5-300k in revenue. Most patients need 2-3 cycles, making lifetime value $3-900k per couple. Our AEO Foundation investment pays for itself with just ONE new IVF patient per month.",
   },
@@ -102,7 +102,7 @@ export const nicheData: NicheData = {
   ],
   stats: [
     { label: "Fertility Patients Using AI Research", value: "62%" },
-    { label: "Avg. IVF Patient Value", value: "$2,00,000" },
+    { label: "Avg. IVF Patient Value", value: "$2,000" },
     { label: "AI Visibility Improvement", value: "275%" },
   ],
   ctaText: "Get Your Free IVF Clinic AI Audit",
@@ -110,7 +110,7 @@ export const nicheData: NicheData = {
     {
       slug: "ivf-treatment-cost",
       name: "IVF Treatment",
-      priceRange: "$1,50,000 - $3,00,000",
+      priceRange: "$150,000 - $3,000",
       description:
         "In Vitro Fertilization (IVF) is the most searched fertility treatment globally. Patients compare clinic success rates, costs, and doctor credentials through AI assistants. The cost per cycle includes ovarian stimulation, egg retrieval, fertilization, embryo culture, and transfer.",
       faqItems: [
@@ -153,7 +153,7 @@ export const nicheData: NicheData = {
     {
       slug: "egg-freezing-cost",
       name: "Egg Freezing",
-      priceRange: "$1,00,000 - $2,00,000",
+      priceRange: "$1,000 - $2,000",
       description:
         "Egg freezing (oocyte cryopreservation) is rapidly growing globally as more women choose to preserve fertility for career or personal reasons. AI assistants frequently recommend egg freezing when women ask about fertility preservation options. Cost includes ovarian stimulation, egg retrieval, and first year of storage.",
       faqItems: [
@@ -177,7 +177,7 @@ export const nicheData: NicheData = {
     {
       slug: "icsi-cost",
       name: "ICSI Treatment",
-      priceRange: "$2,00,000 - $3,50,000",
+      priceRange: "$2,000 - $350,000",
       description:
         "Intracytoplasmic Sperm Injection (ICSI) is an advanced IVF technique where a single sperm is injected directly into the egg. AI assistants commonly explain ICSI vs. conventional IVF to patients. It's the preferred method for severe male factor infertility and previous IVF failures.",
       faqItems: [
@@ -215,7 +215,7 @@ export const nicheData: NicheData = {
     {
       slug: "surrogacy-cost",
       name: "Surrogacy",
-      priceRange: "$10,00,000 - $20,00,000",
+      priceRange: "$10,000 - $20,000",
       description:
         "Surrogacy globally underwent major regulatory changes with the Surrogacy (Regulation) Act 2021, which only permits altruistic surrogacy. AI assistants frequently explain the current legal framework to patients. The cost includes IVF, surrogate care, legal fees, and medical expenses throughout pregnancy.",
       faqItems: [
@@ -256,12 +256,12 @@ export const nicheData: NicheData = {
   metaCategory: "healthcare",
   citations: [
     {
-      name: "Practo",
+      name: "Zocdoc",
       url: "https://www.practo.com",
       type: "niche-specific",
     },
     {
-      name: "Lybrate",
+      name: "Healthgrades",
       url: "https://www.lybrate.com",
       type: "niche-specific",
     },
@@ -271,12 +271,12 @@ export const nicheData: NicheData = {
       type: "niche-specific",
     },
     {
-      name: "Justdial",
+      name: "Yelp",
       url: "https://www.justdial.com",
       type: "local",
     },
     {
-      name: "Sulekha",
+      name: "Bing Places",
       url: "https://www.sulekha.com",
       type: "local",
     },
