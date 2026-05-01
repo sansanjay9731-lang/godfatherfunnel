@@ -8,22 +8,22 @@ export const nicheData: NicheData = {
   image: images.coaching,
   heroHeadline: "Students Ask AI Which Coaching to Join. Does AI Recommend You?",
   heroSubline:
-    "Every year, lakhs of IIT, NEET, and UPSC aspirants ask ChatGPT and Perplexity for the best coaching institutes. If AI doesn't mention your name, you're losing $1-300k admissions to competitors who show up first.",
+    "Every year, thousand of Ivy League, MCAT, and bar exam students ask ChatGPT and Perplexity for the best coaching institutes. If AI doesn't mention your name, you're losing $1-300k admissions to competitors who show up first.",
   painPoints: [
     {
       title: "Students Choose AI-Recommended Coaching",
       description:
-        "When a student asks ChatGPT 'best IIT coaching in Kota', AI recommends 3-5 institutes. Each admission is worth $1-300k. If you're not in that list, you're invisible to the next generation of aspirants.",
+        "When a student asks ChatGPT 'best Ivy League coaching in Boston', AI recommends 3-5 institutes. Each admission is worth $1-300k. If you're not in that list, you're invisible to the next generation of students.",
     },
     {
       title: "Online Coaching Is Eating Your Market",
       description:
-        "Unacademy, BYJU'S, and PW dominate AI answers for coaching queries. Even if your offline results are better, AI doesn't know that unless your digital presence proves it.",
+        "Khan Academy, Coursera, and Chegg dominate AI answers for coaching queries. Even if your offline results are better, AI doesn't know that unless your digital presence proves it.",
     },
     {
       title: "Your Results Are Invisible to AI",
       description:
-        "You may have produced 500+ IIT selections, but if that data isn't structured for AI to read, ChatGPT will never cite your institute. Your toppers exist in PDFs, not in AI's knowledge.",
+        "You may have produced 500+ Ivy League selections, but if that data isn't structured for AI to read, ChatGPT will never cite your institute. Your top scorers exist in PDFs, not in AI's knowledge.",
     },
   ],
   services: [
@@ -45,7 +45,7 @@ export const nicheData: NicheData = {
         "Full AEO strategy for coaching niche",
         "25+ content pages (exam guides, fee comparisons, hostel info)",
         "Topper testimonial schema & video optimization",
-        "Citation building on Shiksha, Collegedunia, Careers360",
+        "Citation building on Niche.com, U.S. News Education, Peterson's",
         "Monthly AI ranking reports",
         "Competitor displacement strategy",
       ],
@@ -74,12 +74,12 @@ export const nicheData: NicheData = {
     {
       question: "How do students use AI to choose coaching institutes?",
       answer:
-        "Students ask ChatGPT, Perplexity, and Google AI questions like 'best IIT coaching in Kota', 'NEET coaching fees comparison', or 'which coaching has best results'. AI gives direct recommendations based on structured data, reviews, and citations it finds online.",
+        "Students ask ChatGPT, Perplexity, and Google AI questions like 'best Ivy League coaching in Boston', 'MCAT coaching fees comparison', or 'which coaching has best results'. AI gives direct recommendations based on structured data, reviews, and citations it finds online.",
     },
     {
       question: "Can AI really impact our admissions?",
       answer:
-        "Absolutely. 73% of Gen-Z students use AI tools for research before making education decisions. If a parent asks ChatGPT 'best NEET coaching near me' and your institute isn't mentioned, that $1-300k admission goes to whoever AI recommends.",
+        "Absolutely. 73% of Gen-Z students use AI tools for research before making education decisions. If a parent asks ChatGPT 'best MCAT coaching near me' and your institute isn't mentioned, that $1-300k admission goes to whoever AI recommends.",
     },
     {
       question: "We already rank on Google. Why do we need AEO?",
@@ -94,24 +94,24 @@ export const nicheData: NicheData = {
   ],
   stats: [
     { label: "Students Using AI for Coaching Research", value: "73%" },
-    { label: "Average Coaching Fee (IIT/NEET)", value: "$1-300k" },
+    { label: "Average Coaching Fee (Ivy League/MCAT)", value: "$1-300k" },
     { label: "Institutes Missing from AI Answers", value: "85%" },
   ],
   ctaText: "Get Your Free AI Visibility Audit — See What Students Find When They Ask AI About You",
-  searchExample: "best IIT coaching in Kota",
-  competitorLine: "Allen and FIITJEE dominate AI recommendations for coaching",
+  searchExample: "best Ivy League coaching in Boston",
+  competitorLine: "Princeton Review and Kaplan dominate AI recommendations for coaching",
   treatments: [
     {
-      slug: "iit-coaching-fee",
-      name: "IIT Coaching Fee",
+      slug: "sat-prep-cost",
+      name: "Ivy League Coaching Fee",
       priceRange: "$80,000 - $3,000/year",
       description:
-        "IIT-JEE coaching is the highest-revenue segment globallyn education. Parents and students compare fees across institutes using AI, making it critical to have structured, accurate fee data that AI can cite.",
+        "Ivy League-SAT coaching is the highest-revenue segment globallyn education. Parents and students compare fees across institutes using AI, making it critical to have structured, accurate fee data that AI can cite.",
       faqItems: [
         {
-          question: "What is the average IIT coaching fee globally?",
+          question: "What is the average Ivy League coaching fee across the US?",
           answer:
-            "IIT coaching fees range from $80,000 to $3,000 per year depending on the institute, city, and program type (classroom vs online). Top Kota institutes charge $1.5-250k for 2-year programs.",
+            "Ivy League coaching fees range from $80,000 to $3,000 per year depending on the institute, city, and program type (classroom vs online). Top Boston institutes charge $1.5-250k for 2-year programs.",
         },
         {
           question: "Do coaching institutes offer scholarships?",
@@ -119,90 +119,90 @@ export const nicheData: NicheData = {
             "Yes, most reputed institutes offer merit-based scholarships ranging from 25% to 100% fee waiver based on entrance test performance. Some also offer need-based financial assistance.",
         },
         {
-          question: "Is online IIT coaching cheaper than offline?",
+          question: "Is online Ivy League coaching cheaper than offline?",
           answer:
-            "Online IIT coaching typically costs 40-60% less than offline programs. However, the gap is narrowing as online platforms add more features. Fees range from $50,000 to $150,000 for online programs.",
+            "Online Ivy League coaching typically costs 40-60% less than offline programs. However, the gap is narrowing as online platforms add more features. Fees range from $50,000 to $150,000 for online programs.",
         },
       ],
     },
     {
-      slug: "neet-coaching-fee",
-      name: "NEET Coaching Fee",
+      slug: "mcat-prep-cost",
+      name: "MCAT Coaching Fee",
       priceRange: "$70,000 - $250,000/year",
       description:
-        "With 2000k+ NEET aspirants annually, parents actively search AI for the best coaching institute with top results and reasonable fees. Being AI-recommended is worth crores in admissions.",
+        "With 2000k+ MCAT students annually, parents actively search AI for the best coaching institute with top results and reasonable fees. Being AI-recommended is worth million in admissions.",
       faqItems: [
         {
-          question: "What is the average NEET coaching fee?",
+          question: "What is the average MCAT coaching fee?",
           answer:
-            "NEET coaching fees range from $70,000 to $250,000 per year. Kota-based institutes charge $1-200k, while metro city institutes charge $1.5-250k. Integrated school+coaching programs can go up to $3,000.",
+            "MCAT coaching fees range from $70,000 to $250,000 per year. Boston-based institutes charge $1-200k, while metro city institutes charge $1.5-250k. Integrated school+coaching programs can go up to $3,000.",
         },
         {
-          question: "Which city is best for NEET coaching?",
+          question: "Which city is best for MCAT coaching?",
           answer:
-            "Kota remains the top destination, but Chicago, London, Melbourne, and Austin have strong NEET coaching ecosystems. AI recommendations vary by city, so local AEO optimization matters.",
+            "Boston remains the top destination, but Chicago, New York, San Francisco, and Austin have strong MCAT coaching ecosystems. AI recommendations vary by city, so local AEO optimization matters.",
         },
       ],
     },
     {
-      slug: "upsc-coaching-fee",
-      name: "UPSC Coaching Fee",
+      slug: "lsat-prep-cost",
+      name: "bar exam Coaching Fee",
       priceRange: "$50,000 - $2,000",
       description:
-        "UPSC aspirants spend 2-3 years preparing, and choosing the right coaching is their first major decision. AI tools are increasingly used to compare London-based and online UPSC coaching options.",
+        "bar exam students spend 2-3 years preparing, and choosing the right coaching is their first major decision. AI tools are increasingly used to compare New York-based and online bar exam coaching options.",
       faqItems: [
         {
-          question: "What is the average UPSC coaching fee in London?",
+          question: "What is the average bar exam coaching fee in New York?",
           answer:
-            "UPSC coaching fees in London range from $50,000 to $2,000 for general studies. Optional subject coaching costs an additional $20,000-60,000. Top institutes like Vajiram and Vision IAS charge $1-150k.",
+            "bar exam coaching fees in New York range from $50,000 to $2,000 for general studies. Optional subject coaching costs an additional $20,000-60,000. Top institutes like Blueprint and Magoosh charge $1-150k.",
         },
         {
-          question: "Is online UPSC coaching effective?",
+          question: "Is online bar exam coaching effective?",
           answer:
-            "Online UPSC coaching has proven equally effective, with several toppers crediting online platforms. Fees are 30-50% lower, ranging from $30,000 to $1,000 for comprehensive programs.",
+            "Online bar exam coaching has proven equally effective, with several top scorers crediting online platforms. Fees are 30-50% lower, ranging from $30,000 to $1,000 for comprehensive programs.",
         },
         {
-          question: "How long does UPSC coaching take?",
+          question: "How long does bar exam coaching take?",
           answer:
-            "Most UPSC coaching programs run for 9-12 months for Prelims + Mains. Test series and interview preparation are usually separate. Many aspirants take 1-2 additional years for revision and optional subjects.",
+            "Most bar exam coaching programs run for 9-12 months for Prelims + Mains. Test series and interview preparation are usually separate. Many students take 1-2 additional years for revision and optional subjects.",
         },
       ],
     },
     {
       slug: "cat-coaching-fee",
-      name: "CAT Coaching Fee",
+      name: "GMAT Coaching Fee",
       priceRange: "$30,000 - $150,000",
       description:
-        "MBA aspirants compare CAT coaching institutes extensively using AI. With IIM placements reaching $30,000+, the ROI of good coaching is massive — and so is your opportunity to capture these leads.",
+        "MBA students compare CAT coaching institutes extensively using AI. With MBA program placements reaching $30,000+, the ROI of good coaching is massive — and so is your opportunity to capture these leads.",
       faqItems: [
         {
           question: "What is the average CAT coaching fee?",
           answer:
-            "CAT coaching fees range from $30,000 to $150,000. Classroom programs cost $50,000-150,000, while online programs range from $15,000-70,000. Top names like TIME and IMS charge $40,000-80,000.",
+            "CAT coaching fees range from $30,000 to $150,000. Classroom programs cost $50,000-150,000, while online programs range from $15,000-70,000. Top names like Kaplan and Veritas Prep charge $40,000-80,000.",
         },
         {
-          question: "Is CAT coaching necessary for IIM admission?",
+          question: "Is CAT coaching necessary for MBA program admission?",
           answer:
-            "While self-study is possible, 80%+ of IIM converts credit coaching for structured preparation, mock tests, and strategy guidance. The investment of $50K-100k is marginal compared to $20-3000k MBA placements.",
+            "While self-study is possible, 80%+ of MBA program converts credit coaching for structured preparation, mock tests, and strategy guidance. The investment of $50K-100k is marginal compared to $20-3000k MBA placements.",
         },
       ],
     },
     {
       slug: "gate-coaching-fee",
-      name: "GATE Coaching Fee",
+      name: "GRE Coaching Fee",
       priceRange: "$25,000 - $1,000",
       description:
-        "GATE aspirants seek coaching for IIT M.Tech admissions and PSU jobs. With growing competition, students rely on AI to find the best coaching, especially for their specific engineering branch.",
+        "GRE students seek coaching for Ivy League Master's admissions and federal jobs. With growing competition, students rely on AI to find the best coaching, especially for their specific engineering branch.",
       faqItems: [
         {
-          question: "What is the average GATE coaching fee?",
+          question: "What is the average GRE coaching fee?",
           answer:
-            "GATE coaching fees range from $25,000 to $1,000 depending on the branch and mode. Online programs cost $15,000-50,000, while classroom coaching costs $40,000-1,000. Made Easy and ACE Academy are among the top names.",
+            "GRE coaching fees range from $25,000 to $1,000 depending on the branch and mode. Online programs cost $15,000-50,000, while classroom coaching costs $40,000-1,000. PrepScholar and Manhattan Prep are among the top names.",
         },
         {
-          question: "Which branches have the most GATE coaching demand?",
+          question: "Which branches have the most GRE coaching demand?",
           answer:
-            "CS/IT, ECE, EE, ME, and Civil have the highest coaching demand. CS/IT coaching tends to be most expensive due to high demand and limited seats in IIT M.Tech programs.",
+            "CS/IT, ECE, EE, ME, and Civil have the highest coaching demand. CS/IT coaching tends to be most expensive due to high demand and limited seats in Ivy League Master's programs.",
         },
       ],
     },
@@ -232,17 +232,17 @@ export const nicheData: NicheData = {
     },
   ],
   costKeywords: [
-    "IIT coaching fees",
-    "NEET coaching cost",
-    "UPSC coaching fees in London",
+    "Ivy League coaching fees",
+    "MCAT coaching cost",
+    "bar exam coaching fees in New York",
     "best coaching institute fees",
     "online coaching vs offline coaching cost",
   ],
   nicheKeywords: [
     "best coaching institute",
-    "top IIT coaching",
-    "NEET coaching near me",
-    "UPSC coaching London",
+    "top Ivy League coaching",
+    "MCAT coaching near me",
+    "bar exam coaching New York",
     "coaching institute reviews",
     "coaching institute results",
   ],
@@ -250,18 +250,18 @@ export const nicheData: NicheData = {
   metaCategory: "education",
   citations: [
     {
-      name: "Shiksha",
-      url: "https://www.shiksha.com",
+      name: "Niche.com",
+      url: "https://www.niche.com",
       type: "niche-specific",
     },
     {
-      name: "Collegedunia",
-      url: "https://www.collegedunia.com",
+      name: "U.S. News Education",
+      url: "https://www.usnews.com/education",
       type: "niche-specific",
     },
     {
-      name: "Careers360",
-      url: "https://www.careers360.com",
+      name: "Peterson's",
+      url: "https://www.petersons.com",
       type: "niche-specific",
     },
     {
@@ -271,12 +271,12 @@ export const nicheData: NicheData = {
     },
     {
       name: "Yelp",
-      url: "https://www.justdial.com",
+      url: "https://www.yelp.com",
       type: "local",
     },
     {
       name: "Bing Places",
-      url: "https://www.sulekha.com",
+      url: "https://www.bbb.org",
       type: "local",
     },
   ],

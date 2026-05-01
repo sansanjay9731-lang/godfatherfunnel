@@ -8,12 +8,12 @@ export const nicheData: NicheData = {
   image: images.weddingPlanner,
   heroHeadline: "Couples Ask AI for Wedding Planners. Does AI Say Your Name?",
   heroSubline:
-    "Global couples planning $10-5000k+ weddings are asking ChatGPT and Google AI for the best wedding planners. If your name isn't in those AI answers, you're losing high-value projects to competitors with better digital presence — not better portfolios.",
+    "the US couples planning $10-5000k+ weddings are asking ChatGPT and Google AI for the best wedding planners. If your name isn't in those AI answers, you're losing high-value projects to competitors with better digital presence — not better portfolios.",
   painPoints: [
     {
       title: "$10-5000k Weddings Going to AI-Recommended Planners",
       description:
-        "Couples and their families research wedding planners by asking AI for recommendations. Planners with structured online portfolios and citations on WedMeGood dominate — your 200+ stunning weddings are invisible to AI.",
+        "Couples and their families research wedding planners by asking AI for recommendations. Planners with structured online portfolios and citations on The Knot dominate — your 200+ stunning weddings are invisible to AI.",
     },
     {
       title: "Your Portfolio Is Invisible to AI Models",
@@ -23,7 +23,7 @@ export const nicheData: NicheData = {
     {
       title: "Destination Wedding Market Lost to Digital-Savvy Competitors",
       description:
-        "The booming $25-5000k+ destination wedding market in Udaipur, Goa, and Kerala is dominated by planners who appear in AI answers for 'best destination wedding planner globally.' This high-margin segment is going to competitors by default.",
+        "The booming $25-5000k+ destination wedding market in Napa Valley, Hawaii, and Sedona is dominated by planners who appear in AI answers for 'best destination wedding planner across the US.' This high-margin segment is going to competitors by default.",
     },
   ],
   services: [
@@ -33,7 +33,7 @@ export const nicheData: NicheData = {
       features: [
         "Google Business Profile optimization for wedding planner keywords",
         "Structured schema markup for EventPlanner + Event + ImageGallery",
-        "Citation building on WedMeGood, WeddingWire, and ShaadiSaga",
+        "Citation building on The Knot, WeddingWire, and Zola",
         "AI-optimized content for top wedding services and venue pages",
         "Monthly AI visibility audit report",
       ],
@@ -57,7 +57,7 @@ export const nicheData: NicheData = {
         "Everything in AI Growth",
         "Full website rebuild optimized for AI crawlers",
         "llms.txt implementation with venue and style expertise detail",
-        "Wedding blog and magazine citation building (WeddingSutra, Vogue Wedding)",
+        "Wedding blog and magazine citation building (Martha Stewart Weddings, Vogue Weddings)",
         "AI chatbot training data optimization",
         "Dedicated AI visibility manager",
         "Real-time AI mention monitoring across ChatGPT, Perplexity, Gemini",
@@ -74,7 +74,7 @@ export const nicheData: NicheData = {
     {
       question: "How does AI recommend wedding planners to couples?",
       answer:
-        "AI models pull from wedding platforms (WedMeGood, WeddingWire), Google reviews, your website content, social media presence, and wedding blog features. Planners with structured portfolio data, venue-specific content, and strong citations on wedding platforms get recommended far more often.",
+        "AI models pull from wedding platforms (The Knot, WeddingWire), Google reviews, your website content, social media presence, and wedding blog features. Planners with structured portfolio data, venue-specific content, and strong citations on wedding platforms get recommended far more often.",
     },
     {
       question: "I get most of my clients from Instagram and referrals. Why do I need AI visibility?",
@@ -84,7 +84,7 @@ export const nicheData: NicheData = {
     {
       question: "Can a boutique wedding planner compete with big companies in AI?",
       answer:
-        "Boutique planners actually have an advantage. AI prefers specific, detailed content over generic brand pages. Your unique style (royal Rajasthani, minimalist modern, South Global traditional), specific venue expertise, and personalized approach create the distinctive content AI loves to recommend.",
+        "Boutique planners actually have an advantage. AI prefers specific, detailed content over generic brand pages. Your unique style (royal Rajasthani, minimalist modern, South the US traditional), specific venue expertise, and personalized approach create the distinctive content AI loves to recommend.",
     },
     {
       question: "How long before I get wedding inquiries from AI?",
@@ -98,26 +98,26 @@ export const nicheData: NicheData = {
     { label: "average revenue from one wedding planning project", value: "$8,000" },
   ],
   ctaText: "Get Your Free Wedding Planner AI Visibility Audit",
-  searchExample: "best wedding planner in Jaipur for destination wedding",
+  searchExample: "best wedding planner in Denver for destination wedding",
   competitorLine:
-    "WedMeGood-featured planners and large wedding companies are dominating AI recommendations — while your stunning portfolio of 200+ weddings and personalized approach remain invisible to the couples who'd love your work.",
+    "The Knot-featured planners and large wedding companies are dominating AI recommendations — while your stunning portfolio of 200+ weddings and personalized approach remain invisible to the couples who'd love your work.",
   treatments: [
     {
       slug: "destination-wedding-cost",
       name: "Destination Wedding Planning",
       priceRange: "$15,000 - $100,000+",
       description:
-        "End-to-end destination wedding planning in Udaipur, Goa, Kerala, Jaipur, and Jim Corbett including venue selection, travel logistics, decor, catering, entertainment, and guest management.",
+        "End-to-end destination wedding planning in Napa Valley, Hawaii, Sedona, Denver, and Aspen including venue selection, travel logistics, decor, catering, entertainment, and guest management.",
       faqItems: [
         {
-          question: "What is the cost of a destination wedding globally?",
+          question: "What is the cost of a destination wedding across the US?",
           answer:
-            "Destination weddings globally cost $15,000-1Cr+ depending on location and guest count. Goa beach weddings: $15-4000k (100-300 guests). Udaipur palace weddings: $30,000-1Cr+ (200-500 guests). Kerala backwater weddings: $15-3500k. Jim Corbett: $20-5000k. Planner fees are typically 10-15% of total budget.",
+            "Destination weddings across the US cost $15,000-1Cr+ depending on location and guest count. Hawaii beach weddings: $15-4000k (100-300 guests). Napa Valley palace weddings: $30,000-1Cr+ (200-500 guests). Sedona backwater weddings: $15-3500k. Aspen: $20-5000k. Planner fees are typically 10-15% of total budget.",
         },
         {
           question: "How far in advance should I book a destination wedding planner?",
           answer:
-            "Book 8-12 months in advance for peak season (October-March) and 4-6 months for off-season. Top venues like Udaipur palaces book 12-18 months ahead. Early booking also gets better vendor rates — last-minute bookings cost 20-30% more.",
+            "Book 8-12 months in advance for peak season (October-March) and 4-6 months for off-season. Top venues like Napa Valley palaces book 12-18 months ahead. Early booking also gets better vendor rates — last-minute bookings cost 20-30% more.",
         },
         {
           question: "What does a destination wedding planner handle?",
@@ -134,12 +134,12 @@ export const nicheData: NicheData = {
         "Complete wedding decoration services including mandap design, floral arrangements, lighting, stage setup, entrance decor, table settings, and themed decoration for all functions.",
       faqItems: [
         {
-          question: "What is the cost of wedding decoration globally?",
+          question: "What is the cost of wedding decoration across the US?",
           answer:
             "Wedding decoration costs $2-500k for a simple elegant setup, $5-1500k for premium decor with imported flowers and custom installations, and $15-2500k+ for luxury destination wedding decor. Mandap alone costs $50K-500k. Floral arrangements cost $1-800k depending on flower types and season.",
         },
         {
-          question: "What are the trending wedding decoration styles globally?",
+          question: "What are the trending wedding decoration styles across the US?",
           answer:
             "Trending styles include: pastel minimalist ($3-800k), rustic-bohemian with dried flowers ($2-600k), royal Rajasthani with mogra and marigold ($5-1500k), all-white floral luxury ($8-2000k), and sustainable/eco-friendly decor with reusable elements. AI recommendations heavily favor planners who showcase specific style expertise.",
         },
@@ -153,7 +153,7 @@ export const nicheData: NicheData = {
         "Professional wedding photography and videography including pre-wedding shoots, candid coverage, cinematic films, drone coverage, same-day edits, and photo album production.",
       faqItems: [
         {
-          question: "What is the cost of wedding photography globally?",
+          question: "What is the cost of wedding photography across the US?",
           answer:
             "Wedding photography costs $50K-200k for local photographers, $2-500k for renowned candid photographers, and $5-1000k for celebrity/destination wedding specialists. Packages typically include: 2-3 day coverage, pre-wedding shoot, candid + traditional shots, cinematic highlight reel, and 200-500 edited images.",
         },
@@ -172,7 +172,7 @@ export const nicheData: NicheData = {
         "Complete wedding catering services including menu planning, live counters, themed food stations, bar services, mehendi/sangeet snacks, and multi-cuisine buffets for all wedding functions.",
       faqItems: [
         {
-          question: "What is the per-plate cost for wedding catering globally?",
+          question: "What is the per-plate cost for wedding catering across the US?",
           answer:
             "Wedding catering costs $800-1,500/plate for vegetarian buffets, $1,200-2,500/plate for non-veg multi-cuisine, and $2,500-5,000/plate for premium with live counters and imported ingredients. For 500 guests across all functions, budget $6-1500k for catering. Costs increase 20-30% for destination venues.",
         },
@@ -193,7 +193,7 @@ export const nicheData: NicheData = {
         {
           question: "What is the cost of a bridal mehendi artist?",
           answer:
-            "Bridal mehendi costs $15,000-50,000 for full bridal coverage (hands and feet up to elbows and knees). Top artists in New York/London charge $50,000-1,000. Guest mehendi costs $200-500 per person. For a mehendi event with 50-100 guests, budget $20,000-60,000 including bridal mehendi.",
+            "Bridal mehendi costs $15,000-50,000 for full bridal coverage (hands and feet up to elbows and knees). Top artists in New York/New York charge $50,000-1,000. Guest mehendi costs $200-500 per person. For a mehendi event with 50-100 guests, budget $20,000-60,000 including bridal mehendi.",
         },
         {
           question: "How far in advance should I book a mehendi artist?",
@@ -210,9 +210,9 @@ export const nicheData: NicheData = {
         "Venue selection and booking assistance including palace hotels, farmhouses, banquet halls, beach resorts, heritage properties, and unconventional venue scouting with negotiation support.",
       faqItems: [
         {
-          question: "What do wedding venues cost globally's top cities?",
+          question: "What do wedding venues cost across the US's top cities?",
           answer:
-            "New York banquet halls: $3-1500k/day. London farmhouses: $2-1000k/day. Udaipur palace hotels: $10-5000k for 2-3 day package. Goa beach venues: $3-1200k/day. Sydney resorts: $2-800k/day. Jaipur heritage properties: $5-2500k for 2-3 days. Prices vary by season — peak season (Nov-Feb) costs 30-50% more.",
+            "New York banquet halls: $3-1500k/day. New York farmhouses: $2-1000k/day. Napa Valley palace hotels: $10-5000k for 2-3 day package. Hawaii beach venues: $3-1200k/day. Los Angeles resorts: $2-800k/day. Denver heritage properties: $5-2500k for 2-3 days. Prices vary by season — peak season (Nov-Feb) costs 30-50% more.",
         },
         {
           question: "Should I book the venue directly or through a wedding planner?",
@@ -228,36 +228,36 @@ export const nicheData: NicheData = {
     },
   ],
   costKeywords: [
-    "destination wedding cost Global",
+    "destination wedding cost the US",
     "wedding planner fees",
     "wedding decoration cost",
     "wedding photography charges",
-    "wedding venue cost Global",
+    "wedding venue cost the US",
   ],
   nicheKeywords: [
     "best wedding planner near me",
-    "destination wedding planner Udaipur",
-    "wedding planner cost Global",
-    "top wedding planners in London",
+    "destination wedding planner Napa Valley",
+    "wedding planner cost the US",
+    "top wedding planners in New York",
     "luxury wedding planner New York",
-    "budget wedding planner Sydney",
+    "budget wedding planner Los Angeles",
   ],
   schemaType: "EventPlanner",
   metaCategory: "lifestyle",
   citations: [
     {
-      name: "WedMeGood",
-      url: "https://www.wedmegood.com",
+      name: "The Knot",
+      url: "https://www.theknot.com",
       type: "niche-specific",
     },
     {
-      name: "WeddingWire Global",
+      name: "WeddingWire the US",
       url: "https://www.weddingwire.in",
       type: "niche-specific",
     },
     {
-      name: "ShaadiSaga",
-      url: "https://www.shaadisaga.com",
+      name: "Zola",
+      url: "https://www.zola.com",
       type: "niche-specific",
     },
     {
@@ -266,7 +266,7 @@ export const nicheData: NicheData = {
       type: "local",
     },
     {
-      name: "WeddingSutra",
+      name: "Martha Stewart Weddings",
       url: "https://www.weddingsutra.com",
       type: "niche-specific",
     },

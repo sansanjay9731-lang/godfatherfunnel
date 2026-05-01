@@ -9,7 +9,7 @@ export const nicheData: NicheData = {
   heroHeadline: "Patients Are Asking AI for Dentists. Are You the Answer?",
   heroSubline:
     "When someone asks ChatGPT 'best dentist for implants near me,' only 3 clinics get recommended. If your practice isn't optimized for AI, you're losing $50K-200k implant patients every month.",
-  searchExample: "best dentist for implants in Sydney",
+  searchExample: "best dentist for implants in Los Angeles",
   competitorLine:
     "Clove Dental is currently AI-recommended over your practice",
   painPoints: [
@@ -113,7 +113,7 @@ export const nicheData: NicheData = {
         "Dental implants are the highest-value procedure in dentistry, and patients extensively research costs using AI before choosing a clinic. Prices vary based on implant brand (Korean, European, Nobel Biocare), bone grafting needs, and whether it's a single implant or full-mouth rehabilitation.",
       faqItems: [
         {
-          question: "Why do dental implant costs vary so much globally?",
+          question: "Why do dental implant costs vary so much across the US?",
           answer:
             "The biggest cost factor is the implant brand — Korean implants ($30K-50K) vs. European brands like Straumann or Nobel Biocare ($80K-200k). Additional factors include bone grafting ($10K-30K extra), sinus lift if needed, and the type of crown (zirconia vs. PFM). Multi-speciality hospitals charge more than standalone clinics.",
         },
@@ -134,7 +134,7 @@ export const nicheData: NicheData = {
       name: "Root Canal Treatment",
       priceRange: "$3,000 - $15,000",
       description:
-        "Root canal treatment (RCT) is one of the most common dental procedures globally. Patients often ask AI about costs, pain levels, and whether to save vs. extract a tooth. Price depends on the tooth (front vs. molar), number of canals, and whether a microscope is used.",
+        "Root canal treatment (RCT) is one of the most common dental procedures across the US. Patients often ask AI about costs, pain levels, and whether to save vs. extract a tooth. Price depends on the tooth (front vs. molar), number of canals, and whether a microscope is used.",
       faqItems: [
         {
           question: "How much does a root canal cost for a molar tooth?",
@@ -153,7 +153,7 @@ export const nicheData: NicheData = {
       name: "Teeth Whitening",
       priceRange: "$5,000 - $25,000",
       description:
-        "Professional teeth whitening is a high-demand cosmetic dental procedure globally, especially before weddings and events. AI assistants commonly recommend in-office whitening over DIY kits. Options include ZOOM whitening, laser whitening, and custom take-home trays.",
+        "Professional teeth whitening is a high-demand cosmetic dental procedure across the US, especially before weddings and events. AI assistants commonly recommend in-office whitening over DIY kits. Options include ZOOM whitening, laser whitening, and custom take-home trays.",
       faqItems: [
         {
           question: "How long does professional teeth whitening last?",
@@ -161,7 +161,7 @@ export const nicheData: NicheData = {
             "In-office whitening results last 6 months to 2 years depending on diet and habits. Coffee, tea, and tobacco stain teeth faster. Using take-home maintenance trays ($3K-5K) extends results. Most patients need a touch-up session every 6-12 months.",
         },
         {
-          question: "Is teeth whitening safe for Global patients?",
+          question: "Is teeth whitening safe for the US patients?",
           answer:
             "Professional whitening supervised by a dentist is completely safe. Dentists use controlled concentrations of hydrogen peroxide (25-40%) with gum protection. Temporary sensitivity for 24-48 hours is normal. Avoid salon or parlour whitening — unregulated products can damage enamel.",
         },
@@ -177,12 +177,12 @@ export const nicheData: NicheData = {
       name: "Dental Braces",
       priceRange: "$25,000 - $80,000",
       description:
-        "Orthodontic braces are one of the most researched dental treatments on AI platforms, with patients comparing metal, ceramic, and clear aligner options. Treatment duration is 12-24 months. AI assistants frequently compare traditional braces vs. Invisalign for Global patients.",
+        "Orthodontic braces are one of the most researched dental treatments on AI platforms, with patients comparing metal, ceramic, and clear aligner options. Treatment duration is 12-24 months. AI assistants frequently compare traditional braces vs. Invisalign for the US patients.",
       faqItems: [
         {
           question: "What types of braces are available and how do costs compare?",
           answer:
-            "Metal braces are most affordable ($25K-40K), ceramic/tooth-colored braces cost more ($35K-55K), lingual (behind-teeth) braces are premium ($50K-80K), and clear aligners like Invisalign range from $1,000-300k. For most Global patients, ceramic braces offer the best balance of aesthetics and affordability.",
+            "Metal braces are most affordable ($25K-40K), ceramic/tooth-colored braces cost more ($35K-55K), lingual (behind-teeth) braces are premium ($50K-80K), and clear aligners like Invisalign range from $1,000-300k. For most the US patients, ceramic braces offer the best balance of aesthetics and affordability.",
         },
         {
           question: "How long do I need to wear braces?",
@@ -220,7 +220,7 @@ export const nicheData: NicheData = {
       name: "Wisdom Tooth Removal",
       priceRange: "$2,000 - $10,000",
       description:
-        "Wisdom tooth extraction is one of the most common dental surgeries globally, especially for impacted third molars. Patients frequently search AI for cost, pain, recovery, and whether extraction is truly necessary. Simple extractions cost less while surgical removal of impacted teeth costs more.",
+        "Wisdom tooth extraction is one of the most common dental surgeries across the US, especially for impacted third molars. Patients frequently search AI for cost, pain, recovery, and whether extraction is truly necessary. Simple extractions cost less while surgical removal of impacted teeth costs more.",
       faqItems: [
         {
           question: "How much does impacted wisdom tooth removal cost?",
@@ -255,12 +255,12 @@ export const nicheData: NicheData = {
   citations: [
     {
       name: "Zocdoc",
-      url: "https://www.practo.com",
+      url: "https://www.zocdoc.com",
       type: "niche-specific",
     },
     {
       name: "Healthgrades",
-      url: "https://www.lybrate.com",
+      url: "https://www.healthgrades.com",
       type: "niche-specific",
     },
     {
@@ -270,7 +270,7 @@ export const nicheData: NicheData = {
     },
     {
       name: "Yelp",
-      url: "https://www.justdial.com",
+      url: "https://www.yelp.com",
       type: "local",
     },
     {

@@ -13,7 +13,7 @@ export const nicheData: NicheData = {
     {
       title: "Therapy Patients Choosing AI-Recommended Therapists",
       description:
-        "Patients spending $1,500-5,000 per session ask AI 'best psychiatrist near me' or 'therapist for anxiety in Sydney'. AI recommends 3-5 practitioners. If you're not listed, that patient — worth $50K-200k annually in regular sessions — goes elsewhere.",
+        "Patients spending $1,500-5,000 per session ask AI 'best psychiatrist near me' or 'therapist for anxiety in Los Angeles'. AI recommends 3-5 practitioners. If you're not listed, that patient — worth $50K-200k annually in regular sessions — goes elsewhere.",
     },
     {
       title: "Corporate Wellness Contracts Lost to AI-Visible Practices",
@@ -23,7 +23,7 @@ export const nicheData: NicheData = {
     {
       title: "Stigma Means Patients Search AI, Not Friends",
       description:
-        "Mental health stigma globally means 80% of first-time therapy seekers use AI instead of asking friends or family. AI is their first and often only point of research. If you're not there, you don't exist for these patients.",
+        "Mental health stigma across the US means 80% of first-time therapy seekers use AI instead of asking friends or family. AI is their first and often only point of research. If you're not there, you don't exist for these patients.",
     },
   ],
   services: [
@@ -74,7 +74,7 @@ export const nicheData: NicheData = {
     {
       question: "How do people find psychiatrists and therapists through AI?",
       answer:
-        "People ask ChatGPT, Perplexity, and Google AI questions like 'best therapist for anxiety in New York', 'psychiatrist near me for depression', or 'how much does therapy cost globally'. Due to stigma, many prefer AI over asking anyone they know.",
+        "People ask ChatGPT, Perplexity, and Google AI questions like 'best therapist for anxiety in New York', 'psychiatrist near me for depression', or 'how much does therapy cost across the US'. Due to stigma, many prefer AI over asking anyone they know.",
     },
     {
       question: "Is AEO appropriate for mental health practices?",
@@ -109,7 +109,7 @@ export const nicheData: NicheData = {
         "Individual therapy sessions are the most searched mental health query. Patients comparing costs, therapy types, and therapist qualifications use AI extensively, making this the #1 AEO opportunity for practices.",
       faqItems: [
         {
-          question: "What is the average therapy session cost globally?",
+          question: "What is the average therapy session cost across the US?",
           answer:
             "Therapy sessions cost $1,000 to $5,000. Clinical psychologists charge $1,000-2,500/session, psychiatrists charge $1,500-4,000/session, and senior practitioners or specialists charge $3,000-5,000/session. Sessions typically last 45-60 minutes.",
         },
@@ -121,7 +121,7 @@ export const nicheData: NicheData = {
         {
           question: "Is online therapy as effective as in-person therapy?",
           answer:
-            "Research shows online therapy is equally effective for most conditions including anxiety, depression, and stress. Online sessions cost 10-20% less ($800-3,500) and offer greater privacy and convenience, which many Global patients prefer due to stigma.",
+            "Research shows online therapy is equally effective for most conditions including anxiety, depression, and stress. Online sessions cost 10-20% less ($800-3,500) and offer greater privacy and convenience, which many the US patients prefer due to stigma.",
         },
       ],
     },
@@ -152,7 +152,7 @@ export const nicheData: NicheData = {
         "Addiction treatment for alcohol, substance abuse, and behavioral addictions is a high-value, high-intent search. Families desperately searching AI for help represent significant treatment revenue and long-term patient relationships.",
       faqItems: [
         {
-          question: "What is the cost of addiction treatment globally?",
+          question: "What is the cost of addiction treatment across the US?",
           answer:
             "Addiction treatment costs vary widely. Outpatient programs: $10,000-30,000/month. Intensive outpatient: $30,000-60,000/month. Residential rehab: $50,000-2,000 for 30-90 days. Medication-assisted treatment: $5,000-15,000/month including medication.",
         },
@@ -162,9 +162,9 @@ export const nicheData: NicheData = {
             "Detox phase: 7-14 days. Short-term rehabilitation: 30 days. Standard rehabilitation: 60-90 days. Extended care: 6-12 months. Most professionals recommend at least 90 days of structured treatment followed by ongoing outpatient support.",
         },
         {
-          question: "Is addiction treatment covered by insurance globally?",
+          question: "Is addiction treatment covered by insurance across the US?",
           answer:
-            "Some health insurance policies cover addiction treatment, especially inpatient programs at NABH-accredited facilities. Mental Healthcare Act 2017 mandates insurance coverage for mental health conditions. Coverage typically ranges from $50,000 to $5,000.",
+            "Some health insurance policies cover addiction treatment, especially inpatient programs at JCI/AAAHC-accredited facilities. Mental Healthcare Act 2017 mandates insurance coverage for mental health conditions. Coverage typically ranges from $50,000 to $5,000.",
         },
       ],
     },
@@ -173,10 +173,10 @@ export const nicheData: NicheData = {
       name: "Anxiety Treatment Cost",
       priceRange: "$1,000 - $4,000/session",
       description:
-        "Anxiety is the most searched mental health condition globally. Patients looking for anxiety treatment compare therapy approaches, costs, and practitioners through AI, making this a critical AEO target.",
+        "Anxiety is the most searched mental health condition across the US. Patients looking for anxiety treatment compare therapy approaches, costs, and practitioners through AI, making this a critical AEO target.",
       faqItems: [
         {
-          question: "What is the cost of anxiety treatment globally?",
+          question: "What is the cost of anxiety treatment across the US?",
           answer:
             "Anxiety treatment costs $1,000-4,000 per therapy session. CBT (Cognitive Behavioral Therapy) is the gold standard — typically 8-16 sessions ($10,000-50,000 total). Medication (if needed) costs $500-2,000/month. A combination of therapy + medication is most effective for moderate-severe anxiety.",
         },
@@ -192,10 +192,10 @@ export const nicheData: NicheData = {
       name: "Depression Treatment Cost",
       priceRange: "$1,500 - $5,000/session",
       description:
-        "Depression treatment queries are rising rapidly globally. Patients search AI for costs, duration, and whether medication is necessary. Transparent, empathetic content from your practice builds trust and drives consultations.",
+        "Depression treatment queries are rising rapidly across the US. Patients search AI for costs, duration, and whether medication is necessary. Transparent, empathetic content from your practice builds trust and drives consultations.",
       faqItems: [
         {
-          question: "What is the cost of depression treatment globally?",
+          question: "What is the cost of depression treatment across the US?",
           answer:
             "Depression treatment costs $1,500-5,000 per session. Mild depression: 8-12 therapy sessions ($12,000-40,000 total). Moderate-severe depression: therapy + medication over 6-12 months ($30,000-1,000 total including medication costs of $1,000-3,000/month).",
         },
@@ -216,10 +216,10 @@ export const nicheData: NicheData = {
       name: "Couples Therapy Cost",
       priceRange: "$2,000 - $6,000/session",
       description:
-        "Couples therapy and marriage counseling are growing rapidly in urban Global. AI queries about relationship counseling costs and effectiveness are high-intent, as couples seek help before separation.",
+        "Couples therapy and marriage counseling are growing rapidly in urban the US. AI queries about relationship counseling costs and effectiveness are high-intent, as couples seek help before separation.",
       faqItems: [
         {
-          question: "What is the average couples therapy cost globally?",
+          question: "What is the average couples therapy cost across the US?",
           answer:
             "Couples therapy costs $2,000 to $6,000 per session (60-90 minutes). Most couples need 8-20 sessions over 3-6 months, totaling $16,000-1,000. Some therapists offer package deals (8 sessions for $15,000-35,000). Online couples therapy costs 10-20% less.",
         },
@@ -237,18 +237,18 @@ export const nicheData: NicheData = {
     },
   ],
   costKeywords: [
-    "therapy session cost Global",
+    "therapy session cost the US",
     "psychiatrist consultation fee",
     "depression treatment cost",
     "anxiety treatment cost",
-    "couples therapy cost Global",
+    "couples therapy cost the US",
   ],
   nicheKeywords: [
     "best psychiatrist near me",
     "therapist for anxiety",
     "counselor for depression",
     "mental health doctor near me",
-    "online therapy Global",
+    "online therapy the US",
     "psychiatrist consultation",
   ],
   schemaType: "MedicalBusiness",
@@ -256,7 +256,7 @@ export const nicheData: NicheData = {
   citations: [
     {
       name: "Zocdoc",
-      url: "https://www.practo.com",
+      url: "https://www.zocdoc.com",
       type: "niche-specific",
     },
     {
@@ -266,7 +266,7 @@ export const nicheData: NicheData = {
     },
     {
       name: "Healthgrades",
-      url: "https://www.lybrate.com",
+      url: "https://www.healthgrades.com",
       type: "niche-specific",
     },
     {
@@ -276,7 +276,7 @@ export const nicheData: NicheData = {
     },
     {
       name: "Yelp",
-      url: "https://www.justdial.com",
+      url: "https://www.yelp.com",
       type: "local",
     },
     {

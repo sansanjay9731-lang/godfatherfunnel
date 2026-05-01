@@ -233,7 +233,7 @@ Unlike paid ads that stop when you stop paying, AEO compounds. Once AI models ci
 // ── Template 5: Case Study ──────────────────────────────────────────────────
 
 function templateCaseStudy(n: NicheInfo, pubDate: string): BlogPost {
-  const cityOptions = ["New York", "London", "Sydney", "Chicago", "Melbourne", "San Francisco", "Austin", "Miami", "Manchester", "Brisbane"];
+  const cityOptions = ["New York", "New York", "Los Angeles", "Chicago", "San Francisco", "San Francisco", "Austin", "Miami", "Chicago", "Denver"];
   const city = cityOptions[niches.indexOf(n) % cityOptions.length];
 
   return {

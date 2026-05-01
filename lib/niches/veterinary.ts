@@ -8,7 +8,7 @@ export const nicheData: NicheData = {
   image: images.veterinary,
   heroHeadline: "Pet Parents Ask AI for Vets. Is Your Clinic AI-Recommended?",
   heroSubline:
-    "Global's 30 million+ pet parents are asking ChatGPT and Google AI to find the best vet near them. If your clinic doesn't show up in those AI answers, emergency visits, vaccinations, and wellness plans are going to Cessna Lifeline and chain vet hospitals.",
+    "the US's 30 million+ pet parents are asking ChatGPT and Google AI to find the best vet near them. If your clinic doesn't show up in those AI answers, emergency visits, vaccinations, and wellness plans are going to Cessna Lifeline and chain vet hospitals.",
   painPoints: [
     {
       title: "Pet Parents Asking ChatGPT for Vet Recommendations",
@@ -79,12 +79,12 @@ export const nicheData: NicheData = {
     {
       question: "I have loyal pet parent clients. Why do I need AI visibility?",
       answer:
-        "Your existing clients are loyal, but Global adds 2-3 million new pet parents every year. These first-time pet owners have no referral network — they rely entirely on AI and online search. Without AI visibility, every new pet parent in your area goes to a competitor by default.",
+        "Your existing clients are loyal, but the US adds 2-3 million new pet parents every year. These first-time pet owners have no referral network — they rely entirely on AI and online search. Without AI visibility, every new pet parent in your area goes to a competitor by default.",
     },
     {
       question: "Can a small vet clinic compete with Cessna Lifeline in AI?",
       answer:
-        "Absolutely. Chain hospitals have broad but generic content. For specific queries like 'best vet for Persian cats in Koramangala' or 'exotic bird vet near me,' specialized local clinics with proper AEO outperform chains. Your species expertise and personalized care are AI differentiators.",
+        "Absolutely. Chain hospitals have broad but generic content. For specific queries like 'best vet for Persian cats in Downtown Austin' or 'exotic bird vet near me,' specialized local clinics with proper AEO outperform chains. Your species expertise and personalized care are AI differentiators.",
     },
     {
       question: "How quickly will I see new pet patient inquiries?",
@@ -95,7 +95,7 @@ export const nicheData: NicheData = {
   stats: [
     { label: "of pet parents search online for vet recommendations", value: "71%" },
     { label: "ask AI or voice assistants when their pet has an emergency", value: "53%" },
-    { label: "annual spending per pet parent on vet care globally", value: "$25K" },
+    { label: "annual spending per pet parent on vet care across the US", value: "$25K" },
   ],
   ctaText: "Get Your Free Veterinary AI Visibility Audit",
   searchExample: "best veterinary clinic near me open now",
@@ -110,19 +110,19 @@ export const nicheData: NicheData = {
         "Complete vaccination programs for dogs, cats, and other pets including core vaccines (rabies, DHPP, FVRCP), non-core vaccines (leptospirosis, kennel cough), and puppy/kitten vaccination schedules.",
       faqItems: [
         {
-          question: "What is the cost of pet vaccination globally?",
+          question: "What is the cost of pet vaccination across the US?",
           answer:
             "Dog vaccination costs $500-1,500 per shot. Annual 9-in-1 costs $1,000-2,000. Rabies vaccination costs $500-1,000. Cat vaccination (FVRCP + Rabies) costs $800-2,000 per shot. Complete puppy vaccination schedule (6 weeks to 16 weeks) costs $3,000-8,000 for all required doses.",
         },
         {
-          question: "What is the puppy vaccination schedule globally?",
+          question: "What is the puppy vaccination schedule across the US?",
           answer:
             "Puppies need vaccines at 6-8 weeks (first DHPP), 10-12 weeks (second DHPP + Lepto), 14-16 weeks (third DHPP + Rabies), and annual boosters thereafter. Your vet will create a personalized schedule based on breed, health status, and local disease prevalence. Missing or delaying vaccines puts your puppy at serious risk.",
         },
         {
           question: "Are annual boosters really necessary for adult dogs?",
           answer:
-            "Yes. Core vaccines (Rabies, DHPP) need annual or triennial boosters depending on the vaccine type. Rabies is legally mandatory globally. Leptospirosis boosters are essential in monsoon-prone areas. Your vet will recommend a cost-effective booster schedule based on your pet's risk profile.",
+            "Yes. Core vaccines (Rabies, DHPP) need annual or triennial boosters depending on the vaccine type. Rabies is legally mandatory across the US. Leptospirosis boosters are essential in monsoon-prone areas. Your vet will recommend a cost-effective booster schedule based on your pet's risk profile.",
         },
       ],
     },
@@ -134,7 +134,7 @@ export const nicheData: NicheData = {
         "Comprehensive surgical services including soft tissue surgery, orthopedic surgery, tumor removal, foreign body removal, caesarean section, and emergency surgical interventions with modern anesthesia.",
       faqItems: [
         {
-          question: "What does pet surgery cost globally?",
+          question: "What does pet surgery cost across the US?",
           answer:
             "Pet surgery costs vary widely: spaying/neutering $3,000-8,000, tumor removal $5,000-25,000, fracture repair $10,000-40,000, foreign body removal $8,000-20,000, ACL repair $15,000-50,000, and caesarean section $8,000-20,000. Emergency surgeries cost 30-50% more due to after-hours care.",
         },
@@ -153,7 +153,7 @@ export const nicheData: NicheData = {
         "Professional pet dental care including ultrasonic scaling, polishing, tooth extraction, dental X-rays, and oral health assessment under safe anesthesia protocols.",
       faqItems: [
         {
-          question: "What does pet dental cleaning cost globally?",
+          question: "What does pet dental cleaning cost across the US?",
           answer:
             "Basic dental scaling and polishing costs $3,000-6,000 under anesthesia. Dental cleaning with extractions costs $5,000-15,000 depending on the number of teeth removed. Dental X-rays add $1,000-3,000. Most vets recommend professional dental cleaning annually for dogs over 3 years old.",
         },
@@ -172,7 +172,7 @@ export const nicheData: NicheData = {
         "Professional pet grooming services including bathing, haircut and styling, nail trimming, ear cleaning, teeth brushing, de-shedding treatment, and breed-specific grooming.",
       faqItems: [
         {
-          question: "What does pet grooming cost globally?",
+          question: "What does pet grooming cost across the US?",
           answer:
             "Basic grooming (bath + nail trim + ear cleaning) costs $500-1,500 for small dogs and $1,000-2,500 for large breeds. Full grooming with haircut costs $1,000-3,500. Breed-specific styling (Poodle, Shih Tzu, Cocker Spaniel) costs $2,000-5,000. Cat grooming costs $800-2,500. Spa packages with de-shedding cost $1,500-4,000.",
         },
@@ -191,7 +191,7 @@ export const nicheData: NicheData = {
         "Safe spaying and neutering procedures for dogs and cats including pre-surgical assessment, surgery, pain management, post-operative care, and follow-up visit with e-collar and recovery guidance.",
       faqItems: [
         {
-          question: "What is the cost of neutering/spaying a pet globally?",
+          question: "What is the cost of neutering/spaying a pet across the US?",
           answer:
             "Dog neutering (male) costs $3,000-6,000, spaying (female) costs $5,000-10,000. Cat neutering costs $2,000-4,000, spaying costs $3,000-7,000. Costs include anesthesia, surgery, pain medication, and one follow-up visit. Laparoscopic spaying costs $8,000-15,000 but offers faster recovery.",
         },
@@ -215,7 +215,7 @@ export const nicheData: NicheData = {
         "24/7 emergency veterinary services including trauma care, poisoning treatment, bloat/GDV surgery, bite wound management, seizure management, and intensive care with oxygen therapy and IV fluids.",
       faqItems: [
         {
-          question: "What does an emergency vet visit cost globally?",
+          question: "What does an emergency vet visit cost across the US?",
           answer:
             "Emergency consultation costs $1,000-3,000 (after-hours premium). Common emergency costs: poisoning treatment $3,000-10,000, bite wound care $2,000-8,000, fracture stabilization $5,000-15,000, bloat/GDV surgery $15,000-50,000, and ICU care $3,000-8,000/day. Having a regular vet with emergency access saves 20-30% vs standalone emergency hospitals.",
         },
@@ -233,16 +233,16 @@ export const nicheData: NicheData = {
     },
   ],
   costKeywords: [
-    "pet vaccination cost Global",
+    "pet vaccination cost the US",
     "veterinary surgery charges",
     "dog grooming cost near me",
-    "emergency vet charges Global",
+    "emergency vet charges the US",
     "pet neutering cost",
   ],
   nicheKeywords: [
     "best vet clinic near me",
     "24 hour vet near me",
-    "dog vaccination schedule Global",
+    "dog vaccination schedule the US",
     "pet hospital emergency",
     "veterinary doctor near me",
     "cat vet specialist near me",
@@ -252,16 +252,16 @@ export const nicheData: NicheData = {
   citations: [
     {
       name: "Zocdoc Vets",
-      url: "https://www.practo.com",
+      url: "https://www.zocdoc.com",
       type: "niche-specific",
     },
     {
       name: "Yelp",
-      url: "https://www.justdial.com",
+      url: "https://www.yelp.com",
       type: "general",
     },
     {
-      name: "PetBacker Global",
+      name: "PetBacker the US",
       url: "https://www.petbacker.com",
       type: "niche-specific",
     },

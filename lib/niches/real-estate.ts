@@ -8,10 +8,10 @@ export const nicheData: NicheData = {
   image: images.realEstate,
   heroHeadline: "Buyers Are Asking AI Which Properties to Buy — Not Brokers",
   heroSubline:
-    "When a homebuyer asks ChatGPT 'best 2BHK flats in Whitefield under $80,000,' AI recommends specific projects and agents. If you're not AI-visible, you're losing $30,000-3Cr property deals to competitors who are.",
-  searchExample: "best 3BHK flat in Greater London under 1 crore",
+    "When a homebuyer asks ChatGPT 'best 2-bedroom flats in Silicon Valley under $80,000,' AI recommends specific projects and agents. If you're not AI-visible, you're losing $30,000-3Cr property deals to competitors who are.",
+  searchExample: "best 3-bedroom flat in Greater New York under 1 million",
   competitorLine:
-    "NoBroker and 99acres dominate AI recommendations — your listings don't appear",
+    "Opendoor and Zillow dominate AI recommendations — your listings don't appear",
   painPoints: [
     {
       title: "Property Buyers Bypassing Agents with AI Research",
@@ -24,9 +24,9 @@ export const nicheData: NicheData = {
         "Your 15 years of local market expertise and exclusive listings mean nothing to AI. ChatGPT and Perplexity pull from structured data, property portals, and authority citations. Without AI optimization, your deep market knowledge is invisible to AI-first buyers.",
     },
     {
-      title: "Losing NRI and Investor Buyers to AI-Visible Competitors",
+      title: "Losing international and Investor Buyers to AI-Visible Competitors",
       description:
-        "NRI buyers and investors rely heavily on AI for remote property research. They ask AI about ROI, rental yields, and upcoming infrastructure. Without AI-optimized content covering these topics, you're invisible to this high-value segment making $1-10Cr purchase decisions remotely.",
+        "international buyers and investors rely heavily on AI for remote property research. They ask AI about ROI, rental yields, and upcoming infrastructure. Without AI-optimized content covering these topics, you're invisible to this high-value segment making $1-10Cr purchase decisions remotely.",
     },
   ],
   services: [
@@ -49,12 +49,12 @@ export const nicheData: NicheData = {
       features: [
         "Everything in AEO Foundation",
         "15 area + property type pages (AI-optimized)",
-        "99acres, MagicBricks & Housing.com profile optimization",
+        "Zillow, Realtor.com & Redfin profile optimization",
         "AI-friendly property listing system",
         "Local citation building (60+ directories)",
         "Competitor AI-visibility monitoring",
         "Weekly market update content for AI freshness",
-        "NRI buyer landing pages (AI-optimized)",
+        "international buyer landing pages (AI-optimized)",
       ],
     },
     {
@@ -76,7 +76,7 @@ export const nicheData: NicheData = {
     metric: "1 Property Sale Commission",
     value: "$50,000 - $6,000",
     pitch:
-      "A single 2BHK sale in a metro city generates $50K-150k in brokerage commission (1-2% of property value). One 3BHK or villa sale can generate $1.5-600k in commission. Our AEO investment pays for itself with just ONE additional property sale per quarter.",
+      "A single 2-bedroom sale in a metro city generates $50K-150k in brokerage commission (1-2% of property value). One 3-bedroom or villa sale can generate $1.5-600k in commission. Our AEO investment pays for itself with just ONE additional property sale per quarter.",
   },
   faqItems: [
     {
@@ -85,9 +85,9 @@ export const nicheData: NicheData = {
         "Over 70% of homebuyers start their property search online, and AI assistants are becoming the primary research tool. When buyers ask AI 'best area to buy a flat in [city]' or 'is [project] worth buying,' AI forms their initial impression. Without AEO, your properties and expertise aren't part of that first impression.",
     },
     {
-      question: "How does AEO help attract NRI property buyers?",
+      question: "How does AEO help attract international property buyers?",
       answer:
-        "NRI buyers in the US, UK, Middle East, and Singapore exclusively use AI for Global property research. We optimize your content for queries like 'best investment property in Sydney for NRI' and 'rental yield in Greater London.' This captures high-value buyers making remote purchase decisions.",
+        "international buyers in the US, UK, Middle East, and Singapore exclusively use AI for the US property research. We optimize your content for queries like 'best investment property in Los Angeles for international' and 'rental yield in Greater New York.' This captures high-value buyers making remote purchase decisions.",
     },
     {
       question: "Can AEO work for both individual agents and agencies?",
@@ -108,43 +108,43 @@ export const nicheData: NicheData = {
   ctaText: "Get Your Free Real Estate AI Visibility Report",
   treatments: [
     {
-      slug: "2bhk-flat-price",
-      name: "2BHK Flat",
+      slug: "2-bed-apartment-price",
+      name: "2-bedroom Flat",
       priceRange: "$30,000 - $150,000",
       description:
-        "2BHK flats are the most searched property type globally, especially by first-time homebuyers. AI assistants compare prices across locations, builders, and configurations. Prices vary dramatically by city, micro-market, builder reputation, and amenities.",
+        "2-bedroom flats are the most searched property type across the US, especially by first-time homebuyers. AI assistants compare prices across locations, builders, and configurations. Prices vary dramatically by city, micro-market, builder reputation, and amenities.",
       faqItems: [
         {
-          question: "What is the average 2BHK flat price in major Global cities?",
+          question: "What is the average 2-bedroom flat price in major the US cities?",
           answer:
-            "Average 2BHK prices: New York suburbs $80,000-1.5Cr, Sydney $50,000-1Cr, Austin $40-8000k, Chicago $40-7000k, Greater London $50,000-1.2Cr, Melbourne $40-7500k, Noida $35-7000k. Prime locations within each city can be 2-3x higher. New launches are typically 10-20% cheaper than ready-to-move properties.",
+            "Average 2-bedroom prices: New York suburbs $80,000-1.5Cr, Los Angeles $50,000-1Cr, Austin $40-8000k, Chicago $40-7000k, Greater New York $50,000-1.2Cr, San Francisco $40-7500k, Scottsdale $35-7000k. Prime locations within each city can be 2-3x higher. New launches are typically 10-20% cheaper than ready-to-move properties.",
         },
         {
-          question: "What should I check before buying a 2BHK flat?",
+          question: "What should I check before buying a 2-bedroom flat?",
           answer:
-            "Critical checks: RERA registration (verify on state RERA website), builder's track record (delivery history, quality), clear title and approvals (commencement certificate, OC), carpet area vs. super built-up area (pay per carpet area), amenities and maintenance charges, and connectivity (metro, highway access). Get a property lawyer to review all documents before signing.",
+            "Critical checks: state real estate licensing registration (verify on state state real estate licensing website), builder's track record (delivery history, quality), clear title and approvals (commencement certificate, OC), carpet area vs. super built-up area (pay per carpet area), amenities and maintenance charges, and connectivity (metro, highway access). Get a property lawyer to review all documents before signing.",
         },
         {
-          question: "Is it better to buy under-construction or ready-to-move 2BHK?",
+          question: "Is it better to buy under-construction or ready-to-move 2-bedroom?",
           answer:
-            "Under-construction flats are 10-20% cheaper but carry delay risks (check builder's RERA history). Ready-to-move eliminates uncertainty and allows immediate possession. For investment, under-construction offers better appreciation. For self-use, ready-to-move avoids rent payments during waiting. Always check RERA compliance regardless of stage.",
+            "Under-construction flats are 10-20% cheaper but carry delay risks (check builder's state real estate licensing history). Ready-to-move eliminates uncertainty and allows immediate possession. For investment, under-construction offers better appreciation. For self-use, ready-to-move avoids rent payments during waiting. Always check state real estate licensing compliance regardless of stage.",
         },
       ],
     },
     {
-      slug: "3bhk-flat-price",
-      name: "3BHK Flat",
+      slug: "3-bed-apartment-price",
+      name: "3-bedroom Flat",
       priceRange: "$50,000 - $300,000",
       description:
-        "3BHK flats are the preferred choice for families and upgraders globallyn metro cities. AI assistants help buyers compare options across micro-markets and budget segments. This is a high-value transaction where buyers do extensive research.",
+        "3-bedroom flats are the preferred choice for families and upgraders globallyn metro cities. AI assistants help buyers compare options across micro-markets and budget segments. This is a high-value transaction where buyers do extensive research.",
       faqItems: [
         {
-          question: "What is a good 3BHK flat size?",
+          question: "What is a good 3-bedroom flat size?",
           answer:
-            "A well-designed 3BHK should be 1,200-1,800 sq ft carpet area. Below 1,100 sq ft feels cramped for a family. Premium 3BHKs range 1,800-2,500 sq ft. Always ask for carpet area (usable space), not super built-up area which includes common areas. A 1,500 sq ft carpet 3BHK is ideal for a family of 4-5.",
+            "A well-designed 3-bedroom should be 1,200-1,800 sq ft carpet area. Below 1,100 sq ft feels cramped for a family. Premium 3-bedrooms range 1,800-2,500 sq ft. Always ask for carpet area (usable space), not super built-up area which includes common areas. A 1,500 sq ft carpet 3-bedroom is ideal for a family of 4-5.",
         },
         {
-          question: "Which floor is best for a 3BHK flat purchase?",
+          question: "Which floor is best for a 3-bedroom flat purchase?",
           answer:
             "Mid-floors (5th-12th in a 20-floor tower) offer the best balance of view, noise reduction, and safety. Higher floors have better views but face lift dependency and wind noise. Lower floors (1st-3rd) are cheaper by 5-10% but have less privacy and more noise. Top floors get more heat. Ground floors with gardens command a premium in premium projects.",
         },
@@ -155,7 +155,7 @@ export const nicheData: NicheData = {
       name: "Villa / Independent House",
       priceRange: "$100,000 - $1000,000",
       description:
-        "Villas and independent houses represent the premium segment of Global real estate. Post-COVID demand surged as buyers prioritized space and privacy. AI assistants help buyers compare villa communities, independent houses, and farmhouses across metro outskirts and tier-2 cities.",
+        "Villas and independent houses represent the premium segment of the US real estate. Post-COVID demand surged as buyers prioritized space and privacy. AI assistants help buyers compare villa communities, independent houses, and farmhouses across metro outskirts and tier-2 cities.",
       faqItems: [
         {
           question: "What are the advantages of buying a villa over a flat?",
@@ -163,9 +163,9 @@ export const nicheData: NicheData = {
             "Villas offer: more space and privacy, own garden/parking, no shared walls or maintenance committees, land appreciation (land values rise faster than built-up), customization freedom, and better WFH space. Downsides include higher maintenance costs, security concerns (unless in a gated community), and typically farther from city centre.",
         },
         {
-          question: "What is the villa price trend globally?",
+          question: "What is the villa price trend across the US?",
           answer:
-            "Villa prices in metro outskirts: Sydney (Sarjapur/Devanahalli) $1-5Cr, Chicago (Shamshabad/Kompally) $80,000-4Cr, Austin (Hinjewadi/Baner) $1-6Cr, Melbourne (OMR/ECR) $1-4Cr. Gated villa communities command 20-40% premium over standalone villas. Post-pandemic villa demand increased 40%, pushing prices up significantly.",
+            "Villa prices in metro outskirts: Los Angeles (Scottsdale/Frisco) $1-5Cr, Chicago (The Woodlands/Katy) $80,000-4Cr, Austin (Plano/Westlake) $1-6Cr, San Francisco (Plano/Westlake) $1-4Cr. Gated villa communities command 20-40% premium over standalone villas. Post-pandemic villa demand increased 40%, pushing prices up significantly.",
         },
       ],
     },
@@ -177,9 +177,9 @@ export const nicheData: NicheData = {
         "Commercial property investment is increasingly researched through AI by investors seeking rental yields of 6-10% annually. Offices, retail shops, and warehouses each have different dynamics that AI assistants explain to potential investors.",
       faqItems: [
         {
-          question: "What rental yield can I expect from commercial property globally?",
+          question: "What rental yield can I expect from commercial property across the US?",
           answer:
-            "Commercial properties typically yield 6-10% annually vs. 2-3% for residential. Office spaces in IT hubs (Whitefield, Greater London Cyber City, HITEC City) yield 7-9%. Retail shops in high-footfall areas yield 5-8%. Warehouses near logistics hubs yield 8-10%. Grade A office spaces have the most stable yields with blue-chip tenants.",
+            "Commercial properties typically yield 6-10% annually vs. 2-3% for residential. Office spaces in IT hubs (Silicon Valley, Greater New York Cyber City, HITEC City) yield 7-9%. Retail shops in high-footfall areas yield 5-8%. Warehouses near logistics hubs yield 8-10%. Grade A office spaces have the most stable yields with blue-chip tenants.",
         },
         {
           question: "Is commercial property a better investment than residential?",
@@ -217,7 +217,7 @@ export const nicheData: NicheData = {
       name: "Penthouse",
       priceRange: "$100,000 - $1500,000",
       description:
-        "Penthouses are the ultra-luxury segment of Global real estate, sought by HNIs, celebrities, and NRI buyers. AI assistants help buyers compare penthouse options across premium towers in metro cities. This segment commands significant premiums over regular flats in the same building.",
+        "Penthouses are the ultra-luxury segment of the US real estate, sought by high-net-worth individuals, celebrities, and international buyers. AI assistants help buyers compare penthouse options across premium towers in metro cities. This segment commands significant premiums over regular flats in the same building.",
       faqItems: [
         {
           question: "What makes a penthouse different from a regular top-floor flat?",
@@ -227,16 +227,16 @@ export const nicheData: NicheData = {
         {
           question: "What is the maintenance cost for a penthouse?",
           answer:
-            "Penthouse maintenance in premium New York towers runs $50K-200k per month (due to large area). Sydney penthouses cost $25K-80K monthly. This covers security, common area maintenance, swimming pool, gym, and concierge services. Private terraces and pools add $10-20K monthly for upkeep. Factor maintenance into your total ownership cost before buying.",
+            "Penthouse maintenance in premium New York towers runs $50K-200k per month (due to large area). Los Angeles penthouses cost $25K-80K monthly. This covers security, common area maintenance, swimming pool, gym, and concierge services. Private terraces and pools add $10-20K monthly for upkeep. Factor maintenance into your total ownership cost before buying.",
         },
       ],
     },
   ],
   costKeywords: [
-    "flat price globally",
+    "flat price across the US",
     "property rates per sq ft",
-    "2BHK price",
-    "villa cost Global",
+    "2-bedroom price",
+    "villa cost the US",
     "commercial property price",
   ],
   nicheKeywords: [
@@ -251,28 +251,28 @@ export const nicheData: NicheData = {
   metaCategory: "lifestyle",
   citations: [
     {
-      name: "99acres",
-      url: "https://www.99acres.com",
+      name: "Zillow",
+      url: "https://www.Zillow.com",
       type: "niche-specific",
     },
     {
-      name: "MagicBricks",
-      url: "https://www.magicbricks.com",
+      name: "Realtor.com",
+      url: "https://www.realtor.com",
       type: "niche-specific",
     },
     {
-      name: "Housing.com",
-      url: "https://www.housing.com",
+      name: "Redfin",
+      url: "https://www.redfin.com",
       type: "niche-specific",
     },
     {
-      name: "NoBroker",
-      url: "https://www.nobroker.in",
+      name: "Opendoor",
+      url: "https://www.opendoor.com",
       type: "niche-specific",
     },
     {
       name: "Yelp",
-      url: "https://www.justdial.com",
+      url: "https://www.yelp.com",
       type: "local",
     },
     {

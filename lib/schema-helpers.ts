@@ -10,7 +10,7 @@ export function generateOrganizationSchema() {
     logo: `${BASE}/logo.png`,
     description: "#1 AEO & AI Marketing Agency. We make AI recommend your business by name.",
     foundingDate: "2026",
-    areaServed: { "@type": "Country", name: "Global" },
+    areaServed: { "@type": "Country", name: "the US" },
     knowsAbout: [
       "Answer Engine Optimization",
       "AI Marketing",
@@ -148,7 +148,7 @@ export function generateProfessionalServiceSchema(opts: {
     provider: { "@id": `${BASE}/#organization` },
     areaServed: opts.city
       ? { "@type": "City", name: opts.city }
-      : { "@type": "Country", name: "Global" },
+      : { "@type": "Country", name: "the US" },
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: `AEO Services for ${opts.nicheName}`,

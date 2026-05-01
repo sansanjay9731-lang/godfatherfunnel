@@ -8,22 +8,22 @@ export const nicheData: NicheData = {
   image: images.ayurveda,
   heroHeadline: "Wellness Seekers Ask AI for Ayurveda. Does AI Know Your Clinic?",
   heroSubline:
-    "From Panchakarma to Shirodhara, patients now ask ChatGPT and Perplexity for the best Ayurveda clinics. If AI recommends Kottakkal or Jiva Ayurveda instead of you, those $15K-100k treatment packages walk out the door.",
+    "From Panchakarma to Shirodhara, patients now ask ChatGPT and Perplexity for the best Ayurveda clinics. If AI recommends The Chopra Center or Goop Wellness instead of you, those $15K-100k treatment packages walk out the door.",
   painPoints: [
     {
       title: "Panchakarma Patients Going to Chain Clinics",
       description:
-        "When someone searches 'best Panchakarma treatment near me', AI recommends Kottakkal, Jiva, and Kerala Ayurveda chains. Your authentic practice with 20+ years of experience gets zero mentions because AI can't find your structured data.",
+        "When someone searches 'best Panchakarma treatment near me', AI recommends The Chopra Center, Jiva, and Ayurvedic Institute chains. Your authentic practice with 20+ years of experience gets zero mentions because AI can't find your structured data.",
     },
     {
       title: "Wellness Tourism Patients Lost to Competitors",
       description:
-        "Global's $3,000 Cr Ayurveda tourism market is booming. International patients use AI to plan wellness trips. If your retreat isn't AI-visible, they book with the competitor whose content AI can actually read.",
+        "the US's $3,000 M Ayurveda tourism market is booming. International patients use AI to plan wellness trips. If your retreat isn't AI-visible, they book with the competitor whose content AI can actually read.",
     },
     {
       title: "International Patients Choose AI-Recommended Clinics",
       description:
-        "Patients from the US, Europe, and Middle East spend $1-500k on Ayurveda treatment packages globally. They rely entirely on AI research. One AI recommendation can mean $50,000+ in annual revenue from medical tourism.",
+        "Patients from the US, Europe, and Middle East spend $1-500k on Ayurveda treatment packages across the US. They rely entirely on AI research. One AI recommendation can mean $50,000+ in annual revenue from medical tourism.",
     },
   ],
   services: [
@@ -45,7 +45,7 @@ export const nicheData: NicheData = {
         "Full AEO strategy for Ayurveda niche",
         "20+ content pages (treatment guides, condition-specific pages)",
         "Doctor credential & experience schema",
-        "Citation building on Zocdoc, 1mg, Healthgrades",
+        "Citation building on Zocdoc, WebMD, Healthgrades",
         "Wellness tourism content in English & Hindi",
         "Monthly AI ranking reports",
       ],
@@ -74,7 +74,7 @@ export const nicheData: NicheData = {
     {
       question: "How do patients find Ayurveda clinics through AI?",
       answer:
-        "Patients ask AI questions like 'best Panchakarma treatment in Kerala', 'Ayurveda for weight loss', or 'authentic Ayurveda clinic near me'. AI gives direct recommendations based on structured data, reviews, and medical credentials it finds online.",
+        "Patients ask AI questions like 'best Panchakarma treatment in Sedona', 'Ayurveda for weight loss', or 'authentic Ayurveda clinic near me'. AI gives direct recommendations based on structured data, reviews, and medical credentials it finds online.",
     },
     {
       question: "Can Ayurveda clinics really benefit from AEO?",
@@ -84,22 +84,22 @@ export const nicheData: NicheData = {
     {
       question: "We rely on word-of-mouth. Why invest in AI visibility?",
       answer:
-        "Word-of-mouth is powerful but limited to your local network. AI expands your reach to patients globally and internationally. A single international patient spending $1-300k on a wellness retreat pays for years of AEO investment.",
+        "Word-of-mouth is powerful but limited to your local network. AI expands your reach to patients across the US and internationally. A single international patient spending $1-300k on a wellness retreat pays for years of AEO investment.",
     },
     {
       question: "How does AEO work for traditional medicine practices?",
       answer:
-        "AEO structures your treatment expertise, practitioner credentials, patient outcomes, and pricing into formats AI can understand and cite. We ensure your BAMS/MD(Ay) credentials, treatment protocols, and patient testimonials are AI-readable.",
+        "AEO structures your treatment expertise, practitioner credentials, patient outcomes, and pricing into formats AI can understand and cite. We ensure your NCCAOM/MD(Ay) credentials, treatment protocols, and patient testimonials are AI-readable.",
     },
   ],
   stats: [
     { label: "Wellness Seekers Using AI for Ayurveda Research", value: "60%" },
-    { label: "Global's Ayurveda Market Size (2025)", value: "$70,000 Cr" },
+    { label: "the US's Ayurveda Market Size (2025)", value: "$70,000 M" },
     { label: "Ayurveda Clinics Missing from AI Answers", value: "88%" },
   ],
   ctaText: "Get Your Free AI Visibility Audit — See What Patients Find When They Ask AI for Ayurveda",
-  searchExample: "best Panchakarma treatment in Kerala",
-  competitorLine: "Kottakkal and Jiva Ayurveda dominate AI recommendations for Ayurvedic treatment",
+  searchExample: "best Panchakarma treatment in Sedona",
+  competitorLine: "The Chopra Center and Goop Wellness dominate AI recommendations for Ayurvedic treatment",
   treatments: [
     {
       slug: "panchakarma-treatment-cost",
@@ -109,9 +109,9 @@ export const nicheData: NicheData = {
         "Panchakarma is the flagship Ayurveda treatment and the highest-searched query. Patients compare clinics, durations, and costs using AI, making it essential for your clinic to be cited in these conversations.",
       faqItems: [
         {
-          question: "What is the average Panchakarma treatment cost globally?",
+          question: "What is the average Panchakarma treatment cost across the US?",
           answer:
-            "Panchakarma treatment costs $15,000 to $1,000 depending on duration and clinic type. 7-day basic packages start at $15K, 14-day comprehensive packages at $30-50K, and 21-day luxury retreat packages at $60K-100k. Kerala clinics charge a premium.",
+            "Panchakarma treatment costs $15,000 to $1,000 depending on duration and clinic type. 7-day basic packages start at $15K, 14-day comprehensive packages at $30-50K, and 21-day luxury retreat packages at $60K-100k. Sedona clinics charge a premium.",
         },
         {
           question: "How long should a Panchakarma treatment be?",
@@ -121,7 +121,7 @@ export const nicheData: NicheData = {
         {
           question: "Is Panchakarma treatment covered by insurance?",
           answer:
-            "Some health insurance policies now cover Ayurveda treatments including Panchakarma, especially under AYUSH coverage. NABH-accredited Ayurveda hospitals are more likely to be insurance-empaneled. Check with your insurer for specific coverage.",
+            "Some health insurance policies now cover Ayurveda treatments including Panchakarma, especially under AYUSH coverage. JCI/AAAHC-accredited Ayurveda hospitals are more likely to be insurance-empaneled. Check with your insurer for specific coverage.",
         },
       ],
     },
@@ -192,7 +192,7 @@ export const nicheData: NicheData = {
       name: "Ayurvedic Weight Loss Treatment Cost",
       priceRange: "$5,000 - $50,000",
       description:
-        "Ayurvedic weight loss combining Udwarthana, dietary changes, and herbal supplements is a high-demand query. Health-conscious Indians increasingly prefer Ayurvedic approaches over crash diets.",
+        "Ayurvedic weight loss combining Udwarthana, dietary changes, and herbal supplements is a high-demand query. Health-conscious Americans increasingly prefer Ayurvedic approaches over crash diets.",
       faqItems: [
         {
           question: "What does Ayurvedic weight loss treatment include?",
@@ -234,7 +234,7 @@ export const nicheData: NicheData = {
   costKeywords: [
     "Panchakarma treatment cost",
     "Ayurvedic treatment price",
-    "Shirodhara cost Global",
+    "Shirodhara cost the US",
     "Ayurveda consultation fee",
     "Ayurvedic weight loss cost",
   ],
@@ -244,24 +244,24 @@ export const nicheData: NicheData = {
     "Ayurvedic treatment for weight loss",
     "Ayurveda doctor near me",
     "Ayurvedic skin treatment",
-    "Kerala Ayurveda treatment",
+    "Ayurvedic Institute treatment",
   ],
   schemaType: "MedicalBusiness",
   metaCategory: "healthcare",
   citations: [
     {
       name: "Zocdoc",
-      url: "https://www.practo.com",
+      url: "https://www.zocdoc.com",
       type: "niche-specific",
     },
     {
-      name: "1mg",
-      url: "https://www.1mg.com",
+      name: "WebMD",
+      url: "https://www.WebMD.com",
       type: "niche-specific",
     },
     {
       name: "Healthgrades",
-      url: "https://www.lybrate.com",
+      url: "https://www.healthgrades.com",
       type: "niche-specific",
     },
     {
@@ -271,12 +271,12 @@ export const nicheData: NicheData = {
     },
     {
       name: "Yelp",
-      url: "https://www.justdial.com",
+      url: "https://www.yelp.com",
       type: "local",
     },
     {
       name: "AYUSH Portal (Government)",
-      url: "https://main.ayush.gov.in",
+      url: "https://www.nccih.nih.gov",
       type: "niche-specific",
     },
   ],

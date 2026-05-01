@@ -11,10 +11,8 @@ function cityFromSlug(slug: string) {
   return allCities.find((c) => c.slug === slug);
 }
 
-function formatCurrency(price: string, country: string) {
-  const currency = country === "UK" ? "£" : country === "Australia" ? "A$" : "$";
-  // Replace $, $, or £ with the target currency
-  return price.replace(/[$\u20B9\u00A3]/g, currency);
+function formatCurrency(price: string) {
+  return price;
 }
 
 export function generateStaticParams() {
@@ -74,7 +72,7 @@ export default async function CityNichePage({
             areaServed: {
               "@type": "City",
               name: cityName,
-              containedInPlace: { "@type": "Country", name: city.country },
+              containedInPlace: { "@type": "Country", name: "United States" },
             },
           }),
         }}
@@ -223,7 +221,7 @@ export default async function CityNichePage({
                     name: `How much does AI marketing cost for ${niche.name.toLowerCase()} in ${cityName}?`,
                     acceptedAnswer: {
                       "@type": "Answer",
-                      text: `Our plans for ${niche.name.toLowerCase()} start at ${formatCurrency(niche.services[0].price, city.country)}. ${niche.roiExample.pitch}`,
+                      text: `Our plans for ${niche.name.toLowerCase()} start at ${formatCurrency(niche.services[0].price)}. ${niche.roiExample.pitch}`,
                     },
                   },
                   {
@@ -231,7 +229,7 @@ export default async function CityNichePage({
                     name: `Do you work with ${niche.name.toLowerCase()} only in ${cityName}?`,
                     acceptedAnswer: {
                       "@type": "Answer",
-                      text: `We work with ${niche.name.toLowerCase()} globally including USA, UK, and Australia, but have specific expertise in ${cityName}'s competitive landscape.`,
+                      text: `We work with ${niche.name.toLowerCase()} across the United States, but have specific expertise in ${cityName}'s competitive landscape.`,
                     },
                   },
                 ],
@@ -252,7 +250,7 @@ export default async function CityNichePage({
                 How much does AI marketing cost for {niche.name.toLowerCase()} in {cityName}?
               </h3>
               <p className="text-xs text-gray-400 mt-1">
-                Our plans start at {formatCurrency(niche.services[0].price, city.country)}. {niche.roiExample.pitch}
+                Our plans start at {formatCurrency(niche.services[0].price)}. {niche.roiExample.pitch}
               </p>
             </div>
             <div>
@@ -260,7 +258,7 @@ export default async function CityNichePage({
                 Do you work with {niche.name.toLowerCase()} only in {cityName}?
               </h3>
               <p className="text-xs text-gray-400 mt-1">
-                We work with {niche.name.toLowerCase()} globally, but have specific expertise in {cityName}&apos;s competitive landscape.
+                We work with {niche.name.toLowerCase()} across the US, but have specific expertise in {cityName}&apos;s competitive landscape.
               </p>
             </div>
           </div>

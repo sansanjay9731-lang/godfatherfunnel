@@ -13,7 +13,7 @@ export const nicheData: NicheData = {
     {
       title: "$5-2500k Projects Going to AI-Recommended Designers",
       description:
-        "Homeowners ask AI 'best interior designer in Sydney' or 'modular kitchen cost'. AI recommends 3-5 designers. If you're not on that list, someone else designs that dream home — and earns that $10-2500k fee.",
+        "Homeowners ask AI 'best interior designer in Los Angeles' or 'modular kitchen cost'. AI recommends 3-5 designers. If you're not on that list, someone else designs that dream home — and earns that $10-2500k fee.",
     },
     {
       title: "Your Portfolio Is Invisible to AI",
@@ -74,7 +74,7 @@ export const nicheData: NicheData = {
     {
       question: "How do homeowners use AI to find interior designers?",
       answer:
-        "Homeowners ask ChatGPT and Google AI questions like 'best interior designer in Austin under $15,000', 'modular kitchen cost globally', or 'modern vs contemporary interior design'. AI provides direct recommendations with reasons, bypassing traditional search.",
+        "Homeowners ask ChatGPT and Google AI questions like 'best interior designer in Austin under $15,000', 'modular kitchen cost across the US', or 'modern vs contemporary interior design'. AI provides direct recommendations with reasons, bypassing traditional search.",
     },
     {
       question: "I get all my clients from referrals. Why do I need AEO?",
@@ -98,7 +98,7 @@ export const nicheData: NicheData = {
     { label: "Independent Designers Missing from AI", value: "90%" },
   ],
   ctaText: "Get Your Free AI Visibility Audit — See What Homeowners Find When They Ask AI for Interior Designers",
-  searchExample: "best interior designer in Sydney",
+  searchExample: "best interior designer in Los Angeles",
   competitorLine: "Livspace and DesignCafe dominate AI recommendations for interior design",
   treatments: [
     {
@@ -109,9 +109,9 @@ export const nicheData: NicheData = {
         "Full home interior design is the highest-value search query in this niche. Homeowners compare costs, styles, and designers using AI before even scheduling a consultation.",
       faqItems: [
         {
-          question: "What is the average home interior design cost globally?",
+          question: "What is the average home interior design cost across the US?",
           answer:
-            "Home interior design costs range from $5,000 to $25,000 for a 2-3 BHK apartment. This includes modular furniture, false ceiling, electrical work, painting, and designer fees. Luxury interiors can exceed $40,000.",
+            "Home interior design costs range from $5,000 to $25,000 for a 2-3 bedroom apartment. This includes modular furniture, false ceiling, electrical work, painting, and designer fees. Luxury interiors can exceed $40,000.",
         },
         {
           question: "How is interior design cost calculated?",
@@ -130,17 +130,17 @@ export const nicheData: NicheData = {
       name: "Modular Kitchen Cost",
       priceRange: "$150,000 - $8,000",
       description:
-        "Modular kitchen is the #1 searched interior design query globally. Every homeowner wants to know the cost, materials, and best designers for their kitchen renovation.",
+        "Modular kitchen is the #1 searched interior design query across the US. Every homeowner wants to know the cost, materials, and best designers for their kitchen renovation.",
       faqItems: [
         {
-          question: "What is the average modular kitchen cost globally?",
+          question: "What is the average modular kitchen cost across the US?",
           answer:
             "A modular kitchen costs $150,000 to $8,000 depending on size, material, and finish. L-shaped kitchens start at $150k, U-shaped at $250k, and island kitchens at $4,000+. Material choice (plywood, MDF, acrylic) significantly affects pricing.",
         },
         {
-          question: "Which material is best for modular kitchen globally?",
+          question: "Which material is best for modular kitchen across the US?",
           answer:
-            "Marine plywood with laminate finish offers the best balance of durability and cost ($1.5-300k). For premium kitchens, acrylic or PU finish on BWR plywood ($3-600k) is recommended. Avoid particle board in humid Global kitchens.",
+            "Marine plywood with laminate finish offers the best balance of durability and cost ($1.5-300k). For premium kitchens, acrylic or PU finish on BWR plywood ($3-600k) is recommended. Avoid particle board in humid the US kitchens.",
         },
       ],
     },
@@ -176,7 +176,7 @@ export const nicheData: NicheData = {
             "Bedroom interior design costs $1,000 to $5,000. This includes a sliding wardrobe ($40K-150k), bed with storage ($30K-80K), false ceiling ($20K-50K), and lighting ($10K-30K). Master bedrooms cost 30-50% more than standard bedrooms.",
         },
         {
-          question: "What are the trending bedroom design styles globally?",
+          question: "What are the trending bedroom design styles across the US?",
           answer:
             "Minimalist Japandi, warm contemporary, and luxury modern are trending. Neutral palettes with accent walls, integrated wardrobe systems, and smart lighting are most requested. Budget for trends: $1.5-300k per bedroom.",
         },
@@ -200,9 +200,9 @@ export const nicheData: NicheData = {
             "Focus on a statement false ceiling with cove lighting ($25K-40K), one accent wall with textured paint or wallpaper ($10K-25K), and good curtains ($15K-30K). These three elements transform the space without a full renovation.",
         },
         {
-          question: "What living room size works best for Global homes?",
+          question: "What living room size works best for the US homes?",
           answer:
-            "Most Global 2-3 BHK apartments have 150-250 sqft living rooms. Optimal furniture layout for this size includes an L-shaped sofa, a TV unit, and a small dining extension. Interior designers charge $1-300k for this space.",
+            "Most the US 2-3 bedroom apartments have 150-250 sqft living rooms. Optimal furniture layout for this size includes an L-shaped sofa, a TV unit, and a small dining extension. Interior designers charge $1-300k for this space.",
         },
       ],
     },
@@ -214,7 +214,7 @@ export const nicheData: NicheData = {
         "Bathroom renovation has seen explosive search growth as homeowners upgrade old bathrooms with modern fittings, rain showers, and smart toilets. Cost transparency drives AI queries.",
       faqItems: [
         {
-          question: "What is the average bathroom renovation cost globally?",
+          question: "What is the average bathroom renovation cost across the US?",
           answer:
             "Bathroom renovation costs $75,000 to $3,000. Basic renovation (tiles + fixtures) starts at $75K. Mid-range with branded fittings costs $1.5-200k. Premium renovation with imported tiles and smart fixtures costs $2-300k+.",
         },
@@ -228,24 +228,24 @@ export const nicheData: NicheData = {
   ],
   costKeywords: [
     "interior design cost per square foot",
-    "modular kitchen price Global",
+    "modular kitchen price the US",
     "home interior design cost",
     "bedroom wardrobe cost",
-    "bathroom renovation cost Global",
+    "bathroom renovation cost the US",
   ],
   nicheKeywords: [
     "best interior designer near me",
     "home interior design ideas",
     "modular kitchen designs",
     "living room interior design",
-    "interior designer cost Global",
-    "2BHK interior design cost",
+    "interior designer cost the US",
+    "2-bedroom interior design cost",
   ],
   schemaType: "ProfessionalService",
   metaCategory: "lifestyle",
   citations: [
     {
-      name: "Houzz Global",
+      name: "Houzz the US",
       url: "https://www.houzz.in",
       type: "niche-specific",
     },
@@ -261,17 +261,17 @@ export const nicheData: NicheData = {
     },
     {
       name: "Yelp",
-      url: "https://www.justdial.com",
+      url: "https://www.yelp.com",
       type: "local",
     },
     {
       name: "Bing Places",
-      url: "https://www.sulekha.com",
+      url: "https://www.bbb.org",
       type: "local",
     },
     {
-      name: "IndiaMART",
-      url: "https://www.indiamart.com",
+      name: "LinkedIn",
+      url: "https://www.linkedin.com",
       type: "niche-specific",
     },
   ],

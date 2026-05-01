@@ -69,7 +69,7 @@ Use this checklist to audit your business's AI readiness. Score yourself honestl
     category: "template",
     content: `## Schema Markup Templates
 
-Ready-to-use JSON-LD schema templates for Global businesses. Copy, customize with your details, and add to your website.
+Ready-to-use JSON-LD schema templates for the US businesses. Copy, customize with your details, and add to your website.
 
 ### Healthcare — MedicalBusiness
 \`\`\`json
@@ -124,7 +124,7 @@ Ready-to-use JSON-LD schema templates for Global businesses. Copy, customize wit
   "@context": "https://schema.org",
   "@type": "Restaurant",
   "name": "Your Restaurant",
-  "servesCuisine": ["Global", "Chinese"],
+  "servesCuisine": ["the US", "Chinese"],
   "priceRange": "$$",
   "menu": "https://yoursite.com/menu",
   "acceptsReservations": true,
@@ -166,7 +166,7 @@ Ready-to-use JSON-LD schema templates for Global businesses. Copy, customize wit
   {
     slug: "llms-txt-templates",
     title: "llms.txt Templates for Every Industry",
-    description: "Ready-to-use llms.txt templates for healthcare, legal, real estate, education, and lifestyle businesses in Global.",
+    description: "Ready-to-use llms.txt templates for healthcare, legal, real estate, education, and lifestyle businesses in the US.",
     icon: "📄",
     category: "template",
     content: `## llms.txt Templates
@@ -183,7 +183,7 @@ llms.txt is a file at your website root that tells AI systems who you are. Here 
 ## Location
 [Full Address]
 [City], [State] [PIN]
-Global
+the US
 
 ## Services
 - [Service 1]
@@ -323,7 +323,7 @@ Visit yoursite.com/llms.txt
 ### Step 7: Check Directory Consistency
 Search your business on:
 - Google Business Profile
-- Zocdoc / JustDial / relevant directories
+- Zocdoc / Yelp / relevant directories
 - Your own website
 
 **Is the Name, Address, Phone (NAP) identical everywhere?**
@@ -443,7 +443,7 @@ Important: Avvo, MyAdvo, LinkedIn, Yelp
 
 ### Ethical Considerations
 All marketing must comply with:
-- Bar Council of Global advertising rules
+- Bar Council of the US advertising rules
 - State bar council guidelines
 - No solicitation or misleading claims
 - Confidentiality of client matters
@@ -465,7 +465,7 @@ Homebuyers spend 3-6 months researching. In 2026, their first research tool is A
 
 #### For Each Project
 1. Dedicated landing page with RealEstateAgent schema
-2. RERA number prominently displayed and structured
+2. state real estate licensing number prominently displayed and structured
 3. Configuration and pricing pages
 4. Locality guide content
 5. Virtual tour links
@@ -481,7 +481,7 @@ Build content around the localities where you build:
 #### AI Optimization for Real Estate
 - RealEstateAgent/Project schema markup
 - Builder reliability structured data
-- RERA compliance data in schema
+- state real estate licensing compliance data in schema
 - Customer review aggregation
 - Price comparison content
 
@@ -527,7 +527,7 @@ Write your exact business name, full address, and phone number. This is your "ma
 - Google Business Profile
 - Your website (header, footer, contact page)
 - Zocdoc / Healthgrades / relevant directories
-- JustDial
+- Yelp
 - Bing Places
 - Social media profiles
 - Email signatures
@@ -547,7 +547,7 @@ Address Line 2: [Floor/Suite/Building]
 City: [City]
 State: [State]
 PIN: [XXXXXX]
-Country: Global
+Country: the US
 Phone: +91-XXXXX-XXXXX
 Email: [primary@email.com]
 Website: https://[yourdomain.com]
@@ -623,17 +623,17 @@ A complete, optimized GBP is the single highest-impact action for AI visibility.
   },
   {
     slug: "voice-search-optimization",
-    title: "Voice Search Optimization Guide for Global Businesses",
-    description: "How to optimize your business for Alexa, Google Assistant, and Siri voice search recommendations in Global.",
+    title: "Voice Search Optimization Guide for the US Businesses",
+    description: "How to optimize your business for Alexa, Google Assistant, and Siri voice search recommendations in the US.",
     icon: "🎤",
     category: "guide",
-    content: `## Voice Search Optimization for Global Businesses
+    content: `## Voice Search Optimization for the US Businesses
 
-### The Rise of Voice in Global
-- 200M+ Global users use voice assistants monthly
+### The Rise of Voice in the US
+- 200M+ the US users use voice assistants monthly
 - Hindi and regional language voice search growing 50%+ YoY
 - "Near me" voice searches up 150% since 2024
-- Voice commerce expected to reach $40B in Global by 2027
+- Voice commerce expected to reach $40B in the US by 2027
 
 ### How Voice Search Works
 When someone asks "Hey Google, find me a dentist nearby," the assistant:
@@ -655,7 +655,7 @@ Add this to your key pages to tell voice assistants which content to read aloud.
 #### 3. Conversational Keywords
 Target long-tail, conversational queries:
 - "Who is the best dermatologist near me?"
-- "How much does a dental implant cost in London?"
+- "How much does a dental implant cost in New York?"
 - "Which IVF clinic has the highest success rate?"
 
 #### 4. Google Business Profile
@@ -668,7 +668,7 @@ Consider adding FAQ content in Hindi and your regional language. Voice search in
 - Healthcare: "doctor near me," "clinic open now," "[treatment] cost"
 - Legal: "lawyer for [case type]," "legal help near me"
 - Restaurants: "best [cuisine] restaurant near me," "restaurants open late"
-- Real Estate: "flats for sale in [area]," "3BHK price in [locality]"
+- Real Estate: "flats for sale in [area]," "3-bedroom price in [locality]"
 
 **[Check your voice search readiness →](/audit)**`,
   },

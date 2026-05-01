@@ -9,7 +9,7 @@ interface BeforeAfterProps {
 
 export default function BeforeAfter({
   niche = "dermatologist",
-  city = "London",
+  city = "New York",
   certification = "Board Certified",
 }: BeforeAfterProps) {
   const nicheLabel = niche.charAt(0).toUpperCase() + niche.slice(1);
@@ -58,13 +58,13 @@ export default function BeforeAfter({
                   </p>
                   <div className="mt-2 space-y-1.5 text-sm">
                     <p className="text-white">
-                      1. <strong>Dr. Competitor A</strong> — Mayfair, 4.9★
+                      1. <strong>Dr. Competitor A</strong> — Park Avenue, 4.9★
                     </p>
                     <p className="text-white">
-                      2. <strong>Dr. Competitor B</strong> — Covent Garden, 4.8★
+                      2. <strong>Dr. Competitor B</strong> — Tribeca, 4.8★
                     </p>
                     <p className="text-white">
-                      3. <strong>Dr. Competitor C</strong> — Notting Hill, 4.7★
+                      3. <strong>Dr. Competitor C</strong> — West Village, 4.7★
                     </p>
                     <p className="text-red-400/80 mt-3 text-xs italic">
                       Your business? Not mentioned anywhere.
@@ -116,10 +116,10 @@ export default function BeforeAfter({
                       {certification}
                     </p>
                     <p className="text-white">
-                      2. Dr. Competitor A — Mayfair, 4.8★
+                      2. Dr. Competitor A — Park Avenue, 4.8★
                     </p>
                     <p className="text-white">
-                      3. Dr. Competitor B — Covent Garden, 4.7★
+                      3. Dr. Competitor B — Tribeca, 4.7★
                     </p>
                     <p className="text-green-400/80 mt-3 text-xs italic">
                       AI recommends you first based on structured data &

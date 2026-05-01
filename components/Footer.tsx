@@ -33,7 +33,7 @@ export default function Footer() {
             <p className="mt-4 text-sm text-gray-400">
               contact@godfatherfunnelai.com
             </p>
-            <p className="text-sm text-gray-400">+44 20 7946 0000</p>
+            <p className="text-sm text-gray-400">+1 (212) 555-0198</p>
           </div>
 
           {/* Industries by category */}

@@ -37,7 +37,7 @@ export const comparisonTopics: ComparisonTopic[] = [
   {
     slug: "traditional-marketing-vs-ai-marketing",
     title: "Traditional Marketing vs AI Marketing: The ROI Comparison",
-    description: "Billboards, newspaper ads, and TV spots vs AI visibility optimization. Which delivers better ROI for Global businesses in 2026?",
+    description: "Billboards, newspaper ads, and TV spots vs AI visibility optimization. Which delivers better ROI for the US businesses in 2026?",
     left: { name: "Traditional Marketing", pros: ["High brand awareness in local area", "Tangible presence (billboards, newspaper)", "Works for older demographics", "No technical setup required"], cons: ["Extremely expensive ($10,000 - $100,000/month for billboards)", "Zero targeting — everyone sees it", "Cannot track ROI accurately", "Declining effectiveness among under-40 audience"] },
     right: { name: "AI Marketing (AEO)", pros: ["Laser-targeted — only reaches people actively searching", "10-50x lower cost per lead", "Measurable ROI with exact attribution", "Growing audience as AI adoption increases"], cons: ["Requires technical implementation", "Not visible to non-AI users", "Needs ongoing optimization", "Newer discipline — fewer case studies"] },
     verdict: "For every $1,000 spent on billboards, AI marketing delivers 10-50x more qualified leads. Traditional marketing still has a role for brand awareness, but for lead generation, AI marketing is objectively superior.",
@@ -54,7 +54,7 @@ export const comparisonTopics: ComparisonTopic[] = [
     right: { name: "AEO", pros: ["Zero cost per AI recommendation", "Builds compounding authority over time", "Higher trust — AI recommendations not seen as ads", "Works 24/7 without ongoing spend"], cons: ["Takes 30-90 days to see results", "Cannot scale instantly like ads", "Less control over exact messaging", "Requires technical optimization skills"] },
     verdict: "Google Ads is a faucet — turn it on, leads flow; turn it off, they stop. AEO is an investment — it takes time to build but creates a permanent asset. Best strategy: use Ads for immediate leads while building AEO for long-term dominance.",
     faqItems: [
-      { question: "What's the cost comparison?", answer: "Google Ads for 'dermatologist in London': $200-500/click, needing 50-100 clicks per patient = $10K-50K per patient. AEO: $25K-75K/month, delivering 5-15 patients = $2K-15K per patient." },
+      { question: "What's the cost comparison?", answer: "Google Ads for 'dermatologist in New York': $200-500/click, needing 50-100 clicks per patient = $10K-50K per patient. AEO: $25K-75K/month, delivering 5-15 patients = $2K-15K per patient." },
       { question: "Can I use both together?", answer: "Absolutely. Use Google Ads for immediate lead generation while AEO builds your organic AI presence. Over 6-12 months, reduce ad spend as organic AI recommendations increase." },
     ],
   },
@@ -71,10 +71,10 @@ export const comparisonTopics: ComparisonTopic[] = [
     ],
   },
   {
-    slug: "practo-vs-own-website",
+    slug: "zocdoc-vs-own-website",
     title: "Zocdoc vs Own Website: Where Should Doctors Invest?",
     description: "Zocdoc charges $5K-25K/month for listings. Your own website costs less and builds permanent authority. Here's the comparison.",
-    left: { name: "Zocdoc", pros: ["Instant visibility on Global's top health platform", "Built-in appointment booking", "Patient reviews on trusted platform", "No technical setup needed"], cons: ["$5K-25K/month recurring cost", "You don't own the platform or patients", "Competing with every other doctor on Zocdoc", "No control over your listing's prominence"] },
+    left: { name: "Zocdoc", pros: ["Instant visibility on the US's top health platform", "Built-in appointment booking", "Patient reviews on trusted platform", "No technical setup needed"], cons: ["$5K-25K/month recurring cost", "You don't own the platform or patients", "Competing with every other doctor on Zocdoc", "No control over your listing's prominence"] },
     right: { name: "Own Website + AEO", pros: ["You own your digital presence forever", "Schema markup feeds AI directly", "No per-lead or per-click charges", "Build long-term brand authority"], cons: ["Requires initial setup investment", "Needs ongoing content and optimization", "Takes time to build review authority", "Technical skills needed for schema/AEO"] },
     verdict: "Do both, but prioritize your own website. Zocdoc is a rental — you pay monthly and compete with every doctor. Your website + AEO is an asset you own that feeds AI systems directly.",
     faqItems: [
@@ -83,14 +83,14 @@ export const comparisonTopics: ComparisonTopic[] = [
     ],
   },
   {
-    slug: "justdial-vs-ai-visibility",
-    title: "JustDial vs AI Visibility: Which Drives More Business?",
-    description: "JustDial has been Global's go-to directory for decades. But AI is changing how people discover businesses. Here's the comparison.",
-    left: { name: "JustDial", pros: ["Massive Global user base", "Phone-based lead generation", "Trusted brand in Global", "Good for local discovery"], cons: ["Spam leads are common", "Expensive premium listings", "Declining usage among younger demographics", "No AI recommendation benefit"] },
+    slug: "yelp-vs-ai-visibility",
+    title: "Yelp vs AI Visibility: Which Drives More Business?",
+    description: "Yelp has been the US's go-to directory for decades. But AI is changing how people discover businesses. Here's the comparison.",
+    left: { name: "Yelp", pros: ["Massive the US user base", "Phone-based lead generation", "Trusted brand in the US", "Good for local discovery"], cons: ["Spam leads are common", "Expensive premium listings", "Declining usage among younger demographics", "No AI recommendation benefit"] },
     right: { name: "AI Visibility (AEO)", pros: ["Higher quality leads — people asking AI have specific intent", "No spam — AI gives your name directly", "Growing audience rapidly", "Builds compounding authority"], cons: ["Requires technical setup", "Takes 30-90 days to show results", "Newer approach", "Needs ongoing optimization"] },
-    verdict: "Keep your JustDial listing for NAP consistency, but invest in AI visibility for the future. JustDial's audience is aging. AI's audience is growing exponentially.",
+    verdict: "Keep your Yelp listing for NAP consistency, but invest in AI visibility for the future. Yelp's audience is aging. AI's audience is growing exponentially.",
     faqItems: [
-      { question: "Should I cancel JustDial?", answer: "Don't cancel — keep the free listing for citation value. But don't pay for premium JustDial placement. Redirect that budget to AEO." },
+      { question: "Should I cancel Yelp?", answer: "Don't cancel — keep the free listing for citation value. But don't pay for premium Yelp placement. Redirect that budget to AEO." },
     ],
   },
   {
@@ -120,7 +120,7 @@ export const comparisonTopics: ComparisonTopic[] = [
     title: "LinkedIn vs AI for B2B Lead Generation",
     description: "LinkedIn is the gold standard for B2B. But AI is becoming the new way businesses find service providers. Here's the comparison.",
     left: { name: "LinkedIn", pros: ["Professional audience with business intent", "InMail and connection requests", "Content marketing through posts/articles", "Company page with follower building"], cons: ["Expensive ads ($500-2000/click for B2B)", "Organic reach declining", "Time-intensive outreach", "Spam fatigue among users"] },
-    right: { name: "AI Recommendations (AEO)", pros: ["Decision-makers ask AI for service provider recommendations", "Zero cost per recommendation", "Higher credibility than cold outreach", "Works 24/7 globally"], cons: ["Less control over targeting", "Takes time to build AI authority", "Can't do direct outreach", "Measurement still evolving"] },
+    right: { name: "AI Recommendations (AEO)", pros: ["Decision-makers ask AI for service provider recommendations", "Zero cost per recommendation", "Higher credibility than cold outreach", "Works 24/7 across the US"], cons: ["Less control over targeting", "Takes time to build AI authority", "Can't do direct outreach", "Measurement still evolving"] },
     verdict: "LinkedIn is essential for personal branding and networking. AI recommendations are essential for inbound lead generation. Use LinkedIn for outbound, AEO for inbound.",
     faqItems: [
       { question: "Which generates higher quality leads?", answer: "AI recommendations generate higher quality leads because the person already has buying intent and trusts the AI's recommendation. LinkedIn leads need more nurturing." },
@@ -185,12 +185,12 @@ export const comparisonTopics: ComparisonTopic[] = [
   {
     slug: "paid-directories-vs-aeo",
     title: "Paid Directory Listings vs AEO: Where's the Better Investment?",
-    description: "Business owners spend lakhs on paid directories annually. AEO delivers better ROI for a fraction of the cost.",
+    description: "Business owners spend thousand on paid directories annually. AEO delivers better ROI for a fraction of the cost.",
     left: { name: "Paid Directories", pros: ["Immediate listing visibility", "Some provide lead generation", "Good for NAP consistency", "Established trust signals"], cons: ["$5K-50K/month per directory", "Multiple directories = multiple subscriptions", "Traffic declines year over year", "No AI recommendation benefit"] },
     right: { name: "AEO", pros: ["One investment covers all AI platforms", "Direct recommendations not just listings", "Growing traffic and relevance", "Permanent authority building"], cons: ["Takes time for results", "Requires technical expertise", "Fewer immediate leads", "Needs ongoing optimization"] },
     verdict: "Keep free directory listings for citations. Cancel expensive paid listings. Redirect that budget to AEO for 5-10x better ROI. The future is AI recommendations, not directory listings.",
     faqItems: [
-      { question: "Should I stay on Zocdoc, JustDial, etc?", answer: "Keep free listings — they help with NAP consistency and citation authority. But don't pay premium rates. Invest in AEO instead." },
+      { question: "Should I stay on Zocdoc, Yelp, etc?", answer: "Keep free listings — they help with NAP consistency and citation authority. But don't pay premium rates. Invest in AEO instead." },
     ],
   },
   {
@@ -242,12 +242,12 @@ export const comparisonTopics: ComparisonTopic[] = [
   {
     slug: "aeo-vs-seo-for-real-estate",
     title: "AEO vs SEO for Real Estate: Selling $1M Properties Through AI",
-    description: "Real estate SEO competes with 99acres and MagicBricks. AEO puts your project name directly in AI's mouth.",
-    left: { name: "Real Estate SEO", pros: ["99acres and MagicBricks rank for everything", "Google Maps shows property locations", "Content about localities works", "Builder reputation pages rank well"], cons: ["Impossible to outrank property portals", "$100-300/click for real estate keywords", "Projects have limited listing period", "Heavy competition from aggregators"] },
-    right: { name: "Real Estate AEO", pros: ["AI recommends specific builders by name", "Buyers ask AI about builder reliability", "RERA data can be structured for AI", "Locality authority builds AI presence"], cons: ["Project-specific optimization has limited shelf life", "Fewer real estate AEO case studies", "Buyer journey is very long (3-6 months)", "AI may cite property portals over your site"] },
+    description: "Real estate SEO competes with Zillow and Realtor.com. AEO puts your project name directly in AI's mouth.",
+    left: { name: "Real Estate SEO", pros: ["Zillow and Realtor.com rank for everything", "Google Maps shows property locations", "Content about localities works", "Builder reputation pages rank well"], cons: ["Impossible to outrank property portals", "$100-300/click for real estate keywords", "Projects have limited listing period", "Heavy competition from aggregators"] },
+    right: { name: "Real Estate AEO", pros: ["AI recommends specific builders by name", "Buyers ask AI about builder reliability", "state real estate licensing data can be structured for AI", "Locality authority builds AI presence"], cons: ["Project-specific optimization has limited shelf life", "Fewer real estate AEO case studies", "Buyer journey is very long (3-6 months)", "AI may cite property portals over your site"] },
     verdict: "For real estate, AEO is transformative. When a buyer asks AI 'Is [builder] reliable?', your structured data determines the answer. One sale ($50,000-2Cr) pays for years of marketing.",
     faqItems: [
-      { question: "Can AEO help sell specific projects?", answer: "Yes! We create project-specific pages with schema markup, RERA data, and locality content that AI systems cite when recommending projects in that area." },
+      { question: "Can AEO help sell specific projects?", answer: "Yes! We create project-specific pages with schema markup, state real estate licensing data, and locality content that AI systems cite when recommending projects in that area." },
     ],
   },
 ];

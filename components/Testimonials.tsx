@@ -7,8 +7,8 @@ const testimonials = [
   {
     quote:
       "After Godfather Funnel optimized our clinic, ChatGPT started recommending us by name. We got 23 new patients in the first month — all from AI search.",
-    name: "Dr. Sarah Jenkins",
-    role: "Dermatologist, London",
+    name: "Dr. Sarah Mitchell",
+    role: "Dermatologist, Beverly Hills",
     image: images.doctorFemale1,
     scoreBefore: 12,
     scoreAfter: 87,
@@ -18,7 +18,7 @@ const testimonials = [
     quote:
       "We were spending $5,000/month on Google Ads. Now AI sends us patients for free. Our cost per acquisition dropped by 65%.",
     name: "Dr. Michael Chen",
-    role: "Dental Surgeon, NYC",
+    role: "Dental Surgeon, Manhattan",
     image: images.doctorMale1,
     scoreBefore: 8,
     scoreAfter: 91,
@@ -26,9 +26,9 @@ const testimonials = [
   },
   {
     quote:
-      "I was skeptical at first. Then I searched my own name on ChatGPT and saw nothing. 60 days later, I'm the #1 recommendation in Sydney for rhinoplasty.",
+      "I was skeptical at first. Then I searched my own name on ChatGPT and saw nothing. 60 days later, I'm the #1 recommendation in Miami for rhinoplasty.",
     name: "Dr. Elena Rodriguez",
-    role: "Plastic Surgeon, Sydney",
+    role: "Plastic Surgeon, Miami",
     image: images.doctorFemale2,
     scoreBefore: 5,
     scoreAfter: 82,
@@ -38,7 +38,7 @@ const testimonials = [
     quote:
       "Our IVF inquiries went up 180% in 3 months. Couples are finding us through AI before they even Google. This is the future of patient acquisition.",
     name: "Dr. David Sterling",
-    role: "IVF Specialist, Chicago",
+    role: "IVF Specialist, Houston",
     image: images.doctorMale2,
     scoreBefore: 15,
     scoreAfter: 79,
@@ -48,7 +48,7 @@ const testimonials = [
     quote:
       "As a corporate lawyer, I never thought AI marketing would apply to me. Now ChatGPT recommends our firm for M&A queries. We landed 3 retainers from AI referrals.",
     name: "Marcus Thorne",
-    role: "Corporate Lawyer, London",
+    role: "Corporate Lawyer, New York",
     image: images.businessWoman,
     scoreBefore: 3,
     scoreAfter: 74,
@@ -56,9 +56,9 @@ const testimonials = [
   },
   {
     quote:
-      "Homebuyers are asking AI which builder to trust. After Godfather Funnel, our project is the first name AI mentions in Melbourne. Bookings are up 40%.",
+      "Homebuyers are asking AI which builder to trust. After Godfather Funnel, our project is the first name AI mentions in Scottsdale. Bookings are up 40%.",
     name: "Jonathan Hughes",
-    role: "MD, Hughes Realty, Melbourne",
+    role: "CEO, Hughes Realty Group, Scottsdale",
     image: images.businessMan,
     scoreBefore: 10,
     scoreAfter: 85,

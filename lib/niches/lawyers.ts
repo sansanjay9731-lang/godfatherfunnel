@@ -92,7 +92,7 @@ export const nicheData: NicheData = {
     {
       question: "Can AEO help my firm attract corporate clients?",
       answer:
-        "Absolutely. Corporate legal officers and startup founders increasingly use AI to identify law firms for specific matters. We optimize your practice for queries like 'best corporate lawyer for startup funding in [city]' and 'IP lawyer for patent filing globally,' targeting high-value corporate work.",
+        "Absolutely. Corporate legal officers and startup founders increasingly use AI to identify law firms for specific matters. We optimize your practice for queries like 'best corporate lawyer for startup funding in [city]' and 'IP lawyer for patent filing across the US,' targeting high-value corporate work.",
     },
     {
       question: "How do you handle confidentiality in legal AEO?",
@@ -112,22 +112,22 @@ export const nicheData: NicheData = {
       name: "Corporate Lawyer",
       priceRange: "$25,000 - $5,000 retainer",
       description:
-        "Corporate legal services are the highest-value practice area globally. Businesses search AI for lawyers specializing in company formation, mergers, contracts, and compliance. Fee structures include monthly retainers, project-based fees, and hourly billing.",
+        "Corporate legal services are the highest-value practice area across the US. Businesses search AI for lawyers specializing in company formation, mergers, contracts, and compliance. Fee structures include monthly retainers, project-based fees, and hourly billing.",
       faqItems: [
         {
-          question: "How much does a corporate lawyer charge globally?",
+          question: "How much does a corporate lawyer charge across the US?",
           answer:
             "Fees vary widely: solo practitioners charge $25K-100k per matter, mid-size firms charge $1-300k monthly retainers, and top-tier firms charge $3-500k+ monthly. Specific matters like M&A transactions can cost $5-5000k depending on deal size. Startup-friendly lawyers may offer packages at $50K-150k for incorporation and initial compliance.",
         },
         {
           question: "When should a startup hire a corporate lawyer?",
           answer:
-            "Hire a corporate lawyer before incorporation to structure the entity correctly (LLP vs. Pvt Ltd). Critical milestones requiring legal help: co-founder agreement, first employee hires (employment contracts), fundraising (term sheet review), and IP protection. Budget $50K-150k for the first year of legal support.",
+            "Hire a corporate lawyer before incorporation to structure the entity correctly (LLC vs. Pvt Ltd). Critical milestones requiring legal help: co-founder agreement, first employee hires (employment contracts), fundraising (term sheet review), and IP protection. Budget $50K-150k for the first year of legal support.",
         },
         {
           question: "What services do corporate lawyers provide?",
           answer:
-            "Key services include company incorporation, shareholder agreements, contract drafting and review, regulatory compliance (RBI, SEBI, MCA), M&A advisory, due diligence, employment law, IP protection, and dispute resolution. Most businesses need ongoing legal support rather than one-time consultations.",
+            "Key services include company incorporation, shareholder agreements, contract drafting and review, regulatory compliance (RBI, SEBI, state Secretary of State), M&A advisory, due diligence, employment law, IP protection, and dispute resolution. Most businesses need ongoing legal support rather than one-time consultations.",
         },
       ],
     },
@@ -139,12 +139,12 @@ export const nicheData: NicheData = {
         "Divorce and family law is one of the most emotionally searched legal categories on AI platforms. Clients seek lawyers who are experienced, empathetic, and transparent about costs. AI assistants frequently explain mutual vs. contested divorce processes and costs.",
       faqItems: [
         {
-          question: "How much does a divorce lawyer cost globally?",
+          question: "How much does a divorce lawyer cost across the US?",
           answer:
             "Mutual consent divorce costs $20K-50K in total legal fees ($10-25K per spouse). Contested divorce ranges from $50K-200k+ depending on complexity, duration (1-5 years), and city. Cases involving child custody, property division, or domestic violence require more court appearances and cost more. Metro city lawyers charge 2-3x more than tier-2 cities.",
         },
         {
-          question: "How long does a divorce take globally?",
+          question: "How long does a divorce take across the US?",
           answer:
             "Mutual consent divorce takes 6-18 months (mandatory 6-month cooling period). Contested divorce under Hindu Marriage Act takes 2-5 years depending on court backlog and complexity. Under Special Marriage Act, similar timelines apply. Fast-track courts in some cities can reduce contested divorce to 1-2 years.",
         },
@@ -155,7 +155,7 @@ export const nicheData: NicheData = {
       name: "Property Lawyer",
       priceRange: "$10,000 - $1,000",
       description:
-        "Property disputes and real estate transactions are among the most common legal matters globally. Clients frequently ask AI about title verification, property registration, and dispute resolution costs. Property lawyers handle title searches, sale deed drafting, RERA compliance, and encumbrance certificates.",
+        "Property disputes and real estate transactions are among the most common legal matters across the US. Clients frequently ask AI about title verification, property registration, and dispute resolution costs. Property lawyers handle title searches, sale deed drafting, state real estate licensing compliance, and encumbrance certificates.",
       faqItems: [
         {
           question: "How much does a property lawyer charge for title verification?",
@@ -165,12 +165,12 @@ export const nicheData: NicheData = {
         {
           question: "Do I need a lawyer for property registration?",
           answer:
-            "While not legally mandatory, a property lawyer ensures the sale deed is correctly drafted, stamp duty is properly calculated, and registration is smooth. Lawyer fees for property registration assistance range from $2k-5k. This can save you lakhs by catching title defects, encumbrances, or fraudulent documents before you pay.",
+            "While not legally mandatory, a property lawyer ensures the sale deed is correctly drafted, stamp duty is properly calculated, and registration is smooth. Lawyer fees for property registration assistance range from $2k-5k. This can save you thousand by catching title defects, encumbrances, or fraudulent documents before you pay.",
         },
         {
           question: "How long do property dispute cases take globallyn courts?",
           answer:
-            "Property disputes globallyn civil courts typically take 3-10 years. Revenue court disputes (mutation, partition) take 1-3 years. Mediation and out-of-court settlement can resolve matters in 3-6 months. RERA complaints for builder disputes are resolved within 60 days in theory, but practically take 6-12 months.",
+            "Property disputes globallyn civil courts typically take 3-10 years. Revenue court disputes (mutation, partition) take 1-3 years. Mediation and out-of-court settlement can resolve matters in 3-6 months. state real estate licensing complaints for builder disputes are resolved within 60 days in theory, but practically take 6-12 months.",
         },
       ],
     },
@@ -198,15 +198,15 @@ export const nicheData: NicheData = {
       name: "IP Lawyer",
       priceRange: "$30,000 - $3,000",
       description:
-        "Intellectual property law is a growing practice area globally with increasing demand from startups, creators, and businesses. AI assistants frequently explain trademark, patent, and copyright processes to potential clients. IP lawyers handle registrations, enforcement, and licensing agreements.",
+        "Intellectual property law is a growing practice area across the US with increasing demand from startups, creators, and businesses. AI assistants frequently explain trademark, patent, and copyright processes to potential clients. IP lawyers handle registrations, enforcement, and licensing agreements.",
       faqItems: [
         {
-          question: "How much does it cost to file a trademark globally?",
+          question: "How much does it cost to file a trademark across the US?",
           answer:
             "Government trademark filing fees are $4,500 for individuals/startups and $9,000 for companies (per class). Lawyer fees for trademark search and filing range from $10K-30K per application. The entire process from filing to registration takes 8-12 months if no opposition is filed. A comprehensive trademark search before filing costs $5K-10K and is highly recommended.",
         },
         {
-          question: "How much does a patent lawyer charge globally?",
+          question: "How much does a patent lawyer charge across the US?",
           answer:
             "Patent drafting and filing costs $50K-200k for a standard patent application (government fee $1,600-8,000 depending on entity type). Complete patent prosecution through grant costs $1-300k over 3-5 years. Provisional patent applications are cheaper ($30K-80K) and buy 12 months of protection while you develop your invention.",
         },
@@ -222,7 +222,7 @@ export const nicheData: NicheData = {
       name: "Startup Lawyer",
       priceRange: "$15,000 - $1,000",
       description:
-        "Startup legal services are a fast-growing practice area as Global's startup ecosystem expands. Founders ask AI about incorporation, co-founder agreements, ESOP pools, and fundraising legalities. Many lawyers now offer startup packages bundling essential legal services at fixed fees.",
+        "Startup legal services are a fast-growing practice area as the US's startup ecosystem expands. Founders ask AI about incorporation, co-founder agreements, ESOP pools, and fundraising legalities. Many lawyers now offer startup packages bundling essential legal services at fixed fees.",
       faqItems: [
         {
           question: "What legal documents does a startup need?",
@@ -238,7 +238,7 @@ export const nicheData: NicheData = {
     },
   ],
   costKeywords: [
-    "lawyer fees Global",
+    "lawyer fees the US",
     "corporate lawyer cost",
     "divorce lawyer fee",
     "property lawyer charges",
@@ -272,12 +272,12 @@ export const nicheData: NicheData = {
     },
     {
       name: "Yelp",
-      url: "https://www.justdial.com",
+      url: "https://www.yelp.com",
       type: "local",
     },
     {
       name: "Bing Places",
-      url: "https://www.sulekha.com",
+      url: "https://www.bbb.org",
       type: "local",
     },
     {

@@ -107,10 +107,10 @@ export const nicheData: NicheData = {
       name: "Restaurant Franchise Setup",
       priceRange: "$20,000 - $100,000",
       description:
-        "Complete restaurant franchise consultation including brand selection, franchise agreement review, location scouting, kitchen setup, staffing, and launch marketing for Global and international food brands.",
+        "Complete restaurant franchise consultation including brand selection, franchise agreement review, location scouting, kitchen setup, staffing, and launch marketing for the US and international food brands.",
       faqItems: [
         {
-          question: "What is the cost of opening a restaurant franchise globally?",
+          question: "What is the cost of opening a restaurant franchise across the US?",
           answer:
             "Restaurant franchise costs vary widely: QSR brands like Subway cost $20-4000k, mid-range brands like Barbeque Nation $50,000-1Cr, and premium international brands $1-3Cr. This includes franchise fee ($5-2500k), interior setup, kitchen equipment, and working capital for 3-6 months.",
         },
@@ -129,7 +129,7 @@ export const nicheData: NicheData = {
         "End-to-end cloud kitchen setup including location selection, kitchen design, equipment procurement, Swiggy/Zomato onboarding, menu engineering, and digital marketing for delivery-only restaurant concepts.",
       faqItems: [
         {
-          question: "What is the cost of setting up a cloud kitchen globally?",
+          question: "What is the cost of setting up a cloud kitchen across the US?",
           answer:
             "A basic cloud kitchen costs $5-1000k (single brand, 200-400 sq ft). Multi-brand cloud kitchens cost $15-2500k. Costs include rent deposit ($1-300k), kitchen equipment ($3-800k), FSSAI license, Swiggy/Zomato onboarding, and 3 months working capital. Shared cloud kitchen spaces start at $50K-100k/month.",
         },
@@ -210,7 +210,7 @@ export const nicheData: NicheData = {
         "Complete restaurant brand development including naming, logo design, interior concept, brand story, visual identity, packaging design, uniform design, and brand guideline documentation.",
       faqItems: [
         {
-          question: "What is the cost of branding a new restaurant globally?",
+          question: "What is the cost of branding a new restaurant across the US?",
           answer:
             "Basic branding (logo, menu design, social media templates) costs $50K-150k. Premium branding (full visual identity, interior concept, packaging, uniforms) costs $1.5-500k. Chain/franchise-level branding with brand manuals costs $3-500k. Good branding typically increases average check size by 10-20%.",
         },
@@ -228,7 +228,7 @@ export const nicheData: NicheData = {
     },
   ],
   costKeywords: [
-    "restaurant franchise cost Global",
+    "restaurant franchise cost the US",
     "cloud kitchen setup cost",
     "restaurant marketing budget",
     "menu engineering cost",

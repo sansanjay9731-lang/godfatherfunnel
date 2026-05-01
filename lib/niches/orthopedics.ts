@@ -110,9 +110,9 @@ export const nicheData: NicheData = {
         "Total and partial knee replacement surgery for patients with severe osteoarthritis, rheumatoid arthritis, or post-traumatic joint damage. Includes pre-op assessment, implant selection, surgery, and post-op rehabilitation.",
       faqItems: [
         {
-          question: "What is the average cost of knee replacement surgery globally?",
+          question: "What is the average cost of knee replacement surgery across the US?",
           answer:
-            "Knee replacement surgery globally costs between $150k and $5,000 depending on the city, hospital type, implant brand (imported vs domestic), and whether it's a total or partial replacement. Metro cities like New York and London tend to be 20-30% higher than tier-2 cities.",
+            "Knee replacement surgery across the US costs between $150k and $5,000 depending on the city, hospital type, implant brand (imported vs domestic), and whether it's a total or partial replacement. Metro cities like New York and New York tend to be 20-30% higher than tier-2 cities.",
         },
         {
           question: "How long is the recovery after knee replacement?",
@@ -134,9 +134,9 @@ export const nicheData: NicheData = {
         "Total hip replacement (arthroplasty) for patients with hip arthritis, avascular necrosis, or hip fractures. Includes ceramic, metal, and polyethylene implant options with minimally invasive surgical techniques.",
       faqItems: [
         {
-          question: "What is the cost of hip replacement surgery globally?",
+          question: "What is the cost of hip replacement surgery across the US?",
           answer:
-            "Hip replacement surgery globally ranges from $2,000 to $6,000. The cost varies based on implant material (ceramic-on-ceramic is premium), surgical approach (anterior vs posterior), hospital category, and city. Bilateral hip replacement costs approximately 1.7x a single procedure.",
+            "Hip replacement surgery across the US ranges from $2,000 to $6,000. The cost varies based on implant material (ceramic-on-ceramic is premium), surgical approach (anterior vs posterior), hospital category, and city. Bilateral hip replacement costs approximately 1.7x a single procedure.",
         },
         {
           question: "How long do hip replacement implants last?",
@@ -153,9 +153,9 @@ export const nicheData: NicheData = {
         "Comprehensive spine surgery including discectomy, laminectomy, spinal fusion, and disc replacement for conditions like herniated discs, spinal stenosis, spondylolisthesis, and spinal cord compression.",
       faqItems: [
         {
-          question: "What is the cost of spine surgery globally?",
+          question: "What is the cost of spine surgery across the US?",
           answer:
-            "Spine surgery globally costs between $250k and $8,000 depending on the procedure type. A simple microdiscectomy costs $2.5-350k, while complex spinal fusion with instrumentation can cost $5-800k. Endoscopic procedures are typically 20% cheaper.",
+            "Spine surgery across the US costs between $250k and $8,000 depending on the procedure type. A simple microdiscectomy costs $2.5-350k, while complex spinal fusion with instrumentation can cost $5-800k. Endoscopic procedures are typically 20% cheaper.",
         },
         {
           question: "When is spine surgery necessary vs physiotherapy?",
@@ -177,9 +177,9 @@ export const nicheData: NicheData = {
         "Arthroscopic ACL reconstruction using hamstring or patellar tendon graft for athletes and active individuals with complete ACL tears. Includes pre-op conditioning, surgery, and structured sports rehabilitation program.",
       faqItems: [
         {
-          question: "What is the cost of ACL surgery globally?",
+          question: "What is the cost of ACL surgery across the US?",
           answer:
-            "ACL reconstruction surgery globally costs between $1,000 and $3,000. The cost includes arthroscopic surgery, graft preparation, implants (titanium screws/endobuttons), hospital stay (2-3 days), and initial rehabilitation. Using allograft (donor tissue) costs $50K-100k more.",
+            "ACL reconstruction surgery across the US costs between $1,000 and $3,000. The cost includes arthroscopic surgery, graft preparation, implants (titanium screws/endobuttons), hospital stay (2-3 days), and initial rehabilitation. Using allograft (donor tissue) costs $50K-100k more.",
         },
         {
           question: "How long before I can play sports after ACL surgery?",
@@ -196,7 +196,7 @@ export const nicheData: NicheData = {
         "Complete fracture management including closed reduction with casting, open reduction internal fixation (ORIF) with plates and screws, intramedullary nailing, and external fixation for all types of fractures.",
       faqItems: [
         {
-          question: "What is the cost of fracture treatment globally?",
+          question: "What is the cost of fracture treatment across the US?",
           answer:
             "Simple fractures treated with casting cost $5K-20K. Surgical fixation (ORIF) costs $50K-250k depending on the bone, fracture complexity, and implant type. Femur fractures requiring intramedullary nailing cost $1.5-250k, while wrist fractures with plating cost $50K-100k.",
         },
@@ -220,7 +220,7 @@ export const nicheData: NicheData = {
         "Minimally invasive arthroscopic surgery for knee, shoulder, ankle, and hip joints. Used for meniscus repair, cartilage restoration, rotator cuff repair, loose body removal, and diagnostic evaluation.",
       faqItems: [
         {
-          question: "What is the cost of arthroscopy globally?",
+          question: "What is the cost of arthroscopy across the US?",
           answer:
             "Knee arthroscopy costs $60K-150k, shoulder arthroscopy $80K-200k, and hip arthroscopy $1-200k. Diagnostic arthroscopy alone costs $40K-60K. The cost depends on whether it's a diagnostic or therapeutic procedure and the complexity of repair needed.",
         },
@@ -233,15 +233,15 @@ export const nicheData: NicheData = {
     },
   ],
   costKeywords: [
-    "knee replacement cost Global",
+    "knee replacement cost the US",
     "orthopedic surgeon fees",
     "hip replacement surgery price",
     "ACL surgery cost in New York",
-    "spine surgery cost Global",
+    "spine surgery cost the US",
   ],
   nicheKeywords: [
     "best orthopedic surgeon near me",
-    "joint replacement specialist Global",
+    "joint replacement specialist the US",
     "sports injury doctor",
     "knee pain treatment",
     "spine specialist near me",
@@ -252,12 +252,12 @@ export const nicheData: NicheData = {
   citations: [
     {
       name: "Zocdoc",
-      url: "https://www.practo.com",
+      url: "https://www.zocdoc.com",
       type: "niche-specific",
     },
     {
       name: "Healthgrades",
-      url: "https://www.lybrate.com",
+      url: "https://www.healthgrades.com",
       type: "niche-specific",
     },
     {
@@ -267,7 +267,7 @@ export const nicheData: NicheData = {
     },
     {
       name: "Yelp",
-      url: "https://www.justdial.com",
+      url: "https://www.yelp.com",
       type: "general",
     },
     {

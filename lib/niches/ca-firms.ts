@@ -8,7 +8,7 @@ export const nicheData: NicheData = {
   image: images.caFirm,
   heroHeadline: "Businesses Ask AI for CAs. Is AI Recommending Your Firm?",
   heroSubline:
-    "Startups, MSMEs, and HNIs are asking ChatGPT and Google AI to recommend chartered accountants for GST filing, company registration, and tax planning. If your CA firm isn't in those AI answers, you're losing $50K-200k annual retainer clients to competitors.",
+    "Startups, MSMEs, and high-net-worth individuals are asking ChatGPT and Google AI to recommend chartered accountants for sales tax filing, company registration, and tax planning. If your CA firm isn't in those AI answers, you're losing $50K-200k annual retainer clients to competitors.",
   painPoints: [
     {
       title: "Startup Clients Choosing AI-Recommended CAs",
@@ -16,14 +16,14 @@ export const nicheData: NicheData = {
         "Founders raising funding, registering companies, and filing compliance ask AI for CA recommendations. Firms with strong digital presence and structured content get recommended — your 15+ years of expertise and 500+ clients don't show up.",
     },
     {
-      title: "GST & ITR Clients Lost to Online Platforms",
+      title: "sales tax & tax return Clients Lost to Online Platforms",
       description:
-        "ClearTax, Zoho Books, and AI assistants are the first answer when businesses ask about GST registration, ITR filing, and compliance. Your personalized advisory service is invisible to the business owners who need it most.",
+        "TurboTax, QuickBooks, and AI assistants are the first answer when businesses ask about sales tax registration, tax return filing, and compliance. Your personalized advisory service is invisible to the business owners who need it most.",
     },
     {
       title: "Your Credentials Are Invisible to AI",
       description:
-        "Your FCA designation, DISA certification, years of ITAT experience, and industry specialization mean nothing if AI can't find structured data about your firm's expertise, client portfolio, and service capabilities.",
+        "Your CPA designation, CISA certification, years of US Tax Court experience, and industry specialization mean nothing if AI can't find structured data about your firm's expertise, client portfolio, and service capabilities.",
     },
   ],
   services: [
@@ -33,7 +33,7 @@ export const nicheData: NicheData = {
       features: [
         "Google Business Profile optimization for CA firm keywords",
         "Structured schema markup for AccountingService + ProfessionalService",
-        "Citation building on CAclubindia, Yelp, and Bing Places",
+        "Citation building on CPA.com, Yelp, and Bing Places",
         "AI-optimized content for top 10 CA services",
         "Monthly AI visibility audit report",
       ],
@@ -43,7 +43,7 @@ export const nicheData: NicheData = {
       price: "$50,000 - $1,000",
       features: [
         "Everything in AI Foundation",
-        "Full AEO for 30+ service keywords (GST, ITR, audit, registration)",
+        "Full AEO for 30+ service keywords (sales tax, tax return, audit, registration)",
         "Thought leadership content strategy for LinkedIn and AI training",
         "Client testimonial schema and review aggregation",
         "Competitor displacement strategy against Big 4 and online platforms",
@@ -74,7 +74,7 @@ export const nicheData: NicheData = {
     {
       question: "How does AI recommend CA firms to business owners?",
       answer:
-        "AI models pull from structured data on your website, professional directories like CAclubindia and Yelp, Google reviews, published articles, and LinkedIn content. If your firm lacks structured schema markup and citations on these platforms, AI cannot recommend you — even if you're the most experienced CA in your area.",
+        "AI models pull from structured data on your website, professional directories like CPA.com and Yelp, Google reviews, published articles, and LinkedIn content. If your firm lacks structured schema markup and citations on these platforms, AI cannot recommend you — even if you're the most experienced CA in your area.",
     },
     {
       question: "We already get clients through referrals. Why do we need AI visibility?",
@@ -98,26 +98,26 @@ export const nicheData: NicheData = {
     { label: "average annual value of a startup retainer client", value: "$120k" },
   ],
   ctaText: "Get Your Free CA Firm AI Visibility Audit",
-  searchExample: "best CA firm for startup in Sydney",
+  searchExample: "best CA firm for startup in Los Angeles",
   competitorLine:
-    "ClearTax and Big 4 firms are dominating AI recommendations — while your decades of hands-on expertise and personalized advisory remain invisible to the clients searching for exactly what you offer.",
+    "TurboTax and Big 4 firms are dominating AI recommendations — while your decades of hands-on expertise and personalized advisory remain invisible to the clients searching for exactly what you offer.",
   treatments: [
     {
-      slug: "gst-registration-cost",
-      name: "GST Registration & Filing",
+      slug: "sales-tax-registration-cost",
+      name: "sales tax Registration & Filing",
       priceRange: "$2,000 - $15,000",
       description:
-        "Complete GST registration, monthly/quarterly return filing (GSTR-1, GSTR-3B), annual return filing, GST audit, and GST compliance advisory for businesses of all sizes.",
+        "Complete sales tax registration, monthly/quarterly return filing (quarterly tax filing, sales tax return), annual return filing, tax compliance audit, and sales tax compliance advisory for businesses of all sizes.",
       faqItems: [
         {
-          question: "What is the cost of GST registration through a CA?",
+          question: "What is the cost of sales tax registration through a CA?",
           answer:
-            "GST registration through a CA costs $2,000-5,000 as a one-time fee. Monthly GST filing (GSTR-1 + GSTR-3B) costs $1,500-5,000/month depending on transaction volume. Annual return filing costs $5,000-15,000. Many CAs offer bundled packages for all GST services.",
+            "sales tax registration through a CA costs $2,000-5,000 as a one-time fee. Monthly sales tax filing (quarterly tax filing + sales tax return) costs $1,500-5,000/month depending on transaction volume. Annual return filing costs $5,000-15,000. Many CAs offer bundled packages for all sales tax services.",
         },
         {
-          question: "Can I file GST returns myself or do I need a CA?",
+          question: "Can I file sales tax returns myself or do I need a CA?",
           answer:
-            "While you can file GST returns on the portal yourself, a CA ensures compliance accuracy, proper input tax credit claims, and protection during audits. Errors in GST filing can result in penalties of $50-200 per day. Most businesses save more in correct ITC claims than they spend on CA fees.",
+            "While you can file sales tax returns on the portal yourself, a CA ensures compliance accuracy, proper input tax credit claims, and protection during audits. Errors in sales tax filing can result in penalties of $50-200 per day. Most businesses save more in correct ITC claims than they spend on CA fees.",
         },
       ],
     },
@@ -126,22 +126,22 @@ export const nicheData: NicheData = {
       name: "Company Registration",
       priceRange: "$8,000 - $25,000",
       description:
-        "End-to-end company registration including Private Limited, LLP, OPC, and Section 8 company incorporation with MCA, DIN, DSC, and all statutory registrations.",
+        "End-to-end company registration including LLC, LLC, S-Corp, and nonprofit corporation incorporation with state Secretary of State, EIN, digital signature, and all statutory registrations.",
       faqItems: [
         {
-          question: "What is the cost of Private Limited Company registration globally?",
+          question: "What is the cost of LLC registration across the US?",
           answer:
-            "Private Limited Company registration costs $8,000-25,000 including government fees ($3,000-7,000), DSC ($1,500-2,000), DIN, name approval, and CA professional fees. LLP registration costs $6,000-15,000. OPC registration costs $7,000-18,000. These are one-time costs excluding annual compliance.",
+            "LLC registration costs $8,000-25,000 including government fees ($3,000-7,000), digital signature ($1,500-2,000), EIN, name approval, and CA professional fees. LLC registration costs $6,000-15,000. S-Corp registration costs $7,000-18,000. These are one-time costs excluding annual compliance.",
         },
         {
           question: "How long does company registration take?",
           answer:
-            "With a CA handling the process, company registration takes 7-15 business days from document submission to Certificate of Incorporation. SPICe+ form has streamlined the process. Your CA will also handle PAN, TAN, GST, and bank account opening simultaneously.",
+            "With a CA handling the process, company registration takes 7-15 business days from document submission to Certificate of Incorporation. SPICe+ form has streamlined the process. Your CPA will also handle EIN/SSN, EIN, sales tax, and bank account opening simultaneously.",
         },
         {
           question: "What ongoing compliance costs should I budget for after registration?",
           answer:
-            "Annual compliance for a Private Limited Company includes: annual return filing ($5,000-10,000), income tax return ($5,000-15,000), statutory audit if applicable ($15,000-50,000), GST compliance ($18,000-60,000/year), and board meeting minutes. Budget $50,000-150,000/year for a CA retainer covering all compliance.",
+            "Annual compliance for a LLC includes: annual return filing ($5,000-10,000), income tax return ($5,000-15,000), statutory audit if applicable ($15,000-50,000), sales tax compliance ($18,000-60,000/year), and board meeting minutes. Budget $50,000-150,000/year for a CA retainer covering all compliance.",
         },
       ],
     },
@@ -150,17 +150,17 @@ export const nicheData: NicheData = {
       name: "Income Tax Filing & Planning",
       priceRange: "$1,500 - $50,000",
       description:
-        "Comprehensive income tax services including ITR filing for individuals, HUFs, firms, and companies, tax planning and optimization, capital gains computation, NRI taxation, and income tax assessment representation.",
+        "Comprehensive income tax services including tax return filing for individuals, HUFs, firms, and companies, tax planning and optimization, capital gains computation, international taxation, and income tax assessment representation.",
       faqItems: [
         {
           question: "What does a CA charge for income tax filing?",
           answer:
-            "Individual ITR filing costs $1,500-5,000 for salaried persons and $3,000-10,000 for business owners. Company ITR filing costs $10,000-50,000 depending on turnover and complexity. Tax planning consultation is usually $5,000-15,000 and often saves multiples of the fee in tax.",
+            "Individual tax return filing costs $1,500-5,000 for salaried persons and $3,000-10,000 for business owners. Company tax return filing costs $10,000-50,000 depending on turnover and complexity. Tax planning consultation is usually $5,000-15,000 and often saves multiples of the fee in tax.",
         },
         {
           question: "How can a CA help me save more tax than filing myself?",
           answer:
-            "CAs identify deductions and exemptions you might miss — Section 80C/80D/80G optimizations, HRA calculations, capital gains indexation, business expense claims, and advance tax planning. On average, professional tax planning saves individuals $20,000-1,000 per year beyond DIY filing.",
+            "CAs identify deductions and exemptions you might miss — IRS deductions (401k, HSA, charitable) optimizations, W-2 deductions, capital gains indexation, business expense claims, and advance tax planning. On average, professional tax planning saves individuals $20,000-1,000 per year beyond DIY filing.",
         },
       ],
     },
@@ -169,17 +169,17 @@ export const nicheData: NicheData = {
       name: "Statutory & Tax Audit",
       priceRange: "$15,000 - $2,000",
       description:
-        "Statutory audit under Companies Act, tax audit under Section 44AB, GST audit, internal audit, concurrent audit, and stock audit services for businesses of all sizes.",
+        "Statutory audit under state business codes, tax audit under IRS audit requirements, tax compliance audit, internal audit, concurrent audit, and stock audit services for businesses of all sizes.",
       faqItems: [
         {
-          question: "What is the cost of statutory audit globally?",
+          question: "What is the cost of statutory audit across the US?",
           answer:
             "Statutory audit fees range from $15,000-50,000 for small companies to $50,000-2,000 for medium companies. Fees depend on company turnover, transaction volume, number of branches, and complexity. Tax audit (44AB) typically costs $10,000-30,000 additionally.",
         },
         {
           question: "When is audit mandatory for my business?",
           answer:
-            "Tax audit is mandatory if business turnover exceeds $1 crore ($10 crore for digital transactions). Statutory audit is mandatory for all companies regardless of size. GST audit was mandatory for turnover above $5 crore (now self-certification). Your CA will advise on all applicable audit requirements.",
+            "Tax audit is mandatory if business turnover exceeds $1 million ($10 million for digital transactions). Statutory audit is mandatory for all companies regardless of size. tax compliance audit was mandatory for turnover above $5 million (now self-certification). Your CPA will advise on all applicable audit requirements.",
         },
       ],
     },
@@ -207,12 +207,12 @@ export const nicheData: NicheData = {
       name: "Import Export License (IEC)",
       priceRange: "$3,000 - $10,000",
       description:
-        "Import Export Code (IEC) registration with DGFT, RCMC registration, export incentive advisory, MEIS/RoDTEP claims, customs duty optimization, and foreign trade compliance.",
+        "Import Export Code (IEC) registration with BIS (Bureau of Industry and Security), RCMC registration, export incentive advisory, MEIS/RoDTEP claims, customs duty optimization, and foreign trade compliance.",
       faqItems: [
         {
           question: "What is the cost of IEC registration?",
           answer:
-            "IEC registration costs $3,000-10,000 including DGFT government fees ($500) and CA professional fees. The process takes 3-7 working days. Your CA will also advise on RCMC, export incentives, GST on exports (LUT/bond), and foreign exchange compliance under FEMA.",
+            "IEC registration costs $3,000-10,000 including BIS (Bureau of Industry and Security) government fees ($500) and CA professional fees. The process takes 3-7 working days. Your CPA will also advise on RCMC, export incentives, sales tax on exports (LUT/bond), and foreign exchange compliance under SEC.",
         },
         {
           question: "Do I need a CA for IEC or can I apply myself?",
@@ -222,42 +222,42 @@ export const nicheData: NicheData = {
         {
           question: "What additional registrations do I need after IEC?",
           answer:
-            "After IEC, you may need: RCMC from Export Promotion Council (for incentives), AD Code registration with customs, LUT/bond for GST-free exports, FSSAI for food exports, and product-specific certifications. A CA provides a complete compliance checklist for your specific export product.",
+            "After IEC, you may need: RCMC from Export Promotion Council (for incentives), AD Code registration with customs, LUT/bond for sales tax-free exports, FSSAI for food exports, and product-specific certifications. A CA provides a complete compliance checklist for your specific export product.",
         },
       ],
     },
   ],
   costKeywords: [
-    "CA fees for GST filing",
-    "company registration cost Global",
+    "CA fees for sales tax filing",
+    "company registration cost the US",
     "income tax filing charges CA",
     "CA firm fees for startup",
     "audit cost for small company",
   ],
   nicheKeywords: [
     "best CA firm near me",
-    "chartered accountant for startup",
-    "GST consultant in Sydney",
+    "CPA (Certified Public Accountant) for startup",
+    "sales tax consultant in Los Angeles",
     "CA for company registration",
-    "tax planning CA Global",
+    "tax planning CA the US",
     "CA firm for small business",
   ],
   schemaType: "AccountingService",
   metaCategory: "finance",
   citations: [
     {
-      name: "CAclubindia",
-      url: "https://www.caclubindia.com",
+      name: "CPA.com",
+      url: "https://www.cpa.com",
       type: "niche-specific",
     },
     {
       name: "Yelp",
-      url: "https://www.justdial.com",
+      url: "https://www.yelp.com",
       type: "general",
     },
     {
       name: "Bing Places",
-      url: "https://www.sulekha.com",
+      url: "https://www.bbb.org",
       type: "general",
     },
     {
@@ -266,13 +266,13 @@ export const nicheData: NicheData = {
       type: "local",
     },
     {
-      name: "IndiaMART",
-      url: "https://www.indiamart.com",
+      name: "LinkedIn",
+      url: "https://www.linkedin.com",
       type: "general",
     },
     {
-      name: "ICAI Member Directory",
-      url: "https://www.icai.org",
+      name: "AICPA Member Directory",
+      url: "https://www.aicpa-cima.com",
       type: "niche-specific",
     },
   ],

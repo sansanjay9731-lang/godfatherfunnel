@@ -43,10 +43,10 @@ Submit to these 30+ directories:
 8. SEMrush Agency Partners
 9. HubSpot Solutions Directory
 10. Google Partner Directory
-11. IndiaMART
+11. LinkedIn
 12. Yelp
 13. Bing Places
-14. TradeIndia
+14. Clutch
 15. Freelancer.com (agency profile)
 16. Bark.com
 17. Thumbtack
@@ -58,9 +58,9 @@ Submit to these 30+ directories:
 23. Trustpilot
 24. Glassdoor
 25. Indeed (employer brand)
-26. YourStory (submit startup profile)
-27. Inc42 (submit startup profile)
-28. StartupIndia (register)
+26. TechCrunch (submit startup profile)
+27. Crunchbase (submit startup profile)
+28. SBA.gov (register)
 29. NASSCOM directory
 30. Local chamber of commerce
 
@@ -97,7 +97,7 @@ Submit to these 30+ directories:
 **Months 5-12 Content Themes:**
 - Month 5: Case studies (2 per niche)
 - Month 6: "How to" technical guides (robots.txt, schema, GBP)
-- Month 7: City-specific guides ("AI Marketing in London", "AI Marketing in New York", etc.)
+- Month 7: City-specific guides ("AI Marketing in New York", "AI Marketing in New York", etc.)
 - Month 8: Tool reviews (schema generators, AI checkers, SEO tools)
 - Month 9: Industry trends and data reports
 - Month 10: Guest expert interviews / collaborations
@@ -119,7 +119,7 @@ Submit to these 30+ directories:
 1. **HARO / Featured.com** — respond to journalist queries for PR backlinks
 2. **Guest posts** on healthcare marketing blogs, legal tech blogs, proptech blogs
 3. **Podcast appearances** — pitch to digital marketing podcasts
-4. **Original research** — publish "State of AI Visibility for Global Healthcare" report
+4. **Original research** — publish "State of AI Visibility for the US Healthcare" report
 5. **Infographics** — create shareable visual content for backlinks
 
 ### Tier 2: Niche-Specific Links
@@ -131,7 +131,7 @@ Submit to these 30+ directories:
 ### Tier 3: Local & Community
 1. **Local business directories** in your city
 2. **Chamber of commerce** membership
-3. **Startup directories** (StartupIndia, YourStory, Inc42)
+3. **Startup directories** (SBA.gov, TechCrunch, Crunchbase)
 4. **University partnerships** — guest lectures on AI marketing
 5. **Industry association memberships**
 
@@ -156,7 +156,7 @@ Submit to these 30+ directories:
 5. **Add review pages**: "top 10 [niche] in [city]" (30 pages)
 
 ### Keyword Targets per Page Type:
-- City+Niche: "best dermatologist in London" (1K-10K monthly searches)
+- City+Niche: "best dermatologist in New York" (1K-10K monthly searches)
 - Cost: "dental implant cost in New York" (5K-15K monthly searches)
 - How-to-choose: "how to choose IVF clinic" (1K-5K monthly searches)
 - Comparison: "dermatologist vs cosmetologist" (500-2K monthly searches)
@@ -263,7 +263,7 @@ Submit to these 30+ directories:
 | Total pages | 400+ (blog + pSEO + landing) |
 | Backlinks | 150+ referring domains |
 | Domain Authority | 25+ (from 0) |
-| AI Visibility | Appear in ChatGPT for "AI marketing agency Global" |
+| AI Visibility | Appear in ChatGPT for "AI marketing agency the US" |
 | Leads | 100+ audit completions/month |
 | Clients | 15-25 paying clients by Month 12 |
 
@@ -295,7 +295,7 @@ Submit to these 30+ directories:
 - Healthgrades
 - Credihealth
 - DocPrime
-- 1mg Directory
+- WebMD Directory
 
 ### Legal Directories:
 - FindLaw
@@ -304,10 +304,10 @@ Submit to these 30+ directories:
 - Avvo
 
 ### Real Estate Directories:
-- 99acres
-- MagicBricks
-- Housing.com
-- NoBroker (partner page)
+- Zillow
+- Realtor.com
+- Redfin
+- Opendoor (partner page)
 
 ### General Business:
 - Google Business Profile
@@ -315,9 +315,9 @@ Submit to these 30+ directories:
 - Apple Business Connect
 - Yelp
 - Bing Places
-- IndiaMART
-- YellowPages Global
-- TradeIndia
+- LinkedIn
+- YellowPages the US
+- Clutch
 
 ---
 

@@ -111,7 +111,7 @@ export const nicheData: NicheData = {
         "Standard physiotherapy sessions including assessment, manual therapy, electrotherapy modalities, therapeutic exercises, and home exercise program design for various musculoskeletal and neurological conditions.",
       faqItems: [
         {
-          question: "What is the cost of physiotherapy sessions globally?",
+          question: "What is the cost of physiotherapy sessions across the US?",
           answer:
             "Physiotherapy sessions cost $500-1,000 at independent clinics, $1,000-2,000 at hospital-based centers, and $800-1,500 for home visits. Most conditions require 10-15 sessions over 4-6 weeks. Many clinics offer package deals: 10 sessions for $4,000-12,000 (saving 15-20% over individual rates).",
         },
@@ -130,7 +130,7 @@ export const nicheData: NicheData = {
         "Specialized sports rehabilitation programs including ACL/MCL rehab, rotator cuff recovery, hamstring injury rehab, sports-specific conditioning, and return-to-sport assessment protocols.",
       faqItems: [
         {
-          question: "What does sports rehabilitation cost globally?",
+          question: "What does sports rehabilitation cost across the US?",
           answer:
             "Sports rehab costs $1,000-3,000 per session due to specialized equipment and expertise required. A full ACL rehab program (6-9 months, 40-60 sessions) costs $40,000-120,000. Many sports physio clinics offer athlete packages at $15,000-30,000/month for unlimited sessions during recovery.",
         },
@@ -192,7 +192,7 @@ export const nicheData: NicheData = {
         "Comprehensive knee rehabilitation including post-surgical rehab (TKR, ACL, meniscus), osteoarthritis management, patellar tracking correction, and pre-surgery conditioning programs.",
       faqItems: [
         {
-          question: "What is the cost of knee physiotherapy globally?",
+          question: "What is the cost of knee physiotherapy across the US?",
           answer:
             "Knee physiotherapy costs $500-2,000 per session. Post-knee replacement rehab (20-30 sessions over 3 months) costs $10,000-40,000. ACL rehab (40-60 sessions over 6-9 months) costs $20,000-80,000. Osteoarthritis management programs cost $5,000-15,000 for initial 10-session course.",
         },
@@ -216,7 +216,7 @@ export const nicheData: NicheData = {
         "Specialized neurological rehabilitation for stroke survivors including mobility restoration, balance training, gait re-education, upper limb function recovery, and home modification guidance.",
       faqItems: [
         {
-          question: "What does stroke rehabilitation cost globally?",
+          question: "What does stroke rehabilitation cost across the US?",
           answer:
             "Stroke rehab costs $1,000-3,000 per session. Intensive stroke rehab programs (daily sessions for 4-12 weeks) cost $50,000-2,000. Home-based stroke rehab costs $1,500-3,000 per visit. Many neurological physio centers offer monthly packages at $20,000-40,000 for 15-20 sessions.",
         },
@@ -234,7 +234,7 @@ export const nicheData: NicheData = {
     },
   ],
   costKeywords: [
-    "physiotherapy session cost Global",
+    "physiotherapy session cost the US",
     "sports rehab charges",
     "back pain treatment cost",
     "physiotherapy for knee pain price",
@@ -253,16 +253,16 @@ export const nicheData: NicheData = {
   citations: [
     {
       name: "Zocdoc",
-      url: "https://www.practo.com",
+      url: "https://www.zocdoc.com",
       type: "niche-specific",
     },
     {
       name: "Healthgrades",
-      url: "https://www.lybrate.com",
+      url: "https://www.healthgrades.com",
       type: "niche-specific",
     },
     {
-      name: "PhysioTimes Global",
+      name: "PhysioTimes the US",
       url: "https://www.physiotimes.com",
       type: "niche-specific",
     },
@@ -273,7 +273,7 @@ export const nicheData: NicheData = {
     },
     {
       name: "Yelp",
-      url: "https://www.justdial.com",
+      url: "https://www.yelp.com",
       type: "general",
     },
   ],

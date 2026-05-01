@@ -90,7 +90,7 @@ export const niches: NicheData[] = [
           "MedicalBusiness + Physician Schema",
           "llms.txt + AI Crawler Access",
           "Google Business Profile Optimization",
-          "NAP Consistency (50+ Global Directories)",
+          "NAP Consistency (50+ the US Directories)",
           "Monthly AI Citation Report",
         ],
       },
@@ -163,7 +163,7 @@ export const niches: NicheData[] = [
     image: images.dentist,
     heroHeadline: "Patients Are Asking AI for Dentists. Are You the Answer?",
     heroSubline:
-      "'Dental implant cost in London' gets 12,000 searches/month. AI now answers this directly — recommending specific clinics by name. Is yours one of them?",
+      "'Dental implant cost in New York' gets 12,000 searches/month. AI now answers this directly — recommending specific clinics by name. Is yours one of them?",
     searchExample: "best dentist for implants in Chicago",
     competitorLine: "SmileCare Dental is getting recommended by AI over you",
     painPoints: [
@@ -192,7 +192,7 @@ export const niches: NicheData[] = [
           "Dentist + LocalBusiness Schema",
           "llms.txt + AI Crawler Access",
           "Google Business Profile Optimization",
-          "NAP Consistency (50+ Global Directories)",
+          "NAP Consistency (50+ the US Directories)",
           "Monthly AI Citation Report",
         ],
       },
@@ -266,7 +266,7 @@ export const niches: NicheData[] = [
     heroHeadline: "AI Is Recommending Surgeons by Name. Is It Recommending You?",
     heroSubline:
       "Patients researching rhinoplasty, liposuction, or facelifts are asking AI before even Googling. AI recommends 2-3 surgeons in your city. You need to be one of them.",
-    searchExample: "best rhinoplasty surgeon in Sydney",
+    searchExample: "best rhinoplasty surgeon in Los Angeles",
     competitorLine: "Dr. Aesthetic Clinic is AI-recommended for plastic surgery in your city",
     painPoints: [
       {
@@ -294,7 +294,7 @@ export const niches: NicheData[] = [
           "Physician + MedicalProcedure Schema",
           "llms.txt + AI Crawler Access",
           "Google Business Profile Optimization",
-          "Medical Directory Listings (50+ Global)",
+          "Medical Directory Listings (50+ the US)",
           "Monthly AI Citation & Competitor Report",
         ],
       },
@@ -368,7 +368,7 @@ export const niches: NicheData[] = [
     heroHeadline: "Couples Are Asking AI Which IVF Clinic to Trust. What's AI Saying About You?",
     heroSubline:
       "'Best IVF clinic in Los Angeles' is now answered by AI with specific names, success rates, and costs. If your clinic's data isn't being picked up, those couples go elsewhere.",
-    searchExample: "best IVF clinic with highest success rate in Melbourne",
+    searchExample: "best IVF clinic with highest success rate in San Francisco",
     competitorLine: "Top fertility centers are dominating AI recommendations in your city",
     painPoints: [
       {
@@ -470,7 +470,7 @@ export const niches: NicheData[] = [
     heroHeadline: "When Clients Ask AI for a Lawyer, Does AI Say Your Name?",
     heroSubline:
       "Legal clients are now asking ChatGPT and Google AI for lawyer recommendations. 3 firms get mentioned. If you're not one of them, you're losing high-value cases every single day.",
-    searchExample: "best corporate lawyer in London",
+    searchExample: "best corporate lawyer in New York",
     competitorLine: "Top-tier firms dominate AI recommendations in your practice area",
     painPoints: [
       {
@@ -498,7 +498,7 @@ export const niches: NicheData[] = [
           "LegalService + Attorney Schema",
           "llms.txt + AI Crawler Access",
           "Google Business Profile Optimization",
-          "Legal Directory Listings (50+ Global)",
+          "Legal Directory Listings (50+ the US)",
           "Monthly AI Citation Report",
         ],
       },

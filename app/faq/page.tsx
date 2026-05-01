@@ -15,7 +15,7 @@ const faqs = [
       },
       {
         q: "Why do businesses need AEO in 2026?",
-        a: "73% of consumers under 35 now use AI assistants instead of Google to find services. When someone asks ChatGPT 'best dermatologist in London', AI names 2-3 clinics. If you're not one of them, you're losing patients to competitors who are. AEO ensures AI knows you exist and recommends you.",
+        a: "73% of consumers under 35 now use AI assistants instead of Google to find services. When someone asks ChatGPT 'best dermatologist in New York', AI names 2-3 clinics. If you're not one of them, you're losing patients to competitors who are. AEO ensures AI knows you exist and recommends you.",
       },
     ],
   },
@@ -24,7 +24,7 @@ const faqs = [
     items: [
       {
         q: "What does Godfather Funnel AI do?",
-        a: "We are Global's premier AEO (Answer Engine Optimization) and AI marketing agency. We make AI assistants like ChatGPT, Google AI Overviews, and Perplexity recommend your business by name. We specialize in 6 premium industries: dermatologists, dentists, plastic surgeons, IVF clinics, lawyers, and real estate developers.",
+        a: "We are the US's premier AEO (Answer Engine Optimization) and AI marketing agency. We make AI assistants like ChatGPT, Google AI Overviews, and Perplexity recommend your business by name. We specialize in 6 premium industries: dermatologists, dentists, plastic surgeons, IVF clinics, lawyers, and real estate developers.",
       },
       {
         q: "Which industries do you specialize in?",

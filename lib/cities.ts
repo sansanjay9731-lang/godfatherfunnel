@@ -4,41 +4,47 @@ export interface CityData {
   tier: 1 | 2 | 3;
   state: string;
   stateCode: string;
-  country: "USA" | "UK" | "Australia";
+  country: "USA";
   population: string;
   knownFor: string;
 }
 
 export const cities: CityData[] = [
-  // USA - Tier 1
-  { name: "New York", slug: "new-york", tier: 1, state: "New York", stateCode: "NY", country: "USA", population: "8.3M", knownFor: "global financial hub, legal capital, world-class healthcare" },
-  { name: "Los Angeles", slug: "los-angeles", tier: 1, state: "California", stateCode: "CA", country: "USA", population: "3.8M", knownFor: "entertainment, healthcare innovation, luxury real estate" },
-  { name: "Chicago", slug: "chicago", tier: 1, state: "Illinois", stateCode: "IL", country: "USA", population: "2.6M", knownFor: "financial services, legal hub, medical centers" },
-  { name: "Houston", slug: "houston", tier: 1, state: "Texas", stateCode: "TX", country: "USA", population: "2.3M", knownFor: "energy capital, Texas Medical Center, legal hub" },
-  { name: "Miami", slug: "miami", tier: 1, state: "Florida", stateCode: "FL", country: "USA", population: "450K", knownFor: "plastic surgery capital, luxury real estate, tourism" },
-  { name: "San Francisco", slug: "san-francisco", tier: 1, state: "California", stateCode: "CA", country: "USA", population: "800K", knownFor: "tech capital, innovation, premium services" },
-  { name: "Austin", slug: "austin", tier: 1, state: "Texas", stateCode: "TX", country: "USA", population: "1M", knownFor: "growing tech hub, real estate boom" },
-  
-  // UK - Tier 1
-  { name: "London", slug: "london", tier: 1, state: "Greater London", stateCode: "LDN", country: "UK", population: "8.9M", knownFor: "global financial center, Harley Street medical, legal hub" },
-  { name: "Manchester", slug: "manchester", tier: 1, state: "Greater Manchester", stateCode: "MAN", country: "UK", population: "550K", knownFor: "media city, healthcare research, industrial heritage" },
-  { name: "Birmingham", slug: "birmingham", tier: 1, state: "West Midlands", stateCode: "BHX", country: "UK", population: "1.1M", knownFor: "commercial hub, major healthcare centers" },
-  { name: "Edinburgh", slug: "edinburgh", tier: 1, state: "Scotland", stateCode: "EDI", country: "UK", population: "500K", knownFor: "financial services, tourism, education" },
+  // Tier 1 — Top US Metros
+  { name: "New York", slug: "new-york", tier: 1, state: "New York", stateCode: "NY", country: "USA", population: "8.3M", knownFor: "financial capital, world-class healthcare, legal hub" },
+  { name: "Los Angeles", slug: "los-angeles", tier: 1, state: "California", stateCode: "CA", country: "USA", population: "3.8M", knownFor: "entertainment capital, luxury healthcare, cosmetic surgery" },
+  { name: "Chicago", slug: "chicago", tier: 1, state: "Illinois", stateCode: "IL", country: "USA", population: "2.7M", knownFor: "financial services, medical centers, legal hub" },
+  { name: "Houston", slug: "houston", tier: 1, state: "Texas", stateCode: "TX", country: "USA", population: "2.3M", knownFor: "Texas Medical Center, energy capital, legal hub" },
+  { name: "Miami", slug: "miami", tier: 1, state: "Florida", stateCode: "FL", country: "USA", population: "450K", knownFor: "cosmetic surgery capital, luxury real estate, international business" },
+  { name: "San Francisco", slug: "san-francisco", tier: 1, state: "California", stateCode: "CA", country: "USA", population: "870K", knownFor: "tech capital, innovation hub, premium professional services" },
+  { name: "Dallas", slug: "dallas", tier: 1, state: "Texas", stateCode: "TX", country: "USA", population: "1.3M", knownFor: "corporate headquarters, healthcare systems, real estate" },
 
-  // Australia - Tier 1
-  { name: "Sydney", slug: "sydney", tier: 1, state: "New South Wales", stateCode: "NSW", country: "Australia", population: "5.3M", knownFor: "financial hub, luxury real estate, premium healthcare" },
-  { name: "Melbourne", slug: "melbourne", tier: 1, state: "Victoria", stateCode: "VIC", country: "Australia", population: "5M", knownFor: "culture capital, medical research, education" },
-  { name: "Brisbane", slug: "brisbane", tier: 1, state: "Queensland", stateCode: "QLD", country: "Australia", population: "2.5M", knownFor: "growing business hub, healthcare excellence" },
-  { name: "Perth", slug: "perth", tier: 1, state: "Western Australia", stateCode: "WA", country: "Australia", population: "2M", knownFor: "mining hub, growing professional services" },
+  // Tier 2 — Major US Cities
+  { name: "Austin", slug: "austin", tier: 2, state: "Texas", stateCode: "TX", country: "USA", population: "1M", knownFor: "fastest-growing tech hub, real estate boom, startup ecosystem" },
+  { name: "Seattle", slug: "seattle", tier: 2, state: "Washington", stateCode: "WA", country: "USA", population: "740K", knownFor: "tech giants HQ, biotech, premium healthcare" },
+  { name: "Boston", slug: "boston", tier: 2, state: "Massachusetts", stateCode: "MA", country: "USA", population: "675K", knownFor: "world-class hospitals, education, biotech hub" },
+  { name: "Atlanta", slug: "atlanta", tier: 2, state: "Georgia", stateCode: "GA", country: "USA", population: "500K", knownFor: "business hub, growing healthcare market, film industry" },
+  { name: "Denver", slug: "denver", tier: 2, state: "Colorado", stateCode: "CO", country: "USA", population: "715K", knownFor: "fast-growing market, wellness capital, outdoor lifestyle" },
+  { name: "Phoenix", slug: "phoenix", tier: 2, state: "Arizona", stateCode: "AZ", country: "USA", population: "1.6M", knownFor: "retirement destination, medical tourism, real estate growth" },
+  { name: "San Diego", slug: "san-diego", tier: 2, state: "California", stateCode: "CA", country: "USA", population: "1.4M", knownFor: "biotech corridor, military healthcare, wellness" },
+  { name: "Philadelphia", slug: "philadelphia", tier: 2, state: "Pennsylvania", stateCode: "PA", country: "USA", population: "1.6M", knownFor: "healthcare systems, legal market, higher education" },
+  { name: "Nashville", slug: "nashville", tier: 2, state: "Tennessee", stateCode: "TN", country: "USA", population: "690K", knownFor: "healthcare capital of America, growing professional services" },
+
+  // Tier 3 — Fast-Growing US Cities
+  { name: "Charlotte", slug: "charlotte", tier: 3, state: "North Carolina", stateCode: "NC", country: "USA", population: "880K", knownFor: "banking capital, growing healthcare, real estate" },
+  { name: "Tampa", slug: "tampa", tier: 3, state: "Florida", stateCode: "FL", country: "USA", population: "400K", knownFor: "healthcare hub, retirement services, growing market" },
+  { name: "Portland", slug: "portland", tier: 3, state: "Oregon", stateCode: "OR", country: "USA", population: "650K", knownFor: "wellness culture, sustainability, alternative medicine" },
+  { name: "Las Vegas", slug: "las-vegas", tier: 3, state: "Nevada", stateCode: "NV", country: "USA", population: "650K", knownFor: "cosmetic surgery, entertainment, hospitality" },
+  { name: "Minneapolis", slug: "minneapolis", tier: 3, state: "Minnesota", stateCode: "MN", country: "USA", population: "430K", knownFor: "Mayo Clinic region, corporate headquarters, healthcare" },
+  { name: "Salt Lake City", slug: "salt-lake-city", tier: 3, state: "Utah", stateCode: "UT", country: "USA", population: "200K", knownFor: "tech growth corridor, outdoor wellness, growing market" },
+  { name: "Scottsdale", slug: "scottsdale", tier: 3, state: "Arizona", stateCode: "AZ", country: "USA", population: "240K", knownFor: "luxury wellness, cosmetic surgery, high-end real estate" },
+  { name: "Raleigh", slug: "raleigh", tier: 3, state: "North Carolina", stateCode: "NC", country: "USA", population: "470K", knownFor: "Research Triangle, biotech, healthcare innovation" },
+  { name: "San Antonio", slug: "san-antonio", tier: 3, state: "Texas", stateCode: "TX", country: "USA", population: "1.4M", knownFor: "military healthcare, growing professional services" },
 ];
 
 
 export function getAllCities(): CityData[] {
   return cities;
-}
-
-export function getCitiesByCountry(country: CityData["country"]): CityData[] {
-  return cities.filter((c) => c.country === country);
 }
 
 export function getCityBySlug(slug: string): CityData | undefined {
@@ -52,4 +58,3 @@ export function getTier1Cities(): CityData[] {
 export function getCitySlugs(): string[] {
   return cities.map((c) => c.slug);
 }
-

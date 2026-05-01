@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Our Services — AEO, AI Marketing & 360° Digital | Godfather Funnel AI",
   description:
-    "From Answer Engine Optimization to schema markup, Google Ads to reputation management — we offer end-to-end AI marketing services for dermatologists, dentists, plastic surgeons, IVF clinics, lawyers, and real estate developers across Global.",
+    "From Answer Engine Optimization to schema markup, Google Ads to reputation management — we offer end-to-end AI marketing services for dermatologists, dentists, plastic surgeons, IVF clinics, lawyers, and real estate developers across the US.",
 };
 
 const services = [
@@ -39,7 +39,7 @@ const services = [
     tag: "Scale",
     desc: "We build hundreds of hyper-targeted landing pages that capture long-tail search traffic and AI citations. Every page is schema-enriched and designed to convert.",
     features: [
-      "City + niche landing pages (e.g., 'best dermatologist in London')",
+      "City + niche landing pages (e.g., 'best dermatologist in New York')",
       "Treatment + city pages (e.g., 'dental implant cost in New York')",
       "Comparison pages (e.g., 'AEO vs SEO')",
       "Dynamic FAQ generation per page",
@@ -100,11 +100,11 @@ export default function ServicesPage() {
             name: "Godfather Funnel AI",
             url: "https://www.godfatherfunnelai.com/services",
             description:
-              "Global's premier AEO and AI marketing agency offering Answer Engine Optimization, schema markup, programmatic SEO, Google & Meta Ads, reputation management, and 360° digital marketing for premium businesses.",
+              "the US's premier AEO and AI marketing agency offering Answer Engine Optimization, schema markup, programmatic SEO, Google & Meta Ads, reputation management, and 360° digital marketing for premium businesses.",
             provider: {
               "@id": "https://www.godfatherfunnelai.com/#organization",
             },
-            areaServed: { "@type": "Country", name: "Global" },
+            areaServed: { "@type": "Country", name: "the US" },
             hasOfferCatalog: {
               "@type": "OfferCatalog",
               name: "AI Marketing Services",

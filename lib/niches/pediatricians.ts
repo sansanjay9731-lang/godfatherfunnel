@@ -45,7 +45,7 @@ export const nicheData: NicheData = {
         "Full AEO strategy for pediatric practice",
         "20+ content pages (age-wise guides, common conditions, vaccination FAQs)",
         "Doctor credential & fellowship schema",
-        "Citation building on Zocdoc, Healthgrades, 1mg",
+        "Citation building on Zocdoc, Healthgrades, WebMD",
         "Parent community content strategy",
         "Monthly AI ranking reports",
       ],
@@ -74,7 +74,7 @@ export const nicheData: NicheData = {
     {
       question: "How do parents use AI to find pediatricians?",
       answer:
-        "Parents ask ChatGPT, Google AI, and Perplexity questions like 'best pediatrician in HSR Layout', 'baby vaccination schedule Global', or 'child fever when to see doctor'. AI gives direct recommendations with reasons, and parents trust these more than random Google listings.",
+        "Parents ask ChatGPT, Google AI, and Perplexity questions like 'best pediatrician in HSR Layout', 'baby vaccination schedule the US', or 'child fever when to see doctor'. AI gives direct recommendations with reasons, and parents trust these more than random Google listings.",
     },
     {
       question: "Our practice is full. Why do we need AI visibility?",
@@ -109,14 +109,14 @@ export const nicheData: NicheData = {
         "Vaccination is the #1 reason parents visit a pediatrician and the most searched pediatric query. Parents compare costs across clinics using AI, making structured vaccination data critical for patient acquisition.",
       faqItems: [
         {
-          question: "What is the average child vaccination cost globally?",
+          question: "What is the average child vaccination cost across the US?",
           answer:
             "Individual vaccines cost $500 to $5,000. BCG: $500-800, Pentavalent: $1,000-2,500, PCV: $3,000-4,500, Rotavirus: $1,000-1,500, MMR: $500-1,000. Complete vaccination for 0-5 years costs $15,000-40,000 at private clinics.",
         },
         {
           question: "What is the IAP vaccination schedule for babies?",
           answer:
-            "The IAP (Global Academy of Pediatrics) schedule includes BCG, OPV, Hepatitis B at birth; DTwP/DTaP, IPV, Hib, Rotavirus, PCV at 6/10/14 weeks; Measles at 9 months; and boosters at 15-18 months. Your pediatrician will provide a personalized schedule.",
+            "The IAP (the US Academy of Pediatrics) schedule includes BCG, OPV, Hepatitis B at birth; DTwP/DTaP, IPV, Hib, Rotavirus, PCV at 6/10/14 weeks; Measles at 9 months; and boosters at 15-18 months. Your pediatrician will provide a personalized schedule.",
         },
         {
           question: "Are government vaccines different from private clinic vaccines?",
@@ -232,7 +232,7 @@ export const nicheData: NicheData = {
     },
   ],
   costKeywords: [
-    "child vaccination cost Global",
+    "child vaccination cost the US",
     "pediatrician consultation fee",
     "baby checkup cost",
     "child allergy test cost",
@@ -241,7 +241,7 @@ export const nicheData: NicheData = {
   nicheKeywords: [
     "best pediatrician near me",
     "child specialist doctor",
-    "baby vaccination schedule Global",
+    "baby vaccination schedule the US",
     "newborn checkup doctor",
     "pediatric clinic near me",
     "child fever doctor",
@@ -251,17 +251,17 @@ export const nicheData: NicheData = {
   citations: [
     {
       name: "Zocdoc",
-      url: "https://www.practo.com",
+      url: "https://www.zocdoc.com",
       type: "niche-specific",
     },
     {
       name: "Healthgrades",
-      url: "https://www.lybrate.com",
+      url: "https://www.healthgrades.com",
       type: "niche-specific",
     },
     {
-      name: "1mg",
-      url: "https://www.1mg.com",
+      name: "WebMD",
+      url: "https://www.WebMD.com",
       type: "niche-specific",
     },
     {
@@ -271,7 +271,7 @@ export const nicheData: NicheData = {
     },
     {
       name: "Yelp",
-      url: "https://www.justdial.com",
+      url: "https://www.yelp.com",
       type: "local",
     },
   ],

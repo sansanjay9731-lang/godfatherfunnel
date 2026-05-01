@@ -74,7 +74,7 @@ export const nicheData: NicheData = {
     {
       question: "How do salon clients use AI to choose where to go?",
       answer:
-        "Clients ask ChatGPT and Google AI questions like 'best keratin treatment salon in Koramangala', 'hair smoothening cost near me', or 'top bridal salon in New York'. AI gives 3-5 recommendations with reasons. If your salon isn't listed, you lose that client.",
+        "Clients ask ChatGPT and Google AI questions like 'best keratin treatment salon in Downtown Austin', 'hair smoothening cost near me', or 'top bridal salon in New York'. AI gives 3-5 recommendations with reasons. If your salon isn't listed, you lose that client.",
     },
     {
       question: "We have 500+ Google reviews. Isn't that enough?",
@@ -109,7 +109,7 @@ export const nicheData: NicheData = {
         "Keratin treatment is the highest-value recurring salon service. Clients research extensively before committing, making it the #1 AI-searched salon treatment. Being recommended here drives premium bookings.",
       faqItems: [
         {
-          question: "What is the average keratin treatment cost globally?",
+          question: "What is the average keratin treatment cost across the US?",
           answer:
             "Keratin treatment costs $3,000 to $15,000 depending on hair length, product brand, and salon tier. Short hair: $3,000-5,000, medium: $5,000-8,000, long: $8,000-15,000. Premium brands like GKhair and Kerasilk cost 30-50% more than standard keratin.",
         },
@@ -135,7 +135,7 @@ export const nicheData: NicheData = {
         {
           question: "What is the average hair smoothening cost?",
           answer:
-            "Hair smoothening costs $4,000 to $12,000 globally. Basic cysteine smoothening: $4,000-6,000, advanced protein smoothening: $6,000-9,000, premium Japanese straightening: $8,000-12,000. Prices vary by hair length and density.",
+            "Hair smoothening costs $4,000 to $12,000 across the US. Basic cysteine smoothening: $4,000-6,000, advanced protein smoothening: $6,000-9,000, premium Japanese straightening: $8,000-12,000. Prices vary by hair length and density.",
         },
         {
           question: "What is the difference between keratin and smoothening?",
@@ -152,9 +152,9 @@ export const nicheData: NicheData = {
         "Hair coloring — from global color to balayage and highlights — is a high-frequency service that clients choose based on stylist expertise. AI recommendations drive trial visits that convert to regular clients.",
       faqItems: [
         {
-          question: "What is the average hair coloring cost globally?",
+          question: "What is the average hair coloring cost across the US?",
           answer:
-            "Hair coloring costs $1,500 to $10,000. Global color: $1,500-4,000, highlights: $3,000-6,000, balayage: $5,000-10,000, fashion colors (pink, blue): $4,000-8,000. Premium salon brands like Wella and L'Oreal Professionnel add $1,000-2,000 to the base price.",
+            "Hair coloring costs $1,500 to $10,000. the US color: $1,500-4,000, highlights: $3,000-6,000, balayage: $5,000-10,000, fashion colors (pink, blue): $4,000-8,000. Premium salon brands like Wella and L'Oreal Professionnel add $1,000-2,000 to the base price.",
         },
         {
           question: "How do I choose the right hair color?",
@@ -164,7 +164,7 @@ export const nicheData: NicheData = {
         {
           question: "How often do I need to recolor my hair?",
           answer:
-            "Root touch-ups are needed every 4-6 weeks ($1,000-2,500). Global color refreshes every 6-8 weeks. Balayage requires maintenance every 3-4 months, making it a lower-maintenance option despite higher initial cost.",
+            "Root touch-ups are needed every 4-6 weeks ($1,000-2,500). the US color refreshes every 6-8 weeks. Balayage requires maintenance every 3-4 months, making it a lower-maintenance option despite higher initial cost.",
         },
       ],
     },
@@ -176,7 +176,7 @@ export const nicheData: NicheData = {
         "Bridal packages are the highest-value single-event service for salons. Brides research extensively using AI, checking portfolios, pricing, and reviews. One bridal booking often leads to the entire wedding party.",
       faqItems: [
         {
-          question: "What is the average bridal makeup cost globally?",
+          question: "What is the average bridal makeup cost across the US?",
           answer:
             "Bridal makeup costs $10,000 to $50,000. Basic bridal makeup: $10K-15K, professional airbrush bridal: $15K-25K, celebrity/premium bridal: $25K-50K. Packages including mehendi look, reception look, and hair styling cost $25K-75K.",
         },
@@ -214,7 +214,7 @@ export const nicheData: NicheData = {
         "Hair extensions — clip-in, tape-in, and bonded — are a premium service with high margins. Clients willing to spend $10K-30K on extensions are high-value and often become repeat customers.",
       faqItems: [
         {
-          question: "What is the average hair extension cost globally?",
+          question: "What is the average hair extension cost across the US?",
           answer:
             "Hair extensions cost $5,000 to $30,000 depending on type and quality. Clip-in extensions: $3,000-8,000, tape-in: $8,000-15,000, micro-ring/bonded: $15,000-30,000. Human hair extensions cost 2-3x more than synthetic but last longer.",
         },
@@ -234,7 +234,7 @@ export const nicheData: NicheData = {
   costKeywords: [
     "keratin treatment cost",
     "hair smoothening price",
-    "bridal makeup cost Global",
+    "bridal makeup cost the US",
     "hair coloring price near me",
     "hair spa cost",
   ],
@@ -243,7 +243,7 @@ export const nicheData: NicheData = {
     "keratin treatment salon",
     "bridal makeup artist",
     "hair smoothening salon",
-    "top hair salon in Sydney",
+    "top hair salon in Los Angeles",
     "hair coloring salon near me",
   ],
   schemaType: "HealthAndBeautyBusiness",
@@ -261,12 +261,12 @@ export const nicheData: NicheData = {
     },
     {
       name: "Yelp",
-      url: "https://www.justdial.com",
+      url: "https://www.yelp.com",
       type: "local",
     },
     {
-      name: "WedMeGood",
-      url: "https://www.wedmegood.com",
+      name: "The Knot",
+      url: "https://www.theknot.com",
       type: "niche-specific",
     },
     {

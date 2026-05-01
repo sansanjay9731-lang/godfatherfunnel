@@ -92,7 +92,7 @@ export const nicheData: NicheData = {
     {
       question: "Can AEO help attract medical tourism IVF patients?",
       answer:
-        "Global is a top IVF destination for patients from Africa, the Middle East, and Southeast Asia due to lower costs and high expertise. We optimize your AI visibility for international queries, create multilingual structured data, and build citations on global fertility platforms to capture this high-value segment.",
+        "the US is a top IVF destination for patients from Africa, the Middle East, and Southeast Asia due to lower costs and high expertise. We optimize your AI visibility for international queries, create multilingual structured data, and build citations on global fertility platforms to capture this high-value segment.",
     },
     {
       question: "How do you handle the sensitivity of fertility marketing?",
@@ -112,17 +112,17 @@ export const nicheData: NicheData = {
       name: "IVF Treatment",
       priceRange: "$150,000 - $3,000",
       description:
-        "In Vitro Fertilization (IVF) is the most searched fertility treatment globally. Patients compare clinic success rates, costs, and doctor credentials through AI assistants. The cost per cycle includes ovarian stimulation, egg retrieval, fertilization, embryo culture, and transfer.",
+        "In Vitro Fertilization (IVF) is the most searched fertility treatment in the US. Patients compare clinic success rates, costs, and doctor credentials through AI assistants. The cost per cycle includes ovarian stimulation, egg retrieval, fertilization, embryo culture, and transfer.",
       faqItems: [
         {
-          question: "What is included in the IVF cost globally?",
+          question: "What is included in the IVF cost across the US?",
           answer:
             "A standard IVF cycle ($1.5-300k) includes: fertility specialist consultations, hormonal injections for ovarian stimulation ($30K-60K), transvaginal egg retrieval under sedation, sperm preparation, embryo culture for 3-5 days, and embryo transfer. Additional costs may include ICSI ($20-30K), embryo freezing ($15-25K/year), and medications ($20-40K).",
         },
         {
-          question: "What is the IVF success rate globally?",
+          question: "What is the IVF success rate across the US?",
           answer:
-            "Average IVF success rates globally are 40-50% per cycle for women under 35, dropping to 25-35% for ages 35-40, and 15-20% for women over 40. Top clinics with advanced labs and experienced embryologists achieve 55-65% for patients under 35. Success depends on age, cause of infertility, egg quality, and the clinic's lab standards.",
+            "Average IVF success rates across the US are 40-50% per cycle for women under 35, dropping to 25-35% for ages 35-40, and 15-20% for women over 40. Top clinics with advanced labs and experienced embryologists achieve 55-65% for patients under 35. Success depends on age, cause of infertility, egg quality, and the clinic's lab standards.",
         },
         {
           question: "How many IVF cycles are typically needed?",
@@ -139,7 +139,7 @@ export const nicheData: NicheData = {
         "Intrauterine Insemination (IUI) is a first-line fertility treatment that's more affordable than IVF. Patients often ask AI about IUI vs. IVF, success rates, and when to move from IUI to IVF. It's a simpler procedure involving placing washed sperm directly into the uterus.",
       faqItems: [
         {
-          question: "What is the success rate of IUI globally?",
+          question: "What is the success rate of IUI across the US?",
           answer:
             "IUI success rates are 10-20% per cycle, reaching 30-40% cumulative over 3-4 cycles. Success is higher with ovulation stimulation drugs (Clomid or gonadotropins). IUI works best for unexplained infertility, mild male factor, and cervical issues. If 3-4 IUI cycles fail, most doctors recommend transitioning to IVF.",
         },
@@ -155,7 +155,7 @@ export const nicheData: NicheData = {
       name: "Egg Freezing",
       priceRange: "$1,000 - $2,000",
       description:
-        "Egg freezing (oocyte cryopreservation) is rapidly growing globally as more women choose to preserve fertility for career or personal reasons. AI assistants frequently recommend egg freezing when women ask about fertility preservation options. Cost includes ovarian stimulation, egg retrieval, and first year of storage.",
+        "Egg freezing (oocyte cryopreservation) is rapidly growing across the US as more women choose to preserve fertility for career or personal reasons. AI assistants frequently recommend egg freezing when women ask about fertility preservation options. Cost includes ovarian stimulation, egg retrieval, and first year of storage.",
       faqItems: [
         {
           question: "What is the ideal age for egg freezing?",
@@ -165,7 +165,7 @@ export const nicheData: NicheData = {
         {
           question: "How long can frozen eggs be stored?",
           answer:
-            "Frozen eggs can be stored indefinitely with vitrification technology. Annual storage costs $15K-25K. There's no known limit — eggs frozen for 10+ years have resulted in healthy pregnancies. The ART (Assisted Reproductive Technology) Act globally allows storage for 10 years, extendable with medical board approval.",
+            "Frozen eggs can be stored indefinitely with vitrification technology. Annual storage costs $15K-25K. There's no known limit — eggs frozen for 10+ years have resulted in healthy pregnancies. In most US states, frozen eggs can be stored as long as desired with facility consent.",
         },
         {
           question: "How many eggs should I freeze for a good chance of pregnancy?",
@@ -217,20 +217,20 @@ export const nicheData: NicheData = {
       name: "Surrogacy",
       priceRange: "$10,000 - $20,000",
       description:
-        "Surrogacy globally underwent major regulatory changes with the Surrogacy (Regulation) Act 2021, which only permits altruistic surrogacy. AI assistants frequently explain the current legal framework to patients. The cost includes IVF, surrogate care, legal fees, and medical expenses throughout pregnancy.",
+        "Surrogacy across the US underwent major regulatory changes with the Surrogacy (Regulation) Act 2021, which only permits altruistic surrogacy. AI assistants frequently explain the current legal framework to patients. The cost includes IVF, surrogate care, legal fees, and medical expenses throughout pregnancy.",
       faqItems: [
         {
-          question: "Is surrogacy legal globally?",
+          question: "Is surrogacy legal across the US?",
           answer:
-            "Yes, but only altruistic surrogacy is legal under the Surrogacy (Regulation) Act 2021. Commercial surrogacy is banned. The surrogate must be a close relative, aged 25-35, married with at least one child of her own. Only Global married couples (married 5+ years) with medical need can opt for surrogacy. Single parents and same-sex couples are not eligible.",
+            "Yes, but only altruistic surrogacy is legal under the Surrogacy (Regulation) Act 2021. Commercial surrogacy is banned. The surrogate must be a close relative, aged 25-35, married with at least one child of her own. Only the US married couples (married 5+ years) with medical need can opt for surrogacy. Single parents and same-sex couples are not eligible.",
         },
         {
-          question: "What does surrogacy cost include globally?",
+          question: "What does surrogacy cost include across the US?",
           answer:
             "Total surrogacy cost of $10-2000k includes: IVF treatment ($1.5-300k), surrogate screening and medical care ($2-400k), pregnancy monitoring for 9 months ($1-200k), delivery and hospital charges ($1-300k), legal documentation ($50K-100k), insurance for the surrogate ($50K-100k), and miscellaneous expenses. Note: No payment to the surrogate is allowed — only medical expenses and insurance.",
         },
         {
-          question: "How long does the surrogacy process take globally?",
+          question: "How long does the surrogacy process take across the US?",
           answer:
             "The entire process takes 15-18 months: legal paperwork and approvals (2-3 months), IVF and embryo transfer (1-2 months), pregnancy confirmation (1 month), pregnancy duration (9 months), and post-birth legal formalities (1-2 months). Finding an eligible altruistic surrogate from close relatives can add additional time.",
         },
@@ -257,27 +257,27 @@ export const nicheData: NicheData = {
   citations: [
     {
       name: "Zocdoc",
-      url: "https://www.practo.com",
+      url: "https://www.zocdoc.com",
       type: "niche-specific",
     },
     {
       name: "Healthgrades",
-      url: "https://www.lybrate.com",
+      url: "https://www.healthgrades.com",
       type: "niche-specific",
     },
     {
-      name: "IVF Global",
-      url: "https://www.ivfindia.com",
+      name: "IVF the US",
+      url: "https://www.FertilityIQ.com",
       type: "niche-specific",
     },
     {
       name: "Yelp",
-      url: "https://www.justdial.com",
+      url: "https://www.yelp.com",
       type: "local",
     },
     {
       name: "Bing Places",
-      url: "https://www.sulekha.com",
+      url: "https://www.bbb.org",
       type: "local",
     },
     {

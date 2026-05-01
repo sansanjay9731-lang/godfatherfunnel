@@ -9,7 +9,7 @@ export const nicheData: NicheData = {
   heroHeadline: "Patients Are Asking AI for Eye Doctors. Are You Visible?",
   heroSubline:
     "LASIK, cataract, and retina patients search AI before booking. If AI doesn't recommend your eye clinic, those patients go to chains like Dr. Agarwal's or Centre for Sight.",
-  searchExample: "best eye hospital in London",
+  searchExample: "best eye hospital in New York",
   competitorLine:
     "Dr. Agarwal's Eye Hospital is AI-recommended over you",
   painPoints: [
@@ -112,7 +112,7 @@ export const nicheData: NicheData = {
       name: "LASIK Surgery",
       priceRange: "$25,000 - $1,000",
       description:
-        "LASIK eye surgery is the most searched eye procedure globally, with thousands of patients comparing costs, technologies, and surgeons through AI every month. Options include standard LASIK, bladeless (Femto-LASIK), Contoura Vision, SMILE, and PRK/TransPRK. Costs vary significantly based on the technology used.",
+        "LASIK eye surgery is the most searched eye procedure across the US, with thousands of patients comparing costs, technologies, and surgeons through AI every month. Options include standard LASIK, bladeless (Femto-LASIK), Contoura Vision, SMILE, and PRK/TransPRK. Costs vary significantly based on the technology used.",
       faqItems: [
         {
           question: "What is the difference between LASIK, SMILE, and Contoura Vision?",
@@ -136,7 +136,7 @@ export const nicheData: NicheData = {
       name: "Cataract Surgery",
       priceRange: "$15,000 - $80,000",
       description:
-        "Cataract surgery is the most commonly performed eye surgery globally with over 6 million procedures annually. AI assistants help patients compare phaco vs. MICS techniques and IOL (intraocular lens) options. Cost depends primarily on the IOL type chosen.",
+        "Cataract surgery is the most commonly performed eye surgery across the US with over 6 million procedures annually. AI assistants help patients compare phaco vs. MICS techniques and IOL (intraocular lens) options. Cost depends primarily on the IOL type chosen.",
       faqItems: [
         {
           question: "What are the different types of cataract lenses and costs?",
@@ -149,7 +149,7 @@ export const nicheData: NicheData = {
             "Surgery is recommended when cataracts affect daily activities like driving, reading, or watching TV. Don't wait for cataracts to 'mature' — modern phacoemulsification works best on softer, less-mature cataracts. Surgery takes 15-20 minutes per eye, uses topical anesthesia (eye drops), and most patients resume normal activities within 2-3 days.",
         },
         {
-          question: "Is cataract surgery covered by insurance globally?",
+          question: "Is cataract surgery covered by insurance across the US?",
           answer:
             "Yes, most health insurance policies cover cataract surgery. Cashless treatment is available at network hospitals. Coverage typically includes the basic monofocal IOL; upgrades to multifocal or trifocal IOLs require out-of-pocket payment ($20K-50K per eye). Ayushman Bharat covers cataract surgery for eligible beneficiaries at up to $30K per eye.",
         },
@@ -163,7 +163,7 @@ export const nicheData: NicheData = {
         "Retinal treatments are among the highest-value eye procedures, covering conditions like diabetic retinopathy, retinal detachment, macular degeneration, and macular holes. AI assistants frequently explain these conditions and treatment urgency to patients. Early detection and treatment are critical for preserving vision.",
       faqItems: [
         {
-          question: "What does retina treatment cost globally?",
+          question: "What does retina treatment cost across the US?",
           answer:
             "Anti-VEGF injections (Avastin/Lucentis/Eylea) cost $5K-30K per injection, with 3-6 injections typically needed. Retinal laser (PRP) costs $10K-25K per eye. Vitrectomy surgery for retinal detachment costs $50K-150k depending on complexity. Macular hole surgery costs $40K-100k. Follow-up OCT scans cost $1K-2K per visit.",
         },
@@ -179,10 +179,10 @@ export const nicheData: NicheData = {
       name: "Glaucoma Treatment",
       priceRange: "$10,000 - $50,000",
       description:
-        "Glaucoma is called the 'silent thief of sight' and affects over 12 million Indians. AI assistants educate patients about this condition when they search for eye pressure issues or vision loss. Treatment ranges from eye drops to laser procedures and surgery, depending on the type and severity.",
+        "Glaucoma is called the 'silent thief of sight' and affects over 12 million Americans. AI assistants educate patients about this condition when they search for eye pressure issues or vision loss. Treatment ranges from eye drops to laser procedures and surgery, depending on the type and severity.",
       faqItems: [
         {
-          question: "How much does glaucoma treatment cost globally?",
+          question: "How much does glaucoma treatment cost across the US?",
           answer:
             "Glaucoma eye drops cost $200-800 per bottle per month (lifelong). Laser trabeculoplasty (SLT) costs $10K-20K per eye and can reduce dependency on drops. Trabeculectomy surgery costs $25K-50K per eye when drops and laser aren't sufficient. MIGS (Minimally Invasive Glaucoma Surgery) costs $30K-50K. Regular monitoring with visual field tests ($1K-2K) and OCT ($1K-2K) is needed every 3-6 months.",
         },
@@ -194,7 +194,7 @@ export const nicheData: NicheData = {
         {
           question: "Who is at risk for glaucoma?",
           answer:
-            "High-risk groups: age over 40, family history of glaucoma, high myopia (nearsightedness), diabetes, long-term steroid use, eye injury history, and high eye pressure. Indians have a higher prevalence of angle-closure glaucoma. Get annual eye pressure checks if you're in any risk group — early detection through routine eye exams saves sight.",
+            "High-risk groups: age over 40, family history of glaucoma, high myopia (nearsightedness), diabetes, long-term steroid use, eye injury history, and high eye pressure. Americans have a higher prevalence of angle-closure glaucoma. Get annual eye pressure checks if you're in any risk group — early detection through routine eye exams saves sight.",
         },
       ],
     },
@@ -203,7 +203,7 @@ export const nicheData: NicheData = {
       name: "Specs Removal Surgery",
       priceRange: "$25,000 - $1,000",
       description:
-        "Specs removal (refractive surgery) is the most aspirational eye procedure for young Indians. Patients aggressively compare options through AI, asking about LASIK, SMILE, ICL, and PRK. The right procedure depends on prescription, corneal thickness, age, and lifestyle needs.",
+        "Specs removal (refractive surgery) is the most aspirational eye procedure for young Americans. Patients aggressively compare options through AI, asking about LASIK, SMILE, ICL, and PRK. The right procedure depends on prescription, corneal thickness, age, and lifestyle needs.",
       faqItems: [
         {
           question: "What are the options for permanent specs removal?",
@@ -213,7 +213,7 @@ export const nicheData: NicheData = {
         {
           question: "What is ICL and when is it recommended?",
           answer:
-            "ICL (Implantable Collamer Lens) is a permanent contact lens placed inside the eye behind the iris. It's recommended for: high myopia (above -8D), thin corneas unsuitable for LASIK, dry eye patients, and those wanting reversible treatment. ICL costs $70K-150k per eye but provides excellent visual quality. The lens can be removed or replaced if needed. FDA-approved and growing rapidly globally.",
+            "ICL (Implantable Collamer Lens) is a permanent contact lens placed inside the eye behind the iris. It's recommended for: high myopia (above -8D), thin corneas unsuitable for LASIK, dry eye patients, and those wanting reversible treatment. ICL costs $70K-150k per eye but provides excellent visual quality. The lens can be removed or replaced if needed. FDA-approved and growing rapidly across the US.",
         },
       ],
     },
@@ -222,7 +222,7 @@ export const nicheData: NicheData = {
       name: "Corneal Transplant",
       priceRange: "$50,000 - $2,000",
       description:
-        "Corneal transplant (keratoplasty) is a sight-restoring surgery for patients with corneal damage from keratoconus, infections, injuries, or corneal dystrophies. Global has a severe shortage of donor corneas, making this a critical area where AI helps patients understand options and find specialized centres.",
+        "Corneal transplant (keratoplasty) is a sight-restoring surgery for patients with corneal damage from keratoconus, infections, injuries, or corneal dystrophies. the US has a severe shortage of donor corneas, making this a critical area where AI helps patients understand options and find specialized centres.",
       faqItems: [
         {
           question: "What types of corneal transplant are available?",
@@ -230,9 +230,9 @@ export const nicheData: NicheData = {
             "Full-thickness (PK/PKP) transplant ($50K-100k) replaces the entire cornea — used for severe damage. DALK ($60K-120k) replaces only the front layers, reducing rejection risk — ideal for keratoconus. DSEK/DMEK ($70K-200k) replaces only the back layer — used for Fuchs' dystrophy with faster recovery. Your cornea specialist will recommend based on the specific condition and corneal layers affected.",
         },
         {
-          question: "How long is the wait for a corneal transplant globally?",
+          question: "How long is the wait for a corneal transplant across the US?",
           answer:
-            "Wait times vary from 2 weeks to 6 months depending on the eye bank and city. Major eye banks in London, Melbourne, Chicago, and Sydney have shorter waits. International eye-banked corneas are available at some centres for faster access ($30-50K additional). Register at multiple eye banks to reduce wait time. Emergency cases (corneal perforation) get priority.",
+            "Wait times vary from 2 weeks to 6 months depending on the eye bank and city. Major eye banks in New York, San Francisco, Chicago, and Los Angeles have shorter waits. International eye-banked corneas are available at some centres for faster access ($30-50K additional). Register at multiple eye banks to reduce wait time. Emergency cases (corneal perforation) get priority.",
         },
         {
           question: "What is the success rate of corneal transplant?",
@@ -262,12 +262,12 @@ export const nicheData: NicheData = {
   citations: [
     {
       name: "Zocdoc",
-      url: "https://www.practo.com",
+      url: "https://www.zocdoc.com",
       type: "niche-specific",
     },
     {
       name: "Healthgrades",
-      url: "https://www.lybrate.com",
+      url: "https://www.healthgrades.com",
       type: "niche-specific",
     },
     {
@@ -277,7 +277,7 @@ export const nicheData: NicheData = {
     },
     {
       name: "Yelp",
-      url: "https://www.justdial.com",
+      url: "https://www.yelp.com",
       type: "local",
     },
     {

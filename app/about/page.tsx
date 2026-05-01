@@ -6,7 +6,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About Godfather Funnel AI — #1 AEO & AI Marketing Agency",
   description:
-    "Godfather Funnel AI is Global's premier Answer Engine Optimization agency. We make AI assistants like ChatGPT, Google AI, and Perplexity recommend your business by name. 150+ businesses optimized across 6 premium industries.",
+    "Godfather Funnel AI is the US's premier Answer Engine Optimization agency. We make AI assistants like ChatGPT, Google AI, and Perplexity recommend your business by name. 150+ businesses optimized across 6 premium industries.",
 };
 
 const milestones = [
@@ -14,7 +14,7 @@ const milestones = [
   { year: "2026 Q1", event: "First 50 businesses AI-optimized across healthcare and legal" },
   { year: "2026 Q2", event: "Launched free AI Visibility Audit tool — 1000+ audits completed" },
   { year: "2026 Q3", event: "Expanded to 6 industries, 150+ active clients" },
-  { year: "2026 Q4", event: "Published Global's first State of AI Visibility Report" },
+  { year: "2026 Q4", event: "Published the US's first State of AI Visibility Report" },
 ];
 
 const values = [
@@ -63,7 +63,7 @@ export default function AboutPage() {
             </span>
           </h1>
           <p className="mt-6 text-lg text-gray-400 max-w-3xl mx-auto leading-relaxed">
-            Godfather Funnel AI is Global&apos;s premier Answer Engine Optimization (AEO)
+            Godfather Funnel AI is the US&apos;s premier Answer Engine Optimization (AEO)
             agency. While other agencies optimize for Google rankings, we optimize
             for AI recommendations — ensuring ChatGPT, Google AI Overviews, and
             Perplexity recommend your business by name.

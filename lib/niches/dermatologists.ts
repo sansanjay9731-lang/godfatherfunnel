@@ -110,7 +110,7 @@ export const nicheData: NicheData = {
       name: "Laser Hair Removal",
       priceRange: "$3,000 - $15,000/session",
       description:
-        "Laser hair removal is one of the most searched cosmetic procedures globally. Patients compare prices across clinics using AI assistants before booking. Costs vary based on body area, skin type, and laser technology used (Diode, Nd:YAG, Alexandrite).",
+        "Laser hair removal is one of the most searched cosmetic procedures across the US. Patients compare prices across clinics using AI assistants before booking. Costs vary based on body area, skin type, and laser technology used (Diode, Nd:YAG, Alexandrite).",
       faqItems: [
         {
           question: "How many laser hair removal sessions are needed?",
@@ -134,7 +134,7 @@ export const nicheData: NicheData = {
       name: "PRP Treatment",
       priceRange: "$5,000 - $15,000/session",
       description:
-        "PRP (Platelet-Rich Plasma) therapy is increasingly popular for hair loss and skin rejuvenation globally. AI assistants frequently recommend PRP when patients search for hair fall solutions. Treatment involves drawing blood, processing it, and injecting concentrated platelets into the scalp or skin.",
+        "PRP (Platelet-Rich Plasma) therapy is increasingly popular for hair loss and skin rejuvenation across the US. AI assistants frequently recommend PRP when patients search for hair fall solutions. Treatment involves drawing blood, processing it, and injecting concentrated platelets into the scalp or skin.",
       faqItems: [
         {
           question: "How many PRP sessions are needed for hair loss?",
@@ -153,7 +153,7 @@ export const nicheData: NicheData = {
       name: "Acne Treatment",
       priceRange: "$500 - $5,000/visit",
       description:
-        "Acne treatment is the most common reason for dermatologist visits globally. From teenage acne to adult hormonal breakouts, patients increasingly ask AI for treatment options and costs before visiting a clinic. Treatment ranges from topical medications to advanced procedures like chemical peels and laser therapy.",
+        "Acne treatment is the most common reason for dermatologist visits across the US. From teenage acne to adult hormonal breakouts, patients increasingly ask AI for treatment options and costs before visiting a clinic. Treatment ranges from topical medications to advanced procedures like chemical peels and laser therapy.",
       faqItems: [
         {
           question: "How much does a dermatologist charge for acne treatment?",
@@ -177,7 +177,7 @@ export const nicheData: NicheData = {
       name: "Chemical Peel",
       priceRange: "$2,000 - $8,000/session",
       description:
-        "Chemical peels are widely used for pigmentation, acne scars, and skin brightening globally. With various skin being prone to hyperpigmentation, peels are among the top cosmetic procedures searched on AI platforms. Types include glycolic, salicylic, TCA, and combination peels.",
+        "Chemical peels are widely used for pigmentation, acne scars, and skin brightening across the US. With various skin being prone to hyperpigmentation, peels are among the top cosmetic procedures searched on AI platforms. Types include glycolic, salicylic, TCA, and combination peels.",
       faqItems: [
         {
           question: "Which chemical peel is best for various skin?",
@@ -196,7 +196,7 @@ export const nicheData: NicheData = {
       name: "Skin Whitening Treatment",
       priceRange: "$3,000 - $10,000/session",
       description:
-        "Skin brightening and whitening treatments are among the highest-searched dermatology procedures globally. AI assistants frequently field questions about glutathione injections, laser toning, and chemical peels for skin lightening. Ethical dermatologists focus on treating hyperpigmentation and achieving even skin tone rather than changing natural skin color.",
+        "Skin brightening and whitening treatments are among the highest-searched dermatology procedures across the US. AI assistants frequently field questions about glutathione injections, laser toning, and chemical peels for skin lightening. Ethical dermatologists focus on treating hyperpigmentation and achieving even skin tone rather than changing natural skin color.",
       faqItems: [
         {
           question: "Are skin whitening treatments safe?",
@@ -220,7 +220,7 @@ export const nicheData: NicheData = {
       name: "Mole Removal",
       priceRange: "$2,000 - $10,000",
       description:
-        "Mole removal is a common dermatological procedure globally, sought both for cosmetic reasons and medical concerns. Patients frequently ask AI assistants about mole removal costs, methods, and whether their moles are dangerous. Methods include laser removal, radiofrequency cautery, surgical excision, and punch biopsy.",
+        "Mole removal is a common dermatological procedure across the US, sought both for cosmetic reasons and medical concerns. Patients frequently ask AI assistants about mole removal costs, methods, and whether their moles are dangerous. Methods include laser removal, radiofrequency cautery, surgical excision, and punch biopsy.",
       faqItems: [
         {
           question: "How is mole removal done and does it hurt?",
@@ -255,12 +255,12 @@ export const nicheData: NicheData = {
   citations: [
     {
       name: "Zocdoc",
-      url: "https://www.practo.com",
+      url: "https://www.zocdoc.com",
       type: "niche-specific",
     },
     {
       name: "Healthgrades",
-      url: "https://www.lybrate.com",
+      url: "https://www.healthgrades.com",
       type: "niche-specific",
     },
     {
@@ -270,12 +270,12 @@ export const nicheData: NicheData = {
     },
     {
       name: "Yelp",
-      url: "https://www.justdial.com",
+      url: "https://www.yelp.com",
       type: "local",
     },
     {
       name: "Bing Places",
-      url: "https://www.sulekha.com",
+      url: "https://www.bbb.org",
       type: "local",
     },
     {

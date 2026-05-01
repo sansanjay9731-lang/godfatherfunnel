@@ -98,7 +98,7 @@ export default async function NichePage({
       <TrustBar />
       <StatsBar stats={niche.stats} />
       <PainPoints points={niche.painPoints} />
-      <BeforeAfter niche={niche.name.toLowerCase().replace(/s$/, "")} city="London" />
+      <BeforeAfter niche={niche.name.toLowerCase().replace(/s$/, "")} city="New York" />
       <ServiceTiers services={niche.services} />
       <ROICalculator roi={niche.roiExample} />
       <Testimonials />

@@ -10,10 +10,10 @@ export const metadata: Metadata = {
 const caseStudies = [
   {
     niche: "Dermatologist",
-    location: "London",
+    location: "New York",
     name: "Dr. Sarah Sterling Skin Clinic",
     challenge:
-      "Despite being one of London's top dermatologists with 15+ years experience and 4.8 Google rating, Dr. Sterling was completely invisible to AI. When patients asked ChatGPT 'best dermatologist in London', her clinic wasn't mentioned.",
+      "Despite being one of New York's top dermatologists with 15+ years experience and 4.8 Google rating, Dr. Sterling was completely invisible to AI. When patients asked ChatGPT 'best dermatologist in New York', her clinic wasn't mentioned.",
     solution: [
       "Implemented comprehensive schema markup (MedicalBusiness, Physician, MedicalProcedure)",
       "Created llms.txt with clinic credentials, specializations, and differentiators",
@@ -52,13 +52,13 @@ const caseStudies = [
   },
   {
     niche: "IVF Clinic",
-    location: "Sydney",
+    location: "Los Angeles",
     name: "FertilityFirst IVF Centre",
     challenge:
       "IVF is one of the highest-value niches — one patient is worth $20,000 - $50,000. The clinic had a website but zero structured data, no AI crawler access, and was invisible in AI search despite excellent success rates.",
     solution: [
       "Comprehensive MedicalBusiness schema with success rates, procedures, and physician credentials",
-      "Created 'IVF cost in Sydney' and 'best IVF clinic in Sydney' optimized pages",
+      "Created 'IVF cost in Los Angeles' and 'best IVF clinic in Los Angeles' optimized pages",
       "Built authority content hub: 6 articles on IVF process, success rates, and costs",
       "Implemented review aggregation schema (4.7 rating, 320+ reviews)",
       "AI crawler optimization: llms.txt, robots.txt allowlisting, structured FAQ content",
@@ -105,7 +105,7 @@ export default function CaseStudiesPage() {
             "@type": "CollectionPage",
             name: "Godfather Funnel AI Case Studies",
             description:
-              "Real results from Global's premier AEO agency. See how we made AI recommend dermatologists, dentists, IVF clinics, and lawyers by name.",
+              "Real results from the US's premier AEO agency. See how we made AI recommend dermatologists, dentists, IVF clinics, and lawyers by name.",
             url: "https://godfatherfunnelai.com/case-studies",
             publisher: {
               "@type": "Organization",

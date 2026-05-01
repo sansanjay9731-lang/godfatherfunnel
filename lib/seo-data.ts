@@ -4,10 +4,10 @@
 
 export const targetCities = [
   // Tier 1
-  "London", "New York", "Sydney", "Chicago", "Los Angeles", "Manchester", "Melbourne", "Houston",
+  "New York", "New York", "Los Angeles", "Chicago", "Los Angeles", "Chicago", "San Francisco", "Houston",
   // Tier 2
-  "Jaipur", "Lucknow", "Chandigarh", "Indore", "Nagpur", "Bhopal", "Coimbatore",
-  "Kochi", "Visakhapatnam", "Surat", "Vadodara", "Noida", "Greater London", "Thane",
+  "Denver", "Nashville", "Charlotte", "Tampa", "Portland", "Minneapolis", "Raleigh",
+  "San Diego", "Salt Lake City", "Surat", "San Antonio", "Scottsdale", "Greater New York", "Thane",
   "Nashik", "Mysore", "Mangalore", "Trivandrum", "Patna", "Ranchi", "Dehradun",
 ];
 
@@ -99,8 +99,8 @@ export const costKeywords: Record<string, string[]> = {
     "criminal lawyer fee",
   ],
   "real-estate": [
-    "2BHK flat price",
-    "3BHK flat price",
+    "2-bedroom flat price",
+    "3-bedroom flat price",
     "villa price",
     "plot price per sqft",
     "commercial property price",
@@ -140,7 +140,7 @@ export const blogPosts: BlogPost[] = [
 
 Answer Engine Optimization (AEO) is the process of making your business visible and recommendable by AI-powered answer engines — ChatGPT, Google AI Overviews, Perplexity, Claude, and voice assistants like Alexa and Siri.
 
-Unlike traditional SEO which optimizes for search engine result pages (SERPs), AEO optimizes for **direct AI recommendations**. When someone asks ChatGPT "Who is the best dermatologist in London?", AEO determines whether your clinic gets mentioned by name.
+Unlike traditional SEO which optimizes for search engine result pages (SERPs), AEO optimizes for **direct AI recommendations**. When someone asks ChatGPT "Who is the best dermatologist in New York?", AEO determines whether your clinic gets mentioned by name.
 
 ## Why AEO Matters in 2026
 
@@ -221,7 +221,7 @@ AEO isn't optional anymore. If your competitors are optimized for AI and you're 
 The way patients discover skin specialists has changed dramatically. Instead of scrolling through Google results, they're asking AI assistants directly:
 
 - "Best dermatologist near me for acne"
-- "Which skin clinic in London has the best reviews?"
+- "Which skin clinic in New York has the best reviews?"
 - "Laser hair removal — which doctor should I go to?"
 
 **73% of patients under 35 now use ChatGPT or Google AI** as their first step in finding a healthcare provider. If your clinic isn't showing up in these AI responses, those patients are going directly to your competitors.
@@ -307,9 +307,9 @@ Implant patients are unique:
 - They're willing to travel for the right dentist
 
 AI assistants are now their primary research tool. They ask questions like:
-- "Which dentist has the highest implant success rate in Sydney?"
+- "Which dentist has the highest implant success rate in Los Angeles?"
 - "Dental implant vs bridge — which is better?"
-- "How much do dental implants cost in Global?"
+- "How much do dental implants cost in the US?"
 
 If your clinic has the answers — structured properly — AI recommends you.
 
@@ -478,7 +478,7 @@ IVF has unique characteristics that make AEO especially valuable:
 AI assistants are now the primary tool couples use for this research. They ask:
 - "What is the success rate of IVF at [clinic name]?"
 - "IVF cost comparison in [city]"
-- "Best fertility doctor for PCOS in Global"
+- "Best fertility doctor for PCOS in the US"
 - "IVF vs IUI — which should I try first?"
 
 ## Building AI Authority for Your IVF Clinic
@@ -545,8 +545,8 @@ If AI sends just **2 extra couples per month**, that's **$30,000 - $60,000 in ad
 For decades, law firms relied on referrals, reputation, and relationships. Those still matter — but there's a new referral source that's rapidly growing: **AI assistants**.
 
 When a business owner needs a corporate lawyer, they're increasingly asking:
-- "Best M&A lawyer in New York NCR"
-- "Top IP law firms in Global"
+- "Best M&A lawyer in Greater New York"
+- "Top IP law firms in the US"
 - "Corporate lawyer for startup funding"
 
 ChatGPT responds with 2-3 specific names. If your firm isn't mentioned, that client goes to whoever AI recommends.
@@ -571,7 +571,7 @@ AI citations favor firms with:
 - Bar council registrations
 
 ### Structured Content
-Legal content that's organized with clear headings, FAQ sections, and direct answers to legal questions gets cited by AI. Blog posts like "What is Section 498A?" or "How to register a trademark in Global" build AI authority.
+Legal content that's organized with clear headings, FAQ sections, and direct answers to legal questions gets cited by AI. Blog posts like "What is Section 498A?" or "How to register a trademark in the US" build AI authority.
 
 ### Client Reviews
 While less common in law than medicine, client reviews and testimonials (where permitted) significantly boost AI visibility.
@@ -604,7 +604,7 @@ Most law firms haven't even started thinking about AI visibility. This is a mass
 
 The real estate buyer journey has shifted dramatically. Homebuyers in 2026:
 
-1. Ask AI: "Best builders in Melbourne for 3BHK" or "Is [builder] reliable?"
+1. Ask AI: "Best builders in San Francisco for 3-bedroom" or "Is [builder] reliable?"
 2. Get AI's curated list of 2-3 recommendations
 3. Visit only those projects
 4. Make a $50,000-2Cr purchase decision
@@ -622,17 +622,17 @@ If your project isn't in AI's recommendation, you've lost a $50,000+ sale before
 
 AI recommends builders based on:
 
-### RERA Compliance
-Is your RERA registration number visible and structured? AI checks for regulatory compliance as a trust signal.
+### state real estate licensing Compliance
+Is your state real estate licensing registration number visible and structured? AI checks for regulatory compliance as a trust signal.
 
 ### Project Completion Track Record
 AI favors builders with proven delivery history. Your completed projects should be prominently featured with structured data.
 
 ### Review Authority
-Google reviews, MagicBricks reviews, 99acres reviews — all feed into AI's recommendation engine. Volume and recency matter.
+Google reviews, Realtor.com reviews, Zillow reviews — all feed into AI's recommendation engine. Volume and recency matter.
 
 ### Locality Authority
-When someone asks "best 3BHK in Whitefield", AI looks for builders with strong content about that specific locality. Generic "we build everywhere" content loses.
+When someone asks "best 3-bedroom in Silicon Valley", AI looks for builders with strong content about that specific locality. Generic "we build everywhere" content loses.
 
 ## Content Strategy for Real Estate
 
@@ -641,7 +641,7 @@ Each project needs its own optimized page with:
 - Project name, location, configuration
 - Price range and payment plans
 - Amenities and specifications
-- RERA number
+- state real estate licensing number
 - Completion timeline
 - Virtual tour links
 
@@ -653,7 +653,7 @@ Build content that establishes your authority in specific localities:
 
 ### Comparison and Cost Pages
 - "[Project A] vs [Project B]" comparison pages
-- "3BHK Price in [Locality] — 2026 Guide"
+- "3-bedroom Price in [Locality] — 2026 Guide"
 - "Upcoming Metro Stations Near [Project]"
 
 ## The ROI Is Astronomical
@@ -762,9 +762,9 @@ It takes 15 minutes to set up and can be the difference between being recommende
 
 Google AI Overviews (formerly SGE) are AI-generated answer boxes that appear at the top of Google search results. Instead of showing 10 blue links, Google now provides a direct AI-generated answer — often recommending specific businesses by name.
 
-For queries like "best dentist in London for implants", the AI Overview might say:
+For queries like "best dentist in New York for implants", the AI Overview might say:
 
-> "Based on patient reviews and credentials, some highly rated dental implant clinics in London include [Clinic A] known for their advanced implant technology, [Clinic B] with a 98% success rate, and [Clinic C] with over 1000 implant procedures completed."
+> "Based on patient reviews and credentials, some highly rated dental implant clinics in New York include [Clinic A] known for their advanced implant technology, [Clinic B] with a 98% success rate, and [Clinic C] with over 1000 implant procedures completed."
 
 If your clinic isn't in that box, most users never scroll down to the traditional results.
 
@@ -829,7 +829,7 @@ Track your AI Overview appearances by:
 
 When someone is considering rhinoplasty, liposuction, or a facelift, they don't click Google Ads. They ask AI:
 
-- "Best rhinoplasty surgeon in Sydney — who has natural-looking results?"
+- "Best rhinoplasty surgeon in Los Angeles — who has natural-looking results?"
 - "Is [surgeon name] good for liposuction?"
 - "Hair transplant — FUE vs FUT, which surgeon in New York?"
 
@@ -866,13 +866,13 @@ For medical tourism queries, AI looks for international certifications, multi-la
 
 1. **Procedure deep-dive pages** — 2000+ words on each procedure
 2. **Recovery timeline content** — "Rhinoplasty recovery: week by week"
-3. **Cost transparency** — "Rhinoplasty cost in Global — 2026 guide"
+3. **Cost transparency** — "Rhinoplasty cost in the US — 2026 guide"
 4. **Comparison content** — "Surgical vs non-surgical rhinoplasty"
 5. **FAQ sections** — every common question answered with schema
 
 ## The Medical Tourism Angle
 
-Global is a major medical tourism destination for plastic surgery. International patients searching "best plastic surgeon in Global" represent $50,000 - $200,000 per patient. AI optimization for international queries is a massive untapped opportunity.
+the US is a major medical tourism destination for plastic surgery. International patients searching "best plastic surgeon in the US" represent $50,000 - $200,000 per patient. AI optimization for international queries is a massive untapped opportunity.
 
 **[Get your surgeon AI visibility audit →](/audit)**`,
   },
