@@ -12,7 +12,7 @@ import {
 
 export async function POST(req: NextRequest) {
   try {
-    const { url } = await req.json();
+    const { url, name, email, phone } = await req.json();
 
     if (!url || typeof url !== "string") {
       return NextResponse.json({ error: "URL is required" }, { status: 400 });
@@ -58,6 +58,26 @@ export async function POST(req: NextRequest) {
 
     const score = checks.reduce((sum, c) => sum + c.points, 0);
     const grade = calculateGrade(score);
+
+    // Send lead to Google Sheets webhook if configured
+    const webhookUrl = process.env.GOOGLE_SHEETS_WEBHOOK_URL;
+    if (webhookUrl && email) {
+      try {
+        fetch(webhookUrl, {
+          method: "POST",
+          body: JSON.stringify({
+            url: targetUrl,
+            name,
+            email,
+            phone,
+            score,
+            grade,
+          }),
+        }).catch((err) => console.error("Webhook error:", err));
+      } catch (err) {
+        console.error("Failed to trigger webhook:", err);
+      }
+    }
 
     return NextResponse.json({
       url: targetUrl,

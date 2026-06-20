@@ -38,7 +38,7 @@ export default function AuditPage() {
       const res = await fetch("/api/audit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ url }),
+        body: JSON.stringify({ url, name, email, phone }),
       });
 
       const data = await res.json();
@@ -141,7 +141,7 @@ export default function AuditPage() {
                       type="tel"
                       value={phone}
                       onChange={(e) => setPhone(e.target.value)}
-                      placeholder="+91 98765 43210"
+                      placeholder="+1 (555) 000-0000"
                       className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-purple-500/50"
                     />
                   </div>
@@ -320,7 +320,7 @@ export default function AuditPage() {
                   exactly how to make AI recommend you by name.
                 </p>
                 <a
-                  href="https://calendly.com"
+                  href="https://calendly.com/sansanjay9731/discovery-call-with-harvey"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block px-8 py-4 text-base font-bold bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full hover:shadow-xl hover:shadow-purple-500/25 transition-all"

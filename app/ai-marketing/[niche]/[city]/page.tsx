@@ -127,7 +127,7 @@ export default async function CityNichePage({
             </span>
           </h1>
           <p className="mt-6 text-lg text-gray-400 max-w-2xl mx-auto">
-            When patients in {cityName} ask ChatGPT &ldquo;best {nicheLabel} near me&rdquo;,
+            When people in {cityName} ask ChatGPT &ldquo;best {nicheLabel} near me&rdquo;,
             AI recommends 2-3 names. We make sure yours is one of them.
           </p>
         </div>

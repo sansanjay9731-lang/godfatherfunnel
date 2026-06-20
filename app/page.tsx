@@ -4,7 +4,7 @@ import StatsBar from "@/components/StatsBar";
 import TrustBar from "@/components/TrustBar";
 import BeforeAfter from "@/components/BeforeAfter";
 import Testimonials from "@/components/Testimonials";
-import TeamSection from "@/components/TeamSection";
+
 import { niches } from "@/lib/niches";
 import type { Metadata } from "next";
 
@@ -150,7 +150,7 @@ export default function Home() {
       </section>
 
       <Testimonials />
-      <TeamSection />
+
 
       {/* Final CTA */}
       <section className="py-24 bg-gradient-to-b from-[#0a0a0f] to-[#0f0a1a] relative overflow-hidden">

@@ -9,13 +9,13 @@ import { nicheData as lawyers } from "./lawyers";
 import { nicheData as realEstate } from "./real-estate";
 import { nicheData as eyeClinics } from "./eye-clinics";
 import { nicheData as orthopedics } from "./orthopedics";
-import { nicheData as caFirms } from "./ca-firms";
+import { nicheData as accountingFirms } from "./accounting-firms";
 import { nicheData as restaurants } from "./restaurants";
 import { nicheData as gyms } from "./gyms";
 import { nicheData as weddingPlanners } from "./wedding-planners";
 import { nicheData as physiotherapy } from "./physiotherapy";
 import { nicheData as veterinary } from "./veterinary";
-import { nicheData as coachingInstitutes } from "./coaching-institutes";
+import { nicheData as testPrep } from "./test-prep";
 import { nicheData as interiorDesigners } from "./interior-designers";
 import { nicheData as ayurvedaClinics } from "./ayurveda-clinics";
 import { nicheData as hairSalons } from "./hair-salons";
@@ -33,13 +33,13 @@ export const niches: NicheData[] = [
   realEstate,
   eyeClinics,
   orthopedics,
-  caFirms,
+  accountingFirms,
   restaurants,
   gyms,
   weddingPlanners,
   physiotherapy,
   veterinary,
-  coachingInstitutes,
+  testPrep,
   interiorDesigners,
   ayurvedaClinics,
   hairSalons,

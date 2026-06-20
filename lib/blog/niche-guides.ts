@@ -24,7 +24,7 @@ const niches: NicheInfo[] = [
   { slug: "real-estate", display: "Real Estate Developer", displayPlural: "Real Estate Developers", treatments: ["luxury condos", "commercial leasing", "property management", "home staging"], priceRange: "$500,000-$10000,000", avgTicket: "$1500,000", competitor: "Compass", stat: "71% of home buyers use AI search to shortlist properties", searchVolume: "550K monthly", patientTerm: "clients" },
   { slug: "eye-clinics", display: "Eye Clinic", displayPlural: "Eye Clinics", treatments: ["LASIK surgery", "cataract removal", "glaucoma treatment", "retina screening"], priceRange: "$2,000-$10,000", avgTicket: "$4,500", competitor: "Visionworks", stat: "64% of LASIK patients compare clinics via AI-powered search", searchVolume: "200K monthly", patientTerm: "patients" },
   { slug: "orthopedics", display: "Orthopedic Clinic", displayPlural: "Orthopedic Clinics", treatments: ["knee replacement", "spine surgery", "sports injury rehab", "arthroscopy"], priceRange: "$5,000-$40,000", avgTicket: "$15,000", competitor: "OrthoClinic", stat: "69% of orthopedic patients research procedures on AI platforms before booking", searchVolume: "160K monthly", patientTerm: "patients" },
-  { slug: "ca-firms", display: "Accounting Firm", displayPlural: "Accounting Firms", treatments: ["tax filing", "corporate audit", "M&A advisory", "startup compliance"], priceRange: "$2,000-$50,000", avgTicket: "$15,000", competitor: "H&R Block", stat: "58% of SMEs use AI assistants to find accountants", searchVolume: "300K monthly", patientTerm: "clients" },
+  { slug: "accounting-firms", display: "Accounting Firm", displayPlural: "Accounting Firms", treatments: ["tax filing", "corporate audit", "M&A advisory", "startup compliance"], priceRange: "$2,000-$50,000", avgTicket: "$15,000", competitor: "H&R Block", stat: "58% of SMEs use AI assistants to find accountants", searchVolume: "300K monthly", patientTerm: "clients" },
   { slug: "restaurants", display: "Restaurant", displayPlural: "Restaurants", treatments: ["online ordering", "table reservations", "catering services", "cloud kitchen"], priceRange: "$20-$500 per order", avgTicket: "$80", competitor: "Yelp", stat: "76% of diners ask AI for restaurant recommendations in their area", searchVolume: "900K monthly", patientTerm: "customers" },
 ];
 
@@ -136,7 +136,7 @@ Your main competitor **${n.competitor}** likely has ${n.patientTerm} asking AI a
 function templateSchema(n: NicheInfo, pubDate: string): BlogPost {
   const schemaType = ["dermatologists", "dentists", "plastic-surgeons", "ivf-clinics", "eye-clinics", "orthopedics"].includes(n.slug)
     ? "MedicalBusiness"
-    : ["lawyers", "ca-firms"].includes(n.slug)
+    : ["lawyers", "accounting-firms"].includes(n.slug)
     ? "ProfessionalService"
     : ["restaurants"].includes(n.slug)
     ? "Restaurant"

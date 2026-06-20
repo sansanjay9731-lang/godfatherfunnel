@@ -79,14 +79,14 @@ Ready-to-use JSON-LD schema templates for the US businesses. Copy, customize wit
   "name": "Your Clinic Name",
   "description": "Brief description of your practice",
   "url": "https://yoursite.com",
-  "telephone": "+91-XXXXXXXXXX",
+  "telephone": "+1-XXX-XXX-XXXX",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Your Street Address",
     "addressLocality": "City",
     "addressRegion": "State",
-    "postalCode": "XXXXXX",
-    "addressCountry": "IN"
+    "postalCode": "XXXXX",
+    "addressCountry": "US"
   },
   "geo": {
     "@type": "GeoCoordinates",
@@ -111,7 +111,7 @@ Ready-to-use JSON-LD schema templates for the US businesses. Copy, customize wit
   "name": "Your Law Firm",
   "description": "Practice areas and expertise",
   "url": "https://yoursite.com",
-  "telephone": "+91-XXXXXXXXXX",
+  "telephone": "+1-XXX-XXX-XXXX",
   "address": { ... },
   "knowsAbout": ["Corporate Law", "Criminal Law", "Family Law"],
   "areaServed": { "@type": "City", "name": "Your City" }
@@ -124,7 +124,7 @@ Ready-to-use JSON-LD schema templates for the US businesses. Copy, customize wit
   "@context": "https://schema.org",
   "@type": "Restaurant",
   "name": "Your Restaurant",
-  "servesCuisine": ["the US", "Chinese"],
+  "servesCuisine": ["American", "Italian"],
   "priceRange": "$$",
   "menu": "https://yoursite.com/menu",
   "acceptsReservations": true,
@@ -182,8 +182,8 @@ llms.txt is a file at your website root that tells AI systems who you are. Here 
 
 ## Location
 [Full Address]
-[City], [State] [PIN]
-the US
+[City], [State] [ZIP]
+United States
 
 ## Services
 - [Service 1]
@@ -202,7 +202,7 @@ the US
 - [Number of procedures completed]
 
 ## Contact
-Phone: +91-XXXXXXXXXX
+Phone: +1-XXX-XXX-XXXX
 Email: info@yourdomain.com
 Website: https://yourdomain.com
 
@@ -228,11 +228,11 @@ Website: https://yourdomain.com
 - Tax Law
 
 ## Partners
-- Adv. [Name] — [Specialization], [Bar Council Reg], [Years] years
-- Adv. [Name] — [Specialization], [Bar Council Reg], [Years] years
+- Partner [Name] — [Specialization], [State Bar ID], [Years] years
+- Partner [Name] — [Specialization], [State Bar ID], [Years] years
 
 ## Contact
-Phone: +91-XXXXXXXXXX
+Phone: +1-XXX-XXX-XXXX
 Website: https://yourdomain.com
 \`\`\`
 
@@ -255,7 +255,7 @@ Website: https://yourdomain.com
 [Opening hours]
 
 ## Contact
-Phone: +91-XXXXXXXXXX
+Phone: +1-XXX-XXX-XXXX
 Address: [Full address]
 Reservations: https://yourdomain.com/reserve
 \`\`\`
@@ -394,7 +394,7 @@ Award yourself 1-10 points for each step:
 | Google Ads | $20K-50K | 10-30 leads |
 | Content | $10K-20K | Long-term authority |
 | Social Media | $5K-15K | Brand awareness |
-| **Total** | **$60K-1.6L** | **15-45 new patients** |
+| **Total** | **$60K-160K** | **15-45 new patients** |
 
 ### Common Mistakes
 1. No schema markup on website
@@ -432,8 +432,8 @@ Create dedicated pages for each practice area with:
 - Published opinions on legal developments
 
 #### Directory & Citation Strategy
-Critical directories: Bar Council, FindLaw, Rocket Lawyer, Google Business Profile
-Important: Avvo, MyAdvo, LinkedIn, Yelp
+Critical directories: State Bar Association, FindLaw, Super Lawyers, Google Business Profile
+Important: Avvo, Lawyers.com, LinkedIn, Yelp
 
 #### AI-Specific Optimization
 - LegalService schema with practice areas
@@ -443,8 +443,8 @@ Important: Avvo, MyAdvo, LinkedIn, Yelp
 
 ### Ethical Considerations
 All marketing must comply with:
-- Bar Council of the US advertising rules
-- State bar council guidelines
+- American Bar Association (ABA) advertising rules
+- State bar association guidelines
 - No solicitation or misleading claims
 - Confidentiality of client matters
 
@@ -453,7 +453,7 @@ All marketing must comply with:
   {
     slug: "real-estate-marketing-guide",
     title: "Real Estate AI Marketing Guide for Builders & Agents",
-    description: "How builders, developers, and real estate agents can use AI to sell properties worth $50,000-2Cr+ in 2026.",
+    description: "How builders, developers, and real estate agents can use AI to sell properties worth $250,000 - $5M+ in 2026.",
     icon: "🏢",
     category: "guide",
     content: `## Real Estate Marketing in the AI Age
@@ -486,7 +486,7 @@ Build content around the localities where you build:
 - Price comparison content
 
 ### Why AI Matters More for Real Estate
-- One sale = $50,000-2Cr+ (highest of any industry)
+- One sale = $250,000 - $5M+ (highest of any industry)
 - Buyers research for months (AI is used throughout)
 - Trust is critical — AI validation matters
 - Competitors are NOT optimized yet (massive opportunity)
@@ -513,9 +513,9 @@ AI systems cross-reference multiple sources to verify business information. If y
 ### Common NAP Mistakes
 | What's Wrong | Example | Fix |
 |-------------|---------|-----|
-| Name variations | "Dr. Sterling's Clinic" vs "Sharma Skin Care" | Pick ONE exact name |
-| Address format | "2nd Floor, MG Road" vs "2/F, Mahatma Gandhi Rd" | Use ONE exact format |
-| Phone format | "9876543210" vs "+91-98765-43210" | Use +91-XXXXX-XXXXX |
+| Name variations | "Dr. Sterling's Clinic" vs "Sterling Skin Care" | Pick ONE exact name |
+| Address format | "Suite 200, 5th Avenue" vs "2nd Fl, Fifth Ave" | Use ONE exact format |
+| Phone format | "(212) 555-0198" vs "+1 212-555-0198" | Use (212) 555-0198 |
 | Old address | Moved 2 years ago, old address on 3 directories | Update ALL directories |
 
 ### NAP Audit Steps
@@ -546,9 +546,9 @@ Address Line 1: [Street Address]
 Address Line 2: [Floor/Suite/Building]
 City: [City]
 State: [State]
-PIN: [XXXXXX]
-Country: the US
-Phone: +91-XXXXX-XXXXX
+ZIP: [XXXXX]
+Country: United States
+Phone: +1-XXX-XXX-XXXX
 Email: [primary@email.com]
 Website: https://[yourdomain.com]
 \`\`\`
@@ -623,15 +623,15 @@ A complete, optimized GBP is the single highest-impact action for AI visibility.
   },
   {
     slug: "voice-search-optimization",
-    title: "Voice Search Optimization Guide for the US Businesses",
+    title: "Voice Search Optimization Guide for US Businesses",
     description: "How to optimize your business for Alexa, Google Assistant, and Siri voice search recommendations in the US.",
     icon: "🎤",
     category: "guide",
-    content: `## Voice Search Optimization for the US Businesses
+    content: `## Voice Search Optimization for US Businesses
 
 ### The Rise of Voice in the US
-- 200M+ the US users use voice assistants monthly
-- Hindi and regional language voice search growing 50%+ YoY
+- 200M+ US users use voice assistants monthly
+- Spanish and English bilingual voice search growing 50%+ YoY
 - "Near me" voice searches up 150% since 2024
 - Voice commerce expected to reach $40B in the US by 2027
 
@@ -646,8 +646,8 @@ When someone asks "Hey Google, find me a dentist nearby," the assistant:
 
 #### 1. FAQ Content for Voice
 Write FAQ answers as complete spoken sentences:
-- Bad: "Dr. Sterling, 15 years, MG Road"
-- Good: "Dr. Sterling's Dental Clinic on MG Road has been serving patients for 15 years with a 4.9-star rating on Google."
+- Bad: "Dr. Sterling, 15 years, Manhattan"
+- Good: "Dr. Sterling's Dental Clinic in Manhattan has been serving patients for 15 years with a 4.9-star rating on Google."
 
 #### 2. SpeakableSpecification Schema
 Add this to your key pages to tell voice assistants which content to read aloud.
@@ -661,14 +661,14 @@ Target long-tail, conversational queries:
 #### 4. Google Business Profile
 Critical for voice — it's the primary data source for Google Assistant.
 
-#### 5. Hindi/Regional Content
-Consider adding FAQ content in Hindi and your regional language. Voice search in regional languages is growing fastest.
+#### 5. Multilingual Content
+Consider adding FAQ content in Spanish. Voice search in Spanish is growing fastest among US minority demographics.
 
 ### Voice Search Keywords by Industry
 - Healthcare: "doctor near me," "clinic open now," "[treatment] cost"
 - Legal: "lawyer for [case type]," "legal help near me"
 - Restaurants: "best [cuisine] restaurant near me," "restaurants open late"
-- Real Estate: "flats for sale in [area]," "3-bedroom price in [locality]"
+- Real Estate: "homes for sale in [area]," "3-bedroom home price in [neighborhood]"
 
 **[Check your voice search readiness →](/audit)**`,
   },

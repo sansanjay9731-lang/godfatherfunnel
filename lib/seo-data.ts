@@ -4,11 +4,11 @@
 
 export const targetCities = [
   // Tier 1
-  "New York", "New York", "Los Angeles", "Chicago", "Los Angeles", "Chicago", "San Francisco", "Houston",
+  "New York", "Los Angeles", "Chicago", "Houston", "Miami", "San Francisco", "Dallas",
   // Tier 2
-  "Denver", "Nashville", "Charlotte", "Tampa", "Portland", "Minneapolis", "Raleigh",
-  "San Diego", "Salt Lake City", "Surat", "San Antonio", "Scottsdale", "Greater New York", "Thane",
-  "Nashik", "Mysore", "Mangalore", "Trivandrum", "Patna", "Ranchi", "Dehradun",
+  "Austin", "Seattle", "Boston", "Atlanta", "Denver", "Phoenix", "San Diego", "Philadelphia", "Nashville",
+  // Tier 3
+  "Charlotte", "Tampa", "Portland", "Las Vegas", "Minneapolis", "Salt Lake City", "Scottsdale", "Raleigh", "San Antonio"
 ];
 
 export const nicheKeywords: Record<string, string[]> = {
