@@ -320,7 +320,7 @@ export default function AuditPage() {
                   exactly how to make AI recommend you by name.
                 </p>
                 <a
-                  href="https://calendly.com/sansanjay9731/discovery-call-with-harvey"
+                  href={`https://calendly.com/sansanjay9731/discovery-call-with-harvey?name=${encodeURIComponent(name)}&email=${encodeURIComponent(email)}${phone ? `&phone=${encodeURIComponent(phone)}&a1=${encodeURIComponent(phone)}` : ""}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block px-8 py-4 text-base font-bold bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full hover:shadow-xl hover:shadow-purple-500/25 transition-all"
