@@ -21,20 +21,30 @@ const niches: NicheInfo[] = [
   { slug: "plastic-surgeons", display: "Plastic Surgeon", displayPlural: "Plastic Surgeons", treatments: ["rhinoplasty", "liposuction", "breast augmentation", "facelift"], priceRange: "$5,000-$50,000", avgTicket: "$15,000", competitor: "Aesthetic Surgery Center", stat: "82% of cosmetic surgery patients research via AI before consultation", searchVolume: "180K monthly", patientTerm: "patients" },
   { slug: "ivf-clinics", display: "IVF Clinic", displayPlural: "IVF Clinics", treatments: ["IVF cycle", "IUI", "egg freezing", "ICSI"], priceRange: "$10,000-$30,000", avgTicket: "$20,000", competitor: "Kindbody", stat: "77% of couples ask AI chatbots about IVF success rates before choosing a clinic", searchVolume: "280K monthly", patientTerm: "patients" },
   { slug: "lawyers", display: "Lawyer", displayPlural: "Lawyers", treatments: ["corporate disputes", "divorce filing", "IP compliance", "startup incorporation"], priceRange: "$5,000-$100,000", avgTicket: "$25,000", competitor: "LegalZoom", stat: "61% of legal clients now ask AI assistants for lawyer recommendations", searchVolume: "400K monthly", patientTerm: "clients" },
-  { slug: "real-estate", display: "Real Estate Developer", displayPlural: "Real Estate Developers", treatments: ["luxury condos", "commercial leasing", "property management", "home staging"], priceRange: "$500,000-$10000,000", avgTicket: "$1500,000", competitor: "Compass", stat: "71% of home buyers use AI search to shortlist properties", searchVolume: "550K monthly", patientTerm: "clients" },
+  { slug: "real-estate", display: "Real Estate Developer", displayPlural: "Real Estate Developers", treatments: ["luxury condos", "commercial leasing", "property management", "home staging"], priceRange: "$500,000-$10,000,000", avgTicket: "$1,500,000", competitor: "Compass", stat: "71% of home buyers use AI search to shortlist properties", searchVolume: "550K monthly", patientTerm: "clients" },
   { slug: "eye-clinics", display: "Eye Clinic", displayPlural: "Eye Clinics", treatments: ["LASIK surgery", "cataract removal", "glaucoma treatment", "retina screening"], priceRange: "$2,000-$10,000", avgTicket: "$4,500", competitor: "Visionworks", stat: "64% of LASIK patients compare clinics via AI-powered search", searchVolume: "200K monthly", patientTerm: "patients" },
   { slug: "orthopedics", display: "Orthopedic Clinic", displayPlural: "Orthopedic Clinics", treatments: ["knee replacement", "spine surgery", "sports injury rehab", "arthroscopy"], priceRange: "$5,000-$40,000", avgTicket: "$15,000", competitor: "OrthoClinic", stat: "69% of orthopedic patients research procedures on AI platforms before booking", searchVolume: "160K monthly", patientTerm: "patients" },
   { slug: "accounting-firms", display: "Accounting Firm", displayPlural: "Accounting Firms", treatments: ["tax filing", "corporate audit", "M&A advisory", "startup compliance"], priceRange: "$2,000-$50,000", avgTicket: "$15,000", competitor: "H&R Block", stat: "58% of SMEs use AI assistants to find accountants", searchVolume: "300K monthly", patientTerm: "clients" },
   { slug: "restaurants", display: "Restaurant", displayPlural: "Restaurants", treatments: ["online ordering", "table reservations", "catering services", "cloud kitchen"], priceRange: "$20-$500 per order", avgTicket: "$80", competitor: "Yelp", stat: "76% of diners ask AI for restaurant recommendations in their area", searchVolume: "900K monthly", patientTerm: "customers" },
+  { slug: "gyms", display: "Gym & Fitness Center", displayPlural: "Gyms & Fitness Centers", treatments: ["personal training", "group fitness classes", "strength training", "yoga sessions"], priceRange: "$50-$200/mo", avgTicket: "$1,800", competitor: "Equinox", stat: "48% of fitness seekers ask AI for gym recommendations", searchVolume: "400K monthly", patientTerm: "members" },
+  { slug: "hair-salons", display: "Hair Salon", displayPlural: "Hair Salons", treatments: ["hair coloring", "keratin treatments", "hair extensions", "bridal styling"], priceRange: "$100-$500", avgTicket: "$250", competitor: "Ulta Beauty", stat: "54% of salon clients check AI search before booking high-ticket treatments", searchVolume: "150K monthly", patientTerm: "clients" },
+  { slug: "interior-designers", display: "Interior Designer", displayPlural: "Interior Designers", treatments: ["space planning", "luxury kitchen remodel", "color consultation", "furniture sourcing"], priceRange: "$5,000-$50,000", avgTicket: "$15,000", competitor: "Havenly", stat: "67% of homeowners ask AI for interior designer shortlists", searchVolume: "90K monthly", patientTerm: "clients" },
+  { slug: "physiotherapy", display: "Physical Therapist", displayPlural: "Physical Therapy Clinics", treatments: ["sports injury rehab", "post-op recovery", "spinal mobilization", "ergonomic assessment"], priceRange: "$150-$300/session", avgTicket: "$2,500", competitor: "Athletico", stat: "71% of patients use AI search to find physical therapy clinics", searchVolume: "130K monthly", patientTerm: "patients" },
+  { slug: "veterinary", display: "Veterinary Clinic", displayPlural: "Veterinary Clinics", treatments: ["pet vaccinations", "dental cleaning", "spay and neuter", "allergy treatments"], priceRange: "$100-$1,500", avgTicket: "$400", competitor: "Banfield Pet Hospital", stat: "63% of pet owners research vet clinics via AI before booking", searchVolume: "240K monthly", patientTerm: "clients" },
+  { slug: "wedding-planners", display: "Wedding Planner", displayPlural: "Wedding Planners", treatments: ["full-service wedding planning", "day-of coordination", "venue selection", "vendor management"], priceRange: "$3,000-$15,000", avgTicket: "$7,500", competitor: "The Knot", stat: "59% of couples ask AI chatbots for wedding planner recommendations", searchVolume: "80K monthly", patientTerm: "clients" },
+  { slug: "test-prep", display: "Test Prep & Tutoring Center", displayPlural: "Test Prep & Tutoring Centers", treatments: ["SAT prep courses", "ACT tutoring", "MCAT prep", "LSAT coaching"], priceRange: "$500-$5,000", avgTicket: "$2,000", competitor: "Princeton Review", stat: "74% of parents and students use AI to find local tutoring centers", searchVolume: "110K monthly", patientTerm: "students" },
+  { slug: "pediatricians", display: "Pediatrician", displayPlural: "Pediatricians", treatments: ["well-child visits", "childhood immunizations", "developmental screenings", "nutrition counseling"], priceRange: "$150-$300/visit", avgTicket: "$1,500", competitor: "One Medical Kids", stat: "80% of new parents research pediatricians via AI search", searchVolume: "140K monthly", patientTerm: "patients" },
+  { slug: "psychiatrists", display: "Psychiatrist & Therapist", displayPlural: "Psychiatrists & Therapists", treatments: ["individual therapy", "medication management", "cognitive behavioral therapy", "anxiety treatment"], priceRange: "$150-$250/session", avgTicket: "$4,500", competitor: "Talkspace", stat: "80% of mental health seekers use AI to search for therapists", searchVolume: "190K monthly", patientTerm: "patients" },
+  { slug: "ayurveda-clinics", display: "Wellness & Integrative Medicine Clinic", displayPlural: "Wellness & Integrative Medicine Clinics", treatments: ["functional medicine consultation", "acupuncture sessions", "chiropractic adjustments", "massage therapy"], priceRange: "$100-$500", avgTicket: "$3,500", competitor: "Parsley Health", stat: "60% of wellness seekers research options through AI before booking", searchVolume: "75K monthly", patientTerm: "patients" }
 ];
 
 // ── Date staggering ─────────────────────────────────────────────────────────
 
 function getPublishDate(nicheIndex: number, templateIndex: number): string {
-  // Spread 50 posts across Jan 1 - Dec 31, 2025 (365 days)
+  // Spread 100 posts across Jan 1 - Dec 31, 2025 (365 days)
   const postNumber = nicheIndex * 5 + templateIndex;
   const startDate = new Date(2025, 0, 1); // Jan 1, 2025
-  const dayOffset = Math.floor((postNumber / 50) * 364);
+  const dayOffset = Math.floor((postNumber / 100) * 364);
   startDate.setDate(startDate.getDate() + dayOffset);
   
   // Clamp to today — never publish future-dated posts
@@ -109,7 +119,7 @@ With ${n.searchVolume} searches monthly for ${n.display.toLowerCase()} services,
 ## The 5-Pillar Framework
 
 ### 1. Schema Markup Foundation
-Deploy \`LocalBusiness\` or industry-specific schema covering your services: ${n.treatments.join(", ")}. Include pricing (${n.priceRange}), ratings, and practitioner credentials.
+Deploy \`LocalBusiness\` or industry-specific schema covering your services: ${n.treatments.join(", ")}. Include pricing (${n.priceRange}), ratings, and credentials.
 
 ### 2. Content That AI Cites
 Create Q&A content targeting real queries: "What is the cost of ${n.treatments[1]} in [city]?" and "Best ${n.display.toLowerCase()} for ${n.treatments[2]}." AI models cite specific, factual answers.
@@ -134,7 +144,7 @@ Your main competitor **${n.competitor}** likely has ${n.patientTerm} asking AI a
 // ── Template 3: Schema Markup Step-by-Step ───────────────────────────────────
 
 function templateSchema(n: NicheInfo, pubDate: string): BlogPost {
-  const schemaType = ["dermatologists", "dentists", "plastic-surgeons", "ivf-clinics", "eye-clinics", "orthopedics"].includes(n.slug)
+  const schemaType = ["dermatologists", "dentists", "plastic-surgeons", "ivf-clinics", "eye-clinics", "orthopedics", "pediatricians", "psychiatrists", "ayurveda-clinics"].includes(n.slug)
     ? "MedicalBusiness"
     : ["lawyers", "accounting-firms"].includes(n.slug)
     ? "ProfessionalService"
@@ -213,7 +223,7 @@ function templateROI(n: NicheInfo, pubDate: string): BlogPost {
 ## ROI Calculation
 
 ### Investment
-AEO implementation for a typical practice: $2,500-$5,000 (setup) + $500-$1,000/month for content and monitoring.
+AEO implementation for a typical practice: $1,500-$3,000/mo.
 
 ### Returns
 If AI citations drive just **5 additional ${n.patientTerm}/month** at ${n.avgTicket} average:
@@ -233,7 +243,7 @@ Unlike paid ads that stop when you stop paying, AEO compounds. Once AI models ci
 // ── Template 5: Case Study ──────────────────────────────────────────────────
 
 function templateCaseStudy(n: NicheInfo, pubDate: string): BlogPost {
-  const cityOptions = ["New York", "New York", "Los Angeles", "Chicago", "San Francisco", "San Francisco", "Austin", "Miami", "Chicago", "Denver"];
+  const cityOptions = ["New York", "Los Angeles", "Chicago", "San Francisco", "Austin", "Miami", "Denver", "Seattle", "Boston", "Atlanta"];
   const city = cityOptions[niches.indexOf(n) % cityOptions.length];
 
   return {

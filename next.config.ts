@@ -43,6 +43,27 @@ const removedCityRedirects: { old: string; new: string }[] = [
   { old: "mysore", new: "scottsdale" },
   { old: "mangalore", new: "scottsdale" },
   { old: "nashik", new: "san-antonio" },
+  // Missing Indian cities from 404 logs
+  { old: "ludhiana", new: "denver" },
+  { old: "madurai", new: "tampa" },
+  { old: "varanasi", new: "nashville" },
+  { old: "jalandhar", new: "chicago" },
+  { old: "meerut", new: "dallas" },
+  { old: "navi-mumbai", new: "new-york" },
+  { old: "goa", new: "miami" },
+  { old: "jodhpur", new: "phoenix" },
+  { old: "faridabad", new: "houston" },
+  { old: "kolhapur", new: "charlotte" },
+  { old: "siliguri", new: "salt-lake-city" },
+  { old: "salem", new: "portland" },
+  { old: "amritsar", new: "minneapolis" },
+  { old: "udaipur", new: "las-vegas" },
+  { old: "kanpur", new: "atlanta" },
+  { old: "belgaum", new: "scottsdale" },
+  { old: "aurangabad", new: "san-antonio" },
+  { old: "rajkot", new: "houston" },
+  { old: "trivandrum", new: "miami" },
+  { old: "aligarh", new: "raleigh" },
 ];
 
 const nextConfig: NextConfig = {
@@ -106,6 +127,11 @@ const nextConfig: NextConfig = {
         source: "/blog/schema-markup-for-ca-firms",
         destination: "/blog/schema-markup-for-accounting-firms",
         permanent: true,
+      },
+      {
+        source: "/blog/roi-ai-marketing-ca-firms",
+        destination: "/blog/roi-ai-marketing-accounting-firms",
+        permanent: true,
       }
     );
 
@@ -124,6 +150,45 @@ const nextConfig: NextConfig = {
       {
         source: "/citations/coaching-institutes",
         destination: "/citations/test-prep",
+        permanent: true,
+      },
+      {
+        source: "/blog/coaching-institutes-ai-marketing-complete-guide",
+        destination: "/blog/test-prep-ai-marketing-complete-guide",
+        permanent: true,
+      },
+      {
+        source: "/blog/coaching-institutes-case-study-ai-marketing",
+        destination: "/blog/test-prep-case-study-ai-marketing",
+        permanent: true,
+      },
+      {
+        source: "/blog/why-coaching-institutes-need-aeo",
+        destination: "/blog/why-test-prep-need-aeo",
+        permanent: true,
+      },
+      {
+        source: "/blog/schema-markup-for-coaching-institutes",
+        destination: "/blog/schema-markup-for-test-prep",
+        permanent: true,
+      },
+      {
+        source: "/blog/roi-ai-marketing-coaching-institutes",
+        destination: "/blog/roi-ai-marketing-test-prep",
+        permanent: true,
+      }
+    );
+
+    // Compare renames: justdial/practo → yelp/zocdoc
+    redirects.push(
+      {
+        source: "/compare/justdial-vs-ai-visibility",
+        destination: "/compare/yelp-vs-ai-visibility",
+        permanent: true,
+      },
+      {
+        source: "/compare/practo-vs-own-website",
+        destination: "/compare/zocdoc-vs-own-website",
         permanent: true,
       }
     );
