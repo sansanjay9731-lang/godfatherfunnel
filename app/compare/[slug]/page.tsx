@@ -53,6 +53,34 @@ export default async function ComparePage({
           ...(topic.faqItems.length > 0
             ? [generateFAQSchema(topic.faqItems)]
             : []),
+          ...(slug === "google-maps-vs-chatgpt-recommendations" ? [{
+            "@context": "https://schema.org",
+            "@type": "HowTo",
+            "name": "How to Get Your Business Recommended by ChatGPT and Google AI Overviews",
+            "description": "Step by step guide to optimize your local business, restaurant, or medical practice for AI search engines like ChatGPT and Google AI Overviews.",
+            "step": [
+              {
+                "@type": "HowToStep",
+                "name": "Optimize Digital Footprint",
+                "text": "Ensure your Name, Address, and Phone number (NAP) are consistent across all major aggregators and your Google Business Profile."
+              },
+              {
+                "@type": "HowToStep",
+                "name": "Implement Schema Markup",
+                "text": "Add LocalBusiness, FAQPage, and HowTo schema markup to your website's code so AI can easily read your data."
+              },
+              {
+                "@type": "HowToStep",
+                "name": "Publish an llms.txt File",
+                "text": "Create an llms.txt file on your website to provide a clean, text-only summary of your business tailored for AI scrapers."
+              },
+              {
+                "@type": "HowToStep",
+                "name": "Build High-Authority Mentions",
+                "text": "Get your business listed in top industry-specific directories to establish E-E-A-T (Experience, Expertise, Authoritativeness, and Trustworthiness)."
+              }
+            ]
+          }] : [])
         ]}
       />
 

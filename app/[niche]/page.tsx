@@ -23,9 +23,23 @@ export async function generateMetadata({
   const { niche: slug } = await params;
   const niche = getNicheBySlug(slug);
   if (!niche) return {};
+
+  // Title patterns match real GSC queries: "aeo for dentists", "ai marketing for accountants"
+  // Keeping under 60 chars for full display in SERPs
+  const title = `AEO & AI Marketing for ${niche.name} | Get AI to Recommend You`;
+  const description = `AEO + 360° AI marketing for ${niche.name.toLowerCase()}. We make ChatGPT, Google AI & Perplexity recommend your practice by name. Free AI visibility audit.`;
+
   return {
-    title: `${niche.name} AI Marketing — Godfather Funnel AI`,
-    description: `AEO + 360° marketing for ${niche.name.toLowerCase()}. Get AI to recommend your practice by name. Free AI visibility audit.`,
+    title,
+    description,
+    alternates: {
+      canonical: `https://www.godfatherfunnelai.com/${slug}`,
+    },
+    openGraph: {
+      title,
+      description,
+      url: `https://www.godfatherfunnelai.com/${slug}`,
+    },
   };
 }
 

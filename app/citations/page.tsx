@@ -1,12 +1,12 @@
 import { getAllCitationCategories } from "@/lib/citations";
-import { generateBreadcrumbSchema, generateCollectionSchema } from "@/lib/schema-helpers";
+import { generateBreadcrumbSchema, generateCollectionSchema, generateFAQSchema } from "@/lib/schema-helpers";
 import SchemaScript from "@/components/SchemaScript";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Business Citation & Directory Guide — Where to List Your Business for AI Visibility | Godfather Funnel AI",
+  title: "AI Citation Directory: Business Listing Guide for AI Search | Godfather Funnel AI",
   description:
-    "Complete directory of 70+ citation sources organized by industry. Healthcare, legal, real estate, education, lifestyle directories that AI uses to recommend businesses.",
+    "Complete AI citation directory of 70+ sources. Legal directory citations for AI search, citation building for doctors, and real estate directories that ChatGPT & Google AI use.",
 };
 
 const BASE = "https://www.godfatherfunnelai.com";
@@ -15,16 +15,31 @@ export default function CitationsPage() {
   const categories = getAllCitationCategories();
   const totalDirectories = categories.reduce((sum, c) => sum + c.directories.length, 0);
 
+  const faqs = [
+    {
+      question: "What is an AI citation directory?",
+      answer: "An AI citation directory is a trusted database, listing, or platform that AI engines (like ChatGPT, Google AI Overviews, and Perplexity) scrape and cross-reference to verify a business's existence, authority, and relevance. Being listed on these directories increases your chances of being recommended by AI."
+    },
+    {
+      question: "How to build citations for doctors",
+      answer: "Citation building for doctors requires claiming profiles on major healthcare directories like Healthgrades, WebMD, Zocdoc, and Vitals. You must ensure your Name, Address, and Phone number (NAP), along with your NPI number and specialties, are perfectly consistent across all platforms. AI relies heavily on this consistency to recommend medical practices."
+    },
+    {
+      question: "What are the best citation directories for AI search?",
+      answer: "The best citation directories depend on your industry. General platforms include Google Business Profile, Apple Maps, and Yelp. For legal directory citations for AI search, Avvo, FindLaw, and Martindale-Hubbell are critical. For healthcare, WebMD and Healthgrades lead."
+    }
+  ];
+
   return (
     <>
       <SchemaScript
         data={[
           generateBreadcrumbSchema([
             { name: "Home", url: BASE },
-            { name: "Citations & Directories", url: `${BASE}/citations` },
+            { name: "AI Citation Directory", url: `${BASE}/citations` },
           ]),
           generateCollectionSchema({
-            name: "Business Citation & Directory Guide",
+            name: "AI Citation Directory",
             description: "Complete directory listing guide for AI visibility",
             url: `${BASE}/citations`,
             items: categories.map((c) => ({
@@ -32,6 +47,7 @@ export default function CitationsPage() {
               url: `${BASE}/citations#${c.slug}`,
             })),
           }),
+          generateFAQSchema(faqs),
         ]}
       />
 
@@ -44,14 +60,20 @@ export default function CitationsPage() {
             <h1 className="text-4xl sm:text-5xl font-black text-white mb-4">
               The Complete{" "}
               <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-                Citation & Directory Guide
+                AI Citation Directory
               </span>
             </h1>
-            <p className="text-gray-400 max-w-2xl mx-auto text-lg">
+            <p className="text-gray-400 max-w-2xl mx-auto text-lg mb-6">
               AI systems cross-reference multiple sources to decide who to recommend.
-              The more quality directories you&apos;re listed on, the more likely AI
+              The more quality directories you're listed on, the more likely AI
               recommends you.
             </p>
+            <div className="bg-gray-800/50 p-6 rounded-2xl border border-gray-700/50 max-w-3xl mx-auto text-left">
+              <h2 className="text-xl font-bold text-white mb-2">Targeted Industry Strategies</h2>
+              <p className="text-gray-300 text-sm leading-relaxed">
+                Whether you need <strong className="text-blue-400">citation building for doctors</strong> on platforms like WebMD and Healthgrades, or <strong className="text-blue-400">legal directory citations for AI search</strong> via FindLaw and Avvo, precise consistency is crucial. AI models use these specialized niche directories to understand exactly who the top authorities are in every local market.
+              </p>
+            </div>
           </div>
 
           {/* Quick nav */}

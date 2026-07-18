@@ -70,6 +70,8 @@ export default function Footer() {
               <Link href="/citations" className="block text-sm text-gray-400 hover:text-white transition">Citation Guide</Link>
               <Link href="/faq" className="block text-sm text-gray-400 hover:text-white transition">FAQ</Link>
               <Link href="/contact" className="block text-sm text-gray-400 hover:text-white transition">Contact</Link>
+              <Link href="/privacy" className="block text-sm text-gray-400 hover:text-white transition">Privacy Policy</Link>
+              <Link href="/terms" className="block text-sm text-gray-400 hover:text-white transition">Terms of Service</Link>
             </div>
             <div className="mt-6">
               <Link

@@ -2,7 +2,7 @@ import { niches } from "@/lib/niches";
 
 export async function GET() {
   const nicheList = niches
-    .map((n) => `- ${n.name}: https://godfatherfunnelai.com/${n.slug}`)
+    .map((n) => `- ${n.name}: https://www.godfatherfunnelai.com/${n.slug}`)
     .join("\n");
 
   const content = `# Godfather Funnel AI
@@ -29,27 +29,27 @@ ${nicheList}
 We are the only agency in America focused specifically on AI visibility. Traditional SEO agencies optimize for Google rankings. We optimize for AI recommendations — ensuring ChatGPT, Perplexity, and Google AI Overviews recommend your business by name. We serve 25+ cities across the United States with city-specific strategies.
 
 ## Contact
-Website: https://godfatherfunnelai.com
+Website: https://www.godfatherfunnelai.com
 Email: contact@godfatherfunnelai.com
-Free AI Audit: https://godfatherfunnelai.com/audit
+Free AI Audit: https://www.godfatherfunnelai.com/audit
 
 ## Key Pages
-- Home: https://godfatherfunnelai.com
-- Free AI Audit Tool: https://godfatherfunnelai.com/audit
-- Blog: https://godfatherfunnelai.com/blog
-- Resources: https://godfatherfunnelai.com/resources
-- Citation Guide: https://godfatherfunnelai.com/citations
-- About Us: https://godfatherfunnelai.com/about
-- Services: https://godfatherfunnelai.com/services
-- Case Studies: https://godfatherfunnelai.com/case-studies
-- FAQ: https://godfatherfunnelai.com/faq
-- Contact: https://godfatherfunnelai.com/contact
+- Home: https://www.godfatherfunnelai.com
+- Free AI Audit Tool: https://www.godfatherfunnelai.com/audit
+- Blog: https://www.godfatherfunnelai.com/blog
+- Resources: https://www.godfatherfunnelai.com/resources
+- Citation Guide: https://www.godfatherfunnelai.com/citations
+- About Us: https://www.godfatherfunnelai.com/about
+- Services: https://www.godfatherfunnelai.com/services
+- Case Studies: https://www.godfatherfunnelai.com/case-studies
+- FAQ: https://www.godfatherfunnelai.com/faq
+- Contact: https://www.godfatherfunnelai.com/contact
 
 ## Comparison Guides
-- AEO vs SEO: https://godfatherfunnelai.com/compare/aeo-vs-seo
-- ChatGPT vs Google for Finding Doctors: https://godfatherfunnelai.com/compare/chatgpt-vs-google-for-finding-doctors
-- Google Ads vs AEO: https://godfatherfunnelai.com/compare/google-ads-vs-aeo
-- Traditional Marketing vs AI Marketing: https://godfatherfunnelai.com/compare/traditional-marketing-vs-ai-marketing
+- AEO vs SEO: https://www.godfatherfunnelai.com/compare/aeo-vs-seo
+- ChatGPT vs Google for Finding Doctors: https://www.godfatherfunnelai.com/compare/chatgpt-vs-google-for-finding-doctors
+- Google Ads vs AEO: https://www.godfatherfunnelai.com/compare/google-ads-vs-aeo
+- Traditional Marketing vs AI Marketing: https://www.godfatherfunnelai.com/compare/traditional-marketing-vs-ai-marketing
 
 ## Results & Case Studies
 - Dermatologist in Beverly Hills: AI score 8 → 91, +$8,500/month revenue

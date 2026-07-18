@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import { images } from "@/lib/niches";
+import "./hero-animations.css";
 
 interface HeroProps {
   headline: string;
@@ -78,29 +79,30 @@ export default function Hero({
       ))}
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 text-center">
-        <div>
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 text-xs font-medium tracking-wider uppercase bg-white/5 border border-white/10 rounded-full text-blue-400">
-            <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-            150+ businesses AI-optimized
-          </div>
-
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-black leading-tight">
-            <span className="bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
-              {headline}
-            </span>
-          </h1>
-
-          <p className="mt-6 text-lg sm:text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
-            {subline}
-          </p>
+        {/* Badge — SSR visible, no opacity:0 */}
+        <div className="hero-fade-in inline-flex items-center gap-2 px-4 py-1.5 mb-6 text-xs font-medium tracking-wider uppercase bg-white/5 border border-white/10 rounded-full text-blue-400">
+          <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
+          150+ businesses AI-optimized
         </div>
 
-        {/* ChatGPT-style demo */}
+        {/* H1 — SSR visible immediately for LCP */}
+        <h1 className="hero-fade-in-delay text-4xl sm:text-5xl md:text-7xl font-black leading-tight">
+          <span className="bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
+            {headline}
+          </span>
+        </h1>
+
+        {/* Subline — SSR visible */}
+        <p className="hero-fade-in-delay mt-6 text-lg sm:text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
+          {subline}
+        </p>
+
+        {/* ChatGPT-style demo — decorative, ok to animate */}
         {searchExample && (
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
             className="mt-10 max-w-2xl mx-auto"
           >
             <div className="bg-[#12121a]/80 backdrop-blur-sm border border-white/10 rounded-2xl p-6 text-left shadow-2xl shadow-purple-500/5">
@@ -154,7 +156,8 @@ export default function Hero({
           </motion.div>
         )}
 
-        <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+        {/* CTAs — SSR visible, CSS animated */}
+        <div className="hero-fade-in-late mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link
             href={ctaHref}
             className="group px-8 py-4 text-base font-bold bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full hover:shadow-xl hover:shadow-purple-500/25 hover:scale-105 transition-all duration-300"

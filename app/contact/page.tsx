@@ -5,6 +5,11 @@ export const metadata: Metadata = {
   title: "Contact Godfather Funnel AI — Get Your Free AI Visibility Audit",
   description:
     "Contact the world's #1 AEO & AI marketing agency. Get a free AI visibility audit, book a strategy call, or ask us anything about making AI recommend your business.",
+  // noindex: contact pages should not compete with commercial landing pages
+  robots: {
+    index: false,
+    follow: true,
+  },
 };
 
 export default function ContactPage() {

@@ -161,16 +161,16 @@ export const niches: NicheData[] = [
     name: "Dentists",
     icon: "🦷",
     image: images.dentist,
-    heroHeadline: "Patients Are Asking AI for Dentists. Are You the Answer?",
+    heroHeadline: "AEO for Dentists: Build the Ultimate Dental Marketing Funnel",
     heroSubline:
-      "'Dental implant cost in New York' gets 12,000 searches/month. AI now answers this directly — recommending specific clinics by name. Is yours one of them?",
+      "Patients are asking AI for dentists. Upgrade your dental marketing funnel for dentists with Answer Engine Optimization (AEO). AI now recommends specific clinics by name for high-value queries like 'dental implant cost'. Is your practice the AI's top recommendation?",
     searchExample: "best dentist for implants in Chicago",
     competitorLine: "SmileCare Dental is getting recommended by AI over you",
     painPoints: [
       {
         title: "$5,000+ Implant Patients Going to Competitors",
         description:
-          "When AI recommends a dentist by name, that's a high-value implant patient you never even had a chance to see.",
+          "When AI recommends a dentist by name, that's a high-value implant patient you never had a chance to see. Your dental marketing funnel for dentists is leaking thousands of dollars.",
       },
       {
         title: "Zero AI Presence",
@@ -231,9 +231,14 @@ export const niches: NicheData[] = [
     },
     faqItems: [
       {
-        question: "Why should dentists care about AI search?",
+        question: "What is AEO for dentists?",
         answer:
-          "60% of dental patients research online before booking. AI assistants now provide direct recommendations — not just links. If AI recommends your competitor by name, that patient never sees your clinic.",
+          "AEO for dentists (Answer Engine Optimization) is the process of optimizing your practice's online presence so that AI assistants like ChatGPT, Google AI, and Perplexity recommend you directly. 60% of dental patients research online before booking. It's the evolution of SEO and a critical piece of the modern dental marketing funnel for dentists.",
+      },
+      {
+        question: "How does AEO fit into a dental marketing funnel for dentists?",
+        answer:
+          "A modern dental marketing funnel for dentists starts with discovery, which increasingly happens via AI search. By implementing AEO for dentists, you ensure patients find you at the very top of the funnel when they ask AI for recommendations, naturally feeding them into your consultation and booking process.",
       },
       {
         question: "Can you help with emergency dental SEO?",

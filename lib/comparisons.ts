@@ -95,13 +95,15 @@ export const comparisonTopics: ComparisonTopic[] = [
   },
   {
     slug: "google-maps-vs-chatgpt-recommendations",
-    title: "Google Maps vs ChatGPT: How People Find Local Businesses",
-    description: "Google Maps shows you options on a map. ChatGPT tells you exactly who to go to. Which drives more business?",
+    title: "Google Maps vs ChatGPT Recommendations: How to Get Your Business on ChatGPT & AI Overviews",
+    description: "Google Maps shows you options on a map. ChatGPT tells you exactly who to go to. Compare them and learn how to get your business recommended by ChatGPT and Google AI Overviews.",
     left: { name: "Google Maps", pros: ["Visual map with directions", "Real-time reviews and ratings", "Click-to-call functionality", "Proximity-based results"], cons: ["Shows 3+ options — patient must choose", "Paid promotions dilute organic results", "Requires scrolling and comparing", "Declining as AI becomes first touchpoint"] },
     right: { name: "ChatGPT Recommendations", pros: ["Direct name recommendation with reasoning", "Higher conversion — no comparison needed", "Growing rapidly in usage", "Builds trust through AI endorsement"], cons: ["No real-time map or directions", "Can't verify current availability", "Smaller current user base", "May have outdated info"] },
     verdict: "Optimize for both. Google Maps is still huge for 'near me' searches. But ChatGPT recommendations have 3-5x higher conversion because the patient gets a direct recommendation, not a list to compare.",
     faqItems: [
       { question: "How do I appear on both?", answer: "Google Business Profile optimization helps both. Add schema markup and llms.txt for ChatGPT. Consistent NAP data across both is critical." },
+      { question: "How can my restaurant, real estate business, or dental practice get on ChatGPT?", answer: "To get your business on ChatGPT, you must optimize your digital footprint for AI scraping. This involves publishing a robust llms.txt file, maintaining perfect NAP consistency across all major data aggregators, employing detailed schema markup (like LocalBusiness or Dentist schemas), and securing high-authority mentions across the web." },
+      { question: "How do I get my business recommended by Google AI Overviews?", answer: "Getting recommended by Google AI Overviews requires Answer Engine Optimization (AEO). Focus on comprehensive Q&A format content that directly answers user queries, implement FAQPage and HowTo schema markup, ensure high E-E-A-T (Experience, Expertise, Authoritativeness, and Trustworthiness), and optimize your Google Business Profile with rich, updated information." }
     ],
   },
   {

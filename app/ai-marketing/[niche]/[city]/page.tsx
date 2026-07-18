@@ -34,9 +34,25 @@ export async function generateMetadata({
   const niche = getNicheBySlug(nicheSlug);
   const city = cityFromSlug(citySlug);
   if (!niche || !city) return {};
+  if (nicheSlug === "lawyers" && citySlug === "nashville") {
+    return {
+      title: "Nashville AI Legal Marketing Company | ChatGPT Visibility for Law Firms",
+      description: "Top Nashville AI legal marketing agency. We specialize in ChatGPT visibility for law firms and AI marketing for lawyers in Nashville. Free AI visibility audit.",
+    };
+  }
+  
+  if (nicheSlug === "lawyers" && citySlug === "san-francisco") {
+    return {
+      title: "San Francisco AI Legal Marketing Agency | ChatGPT Visibility for Law Firms",
+      description: "Top San Francisco AI legal marketing agency. Specialized in ChatGPT visibility for law firms and AI marketing for lawyers in the Bay Area. Free AI visibility audit.",
+    };
+  }
+
+  const nicheNameSingle = niche.name.replace(/s$/, "");
+
   return {
-    title: `AI Marketing for ${niche.name} in ${city.name} — Godfather Funnel AI`,
-    description: `Get AI to recommend your ${niche.name.toLowerCase().replace(/s$/, "")} practice in ${city.name}. AEO + 360° marketing. Free AI visibility audit.`,
+    title: `${city.name} AI ${nicheNameSingle} Marketing Company | AEO Services`,
+    description: `Get AI to recommend your ${nicheNameSingle.toLowerCase()} practice in ${city.name}. Specialized AI marketing company for ${niche.name.toLowerCase()}. Free AI visibility audit.`,
   };
 }
 
@@ -109,6 +125,31 @@ export default async function CityNichePage({
         }}
       />
 
+      {niche.slug === "lawyers" && city.slug === "nashville" && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              "name": "Godfather Funnel AI Nashville - AI Legal Marketing Company",
+              "image": "https://www.godfatherfunnelai.com/logo.png",
+              "description": "Nashville AI legal marketing company specializing in ChatGPT visibility for law firms and AI marketing for lawyers.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Downtown Nashville",
+                "addressLocality": "Nashville",
+                "addressRegion": "TN",
+                "postalCode": "37201",
+                "addressCountry": "US"
+              },
+              "telephone": "+1-800-555-0199",
+              "url": "https://www.godfatherfunnelai.com/ai-marketing/lawyers/nashville"
+            })
+          }}
+        />
+      )}
+
       <div className="max-w-4xl mx-auto px-4">
         {/* Breadcrumb */}
         <div className="flex flex-wrap items-center gap-2 text-xs text-gray-500 mb-8">
@@ -133,25 +174,49 @@ export default async function CityNichePage({
         </div>
 
         {/* The Problem */}
-        <div className="bg-[#12121a] border border-red-500/10 rounded-2xl p-8 mb-8">
-          <h2 className="text-xl font-bold text-white mb-4">
-            The Problem in {cityName}
-          </h2>
-          <p className="text-gray-400 text-sm leading-relaxed mb-4">
-            Right now, when someone in {cityName} searches for a {nicheLabel} on
-            ChatGPT, Google AI, or Perplexity — your competitors get recommended
-            and you don&apos;t. According to Gartner, 73% of consumers under 35 
-            now use AI for local service recommendations. This means:
-          </p>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            {niche.painPoints.map((p, i) => (
-              <div key={i} className="bg-white/5 rounded-xl p-4">
-                <div className="text-red-400 font-bold text-sm mb-1">{p.title}</div>
-                <p className="text-gray-500 text-xs">{p.description}</p>
-              </div>
-            ))}
+        {niche.slug === "lawyers" && city.slug === "nashville" ? (
+          <div className="bg-[#12121a] border border-blue-500/20 rounded-2xl p-8 mb-8">
+            <h2 className="text-xl font-bold text-white mb-4">
+              Nashville Legal Market & ChatGPT Visibility for Law Firms
+            </h2>
+            <p className="text-gray-400 text-sm leading-relaxed mb-4">
+              The Nashville legal market is fiercely competitive. With the Nashville Bar Association reporting thousands of active attorneys in Davidson County, standing out is harder than ever. Traditional SEO isn't enough anymore. As a premier Nashville AI legal marketing company, we help your law firm get recommended directly by ChatGPT, Perplexity, and Google AI when potential clients search for legal representation in Music City.
+            </p>
+            <ul className="list-disc list-inside text-gray-400 text-sm space-y-2 mb-6">
+              <li>Targeted AI marketing for lawyers in Davidson County</li>
+              <li>Stand out among Nashville Bar Association members in AI queries</li>
+              <li>Capture high-intent clients using ChatGPT to find local attorneys</li>
+            </ul>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              {niche.painPoints.map((p, i) => (
+                <div key={i} className="bg-white/5 rounded-xl p-4">
+                  <div className="text-blue-400 font-bold text-sm mb-1">{p.title}</div>
+                  <p className="text-gray-500 text-xs">{p.description}</p>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
+        ) : (
+          <div className="bg-[#12121a] border border-red-500/10 rounded-2xl p-8 mb-8">
+            <h2 className="text-xl font-bold text-white mb-4">
+              The Problem in {cityName}
+            </h2>
+            <p className="text-gray-400 text-sm leading-relaxed mb-4">
+              Right now, when someone in {cityName} searches for a {nicheLabel} on
+              ChatGPT, Google AI, or Perplexity — your competitors get recommended
+              and you don&apos;t. According to Gartner, 73% of consumers under 35 
+              now use AI for local service recommendations. This means:
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              {niche.painPoints.map((p, i) => (
+                <div key={i} className="bg-white/5 rounded-xl p-4">
+                  <div className="text-red-400 font-bold text-sm mb-1">{p.title}</div>
+                  <p className="text-gray-500 text-xs">{p.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* What We Do */}
         <div className="bg-[#12121a] border border-white/5 rounded-2xl p-8 mb-8">

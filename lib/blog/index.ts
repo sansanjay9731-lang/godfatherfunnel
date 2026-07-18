@@ -1,13 +1,15 @@
 import type { BlogPost } from "./types";
 import { nicheGuidePosts } from "./niche-guides";
+import { customPosts } from "./custom-posts";
 // Import from seo-data for existing blog posts until new ones are generated
 import { blogPosts as legacyPosts } from "@/lib/seo-data";
+import { newBlogPosts } from "./new-posts";
 
 export type { BlogPost } from "./types";
 
 // Combine all blog sources, deduplicated by slug (later entries win)
 export function getAllBlogPosts(): BlogPost[] {
-  const all = [...legacyPosts, ...nicheGuidePosts];
+  const all = [...legacyPosts, ...nicheGuidePosts, ...newBlogPosts, ...customPosts];
   const seen = new Map<string, BlogPost>();
   for (const post of all) {
     seen.set(post.slug, post);
