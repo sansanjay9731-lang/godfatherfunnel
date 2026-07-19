@@ -4,7 +4,7 @@ export interface CityData {
   tier: 1 | 2 | 3;
   state: string;
   stateCode: string;
-  country: "USA";
+  country: "USA" | "India" | "UK" | "Australia" | "Canada";
   population: string;
   knownFor: string;
 }
@@ -40,6 +40,28 @@ export const cities: CityData[] = [
   { name: "Scottsdale", slug: "scottsdale", tier: 3, state: "Arizona", stateCode: "AZ", country: "USA", population: "240K", knownFor: "luxury wellness, cosmetic surgery, high-end real estate" },
   { name: "Raleigh", slug: "raleigh", tier: 3, state: "North Carolina", stateCode: "NC", country: "USA", population: "470K", knownFor: "Research Triangle, biotech, healthcare innovation" },
   { name: "San Antonio", slug: "san-antonio", tier: 3, state: "Texas", stateCode: "TX", country: "USA", population: "1.4M", knownFor: "military healthcare, growing professional services" },
+
+  // International Tier 1 & 2 Cities
+  // India
+  { name: "Mumbai", slug: "mumbai", tier: 1, state: "Maharashtra", stateCode: "MH", country: "India", population: "21M", knownFor: "financial capital, medical tourism, premium healthcare" },
+  { name: "Delhi", slug: "delhi", tier: 1, state: "Delhi", stateCode: "DL", country: "India", population: "32M", knownFor: "national capital, corporate headquarters, top medical institutes" },
+  { name: "Bangalore", slug: "bangalore", tier: 1, state: "Karnataka", stateCode: "KA", country: "India", population: "13M", knownFor: "Silicon Valley of India, tech hub, modern healthcare" },
+  { name: "Hyderabad", slug: "hyderabad", tier: 2, state: "Telangana", stateCode: "TG", country: "India", population: "10M", knownFor: "pharmaceutical capital, IT sector, major hospital chains" },
+  
+  // UK
+  { name: "London", slug: "london", tier: 1, state: "Greater London", stateCode: "LND", country: "UK", population: "9M", knownFor: "global financial center, Harley Street medical, international law" },
+  { name: "Manchester", slug: "manchester", tier: 2, state: "Greater Manchester", stateCode: "MAN", country: "UK", population: "2.8M", knownFor: "tech growth, media hub, rising professional services" },
+  { name: "Birmingham", slug: "birmingham", tier: 2, state: "West Midlands", stateCode: "WMD", country: "UK", population: "2.6M", knownFor: "business hub, growing legal sector, healthcare" },
+
+  // Australia
+  { name: "Sydney", slug: "sydney", tier: 1, state: "New South Wales", stateCode: "NSW", country: "Australia", population: "5.3M", knownFor: "financial hub, premium real estate, top tier healthcare" },
+  { name: "Melbourne", slug: "melbourne", tier: 1, state: "Victoria", stateCode: "VIC", country: "Australia", population: "5.1M", knownFor: "cultural capital, biotech research, corporate headquarters" },
+  { name: "Brisbane", slug: "brisbane", tier: 2, state: "Queensland", stateCode: "QLD", country: "Australia", population: "2.6M", knownFor: "fast-growing market, health innovation, lifestyle capital" },
+
+  // Canada
+  { name: "Toronto", slug: "toronto", tier: 1, state: "Ontario", stateCode: "ON", country: "Canada", population: "6.3M", knownFor: "financial capital, tech hub, major medical centers" },
+  { name: "Vancouver", slug: "vancouver", tier: 1, state: "British Columbia", stateCode: "BC", country: "Canada", population: "2.6M", knownFor: "luxury real estate, wellness culture, Pacific Rim gateway" },
+  { name: "Montreal", slug: "montreal", tier: 2, state: "Quebec", stateCode: "QC", country: "Canada", population: "4.3M", knownFor: "AI research hub, bilingual professional services, life sciences" },
 ];
 
 

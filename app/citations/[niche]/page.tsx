@@ -11,6 +11,7 @@ const nicheNames: Record<string, string> = {
   dentists: "Dentists",
   "plastic-surgeons": "Plastic Surgeons",
   "ivf-clinics": "IVF Clinics",
+  doctors: "Physicians & Medical Practices",
   lawyers: "Lawyers",
   "real-estate": "Real Estate",
   "eye-clinics": "Eye Clinics",

@@ -671,6 +671,63 @@ export const niches: NicheData[] = [
     ],
     ctaText: "Get Your Free Developer AI Audit",
   },
+  {
+    slug: "doctors",
+    name: "Physicians & Medical Practices",
+    icon: "🩺",
+    image: images.doctorMale1,
+    heroHeadline: "AI Marketing for Doctors: Get Recommended by Answer Engines",
+    heroSubline: "When patients ask ChatGPT or Google AI for the best local physician, will your practice be the answer? Dominate AEO and bypass traditional SEO.",
+    painPoints: [
+      {
+        title: "Losing Local Patients",
+        description: "Patients are switching to AI for medical advice and local practice recommendations. If you aren't optimized, you don't exist.",
+      },
+      {
+        title: "Zero AI Citations",
+        description: "Google AI requires rigorous E-E-A-T and specific Physician schema to trust and recommend you. Most practices have none.",
+      },
+      {
+        title: "High CPA on Google Ads",
+        description: "Bidding on 'doctor near me' is becoming prohibitively expensive, while organic AI recommendations are highly trusted and free.",
+      },
+    ],
+    services: [
+      {
+        tier: "Physician AEO Audit",
+        price: "Free",
+        features: ["AI Recommendation Check", "Schema Markup Analysis", "Local Citation Gap"],
+      },
+      {
+        tier: "Medical Schema Core",
+        price: "$1,500/mo",
+        features: ["Physician JSON-LD", "LocalBusiness Optimization", "Review Sentiment Sync"],
+      },
+    ],
+    roiExample: {
+      metric: "Patient Inquiries",
+      value: "+140%",
+      pitch: "Medical practices using our AEO system see a massive jump in high-intent patient inquiries driven directly by AI recommendations.",
+    },
+    faqItems: [
+      {
+        question: "Why do doctors need Answer Engine Optimization?",
+        answer: "Patients no longer just search Google; they ask AI specific symptom and specialist questions. AEO ensures your practice is cited as the authoritative answer.",
+      },
+      {
+        question: "What schema markup do physicians need?",
+        answer: "Doctors need MedicalBusiness, Physician, and MedicalSpecialty schema correctly nested so AI can confidently verify your credentials and location.",
+      },
+    ],
+    stats: [
+      { label: "Patients using AI for health", value: "72%" },
+      { label: "Trust in AI recommendations", value: "65%" },
+      { label: "Increase in E-E-A-T scores", value: "3x" },
+    ],
+    ctaText: "Get Your Free Physician AI Audit",
+    searchExample: "Who is the highest rated doctor in [City]?",
+    competitorLine: "Stop losing patients to hospital networks.",
+  }
 ];
 
 export function getNicheBySlug(slug: string): NicheData | undefined {
