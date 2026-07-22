@@ -1,71 +1,5 @@
 import type { NextConfig } from "next";
 
-// Old city slugs that were removed (UK, Australia, India) → redirect to closest US equivalent
-const removedCityRedirects: { old: string; new: string }[] = [
-  // UK cities
-  { old: "london", new: "new-york" },
-  { old: "manchester", new: "chicago" },
-  { old: "birmingham", new: "philadelphia" },
-  { old: "edinburgh", new: "boston" },
-  // Australia cities
-  { old: "sydney", new: "los-angeles" },
-  { old: "melbourne", new: "san-francisco" },
-  { old: "brisbane", new: "austin" },
-  { old: "perth", new: "denver" },
-  // Indian cities (any that may still be cached)
-  { old: "dehradun", new: "denver" },
-  { old: "mumbai", new: "new-york" },
-  { old: "delhi", new: "new-york" },
-  { old: "bangalore", new: "san-francisco" },
-  { old: "hyderabad", new: "houston" },
-  { old: "chennai", new: "los-angeles" },
-  { old: "kolkata", new: "chicago" },
-  { old: "pune", new: "austin" },
-  { old: "ahmedabad", new: "dallas" },
-  { old: "jaipur", new: "phoenix" },
-  { old: "lucknow", new: "nashville" },
-  { old: "chandigarh", new: "denver" },
-  { old: "kochi", new: "miami" },
-  { old: "gurgaon", new: "dallas" },
-  { old: "noida", new: "dallas" },
-  { old: "indore", new: "charlotte" },
-  { old: "bhopal", new: "charlotte" },
-  { old: "nagpur", new: "tampa" },
-  { old: "vadodara", new: "tampa" },
-  { old: "surat", new: "houston" },
-  { old: "visakhapatnam", new: "miami" },
-  { old: "coimbatore", new: "portland" },
-  { old: "thiruvananthapuram", new: "portland" },
-  { old: "patna", new: "minneapolis" },
-  { old: "ranchi", new: "salt-lake-city" },
-  { old: "guwahati", new: "salt-lake-city" },
-  { old: "bhubaneswar", new: "raleigh" },
-  { old: "mysore", new: "scottsdale" },
-  { old: "mangalore", new: "scottsdale" },
-  { old: "nashik", new: "san-antonio" },
-  // Missing Indian cities from 404 logs
-  { old: "ludhiana", new: "denver" },
-  { old: "madurai", new: "tampa" },
-  { old: "varanasi", new: "nashville" },
-  { old: "jalandhar", new: "chicago" },
-  { old: "meerut", new: "dallas" },
-  { old: "navi-mumbai", new: "new-york" },
-  { old: "goa", new: "miami" },
-  { old: "jodhpur", new: "phoenix" },
-  { old: "faridabad", new: "houston" },
-  { old: "kolhapur", new: "charlotte" },
-  { old: "siliguri", new: "salt-lake-city" },
-  { old: "salem", new: "portland" },
-  { old: "amritsar", new: "minneapolis" },
-  { old: "udaipur", new: "las-vegas" },
-  { old: "kanpur", new: "atlanta" },
-  { old: "belgaum", new: "scottsdale" },
-  { old: "aurangabad", new: "san-antonio" },
-  { old: "rajkot", new: "houston" },
-  { old: "trivandrum", new: "miami" },
-  { old: "aligarh", new: "raleigh" },
-];
-
 const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
@@ -81,15 +15,6 @@ const nextConfig: NextConfig = {
       destination: string;
       permanent: boolean;
     }[] = [];
-
-    // Redirect all old city slugs for every niche
-    for (const { old: oldCity, new: newCity } of removedCityRedirects) {
-      redirects.push({
-        source: `/ai-marketing/:niche/${oldCity}`,
-        destination: `/ai-marketing/:niche/${newCity}`,
-        permanent: true, // 301
-      });
-    }
 
     // Niche renames: ca-firms → accounting-firms
     redirects.push(
