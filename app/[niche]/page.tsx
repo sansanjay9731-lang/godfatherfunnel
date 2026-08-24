@@ -1,6 +1,8 @@
 import { notFound } from "next/navigation";
 import { niches, getNicheBySlug } from "@/lib/niches";
+import { getAllCities } from "@/lib/cities";
 import type { Metadata } from "next";
+import Link from "next/link";
 import Hero from "@/components/Hero";
 import PainPoints from "@/components/PainPoints";
 import ServiceTiers from "@/components/ServiceTiers";
@@ -10,6 +12,8 @@ import FAQ from "@/components/FAQ";
 import BeforeAfter from "@/components/BeforeAfter";
 import TrustBar from "@/components/TrustBar";
 import Testimonials from "@/components/Testimonials";
+
+const allCities = getAllCities();
 
 export function generateStaticParams() {
   return niches.map((n) => ({ niche: n.slug }));
@@ -117,6 +121,29 @@ export default async function NichePage({
       <ROICalculator roi={niche.roiExample} />
       <Testimonials />
       <FAQ items={niche.faqItems} />
+
+      {/* Cities We Serve — Internal link hub for all city pages */}
+      <section className="py-16 bg-[#06060a] border-t border-white/5">
+        <div className="max-w-5xl mx-auto px-4">
+          <h2 className="text-lg font-bold text-white mb-2">
+            AI Marketing for {niche.name} — Cities We Serve
+          </h2>
+          <p className="text-sm text-gray-500 mb-6">
+            We help {niche.name.toLowerCase()} in every major market get recommended by ChatGPT, Google AI, and Perplexity.
+          </p>
+          <div className="flex flex-wrap gap-2">
+            {allCities.map((city) => (
+              <Link
+                key={city.slug}
+                href={`/ai-marketing/${niche.slug}/${city.slug}`}
+                className="text-xs px-3 py-1.5 bg-white/5 border border-white/10 rounded-full text-gray-400 hover:text-white hover:border-purple-500/30 transition"
+              >
+                {city.name}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* Final CTA */}
       <section className="py-24 bg-gradient-to-b from-[#06060a] to-[#0f0a1a] relative overflow-hidden">

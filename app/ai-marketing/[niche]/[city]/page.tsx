@@ -34,6 +34,49 @@ export async function generateMetadata({
   const niche = getNicheBySlug(nicheSlug);
   const city = cityFromSlug(citySlug);
   if (!niche || !city) return {};
+
+  // Crawl budget pruning: noindex low-relevance niche+city combos
+  // These pages exist but have near-zero search demand — noindexing
+  // concentrates crawl budget on ~700 high-value pages that can rank.
+  const LOW_RELEVANCE_COMBOS: Record<string, string[]> = {
+    // Ayurveda is India-specific; only keep Indian + major US wellness cities
+    "ayurveda-clinics": [
+      "atlanta", "austin", "boston", "charlotte", "denver", "las-vegas",
+      "london", "melbourne", "minneapolis", "philadelphia", "phoenix",
+      "portland", "raleigh", "san-diego", "scottsdale", "seattle",
+      "sydney", "tampa", "birmingham", "manchester", "brisbane",
+      "toronto", "vancouver", "montreal", "dallas", "chicago",
+      "houston", "new-york", "los-angeles",
+    ],
+    // Hair salons: strong demand only in US Tier 1 + Tier 2 cities
+    "hair-salons": [
+      "london", "manchester", "birmingham", "sydney", "melbourne",
+      "brisbane", "toronto", "vancouver", "montreal",
+      "delhi", "bangalore", "hyderabad",
+    ],
+    // Test prep: strong in India + NYC + London only
+    "test-prep": [
+      "atlanta", "austin", "boston", "charlotte", "denver", "las-vegas",
+      "miami", "minneapolis", "phoenix", "portland", "raleigh",
+      "salt-lake-city", "san-antonio", "san-diego", "scottsdale",
+      "seattle", "tampa", "houston", "dallas", "san-francisco",
+      "birmingham", "manchester", "brisbane", "vancouver", "montreal",
+    ],
+    // Wedding planners: skip international markets — search intent is local
+    "wedding-planners": [
+      "london", "manchester", "birmingham", "sydney", "melbourne",
+      "brisbane", "toronto", "vancouver", "montreal",
+      "bangalore", "hyderabad",
+    ],
+  };
+
+  const lowRelevanceCities = LOW_RELEVANCE_COMBOS[nicheSlug] ?? [];
+  if (lowRelevanceCities.includes(citySlug)) {
+    return {
+      robots: { index: false, follow: true },
+    };
+  }
+
   if (nicheSlug === "lawyers" && citySlug === "nashville") {
     return {
       title: "Nashville AI Legal Marketing Company | ChatGPT Visibility for Law Firms",
@@ -55,6 +98,7 @@ export async function generateMetadata({
     description: `Get AI to recommend your ${nicheNameSingle.toLowerCase()} practice in ${city.name}. Specialized AI marketing company for ${niche.name.toLowerCase()}. Free AI visibility audit.`,
   };
 }
+
 
 export default async function CityNichePage({
   params,
