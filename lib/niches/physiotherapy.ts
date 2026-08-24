@@ -3,7 +3,7 @@ import { images } from "./images";
 
 export const nicheData: NicheData = {
   slug: "physiotherapy",
-  name: "Physiotherapy",
+  name: "Physiotherapy Clinics",
   icon: "🏃",
   image: images.physiotherapy,
   heroHeadline:

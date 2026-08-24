@@ -22,6 +22,7 @@ import { nicheData as hairSalons } from "./hair-salons";
 import { nicheData as pediatricians } from "./pediatricians";
 import { nicheData as psychiatrists } from "./psychiatrists";
 import { nicheData as doctors } from "./doctors";
+import { nicheData as opticians } from "./opticians";
 
 import type { NicheData } from "./types";
 
@@ -47,6 +48,7 @@ export const niches: NicheData[] = [
   pediatricians,
   psychiatrists,
   doctors,
+  opticians,
 ];
 
 export function getAllNiches(): NicheData[] {

@@ -4,9 +4,9 @@ import SchemaScript from "@/components/SchemaScript";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "AI Citation Directory: Business Listing Guide for AI Search | Godfather Funnel AI",
+  title: "AI Citation Directory for Local Businesses | Build AI Visibility",
   description:
-    "Complete AI citation directory of 70+ sources. Legal directory citations for AI search, citation building for doctors, and real estate directories that ChatGPT & Google AI use.",
+    "Get found by ChatGPT and Google AI. Complete AI citation directory of 70+ sources. Claim your free audit today and boost your AI visibility before your competitors do.",
 };
 
 const BASE = "https://www.godfatherfunnelai.com";

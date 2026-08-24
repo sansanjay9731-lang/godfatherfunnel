@@ -28,6 +28,36 @@ export async function generateMetadata({
   const niche = getNicheBySlug(slug);
   if (!niche) return {};
 
+  if (slug === "dentists") {
+    return {
+      title: "AEO for Dentists | AI Marketing Services for Dental Practices",
+      description: "AEO + 360° AI marketing for dental practices. We make ChatGPT, Google AI & Perplexity recommend your practice by name. Free AI visibility audit.",
+      alternates: {
+        canonical: `https://www.godfatherfunnelai.com/${slug}`,
+      },
+      openGraph: {
+        title: "AEO for Dentists | AI Marketing Services for Dental Practices",
+        description: "AEO + 360° AI marketing for dental practices. We make ChatGPT, Google AI & Perplexity recommend your practice by name. Free AI visibility audit.",
+        url: `https://www.godfatherfunnelai.com/${slug}`,
+      },
+    };
+  }
+
+  if (slug === "physiotherapy") {
+    return {
+      title: "Physio Marketing Agency | AI Marketing for Physiotherapy Clinics",
+      description: "AEO + 360° AI marketing for physiotherapy clinics. We make ChatGPT, Google AI & Perplexity recommend your practice by name. Free AI visibility audit.",
+      alternates: {
+        canonical: `https://www.godfatherfunnelai.com/${slug}`,
+      },
+      openGraph: {
+        title: "Physio Marketing Agency | AI Marketing for Physiotherapy Clinics",
+        description: "AEO + 360° AI marketing for physiotherapy clinics. We make ChatGPT, Google AI & Perplexity recommend your practice by name. Free AI visibility audit.",
+        url: `https://www.godfatherfunnelai.com/${slug}`,
+      },
+    };
+  }
+
   // Title patterns match real GSC queries: "aeo for dentists", "ai marketing for accountants"
   // Keeping under 60 chars for full display in SERPs
   const title = `AEO & AI Marketing for ${niche.name} | Get AI to Recommend You`;

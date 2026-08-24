@@ -80,7 +80,7 @@ export async function generateMetadata({
   if (nicheSlug === "lawyers" && citySlug === "nashville") {
     return {
       title: "Nashville AI Legal Marketing Company | ChatGPT Visibility for Law Firms",
-      description: "Top Nashville AI legal marketing agency. We specialize in ChatGPT visibility for law firms and AI marketing for lawyers in Nashville. Free AI visibility audit.",
+      description: "#1 Nashville AI legal marketing agency. ChatGPT visibility for law firms. Free AI audit in 30 seconds.",
     };
   }
   
