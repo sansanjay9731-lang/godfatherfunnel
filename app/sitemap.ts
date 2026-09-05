@@ -35,6 +35,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/audit`, lastModified: SPRINT_DATE, priority: 1.0 },
     { url: `${BASE}/about`, lastModified: "2025-03-01", priority: 0.7 },
     { url: `${BASE}/services`, lastModified: SPRINT_DATE, priority: 0.9 },
+    { url: `${BASE}/services/healthcare-aeo`, lastModified: "2026-09-05", priority: 0.9 },
     { url: `${BASE}/case-studies`, lastModified: "2025-06-01", priority: 0.8 },
     { url: `${BASE}/faq`, lastModified: SPRINT_DATE, priority: 0.8 },
     { url: `${BASE}/contact`, lastModified: "2025-01-01", priority: 0.6 },

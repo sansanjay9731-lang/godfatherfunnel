@@ -91,6 +91,20 @@ export async function generateMetadata({
     };
   }
 
+  if (nicheSlug === "orthopedics" && citySlug === "tampa") {
+    return {
+      title: "Orthopedic SEO & AEO Tampa | AI Marketing for Orthopedic Surgeons",
+      description: "Top orthopedic SEO & AEO agency in Tampa. We make ChatGPT, Google AI, and Perplexity recommend your Tampa orthopedic practice.",
+    };
+  }
+
+  if (nicheSlug === "plastic-surgeons" && citySlug === "tampa") {
+    return {
+      title: "Plastic Surgery SEO & AEO Company Tampa | Cosmetic Surgeon Marketing",
+      description: "Premier plastic surgery SEO company & AEO agency in Tampa. Get your cosmetic practice recommended by ChatGPT and Google AI.",
+    };
+  }
+
   const nicheNameSingle = niche.name.replace(/s$/, "");
 
   return {

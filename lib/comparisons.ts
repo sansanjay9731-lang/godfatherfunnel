@@ -6,6 +6,9 @@ export interface ComparisonTopic {
   right: { name: string; pros: string[]; cons: string[] };
   verdict: string;
   faqItems: { question: string; answer: string }[];
+  competitorName?: string;
+  heroHeadline?: string;
+  heroSubline?: string;
 }
 
 export const comparisonTopics: ComparisonTopic[] = [
@@ -250,6 +253,50 @@ export const comparisonTopics: ComparisonTopic[] = [
     verdict: "For real estate, AEO is transformative. When a buyer asks AI 'Is [builder] reliable?', your structured data determines the answer. One sale ($50,000-2Cr) pays for years of marketing.",
     faqItems: [
       { question: "Can AEO help sell specific projects?", answer: "Yes! We create project-specific pages with schema markup, state real estate licensing data, and locality content that AI systems cite when recommending projects in that area." },
+    ],
+  },
+  {
+    slug: "google-ads-agency-vs-aeo",
+    title: "Should My Google Ads Agency Also Handle AEO?",
+    description: "Why traditional Google Ads agencies struggle with Answer Engine Optimization (AEO), and whether you should hire a specialized AEO agency for ChatGPT visibility.",
+    competitorName: "Traditional Google Ads Agency",
+    heroHeadline: "Should Your Google Ads Agency Handle AEO?",
+    heroSubline: "PPC agencies manage ad spend. AEO builds entity authority for AI search engines like ChatGPT & Google AI. Here is why you need a specialized AEO strategy.",
+    left: { 
+      name: "Traditional Google Ads Agency", 
+      pros: [
+        "Experts in immediate paid visibility and ad spend optimization",
+        "Deep knowledge of conversion tracking and landing pages",
+        "Excellent at targeting specific keywords and demographics",
+        "Established reporting and ROI measurement frameworks"
+      ], 
+      cons: [
+        "Focus on paid search limits organic knowledge graph expertise",
+        "Often lack deep schema markup and LLM entity optimization skills",
+        "May prioritize ad spend over building permanent AI assets",
+        "Not structured to handle llms.txt and AI agent crawler rules"
+      ] 
+    },
+    right: { 
+      name: "Specialized AEO Agency", 
+      pros: [
+        "Focus on earning direct recommendations from AI like ChatGPT",
+        "Deep technical expertise in schema architecture and knowledge graphs",
+        "Builds compounding organic assets instead of temporary paid ads",
+        "Specializes in semantic search and entity optimization"
+      ], 
+      cons: [
+        "Results take 30-90 days instead of being instantaneous",
+        "Does not manage standard Google Ads or PPC campaigns",
+        "Newer discipline with a different ROI measurement approach",
+        "Requires ongoing commitment to organic entity building"
+      ] 
+    },
+    verdict: "While a traditional Google Ads agency is perfect for managing paid PPC campaigns, Answer Engine Optimization requires a fundamentally different technical skill set focused on LLM data structuring and entity authority. For best results, use a specialized AEO agency alongside your PPC efforts.",
+    faqItems: [
+      { question: "Should my google ads agency also handle aeo?", answer: "Typically, no. Traditional Google Ads agencies are built around paid media buying and bid optimization. AEO requires deep technical SEO, structured data architecture, and an understanding of how LLMs retrieve information—skills rarely found in standard PPC teams." },
+      { question: "Why can't my PPC agency just add AEO to their services?", answer: "AEO is closer to technical SEO than paid search. It involves knowledge graph optimization, complex schema deployment, and creating AI-friendly assets like llms.txt, which are entirely outside the scope of PPC management." },
+      { question: "What is the ROI of using a specialized AEO agency versus just doing Google Ads?", answer: "Google Ads provides instant traffic but costs scale infinitely with clicks. AEO builds compounding organic visibility; once an AI model recommends you, you don't pay per click. AEO generally delivers a 5-10x higher long-term ROI." }
     ],
   },
 ];
