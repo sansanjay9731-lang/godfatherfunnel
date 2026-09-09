@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { WHATSAPP_LINK } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Contact Godfather Funnel AI — Get Your Free AI Visibility Audit",
@@ -80,18 +81,23 @@ export default function ContactPage() {
               </p>
             </div>
 
-            <div className="bg-[#12121a] border border-white/5 rounded-2xl p-6">
-              <h2 className="text-lg font-bold text-white mb-2">
-                WhatsApp Us
+            <a
+              href={WHATSAPP_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-[#12121a] border border-green-500/20 rounded-2xl p-6 hover:border-green-500/40 transition-colors"
+            >
+              <h2 className="text-lg font-bold text-white mb-2 flex items-center gap-2">
+                <span>WhatsApp Us</span>
+                <span className="text-xs px-2 py-0.5 bg-green-500/10 text-green-400 rounded-full font-normal">Fastest Response</span>
               </h2>
               <p className="text-sm text-gray-400">
-                Quick questions? Send us a message on WhatsApp for fastest
-                response.
+                Quick questions? Send us a direct message on WhatsApp.
               </p>
-              <p className="text-sm text-green-400 mt-2 font-semibold">
-                +44 20 7946 0000
+              <p className="text-sm text-green-400 mt-3 font-semibold flex items-center gap-1">
+                +91 99649 84695 →
               </p>
-            </div>
+            </a>
           </div>
 
           {/* Contact Details */}
@@ -112,7 +118,7 @@ export default function ContactPage() {
                 <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1">
                   Phone / WhatsApp
                 </h3>
-                <p className="text-sm text-gray-300">+44 20 7946 0000</p>
+                <p className="text-sm text-gray-300">+91 99649 84695</p>
               </div>
               <div>
                 <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1">

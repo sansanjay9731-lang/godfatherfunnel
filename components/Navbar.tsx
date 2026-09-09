@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { niches } from "@/lib/niches";
+import { WHATSAPP_LINK } from "@/lib/constants";
 
 const nichesByCategory: Record<string, typeof niches> = {};
 for (const n of niches) {
@@ -18,6 +19,8 @@ const categoryLabels: Record<string, string> = {
   finance: "Finance",
 };
 
+import Logo from "@/components/Logo";
+
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
@@ -25,14 +28,7 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0a0a0f]/80 backdrop-blur-xl border-b border-white/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link href="/" className="flex items-center gap-2">
-            <span className="text-2xl font-black bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-              GODFATHER
-            </span>
-            <span className="text-xs text-gray-400 uppercase tracking-widest">
-              Funnel AI
-            </span>
-          </Link>
+          <Logo size="md" />
 
           {/* Desktop */}
           <div className="hidden md:flex items-center gap-6">
@@ -74,12 +70,14 @@ export default function Navbar() {
             <Link href="/resources" className="text-gray-300 hover:text-white text-sm transition">
               Resources
             </Link>
-            <Link
-              href="/audit"
-              className="px-5 py-2 text-sm font-semibold bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full hover:shadow-lg hover:shadow-purple-500/25 transition-all"
+            <a
+              href={WHATSAPP_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-5 py-2 text-sm font-semibold bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full hover:shadow-lg hover:shadow-purple-500/25 transition-all flex items-center gap-1.5"
             >
-              Free AI Audit
-            </Link>
+              WhatsApp Audit →
+            </a>
           </div>
 
           {/* Mobile toggle */}
@@ -117,13 +115,15 @@ export default function Navbar() {
             <Link href="/services" className="block py-2 text-gray-300 hover:text-white text-sm" onClick={() => setOpen(false)}>Services</Link>
             <Link href="/blog" className="block py-2 text-gray-300 hover:text-white text-sm" onClick={() => setOpen(false)}>Blog</Link>
             <Link href="/resources" className="block py-2 text-gray-300 hover:text-white text-sm" onClick={() => setOpen(false)}>Resources</Link>
-            <Link
-              href="/audit"
+            <a
+              href={WHATSAPP_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
               className="block mt-4 text-center px-5 py-2 text-sm font-semibold bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full"
               onClick={() => setOpen(false)}
             >
-              Free AI Audit
-            </Link>
+              WhatsApp Audit →
+            </a>
           </div>
         </div>
       )}

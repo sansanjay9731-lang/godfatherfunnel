@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
-import Link from "next/link";
+import { WHATSAPP_LINK } from "@/lib/constants";
 
 export default function CTABar() {
   const [visible, setVisible] = useState(false);
@@ -35,12 +35,14 @@ export default function CTABar() {
         <p className="text-sm text-gray-300 hidden sm:block">
           Your competitors are AI-recommended. <span className="text-red-400 font-semibold">You&apos;re not.</span>
         </p>
-        <Link
-          href="/audit"
-          className="px-6 py-2.5 text-sm font-bold bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full hover:shadow-lg hover:shadow-purple-500/25 transition-all mx-auto sm:mx-0"
+        <a
+          href={WHATSAPP_LINK}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-6 py-2.5 text-sm font-bold bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-full hover:shadow-lg hover:shadow-green-500/25 transition-all mx-auto sm:mx-0 flex items-center gap-2"
         >
-          Get Free AI Audit →
-        </Link>
+          Chat on WhatsApp (+91 99649 84695) →
+        </a>
       </div>
     </div>
   );

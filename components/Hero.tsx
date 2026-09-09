@@ -5,6 +5,8 @@ import Image from "next/image";
 import { images } from "@/lib/niches";
 import "./hero-animations.css";
 
+import { WHATSAPP_LINK } from "@/lib/constants";
+
 interface HeroProps {
   headline: string;
   subline: string;
@@ -24,7 +26,7 @@ export default function Hero({
   headline,
   subline,
   ctaText,
-  ctaHref = "/audit",
+  ctaHref = WHATSAPP_LINK,
   searchExample,
 }: HeroProps) {
   return (

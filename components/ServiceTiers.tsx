@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { WHATSAPP_LINK } from "@/lib/constants";
 
 interface Service {
   tier: string;
@@ -68,16 +69,18 @@ export default function ServiceTiers({ services }: { services: Service[] }) {
                 ))}
               </ul>
 
-              <Link
-                href="/audit"
+              <a
+                href={WHATSAPP_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
                 className={`mt-8 block text-center px-6 py-3 text-sm font-semibold rounded-full transition-all ${
                   i === 2
                     ? "bg-gradient-to-r from-amber-500 to-orange-500 text-black hover:shadow-lg hover:shadow-amber-500/25"
                     : "bg-white/5 text-white border border-white/10 hover:bg-white/10"
                 }`}
               >
-                Get Started
-              </Link>
+                Get Started on WhatsApp →
+              </a>
             </motion.div>
           ))}
         </div>

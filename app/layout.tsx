@@ -74,7 +74,7 @@ export default function RootLayout({
                 "America's #1 AEO and AI marketing agency. We make AI recommend your business by name.",
               foundingDate: "2024",
               slogan: "Make AI Recommend You by Name",
-              telephone: "+1 (212) 555-0198",
+              telephone: "+91 99649 84695",
               areaServed: {
                 "@type": "Country",
                 name: "United States",

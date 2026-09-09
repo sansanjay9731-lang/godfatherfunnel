@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { niches } from "@/lib/niches";
+import { WHATSAPP_LINK } from "@/lib/constants";
 
 const nichesByCategory: Record<string, typeof niches> = {};
 for (const n of niches) {
@@ -16,6 +17,8 @@ const categoryLabels: Record<string, string> = {
   finance: "Finance",
 };
 
+import Logo from "@/components/Logo";
+
 export default function Footer() {
   return (
     <footer className="bg-[#06060a] border-t border-white/5 py-16">
@@ -23,9 +26,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <h3 className="text-xl font-black bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-              GODFATHER FUNNEL AI
-            </h3>
+            <Logo size="lg" />
             <p className="mt-3 text-sm text-gray-400 leading-relaxed">
               We make AI recommend you by name. AEO + 360° marketing for
               premium businesses across 20 industries.
@@ -33,7 +34,7 @@ export default function Footer() {
             <p className="mt-4 text-sm text-gray-400">
               contact@godfatherfunnelai.com
             </p>
-            <p className="text-sm text-gray-400">+1 (212) 555-0198</p>
+            <p className="text-sm text-gray-400">WhatsApp: +91 99649 84695</p>
           </div>
 
           {/* Industries by category */}
@@ -74,12 +75,14 @@ export default function Footer() {
               <Link href="/terms" className="block text-sm text-gray-400 hover:text-white transition">Terms of Service</Link>
             </div>
             <div className="mt-6">
-              <Link
-                href="/audit"
-                className="inline-block px-6 py-3 text-sm font-semibold bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full hover:shadow-lg hover:shadow-purple-500/25 transition-all"
+              <a
+                href={WHATSAPP_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-6 py-3 text-sm font-semibold bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-full hover:shadow-lg hover:shadow-green-500/25 transition-all"
               >
-                Free AI Audit
-              </Link>
+                WhatsApp Us →
+              </a>
             </div>
           </div>
         </div>
