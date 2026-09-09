@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { niches } from "@/lib/niches";
 import { WHATSAPP_LINK } from "@/lib/constants";
+import WhatsAppIcon from "@/components/WhatsAppIcon";
 
 const nichesByCategory: Record<string, typeof niches> = {};
 for (const n of niches) {
@@ -79,9 +80,11 @@ export default function Footer() {
                 href={WHATSAPP_LINK}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block px-6 py-3 text-sm font-semibold bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-full hover:shadow-lg hover:shadow-green-500/25 transition-all"
+                className="inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold bg-[#25D366] hover:bg-[#20bd5a] text-black rounded-full hover:shadow-lg hover:shadow-green-500/25 transition-all"
               >
-                WhatsApp Us →
+                <WhatsAppIcon className="w-4 h-4 fill-black" />
+                <span>WhatsApp Us</span>
+                <span>→</span>
               </a>
             </div>
           </div>

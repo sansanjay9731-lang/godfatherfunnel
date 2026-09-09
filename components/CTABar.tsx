@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 import { WHATSAPP_LINK } from "@/lib/constants";
+import WhatsAppIcon from "@/components/WhatsAppIcon";
 
 export default function CTABar() {
   const [visible, setVisible] = useState(false);
@@ -39,9 +40,11 @@ export default function CTABar() {
           href={WHATSAPP_LINK}
           target="_blank"
           rel="noopener noreferrer"
-          className="px-6 py-2.5 text-sm font-bold bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-full hover:shadow-lg hover:shadow-green-500/25 transition-all mx-auto sm:mx-0 flex items-center gap-2"
+          className="px-6 py-2.5 text-sm font-bold bg-[#25D366] hover:bg-[#20bd5a] text-black rounded-full hover:shadow-lg hover:shadow-green-500/25 transition-all mx-auto sm:mx-0 flex items-center gap-2"
         >
-          Chat on WhatsApp (+91 99649 84695) →
+          <WhatsAppIcon className="w-5 h-5 fill-black" />
+          <span>Chat on WhatsApp</span>
+          <span>→</span>
         </a>
       </div>
     </div>

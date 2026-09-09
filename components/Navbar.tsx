@@ -20,6 +20,7 @@ const categoryLabels: Record<string, string> = {
 };
 
 import Logo from "@/components/Logo";
+import WhatsAppIcon from "@/components/WhatsAppIcon";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -74,9 +75,11 @@ export default function Navbar() {
               href={WHATSAPP_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-5 py-2 text-sm font-semibold bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full hover:shadow-lg hover:shadow-purple-500/25 transition-all flex items-center gap-1.5"
+              className="px-5 py-2 text-sm font-semibold bg-[#25D366] hover:bg-[#20bd5a] text-black rounded-full hover:shadow-lg hover:shadow-green-500/25 transition-all flex items-center gap-2"
             >
-              WhatsApp Audit →
+              <WhatsAppIcon className="w-4 h-4 fill-black" />
+              <span>WhatsApp Audit</span>
+              <span>→</span>
             </a>
           </div>
 
@@ -119,10 +122,11 @@ export default function Navbar() {
               href={WHATSAPP_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="block mt-4 text-center px-5 py-2 text-sm font-semibold bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full"
+              className="mt-4 flex items-center justify-center gap-2 px-5 py-2.5 text-sm font-semibold bg-[#25D366] hover:bg-[#20bd5a] text-black rounded-full"
               onClick={() => setOpen(false)}
             >
-              WhatsApp Audit →
+              <WhatsAppIcon className="w-4 h-4 fill-black" />
+              <span>WhatsApp Audit →</span>
             </a>
           </div>
         </div>

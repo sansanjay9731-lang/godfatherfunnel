@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { WHATSAPP_LINK } from "@/lib/constants";
+import WhatsAppIcon from "@/components/WhatsAppIcon";
 
 export const metadata: Metadata = {
   title: "Contact Godfather Funnel AI — Get Your Free AI Visibility Audit",
@@ -88,6 +89,7 @@ export default function ContactPage() {
               className="block bg-[#12121a] border border-green-500/20 rounded-2xl p-6 hover:border-green-500/40 transition-colors"
             >
               <h2 className="text-lg font-bold text-white mb-2 flex items-center gap-2">
+                <WhatsAppIcon className="w-5 h-5 fill-green-400" />
                 <span>WhatsApp Us</span>
                 <span className="text-xs px-2 py-0.5 bg-green-500/10 text-green-400 rounded-full font-normal">Fastest Response</span>
               </h2>
@@ -95,7 +97,7 @@ export default function ContactPage() {
                 Quick questions? Send us a direct message on WhatsApp.
               </p>
               <p className="text-sm text-green-400 mt-3 font-semibold flex items-center gap-1">
-                +91 99649 84695 →
+                Chat Now →
               </p>
             </a>
           </div>
