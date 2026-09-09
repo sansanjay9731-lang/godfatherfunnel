@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const INDEXNOW_KEY = "d1272b723e3dfdd5fcb2d1d0728f89bb";
+const INDEXNOW_KEY = "d01483c4f4654f9989456d08e32170d3";
 const HOST = "www.godfatherfunnelai.com";
 const KEY_LOCATION = `https://${HOST}/${INDEXNOW_KEY}.txt`;
 const SITEMAP_URL = `https://${HOST}/sitemap.xml`;
